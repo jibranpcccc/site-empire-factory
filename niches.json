@@ -1,5 +1,38 @@
 [
   {
+    "id": "developer-coding-hub",
+    "name": "Developer & Coding Communities Hub",
+    "slug": "developer-coding-hub",
+    "niche": "Python, JavaScript, Rust, systems architecture, DevOps, Web3",
+    "category": "Software Engineering",
+    "accent": "#38bdf8",
+    "status": "deployed",
+    "deployed_at": "2026-09-03T10:00:00.000000+00:00",
+    "live_url": "https://jibranpcccc.github.io/developer-coding-hub/"
+  },
+  {
+    "id": "deals-loot-coupons-hub",
+    "name": "Deals, Loot & Coupons Hub",
+    "slug": "deals-loot-coupons-hub",
+    "niche": "Amazon price glitches, error fares, promo codes, clearance",
+    "category": "E-Commerce & Savings",
+    "accent": "#f97316",
+    "status": "deployed",
+    "deployed_at": "2026-09-03T10:00:00.000000+00:00",
+    "live_url": "https://jibranpcccc.github.io/deals-loot-coupons-hub/"
+  },
+  {
+    "id": "scholarships-study-abroad-hub",
+    "name": "Scholarships & Study Abroad Hub",
+    "slug": "scholarships-study-abroad-hub",
+    "niche": "Erasmus Mundus, Fulbright, Chevening, DAAD, global fellowships",
+    "category": "International Higher Education",
+    "accent": "#10b981",
+    "status": "deployed",
+    "deployed_at": "2026-09-03T10:00:00.000000+00:00",
+    "live_url": "https://jibranpcccc.github.io/scholarships-study-abroad-hub/"
+  },
+  {
     "id": "remote-work-nomad-hub",
     "name": "Remote Work & Nomad Communities Hub",
     "slug": "remote-work-nomad-hub",

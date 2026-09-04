@@ -29,6 +29,10 @@ jobs:
         run: |
           python factory.py
 
+      - name: Run Daily SEO Sentinel (IndexNow & Multi-Property Verification)
+        run: |
+          python daily_empire_seo_sentinel.py
+
       - name: Commit Updated Queue & Portfolio
         run: |
           git config --global user.name "SiteEmpireFactory[bot]"
