@@ -465,18 +465,19 @@ def build_sitemap(live_url):
 </urlset>"""
 
 def build_feed(name, live_url):
+    clean_name = name.replace("&", "&amp;")
     now_rfc = datetime.datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{name}</title>
+    <title>{clean_name}</title>
     <link>{live_url}</link>
     <description>Verified community directory and updates.</description>
     <lastBuildDate>{now_rfc}</lastBuildDate>
     <atom:link href="{live_url}feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
     <item>
-      <title>{name} Initial Release</title>
+      <title>{clean_name} Initial Release</title>
       <link>{live_url}</link>
       <pubDate>{now_rfc}</pubDate>
       <description>Initial collection of verified communities published.</description>
