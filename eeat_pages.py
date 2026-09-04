@@ -20,7 +20,7 @@ def shared_page_styles(accent):
         .nav-menu {{ display: flex; gap: 20px; align-items: center; }}
         .nav-link {{ color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }}
         .nav-link:hover, .nav-link.active {{ color: #fff; }}
-        .nav-btn {{ background: var(--accent); color: #fff !important; padding: 8px 16px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; }}
+        .nav-btn {{ background: var(--accent); color: #fff !important; padding: 8px 16px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; text-decoration: none; }}
         .nav-btn:hover {{ opacity: 0.9; }}
         
         .page-container {{ max-width: 900px; margin: 0 auto; padding: 40px 20px; }}
@@ -41,7 +41,7 @@ def shared_page_styles(accent):
         .form-group label {{ display: block; color: #fff; font-size: 0.9rem; font-weight: 600; margin-bottom: 8px; }}
         .form-control {{ width: 100%; padding: 12px 16px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: #fff; font-size: 0.95rem; outline: none; }}
         .form-control:focus {{ border-color: var(--accent); }}
-        .btn-submit {{ display: inline-block; background: var(--accent); color: #fff; border: none; padding: 12px 26px; border-radius: 8px; font-weight: 600; font-size: 1rem; cursor: pointer; transition: opacity 0.2s; }}
+        .btn-submit {{ display: inline-block; background: var(--accent); color: #fff; border: none; padding: 12px 26px; border-radius: 8px; font-weight: 600; font-size: 1rem; cursor: pointer; transition: opacity 0.2s; text-decoration: none; }}
         .btn-submit:hover {{ opacity: 0.9; }}
         .alert-success {{ display: none; background: rgba(16, 185, 129, 0.15); border: 1px solid #10b981; color: #10b981; padding: 15px 20px; border-radius: 8px; margin-bottom: 20px; }}
         
@@ -107,13 +107,30 @@ def build_footer(niche, live_url):
 def build_about_page(niche, live_url):
     name = niche["name"]
     accent = niche.get("accent", "#0ea5e9")
+    page_title = f"About & Verification | {name}"[:60]
+    page_desc = f"Learn about our 4-tier verification methodology, quality standards, and editorial independence for {name}."[:160]
+    
     schema_json = json.dumps({
         "@context": "https://schema.org",
-        "@type": "AboutPage",
-        "name": f"About & Verification Standards - {name}",
-        "url": f"{live_url}about.html",
-        "description": f"Editorial criteria, community verification standards, and quality principles for {name}.",
-        "isPartOf": {"@type": "WebSite", "name": name, "url": live_url}
+        "@graph": [
+            {
+                "@type": "AboutPage",
+                "@id": f"{live_url}about.html#webpage",
+                "url": f"{live_url}about.html",
+                "name": page_title,
+                "description": page_desc,
+                "isPartOf": {"@id": f"{live_url}#website"},
+                "breadcrumb": {"@id": f"{live_url}about.html#breadcrumbs"}
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": f"{live_url}about.html#breadcrumbs",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Home", "item": live_url},
+                    {"@type": "ListItem", "position": 2, "name": "About & Verification", "item": f"{live_url}about.html"}
+                ]
+            }
+        ]
     }, indent=2)
 
     return f"""<!DOCTYPE html>
@@ -121,9 +138,19 @@ def build_about_page(niche, live_url):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About & Verification Standards | {name}</title>
-    <meta name="description" content="Learn about our 4-tier verification methodology, community quality guidelines, and editorial standards for {name}.">
+    <title>{page_title}</title>
+    <meta name="description" content="{page_desc}">
     <link rel="canonical" href="{live_url}about.html">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta property="og:title" content="{page_title}">
+    <meta property="og:description" content="{page_desc}">
+    <meta property="og:url" content="{live_url}about.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{name}">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{page_title}">
+    <meta name="twitter:description" content="{page_desc}">
     <script type="application/ld+json">
 {schema_json}
     </script>
@@ -141,9 +168,10 @@ def build_about_page(niche, live_url):
         <p class="lead">We are an independent, community-first directory dedicated to discovering, vetting, and categorizing top-tier online communities for {niche['niche']}.</p>
 
         <div class="content-card">
-            <h2>🎯 Our Mission</h2>
+            <h2>🎯 Our Mission & Core Purpose</h2>
             <p>Finding high-signal, spam-free communities is increasingly difficult in today's digital landscape. Chat platforms like Telegram, Discord, WhatsApp, and Reddit are flooded with inactive groups, dead invite links, and low-quality channels.</p>
             <p><strong>{name}</strong> was built to solve this problem: a centralized, regularly audited repository where every indexed community meets strict standards for active discussion, moderation, and genuine member value.</p>
+            <p>We serve thousands of enthusiasts, researchers, and professionals seeking genuine peer discussion without navigating commercial promotions, paywalled gatekeeping, or unmoderated chat noise.</p>
         </div>
 
         <div class="content-card">
@@ -158,8 +186,9 @@ def build_about_page(niche, live_url):
         </div>
 
         <div class="content-card">
-            <h2>⚖️ Editorial Independence</h2>
+            <h2>⚖️ Editorial Independence & Moderation Ethics</h2>
             <p>Rankings and placements in our index are determined strictly by verified community metrics, member volume, and relevance. <strong>We do not accept payment to feature, rank, or artificially inflate community visibility.</strong></p>
+            <p>Our curation board operates independently of listed community administrators. If a listed group changes ownership, introduces mandatory paid tiers, or fails moderation benchmarks, our editorial team immediately revokes verified status.</p>
             <p>If you run a community dedicated to {niche['niche']}, you are welcome to submit it for our next curation review.</p>
             <p style="margin-top: 20px;"><a href="{live_url}submit.html" class="btn-submit">Submit Your Community for Review →</a></p>
         </div>
@@ -171,12 +200,30 @@ def build_about_page(niche, live_url):
 def build_submit_page(niche, live_url):
     name = niche["name"]
     accent = niche.get("accent", "#0ea5e9")
+    page_title = f"Submit Your Community | {name}"[:60]
+    page_desc = f"Submit your verified community to {name}. Free listing for active Discord, Telegram, WhatsApp, and Reddit groups."[:160]
+    
     schema_json = json.dumps({
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": f"Submit Community - {name}",
-        "url": f"{live_url}submit.html",
-        "description": f"Submit your Discord server, Telegram group, WhatsApp cohort, or Subreddit to {name}."
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": f"{live_url}submit.html#webpage",
+                "url": f"{live_url}submit.html",
+                "name": page_title,
+                "description": page_desc,
+                "isPartOf": {"@id": f"{live_url}#website"},
+                "breadcrumb": {"@id": f"{live_url}submit.html#breadcrumbs"}
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": f"{live_url}submit.html#breadcrumbs",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Home", "item": live_url},
+                    {"@type": "ListItem", "position": 2, "name": "Submit Community", "item": f"{live_url}submit.html"}
+                ]
+            }
+        ]
     }, indent=2)
 
     return f"""<!DOCTYPE html>
@@ -184,9 +231,19 @@ def build_submit_page(niche, live_url):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submit Your Community | {name}</title>
-    <meta name="description" content="Submit your community to {name}. Free listing for verified Discord servers, Telegram channels, WhatsApp groups, and Subreddits.">
+    <title>{page_title}</title>
+    <meta name="description" content="{page_desc}">
     <link rel="canonical" href="{live_url}submit.html">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta property="og:title" content="{page_title}">
+    <meta property="og:description" content="{page_desc}">
+    <meta property="og:url" content="{live_url}submit.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{name}">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{page_title}">
+    <meta name="twitter:description" content="{page_desc}">
     <script type="application/ld+json">
 {schema_json}
     </script>
@@ -248,12 +305,13 @@ def build_submit_page(niche, live_url):
         </div>
 
         <div class="content-card">
-            <h2>📋 Submission Guidelines</h2>
+            <h2>📋 Submission Guidelines & Curation Policy</h2>
             <ul>
-                <li><strong>Minimum Membership:</strong> Communities must have at least 50+ active members.</li>
-                <li><strong>Working Invites:</strong> Provide permanent, non-expiring invitation links.</li>
+                <li><strong>Minimum Membership:</strong> Communities must have at least 50+ active members before index approval.</li>
+                <li><strong>Working Invites:</strong> Provide permanent, non-expiring invitation links to ensure uninterrupted user access.</li>
                 <li><strong>Zero Tolerance:</strong> Groups containing spam, malware, hate speech, or financial scams are permanently rejected.</li>
                 <li><strong>Free Directory:</strong> Indexation is 100% free; we never charge for inclusion or verified status.</li>
+                <li><strong>Audit Cycle:</strong> Approved groups undergo bi-weekly automated re-verification to maintain indexing integrity.</li>
             </ul>
         </div>
     </div>
@@ -273,11 +331,30 @@ def build_submit_page(niche, live_url):
 def build_contact_page(niche, live_url):
     name = niche["name"]
     accent = niche.get("accent", "#0ea5e9")
+    page_title = f"Contact & Support | {name}"[:60]
+    page_desc = f"Contact the administrative team at {name}. Submit listing updates, partnerships, or DMCA removal requests."[:160]
+    
     schema_json = json.dumps({
         "@context": "https://schema.org",
-        "@type": "ContactPage",
-        "name": f"Contact & Support - {name}",
-        "url": f"{live_url}contact.html"
+        "@graph": [
+            {
+                "@type": "ContactPage",
+                "@id": f"{live_url}contact.html#webpage",
+                "url": f"{live_url}contact.html",
+                "name": page_title,
+                "description": page_desc,
+                "isPartOf": {"@id": f"{live_url}#website"},
+                "breadcrumb": {"@id": f"{live_url}contact.html#breadcrumbs"}
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": f"{live_url}contact.html#breadcrumbs",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Home", "item": live_url},
+                    {"@type": "ListItem", "position": 2, "name": "Contact & Support", "item": f"{live_url}contact.html"}
+                ]
+            }
+        ]
     }, indent=2)
 
     return f"""<!DOCTYPE html>
@@ -285,9 +362,19 @@ def build_contact_page(niche, live_url):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact & DMCA Removal | {name}</title>
-    <meta name="description" content="Contact the team at {name}. Submit listing updates, partnership queries, or DMCA takedown requests.">
+    <title>{page_title}</title>
+    <meta name="description" content="{page_desc}">
     <link rel="canonical" href="{live_url}contact.html">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta property="og:title" content="{page_title}">
+    <meta property="og:description" content="{page_desc}">
+    <meta property="og:url" content="{live_url}contact.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{name}">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{page_title}">
+    <meta name="twitter:description" content="{page_desc}">
     <script type="application/ld+json">
 {schema_json}
     </script>
@@ -340,7 +427,7 @@ def build_contact_page(niche, live_url):
         <div class="content-card">
             <h2>🛡️ DMCA & Community Removal Protocol</h2>
             <p>If you are an official admin, owner, or legal representative of a community indexed on {name} and wish to modify your listing or have your channel removed from our public index, please select <strong>'Listing Removal / Takedown Request'</strong> above.</p>
-            <p>We process all verified owner removal requests within <strong>24 business hours</strong> with zero friction.</p>
+            <p>We process all verified owner removal requests within <strong>24 business hours</strong> with zero friction. You may also report broken invite links, updated community descriptions, or ownership changes directly through this portal.</p>
         </div>
     </div>
 {build_footer(niche, live_url)}
@@ -359,11 +446,30 @@ def build_contact_page(niche, live_url):
 def build_privacy_page(niche, live_url):
     name = niche["name"]
     accent = niche.get("accent", "#0ea5e9")
+    page_title = f"Privacy Policy | {name}"[:60]
+    page_desc = f"Privacy policy and data governance practices for {name}. Transparent, GDPR, and CCPA compliant."[:160]
+    
     schema_json = json.dumps({
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": f"Privacy Policy - {name}",
-        "url": f"{live_url}privacy.html"
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": f"{live_url}privacy.html#webpage",
+                "url": f"{live_url}privacy.html",
+                "name": page_title,
+                "description": page_desc,
+                "isPartOf": {"@id": f"{live_url}#website"},
+                "breadcrumb": {"@id": f"{live_url}privacy.html#breadcrumbs"}
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": f"{live_url}privacy.html#breadcrumbs",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Home", "item": live_url},
+                    {"@type": "ListItem", "position": 2, "name": "Privacy Policy", "item": f"{live_url}privacy.html"}
+                ]
+            }
+        ]
     }, indent=2)
 
     return f"""<!DOCTYPE html>
@@ -371,9 +477,19 @@ def build_privacy_page(niche, live_url):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy | {name}</title>
-    <meta name="description" content="Privacy policy and data governance practices for {name}. Transparent, GDPR, and CCPA compliant.">
+    <title>{page_title}</title>
+    <meta name="description" content="{page_desc}">
     <link rel="canonical" href="{live_url}privacy.html">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta property="og:title" content="{page_title}">
+    <meta property="og:description" content="{page_desc}">
+    <meta property="og:url" content="{live_url}privacy.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{name}">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{page_title}">
+    <meta name="twitter:description" content="{page_desc}">
     <script type="application/ld+json">
 {schema_json}
     </script>
@@ -388,21 +504,24 @@ def build_privacy_page(niche, live_url):
             <a href="{live_url}">Home</a> / <span>Privacy Policy</span>
         </div>
         <h1>Privacy Policy</h1>
-        <p class="lead">Last Updated: September 2026. Your privacy is fundamental to our service.</p>
+        <p class="lead">Last Updated: September 2026. Your privacy and digital autonomy are fundamental to our service.</p>
 
         <div class="content-card">
             <h2>1. Information We Do Not Collect</h2>
-            <p><strong>{name}</strong> is a publicly accessible, zero-account community directory. We do not require account registration, login credentials, passwords, or personal profiles to browse, search, or filter our directory.</p>
+            <p><strong>{name}</strong> is a publicly accessible, zero-account community directory. We do not require account registration, login credentials, passwords, or personal user profiles to browse, search, or filter our directory.</p>
+            <p>Users can explore all verified groups anonymously with no paywalls, mandatory email subscriptions, or gatekept content.</p>
         </div>
 
         <div class="content-card">
             <h2>2. Information Collected via Submissions</h2>
             <p>If you voluntarily submit a community or contact us via our web forms, we collect the submitted metadata (community title, description, invite URL, and contact email). This data is used solely to verify, categorize, and index the submitted public community.</p>
+            <p>We do not sell, license, or monetize submitted contact emails to third-party marketing brokers or advertising networks.</p>
         </div>
 
         <div class="content-card">
             <h2>3. Outbound Links & Third-Party Platforms</h2>
             <p>Our directory contains outbound links to third-party communication networks including <strong>Discord, Telegram, WhatsApp, and Reddit</strong>. Once you click an invite link, you are governed by the privacy policy and terms of service of that specific platform.</p>
+            <p>We encourage users to review the privacy controls and notification settings on respective chat applications before joining any public channel.</p>
         </div>
 
         <div class="content-card">
@@ -422,11 +541,30 @@ def build_privacy_page(niche, live_url):
 def build_terms_page(niche, live_url):
     name = niche["name"]
     accent = niche.get("accent", "#0ea5e9")
+    page_title = f"Terms of Service | {name}"[:60]
+    page_desc = f"Terms of service, third-party platform disclaimers, and acceptable use guidelines for {name}."[:160]
+    
     schema_json = json.dumps({
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": f"Terms of Service & Disclaimer - {name}",
-        "url": f"{live_url}terms.html"
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": f"{live_url}terms.html#webpage",
+                "url": f"{live_url}terms.html",
+                "name": page_title,
+                "description": page_desc,
+                "isPartOf": {"@id": f"{live_url}#website"},
+                "breadcrumb": {"@id": f"{live_url}terms.html#breadcrumbs"}
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": f"{live_url}terms.html#breadcrumbs",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Home", "item": live_url},
+                    {"@type": "ListItem", "position": 2, "name": "Terms of Service", "item": f"{live_url}terms.html"}
+                ]
+            }
+        ]
     }, indent=2)
 
     return f"""<!DOCTYPE html>
@@ -434,9 +572,19 @@ def build_terms_page(niche, live_url):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service & Disclaimer | {name}</title>
-    <meta name="description" content="Terms of service, third-party platform disclaimers, and acceptable use guidelines for {name}.">
+    <title>{page_title}</title>
+    <meta name="description" content="{page_desc}">
     <link rel="canonical" href="{live_url}terms.html">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta property="og:title" content="{page_title}">
+    <meta property="og:description" content="{page_desc}">
+    <meta property="og:url" content="{live_url}terms.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{name}">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{page_title}">
+    <meta name="twitter:description" content="{page_desc}">
     <script type="application/ld+json">
 {schema_json}
     </script>
@@ -456,6 +604,7 @@ def build_terms_page(niche, live_url):
         <div class="content-card">
             <h2>1. Informational Directory Nature</h2>
             <p><strong>{name}</strong> functions exclusively as an informational index and discovery catalog of publicly shared community links. We are <strong>not</strong> the owners, operators, administrators, or moderators of any third-party Discord server, Telegram channel, WhatsApp cohort, or Subreddit listed.</p>
+            <p>Our index aggregates publicly distributed invitation links to facilitate peer connection and interest-based networking across verified digital ecosystems.</p>
         </div>
 
         <div class="content-card">
