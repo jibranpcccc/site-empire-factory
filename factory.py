@@ -6,6 +6,7 @@ Autonomous Site Empire Factory
 - Strictly capped at 3 sites per run to protect account velocity and quality.
 """
 import os, sys, time, json, datetime, urllib.request, urllib.parse, subprocess
+from eeat_pages import shared_page_styles, build_top_nav, build_footer, build_about_page, build_submit_page, build_contact_page, build_privacy_page, build_terms_page
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 NICHES_FILE = os.path.join(BASE_DIR, "niches.json")
@@ -302,6 +303,27 @@ def build_html(niche, communities, live_url):
         .btn-join {{ display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 8px 16px; border-radius: 6px; font-size: 0.88rem; font-weight: 600; transition: opacity 0.2s; }}
         .btn-join:hover {{ opacity: 0.9; }}
         
+        /* Top Navigation & Multi-Column Trust Footer */
+        .top-nav {{ display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 20px 20px; border-bottom: 1px solid var(--border); }}
+        .nav-brand {{ font-weight: 700; font-size: 1.15rem; color: #fff; text-decoration: none; }}
+        .nav-brand span {{ color: var(--accent); }}
+        .nav-menu {{ display: flex; gap: 20px; align-items: center; }}
+        .nav-link {{ color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }}
+        .nav-link:hover, .nav-link.active {{ color: #fff; }}
+        .nav-btn {{ background: var(--accent); color: #fff !important; padding: 8px 16px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; text-decoration: none; }}
+        .nav-btn:hover {{ opacity: 0.9; }}
+        
+        .footer-grid {{ max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 30px; text-align: left; }}
+        .footer-col h4 {{ color: #fff; font-size: 0.9rem; margin-bottom: 14px; text-transform: uppercase; letter-spacing: 0.5px; }}
+        .footer-col a {{ display: block; color: var(--muted); text-decoration: none; font-size: 0.88rem; margin-bottom: 8px; transition: color 0.2s; }}
+        .footer-col a:hover {{ color: var(--accent); }}
+        .footer-desc {{ color: var(--muted); font-size: 0.88rem; line-height: 1.6; max-width: 380px; }}
+        .footer-bottom {{ text-align: center; color: var(--muted); font-size: 0.82rem; border-top: 1px solid rgba(255,255,255,0.06); margin-top: 40px; padding-top: 25px; }}
+        @media (max-width: 768px) {{
+            .footer-grid {{ grid-template-columns: 1fr; }}
+            .nav-menu {{ display: none; }}
+        }}
+
         /* Persistent Mobile Bottom Action Dock (Moz CRO Standard) */
         .mobile-dock {{ display: none; position: fixed; bottom: 0; left: 0; right: 0; background: rgba(17, 24, 39, 0.95); backdrop-filter: blur(12px); border-top: 1px solid var(--border); padding: 10px 14px; z-index: 9999; gap: 8px; }}
         @media (max-width: 768px) {{
@@ -315,6 +337,7 @@ def build_html(niche, communities, live_url):
     </style>
 </head>
 <body>
+    {build_top_nav(niche, live_url, "directory")}
     <header>
         <h1>{name}</h1>
         <p class="subtitle">Explore vetted, high-quality public communities, groups, and forums. Updated regularly.</p>
@@ -378,15 +401,14 @@ def build_html(niche, communities, live_url):
         <div class="grid" id="communitiesGrid">
             {cards_html}
         </div>
-        <footer>
-            <p>© {datetime.datetime.now().year} {name} • Verified Community Index</p>
-        </footer>
     </div>
+    {build_footer(niche, live_url)}
 
     <!-- Persistent Mobile Action Dock -->
     <div class="mobile-dock">
         <button class="dock-btn" onclick="focusSearch()">🔍 Search</button>
-        <button class="dock-btn dock-btn-accent" onclick="quickFilter('all')">⭐ All Verified</button>
+        <button class="dock-btn dock-btn-accent" onclick="quickFilter('all')">⭐ Verified</button>
+        <button class="dock-btn" onclick="location.href='{live_url}submit.html'">➕ Submit</button>
         <button class="dock-btn" onclick="window.scrollTo({{top: 0, behavior: 'smooth'}})">⬆ Top</button>
     </div>
 
@@ -454,15 +476,23 @@ def build_html(niche, communities, live_url):
 
 def build_sitemap(live_url):
     now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    pages = [
+        ("", "daily", "1.0"),
+        ("about.html", "weekly", "0.8"),
+        ("submit.html", "weekly", "0.8"),
+        ("contact.html", "monthly", "0.6"),
+        ("privacy.html", "monthly", "0.5"),
+        ("terms.html", "monthly", "0.5")
+    ]
+    urls_xml = "".join([f"""    <url>
+        <loc>{live_url}{p[0]}</loc>
+        <lastmod>{now_iso}</lastmod>
+        <changefreq>{p[1]}</changefreq>
+        <priority>{p[2]}</priority>
+    </url>\n""" for p in pages])
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>{live_url}</loc>
-        <lastmod>{now_iso}</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-</urlset>"""
+{urls_xml}</urlset>"""
 
 def build_feed(name, live_url):
     clean_name = name.replace("&", "&amp;")
@@ -509,7 +539,12 @@ def build_llmstxt(name, live_url, niche):
 > Verified directory and real-time knowledge base of online communities for {niche['niche']}.
 
 ## Key Navigation
-- [{name} Directory]({live_url}): Searchable, filterable index of verified communities across Discord, Telegram, WhatsApp, and Reddit.
+- [{name} Directory Index]({live_url}): Searchable, filterable index of verified communities across Discord, Telegram, WhatsApp, and Reddit.
+- [About & Curation Standards]({live_url}about.html): Vetting methodology, anti-spam filters, and quality benchmarks.
+- [Submit a Community]({live_url}submit.html): Public submission portal for community admins and creators.
+- [Contact & DMCA Removal]({live_url}contact.html): Direct operator inquiries, takedown requests, and partnerships.
+- [Privacy Policy]({live_url}privacy.html): GDPR & CCPA privacy compliance disclosures.
+- [Terms of Service]({live_url}terms.html): User agreement, third-party platform disclaimers, and liability terms.
 - [XML Sitemap]({live_url}sitemap.xml): Complete machine-readable URL list and crawling priority directives.
 - [RSS Syndication Feed]({live_url}feed.xml): Real-time syndication feed for newly discovered groups and platform updates.
 
@@ -583,6 +618,21 @@ def deploy_niche_site(niche):
     with open(os.path.join(site_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(build_html(niche, communities, live_url))
 
+    with open(os.path.join(site_dir, "about.html"), "w", encoding="utf-8") as f:
+        f.write(build_about_page(niche, live_url))
+
+    with open(os.path.join(site_dir, "submit.html"), "w", encoding="utf-8") as f:
+        f.write(build_submit_page(niche, live_url))
+
+    with open(os.path.join(site_dir, "contact.html"), "w", encoding="utf-8") as f:
+        f.write(build_contact_page(niche, live_url))
+
+    with open(os.path.join(site_dir, "privacy.html"), "w", encoding="utf-8") as f:
+        f.write(build_privacy_page(niche, live_url))
+
+    with open(os.path.join(site_dir, "terms.html"), "w", encoding="utf-8") as f:
+        f.write(build_terms_page(niche, live_url))
+
     with open(os.path.join(site_dir, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(build_sitemap(live_url))
 
@@ -639,7 +689,14 @@ def deploy_niche_site(niche):
     print(f"✅ GitHub Pages enabled: {live_url}")
 
     # 6. Ping IndexNow
-    ping_indexnow(f"{GH_USER}.github.io", [live_url])
+    ping_indexnow(f"{GH_USER}.github.io", [
+        live_url,
+        f"{live_url}about.html",
+        f"{live_url}submit.html",
+        f"{live_url}contact.html",
+        f"{live_url}privacy.html",
+        f"{live_url}terms.html"
+    ])
 
     # Mark deployed
     niche["status"] = "deployed"
