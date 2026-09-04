@@ -39,9 +39,9 @@
     "niche": "Kubernetes, Docker, AWS certifications, Terraform, CI/CD",
     "category": "Cloud & Infrastructure",
     "accent": "#f59e0b",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-04T11:01:07.985994+00:00",
+    "live_url": "https://jibranpcccc.github.io/devops-cloud-architect-hub/"
   },
   {
     "id": "data-science-machine-learning-hub",
@@ -50,9 +50,9 @@
     "niche": "PyTorch, TensorFlow, Kaggle competitions, ML engineers",
     "category": "Data Science",
     "accent": "#6366f1",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-04T11:01:38.940059+00:00",
+    "live_url": "https://jibranpcccc.github.io/data-science-machine-learning-hub/"
   },
   {
     "id": "indie-hackers-micro-saas-hub",
@@ -61,9 +61,9 @@
     "niche": "SaaS builders, bootstrapped startups, build-in-public, Stripe revenue",
     "category": "Startups & SaaS",
     "accent": "#ec4899",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-04T11:02:09.072159+00:00",
+    "live_url": "https://jibranpcccc.github.io/indie-hackers-micro-saas-hub/"
   },
   {
     "id": "game-dev-indie-studios-hub",
