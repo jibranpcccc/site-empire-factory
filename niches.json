@@ -6,9 +6,9 @@
     "niche": "remote jobs, digital nomads, coliving, freelance tech",
     "category": "Remote Careers",
     "accent": "#0ea5e9",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-04T06:37:26.913510+00:00",
+    "live_url": "https://jibranpcccc.github.io/remote-work-nomad-hub/"
   },
   {
     "id": "ai-prompts-generative-hub",
@@ -17,9 +17,9 @@
     "niche": "Midjourney, ChatGPT prompts, Stable Diffusion, LLM hackers",
     "category": "Artificial Intelligence",
     "accent": "#8b5cf6",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-04T06:37:57.858553+00:00",
+    "live_url": "https://jibranpcccc.github.io/ai-prompts-generative-hub/"
   },
   {
     "id": "cybersecurity-infosec-hub",
@@ -28,9 +28,9 @@
     "niche": "CTF competitions, bug bounty, penetration testing, infosec",
     "category": "Cybersecurity",
     "accent": "#10b981",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-04T06:38:09.922323+00:00",
+    "live_url": "https://jibranpcccc.github.io/cybersecurity-infosec-hub/"
   },
   {
     "id": "devops-cloud-architect-hub",
