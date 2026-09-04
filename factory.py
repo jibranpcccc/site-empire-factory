@@ -190,6 +190,11 @@ def build_html(niche, communities, live_url):
     for c in communities:
         tags_html = "".join([f'<span class="tag">#{t}</span>' for t in c.get("tags", [])])
         plat = c.get("platform", "Community")
+        m_count = c.get("memberCount", "Active")
+        if isinstance(m_count, (int, float)):
+            m_count_str = f"{int(m_count):,}+ members"
+        else:
+            m_count_str = str(m_count)
         cards_html += f"""
         <div class="card" data-platform="{plat.lower()}" data-category="{c.get('category','').lower()}">
             <div class="card-header">
@@ -200,7 +205,7 @@ def build_html(niche, communities, live_url):
             <h3 class="card-title">{c.get('title','')}</h3>
             <p class="card-desc">{c.get('description','')}</p>
             <div class="spec-matrix">
-                <div class="spec-row"><span>👥 Members:</span> <strong>{c.get('memberCount','Active')}</strong></div>
+                <div class="spec-row"><span>👥 Members:</span> <strong>{m_count_str}</strong></div>
                 <div class="spec-row"><span>🛡️ Moderation:</span> <strong>Active & Vetted</strong></div>
                 <div class="spec-row"><span>⚡ Access:</span> <strong>100% Free / Public</strong></div>
             </div>
@@ -416,7 +421,21 @@ def build_html(niche, communities, live_url):
 
         function runMatcher() {{
             const plat = document.getElementById('matcherPlatform').value;
+            const sortVal = document.getElementById('matcherFilter').value;
             quickFilter(plat);
+            const grid = document.getElementById('communitiesGrid');
+            const cards = Array.from(grid.querySelectorAll('.card'));
+            if (sortVal === 'large') {{
+                cards.sort((a, b) => {{
+                    const parseMem = el => {{
+                        const txt = el.querySelector('.spec-matrix')?.textContent || '';
+                        const m = txt.match(/([0-9,]+)/);
+                        return m ? parseInt(m[1].replace(/,/g, ''), 10) : 0;
+                    }};
+                    return parseMem(b) - parseMem(a);
+                }});
+                cards.forEach(c => grid.appendChild(c));
+            }}
         }}
 
         searchInput.addEventListener('input', filterCards);
