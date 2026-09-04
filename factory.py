@@ -186,7 +186,7 @@ def build_html(niche, communities, live_url):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{name} | Verified Online Communities & Groups Directory</title>
+    <title>{name} | Verified Communities</title>
     <meta name="description" content="Explore {len(communities)}+ verified {name} communities on Telegram, Discord, WhatsApp, and Reddit. Real-time updated directory.">
     <link rel="canonical" href="{live_url}">
     <meta name="robots" content="index, follow, max-image-preview:large">
