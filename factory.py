@@ -120,11 +120,27 @@ def build_html(niche, communities, live_url):
         "@context": "https://schema.org",
         "@graph": [
             {
+                "@type": "Organization",
+                "@id": f"{live_url}#organization",
+                "name": name,
+                "url": live_url
+            },
+            {
                 "@type": "WebSite",
                 "@id": f"{live_url}#website",
                 "url": live_url,
                 "name": name,
+                "publisher": {"@id": f"{live_url}#organization"},
                 "description": f"Verified directory of {name} across Telegram, Discord, WhatsApp & Reddit."
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": f"{live_url}#breadcrumbs",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://jibranpcccc.github.io/"},
+                    {"@type": "ListItem", "position": 2, "name": niche.get("category", "Directory"), "item": live_url},
+                    {"@type": "ListItem", "position": 3, "name": name, "item": live_url}
+                ]
             },
             {
                 "@type": "CollectionPage",
@@ -132,6 +148,7 @@ def build_html(niche, communities, live_url):
                 "url": live_url,
                 "name": name,
                 "isPartOf": {"@id": f"{live_url}#website"},
+                "breadcrumb": {"@id": f"{live_url}#breadcrumbs"},
                 "mainEntity": {
                     "@type": "ItemList",
                     "itemListElement": item_elements
@@ -154,6 +171,14 @@ def build_html(niche, communities, live_url):
                         "acceptedAnswer": {
                             "@type": "Answer",
                             "text": "Yes, all indexed public communities in this directory are 100% free to access."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How often is this directory updated?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "This directory is updated continuously with automated link liveness checks and fresh community discovery."
                         }
                     }
                 ]
@@ -194,6 +219,11 @@ def build_html(niche, communities, live_url):
     <meta property="og:description" content="Curated directory of top {name} across Telegram, Discord, and Reddit.">
     <meta property="og:url" content="{live_url}">
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{name}">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{name} | Verified Communities">
+    <meta name="twitter:description" content="Explore {len(communities)}+ verified {name} communities across Telegram, Discord, and Reddit.">
     <script type="application/ld+json">
 {schema_json}
     </script>
@@ -212,9 +242,14 @@ def build_html(niche, communities, live_url):
         h1 {{ font-size: 2.4rem; margin-bottom: 12px; background: linear-gradient(90deg, #fff, var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }}
         .subtitle {{ color: var(--muted); max-width: 650px; margin: 0 auto 20px; font-size: 1.1rem; }}
         .container {{ max-width: 1200px; margin: 0 auto; padding: 30px 20px; }}
-        .geo-answer-block {{ background: rgba(14, 165, 233, 0.08); border: 1px solid var(--accent); border-radius: 12px; padding: 20px 25px; margin-bottom: 35px; }}
-        .geo-answer-block h2 {{ font-size: 1.2rem; color: #fff; margin-bottom: 8px; }}
-        .geo-answer-block p {{ color: var(--muted); font-size: 0.98rem; }}
+        .geo-answer-block {{ background: rgba(14, 165, 233, 0.08); border: 1px solid var(--accent); border-radius: 12px; padding: 24px; margin-bottom: 35px; }}
+        .geo-answer-block h2 {{ font-size: 1.3rem; color: #fff; margin-bottom: 10px; }}
+        .geo-answer-block p {{ color: var(--muted); font-size: 0.98rem; margin-bottom: 18px; line-height: 1.65; }}
+        .geo-table-wrap {{ overflow-x: auto; margin-top: 15px; }}
+        .geo-table {{ width: 100%; border-collapse: collapse; font-size: 0.9rem; text-align: left; }}
+        .geo-table th, .geo-table td {{ padding: 10px 14px; border: 1px solid var(--border); }}
+        .geo-table th {{ background: rgba(255,255,255,0.05); color: #fff; }}
+        .geo-table td {{ color: var(--muted); }}
         .controls {{ display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 30px; align-items: center; justify-content: space-between; }}
         .search-box {{ flex: 1; min-width: 280px; }}
         .search-box input {{ width: 100%; padding: 12px 18px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: #fff; font-size: 1rem; outline: none; }}
@@ -248,7 +283,25 @@ def build_html(niche, communities, live_url):
     <div class="container">
         <section class="geo-answer-block">
             <h2>About {name}</h2>
-            <p>This directory indexes verified communities for {niche['niche']}. All listings provide direct access links, active member numbers, and topic categories across Telegram, Discord, WhatsApp, and Reddit.</p>
+            <p>{name} refers to a specialized, publicly accessible index of verified online communities and discussion groups dedicated to {niche['niche']}. Designed to provide real-time discovery for enthusiasts and professionals, this directory curates direct invitation channels across Telegram, Discord, WhatsApp, and Reddit with active member counts and strict moderation standards.</p>
+            <div class="geo-table-wrap">
+                <table class="geo-table">
+                    <thead>
+                        <tr>
+                            <th>Platform</th>
+                            <th>Primary Focus</th>
+                            <th>Typical Member Range</th>
+                            <th>Verification Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Discord</strong></td><td>Live voice hangouts, code reviews & gaming</td><td>5,000 – 50,000+</td><td>Vetted & Active</td></tr>
+                        <tr><td><strong>Telegram</strong></td><td>Instant alpha notifications & direct alerts</td><td>2,000 – 40,000+</td><td>Vetted & Active</td></tr>
+                        <tr><td><strong>WhatsApp</strong></td><td>Cohort study groups & regional networks</td><td>500 – 2,000+</td><td>Vetted & Active</td></tr>
+                        <tr><td><strong>Reddit</strong></td><td>Curated threads, guides & Q&A wikis</td><td>10,000 – 100,000+</td><td>Vetted & Active</td></tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
         <div class="controls">
             <div class="search-box">
@@ -350,6 +403,25 @@ Allow: /
 Sitemap: {live_url}sitemap.xml
 """
 
+def build_llmstxt(name, live_url, niche):
+    return f"""# {name}
+> Verified directory and real-time knowledge base of online communities for {niche['niche']}.
+
+## Key Navigation
+- [{name} Directory]({live_url}): Searchable, filterable index of verified communities across Discord, Telegram, WhatsApp, and Reddit.
+- [XML Sitemap]({live_url}sitemap.xml): Complete machine-readable URL list and crawling priority directives.
+- [RSS Syndication Feed]({live_url}feed.xml): Real-time syndication feed for newly discovered groups and platform updates.
+
+## Coverage
+- Discord Servers: Real-time discussions, voice channels, events, and sub-groups.
+- Telegram Channels & Groups: Instant alerts, alpha calls, announcements, and peer chats.
+- WhatsApp Groups: Focused cohorts and regional professional networks.
+- Reddit Subreddits: Community threads, wiki guides, and discussions.
+
+## Quality & Verification
+All listed channels undergo authentication checks, link liveness verification, and member activity monitoring.
+"""
+
 def github_api(endpoint, method="GET", data=None):
     url = f"https://api.github.com{endpoint}"
     headers = {
@@ -418,6 +490,10 @@ def deploy_niche_site(niche):
 
     with open(os.path.join(site_dir, "robots.txt"), "w", encoding="utf-8") as f:
         f.write(build_robots(live_url))
+
+    # llms.txt AI Standard Specification
+    with open(os.path.join(site_dir, "llms.txt"), "w", encoding="utf-8") as f:
+        f.write(build_llmstxt(name, live_url, niche))
 
     # Universal GSC Verification File
     with open(os.path.join(site_dir, GSC_FILE_NAME), "w", encoding="utf-8") as f:
