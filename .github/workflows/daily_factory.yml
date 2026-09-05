@@ -33,10 +33,14 @@ jobs:
         run: |
           python daily_empire_seo_sentinel.py
 
-      - name: Commit Updated Queue & Portfolio
+      - name: Run GA4 & AI Traffic Intelligence Reporter
+        run: |
+          python ga4_traffic_reporter.py
+
+      - name: Commit Updated Queue, Portfolio & Traffic Report
         run: |
           git config --global user.name "SiteEmpireFactory[bot]"
           git config --global user.email "actions@github.com"
-          git add niches.json PORTFOLIO.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: record daily 3 site deployments [skip ci]"
+          git add niches.json PORTFOLIO.md GA4_TRAFFIC_REPORT.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: record daily deployments and GA4 traffic report [skip ci]"
           git push origin main
