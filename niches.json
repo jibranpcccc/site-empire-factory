@@ -148,9 +148,9 @@
     "niche": "Make.com, Zapier, Webflow, Bubble, n8n workflows",
     "category": "Automation",
     "accent": "#14b8a6",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null,
+    "status": "deployed",
+    "deployed_at": "2026-09-06T13:27:47.257792+00:00",
+    "live_url": "https://no-code-automation-hub.vercel.app/",
     "hosting_platform": "vercel",
     "hosting_platform_name": "Vercel",
     "assigned_gmail": "kerryvaquero@gmail.com",
@@ -164,9 +164,9 @@
     "niche": "Rustaceans, low-level systems, WASM, embedded engineering",
     "category": "Systems Programming",
     "accent": "#f97316",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null,
+    "status": "deployed",
+    "deployed_at": "2026-09-06T13:28:39.671628+00:00",
+    "live_url": "https://rust-systems-engineering-hub.netlify.app/",
     "hosting_platform": "netlify",
     "hosting_platform_name": "Netlify",
     "assigned_gmail": "jestwanted@gmail.com",
@@ -180,9 +180,14 @@
     "niche": "Flutter, React Native, Swift iOS, Kotlin Android",
     "category": "Mobile Development",
     "accent": "#06b6d4",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-06T13:30:24.178436+00:00",
+    "live_url": "https://jibranpcccc.github.io/ios-android-mobile-dev-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "kamrakhan351@gmail.com",
+    "owner_profile": "Profile 50",
+    "owner_label": "Kamra Khan"
   },
   {
     "id": "forex-scalping-signals-hub",
@@ -191,9 +196,14 @@
     "niche": "FTMO, funded trader challenges, EURUSD scalping, price action",
     "category": "Forex Trading",
     "accent": "#10b981",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-06T13:31:06.714589+00:00",
+    "live_url": "https://forex-scalping-signals-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "reynoldsdcynthia@gmail.com",
+    "owner_profile": "Profile 6",
+    "owner_label": "Cynthia Reynolds"
   },
   {
     "id": "crypto-defi-yield-hub",
@@ -202,9 +212,14 @@
     "niche": "liquidity pools, staking yields, decentralized exchanges, Solana DeFi",
     "category": "Crypto & Web3",
     "accent": "#8b5cf6",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-06T13:32:41.998199+00:00",
+    "live_url": "https://crypto-defi-yield-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "rockb7004@gmail.com",
+    "owner_profile": "Profile 65",
+    "owner_label": "Rock Butt"
   },
   {
     "id": "options-trading-wealth-hub",
@@ -213,9 +228,14 @@
     "niche": "0DTE SPY, covered calls, iron condors, theta gang",
     "category": "Stock Market",
     "accent": "#3b82f6",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-06T13:33:15.092179+00:00",
+    "live_url": "https://jibranpcccc.github.io/options-trading-wealth-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "adamsokenneth08@gmail.com",
+    "owner_profile": "Profile 9",
+    "owner_label": "Kenneth Adams"
   },
   {
     "id": "fire-personal-finance-hub",
@@ -224,9 +244,14 @@
     "niche": "financial independence retire early, index funds, frugal living",
     "category": "Personal Finance",
     "accent": "#059669",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-06T13:33:34.817092+00:00",
+    "live_url": "https://fire-personal-finance-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "doriancuquejo05@gmail.com",
+    "owner_profile": "Profile 27",
+    "owner_label": "Dorian Cuquejo"
   },
   {
     "id": "dividend-growth-investing-hub",
@@ -235,9 +260,14 @@
     "niche": "dividend aristocrats, compound interest, monthly passive cashflow",
     "category": "Investing",
     "accent": "#16a34a",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-06T13:33:49.037899+00:00",
+    "live_url": "https://jibranpcccc.github.io/dividend-growth-investing-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "teams.thefusionfeed@gmail.com",
+    "owner_profile": "Profile 28",
+    "owner_label": "Teams Fusion"
   },
   {
     "id": "real-estate-wholesaling-hub",
@@ -246,9 +276,14 @@
     "niche": "property flipping, off-market deals, multifamily syndication",
     "category": "Real Estate",
     "accent": "#d97706",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-06T13:33:56.771452+00:00",
+    "live_url": "https://jibranpcccc.github.io/real-estate-wholesaling-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "vickimarshall853@gmail.com",
+    "owner_profile": "Profile 30",
+    "owner_label": "Vicki Marshall"
   },
   {
     "id": "prop-trading-challenge-hub",
@@ -257,9 +292,14 @@
     "niche": "funded trader evaluations, payout proofs, risk management rules",
     "category": "Trading",
     "accent": "#2563eb",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-06T13:34:16.403616+00:00",
+    "live_url": "https://prop-trading-challenge-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "janavajannimik@gmail.com",
+    "owner_profile": "Profile 31",
+    "owner_label": "Janava Jannimik"
   },
   {
     "id": "crypto-solana-memecoins-hub",

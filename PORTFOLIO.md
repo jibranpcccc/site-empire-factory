@@ -1,7 +1,7 @@
 # Autonomous Site Empire Portfolio
 
-Total Deployed: **12 / 63**
-Last Run: `2026-09-06 10:45:25 UTC`
+Total Deployed: **20 / 103**
+Last Run: `2026-09-06 13:34:20 UTC`
 
 | # | Site Name | Niche Category | Live URL | Platform | Repository | Webmaster / Gmail Owner | Deployed At |
 |---|---|---|---|---|---|---|---|
@@ -17,3 +17,11 @@ Last Run: `2026-09-06 10:45:25 UTC`
 | 10 | **Indie Game Developers & Modders Hub** | Game Development | [https://jibranpcccc.github.io/game-dev-indie-studios-hub/](https://jibranpcccc.github.io/game-dev-indie-studios-hub/) | GitHub Pages | [game-dev-indie-studios-hub](https://github.com/jibranpcccc/game-dev-indie-studios-hub) | Afolabi (`afolabi.081510@gmail.com`) | 2026-09-06 |
 | 11 | **No-Code & AI Automation Agency Hub** | Automation | [https://no-code-automation-hub.vercel.app/](https://no-code-automation-hub.vercel.app/) | Vercel | [no-code-automation-hub](https://github.com/jibranpcccc/no-code-automation-hub) | Kerry Vaquero (`kerryvaquero@gmail.com`) | 2026-09-06 |
 | 12 | **Rust & Systems Programming Hub** | Systems Programming | [https://rust-systems-engineering-hub.netlify.app/](https://rust-systems-engineering-hub.netlify.app/) | Netlify | [rust-systems-engineering-hub](https://github.com/jibranpcccc/rust-systems-engineering-hub) | Just Wanted (`jestwanted@gmail.com`) | 2026-09-06 |
+| 13 | **Mobile Dev & Flutter Engineers Hub** | Mobile Development | [https://jibranpcccc.github.io/ios-android-mobile-dev-hub/](https://jibranpcccc.github.io/ios-android-mobile-dev-hub/) | GitHub Pages | [ios-android-mobile-dev-hub](https://github.com/jibranpcccc/ios-android-mobile-dev-hub) | Kamra Khan (`kamrakhan351@gmail.com`) | 2026-09-06 |
+| 14 | **Forex Scalpers & Prop Firm Hub** | Forex Trading | [https://forex-scalping-signals-hub.vercel.app/](https://forex-scalping-signals-hub.vercel.app/) | Vercel | [forex-scalping-signals-hub](https://github.com/jibranpcccc/forex-scalping-signals-hub) | Cynthia Reynolds (`reynoldsdcynthia@gmail.com`) | 2026-09-06 |
+| 15 | **Crypto DeFi & Yield Farming Hub** | Crypto & Web3 | [https://crypto-defi-yield-hub.netlify.app/](https://crypto-defi-yield-hub.netlify.app/) | Netlify | [crypto-defi-yield-hub](https://github.com/jibranpcccc/crypto-defi-yield-hub) | Rock Butt (`rockb7004@gmail.com`) | 2026-09-06 |
+| 16 | **Options Trading & Wheel Strategy Hub** | Stock Market | [https://jibranpcccc.github.io/options-trading-wealth-hub/](https://jibranpcccc.github.io/options-trading-wealth-hub/) | GitHub Pages | [options-trading-wealth-hub](https://github.com/jibranpcccc/options-trading-wealth-hub) | Kenneth Adams (`adamsokenneth08@gmail.com`) | 2026-09-06 |
+| 17 | **FIRE Movement & Wealth Building Hub** | Personal Finance | [https://fire-personal-finance-hub.vercel.app/](https://fire-personal-finance-hub.vercel.app/) | Vercel | [fire-personal-finance-hub](https://github.com/jibranpcccc/fire-personal-finance-hub) | Dorian Cuquejo (`doriancuquejo05@gmail.com`) | 2026-09-06 |
+| 18 | **Dividend Growth & Passive Income Hub** | Investing | [https://jibranpcccc.github.io/dividend-growth-investing-hub/](https://jibranpcccc.github.io/dividend-growth-investing-hub/) | Netlify | [dividend-growth-investing-hub](https://github.com/jibranpcccc/dividend-growth-investing-hub) | Teams Fusion (`teams.thefusionfeed@gmail.com`) | 2026-09-06 |
+| 19 | **Real Estate Wholesaling & BRRRR Hub** | Real Estate | [https://jibranpcccc.github.io/real-estate-wholesaling-hub/](https://jibranpcccc.github.io/real-estate-wholesaling-hub/) | GitHub Pages | [real-estate-wholesaling-hub](https://github.com/jibranpcccc/real-estate-wholesaling-hub) | Vicki Marshall (`vickimarshall853@gmail.com`) | 2026-09-06 |
+| 20 | **Prop Trading Firms & Pass Challenge Hub** | Trading | [https://prop-trading-challenge-hub.vercel.app/](https://prop-trading-challenge-hub.vercel.app/) | Vercel | [prop-trading-challenge-hub](https://github.com/jibranpcccc/prop-trading-challenge-hub) | Janava Jannimik (`janavajannimik@gmail.com`) | 2026-09-06 |
