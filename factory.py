@@ -492,6 +492,24 @@ def build_html(niche, communities, live_url):
         </div>
         """
 
+    # Dynamic platform options based on communities present
+    present_platforms = []
+    for c in communities:
+        p = c.get("platform", "").strip()
+        if p and p.lower() not in [x.lower() for x in present_platforms]:
+            present_platforms.append(p)
+    order_pref = {"reddit": 0, "discord": 1, "telegram": 2, "github": 3, "forum": 4, "whatsapp": 5}
+    present_platforms.sort(key=lambda x: order_pref.get(x.lower(), 99))
+
+    filter_buttons_html = '<button class="filter-btn active" data-platform="all">All</button>'
+    for p in present_platforms:
+        filter_buttons_html += f'\n                <button class="filter-btn" data-platform="{p.lower()}">{p}</button>'
+
+    matcher_options_html = '<option value="all">Platform: All Communities</option>'
+    for p in present_platforms:
+        suffix = "Subreddits" if p.lower() == "reddit" else "Servers" if p.lower() == "discord" else "Channels" if p.lower() == "telegram" else "Communities"
+        matcher_options_html += f'\n                    <option value="{p.lower()}">Platform: {p} {suffix}</option>'
+
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -743,12 +761,7 @@ def build_html(niche, communities, live_url):
             <p>Select your preferred platform or focus area to calculate the best matching community:</p>
             <div class="matcher-row">
                 <select id="matcherPlatform" class="matcher-select" onchange="runMatcher()">
-                    <option value="all">Platform: All Communities</option>
-                    <option value="discord">Platform: Discord Servers</option>
-                    <option value="telegram">Platform: Telegram Channels</option>
-                    <option value="reddit">Platform: Reddit Subreddits</option>
-                    <option value="github">Platform: GitHub Discussions</option>
-                    <option value="forum">Platform: Verified Forums</option>
+                    {matcher_options_html}
                 </select>
                 <select id="matcherFilter" class="matcher-select" onchange="runMatcher()">
                     <option value="all">Sort By: Most Active First</option>
@@ -763,12 +776,7 @@ def build_html(niche, communities, live_url):
                 <input type="text" id="searchInput" placeholder="Search communities, topics, or keywords...">
             </div>
             <div class="filters">
-                <button class="filter-btn active" data-platform="all">All</button>
-                <button class="filter-btn" data-platform="telegram">Telegram</button>
-                <button class="filter-btn" data-platform="discord">Discord</button>
-                <button class="filter-btn" data-platform="reddit">Reddit</button>
-                <button class="filter-btn" data-platform="github">GitHub</button>
-                <button class="filter-btn" data-platform="forum">Forums</button>
+                {filter_buttons_html}
             </div>
         </div>
         <div id="vetted-communities" class="grid">
