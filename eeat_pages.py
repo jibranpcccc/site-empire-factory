@@ -110,7 +110,21 @@ def shared_page_styles(accent):
         
         @media (max-width: 768px) {{
             .footer-grid {{ grid-template-columns: 1fr; }}
-            .nav-menu {{ display: none; }}
+            .top-nav {{ flex-direction: column; gap: 12px; align-items: flex-start; padding: 14px 16px; }}
+            .nav-menu {{ display: flex; flex-wrap: nowrap; overflow-x: auto; max-width: 100%; -webkit-overflow-scrolling: touch; gap: 8px; padding-bottom: 4px; width: 100%; }}
+            .nav-link, .nav-btn {{ white-space: nowrap; font-size: 0.82rem; padding: 6px 12px; border-radius: 6px; }}
+            .nav-link {{ background: rgba(255,255,255,0.04); border: 1px solid var(--border); }}
+        }}
+        @media (max-width: 480px) {{
+            h1 {{ font-size: 1.75rem; word-break: break-word; }}
+            .nav-brand {{ font-size: 1rem; word-break: break-word; }}
+            .page-container {{ padding: 20px 14px; }}
+            .content-card {{ padding: 18px 16px; }}
+            .btn-submit {{ width: 100%; text-align: center; }}
+        }}
+        @media (max-width: 375px) {{
+            h1 {{ font-size: 1.55rem; }}
+            .lead {{ font-size: 1rem; margin-bottom: 24px; }}
         }}
     """
 
@@ -140,7 +154,7 @@ def build_footer(niche, live_url):
             </div>
             <div class="footer-col">
                 <h4>Directory Index</h4>
-                <a href="{live_url}#communitiesGrid">All Verified Groups</a>
+                <a href="{live_url}#vetted-communities">All Verified Groups</a>
                 <a href="{live_url}about.html">Vetting Methodology</a>
                 <a href="{live_url}submit.html">Submit Your Community</a>
                 <a href="{live_url}feed.xml">RSS Syndication Feed</a>

@@ -465,6 +465,7 @@ def build_html(niche, communities, live_url):
             <div class="card-header">
                 <span class="badge badge-platform">{plat}</span>
                 <span class="badge badge-verified">✓ Verified</span>
+                <span class="badge badge-free">⚡ 100% Free</span>
                 <span class="badge badge-date">📅 Sep 2026</span>
             </div>
             <h3 class="card-title">{c.get('title','')}</h3>
@@ -478,7 +479,7 @@ def build_html(niche, communities, live_url):
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
                 <div class="card-actions">
-                    <button class="btn-copy-invite" onclick="copyInviteLink(event, '{c.get('joinUrl','#')}')">📋 Copy Invite</button>
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, '{c.get('joinUrl','#')}')">📋 Copy Invite Link</button>
                     <a href="{c.get('joinUrl','#')}" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
                 </div>
             </div>
@@ -610,6 +611,7 @@ def build_html(niche, communities, live_url):
         .badge {{ font-size: 0.72rem; padding: 3px 8px; border-radius: 4px; font-weight: 600; text-transform: uppercase; }}
         .badge-platform {{ background: rgba(255,255,255,0.1); color: #fff; }}
         .badge-verified {{ background: rgba(16, 185, 129, 0.15); color: #10b981; }}
+        .badge-free {{ background: rgba(56, 189, 248, 0.15); color: var(--accent); border: 1px solid rgba(56, 189, 248, 0.3); }}
         .badge-date {{ background: rgba(255,255,255,0.05); color: var(--muted); }}
         .card-title {{ font-size: 1.25rem; margin-bottom: 10px; color: #fff; }}
         .card-desc {{ color: var(--muted); font-size: 0.92rem; flex: 1; margin-bottom: 16px; }}
@@ -651,25 +653,42 @@ def build_html(niche, communities, live_url):
         .footer-bottom {{ text-align: center; color: var(--muted); font-size: 0.82rem; border-top: 1px solid rgba(255,255,255,0.06); margin-top: 40px; padding-top: 25px; }}
         @media (max-width: 768px) {{
             .footer-grid {{ grid-template-columns: 1fr; }}
-            .nav-menu {{ display: none; }}
+            .top-nav {{ flex-direction: column; gap: 12px; align-items: flex-start; padding: 14px 16px; }}
+            .nav-menu {{ display: flex; flex-wrap: nowrap; overflow-x: auto; max-width: 100%; -webkit-overflow-scrolling: touch; gap: 8px; padding-bottom: 4px; width: 100%; }}
+            .nav-link, .nav-btn {{ white-space: nowrap; font-size: 0.82rem; padding: 6px 12px; border-radius: 6px; }}
+            .nav-link {{ background: rgba(255,255,255,0.04); border: 1px solid var(--border); }}
+            .mobile-dock {{ display: flex; }}
+            body {{ padding-bottom: 90px; }}
         }}
 
         /* Persistent Mobile Bottom Action Dock (Moz CRO Standard) */
         .mobile-dock {{ display: none; position: fixed; bottom: 0; left: 0; right: 0; background: rgba(17, 24, 39, 0.95); backdrop-filter: blur(12px); border-top: 1px solid var(--border); padding: 10px 14px; z-index: 9999; gap: 8px; }}
-        @media (max-width: 768px) {{
-            .mobile-dock {{ display: flex; }}
-            body {{ padding-bottom: 90px; }}
-        }}
         .dock-btn {{ flex: 1; padding: 12px 10px; border-radius: 8px; background: var(--surface); border: 1px solid var(--border); color: #fff; font-weight: 600; font-size: 0.82rem; cursor: pointer; text-align: center; min-height: 44px; display: flex; align-items: center; justify-content: center; }}
         .dock-btn-accent {{ background: var(--accent); border-color: var(--accent); }}
         
         @media (max-width: 480px) {{
-            h1 {{ font-size: 1.8rem; }}
+            h1 {{ font-size: 1.8rem; word-break: break-word; }}
             .nav-brand {{ font-size: 1rem; word-break: break-word; }}
             .container {{ padding: 20px 14px; }}
             .geo-answer-block {{ padding: 16px; }}
             .card {{ padding: 16px; }}
-            .card-actions {{ width: 100%; display: flex; flex-direction: column; gap: 8px; }}
+            .card-footer {{ flex-direction: column; align-items: stretch; gap: 12px; }}
+            .card-actions {{ width: 100%; display: flex; flex-direction: row; gap: 8px; }}
+            .card-actions .btn-copy-invite, .card-actions .btn-join {{ flex: 1; text-align: center; justify-content: center; font-size: 0.82rem; padding: 8px 10px; }}
+            .controls {{ flex-direction: column; align-items: stretch; gap: 12px; }}
+            .search-box {{ min-width: 100%; }}
+            .matcher-row {{ flex-direction: column; gap: 10px; }}
+            .matcher-select {{ min-width: 100%; }}
+            .filters {{ overflow-x: auto; flex-wrap: nowrap; padding-bottom: 6px; -webkit-overflow-scrolling: touch; }}
+            .filter-btn {{ white-space: nowrap; font-size: 0.82rem; padding: 6px 12px; }}
+        }}
+        @media (max-width: 375px) {{
+            h1 {{ font-size: 1.55rem; }}
+            .subtitle {{ font-size: 0.95rem; }}
+            .stat-pills-row {{ gap: 6px; }}
+            .stat-pill {{ font-size: 0.76rem !important; padding: 4px 10px !important; }}
+            .card-title {{ font-size: 1.1rem; }}
+            .card-actions {{ flex-direction: column; }}
             .card-actions .btn-copy-invite, .card-actions .btn-join {{ width: 100%; }}
         }}
         
