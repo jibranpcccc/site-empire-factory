@@ -169,9 +169,9 @@
     "live_url": "https://rust-systems-engineering-hub.netlify.app/",
     "hosting_platform": "netlify",
     "hosting_platform_name": "Netlify",
-    "assigned_gmail": "jestwanted@gmail.com",
-    "owner_profile": "Profile 47",
-    "owner_label": "Just Wanted"
+    "assigned_gmail": "afolabi.081510@gmail.com",
+    "owner_profile": "Profile 43",
+    "owner_label": "Afolabi"
   },
   {
     "id": "ios-android-mobile-dev-hub",
@@ -1213,5 +1213,500 @@
     "status": "pending",
     "deployed_at": null,
     "live_url": null
+  },
+  {
+    "id": "autonomous-ai-agents-hub",
+    "name": "Autonomous AI Agents Hub",
+    "slug": "autonomous-ai-agents-hub",
+    "category": "AI & Automation",
+    "niche": "AutoGPT, CrewAI, LangGraph, Agentic workflows, multi-agent swarms, tool calling",
+    "accent": "#6366f1",
+    "status": "pending"
+  },
+  {
+    "id": "algo-trading-quant-hub",
+    "name": "Quantitative Finance & Algo Trading Hub",
+    "slug": "algo-trading-quant-hub",
+    "category": "Quantitative Trading",
+    "niche": "Python backtesting, algorithmic trading, high-frequency execution, CCXT, IBKR API",
+    "accent": "#10b981",
+    "status": "pending"
+  },
+  {
+    "id": "golang-backend-cloud-hub",
+    "name": "Golang Cloud Backend Hub",
+    "slug": "golang-backend-cloud-hub",
+    "category": "Backend Engineering",
+    "niche": "Go microservices, gRPC, Gin, Fiber, concurrency, Goroutines, Kubernetes operators",
+    "accent": "#00add8",
+    "status": "pending"
+  },
+  {
+    "id": "nextjs-fullstack-react-hub",
+    "name": "Next.js & Full-Stack React Hub",
+    "slug": "nextjs-fullstack-react-hub",
+    "category": "Web Development",
+    "niche": "Next.js App Router, Server Components, Tailwind CSS, Supabase, Vercel deployments",
+    "accent": "#000000",
+    "status": "pending"
+  },
+  {
+    "id": "prompt-engineering-tuning-hub",
+    "name": "Prompt Engineering & LLM Tuning Hub",
+    "slug": "prompt-engineering-tuning-hub",
+    "category": "AI & LLMs",
+    "niche": "Few-shot prompts, LoRA fine-tuning, RAG pipelines, Vector databases, LangChain",
+    "accent": "#a855f7",
+    "status": "pending"
+  },
+  {
+    "id": "smart-contract-solidity-hub",
+    "name": "Smart Contract & Solidity Security Hub",
+    "slug": "smart-contract-solidity-hub",
+    "category": "Web3 Security",
+    "niche": "Solidity audit, Foundry, Hardhat, reentrancy guards, DeFi protocol exploits, Slither",
+    "accent": "#627eea",
+    "status": "pending"
+  },
+  {
+    "id": "homelab-selfhosted-linux-hub",
+    "name": "HomeLab & Self-Hosted Linux Hub",
+    "slug": "homelab-selfhosted-linux-hub",
+    "category": "Infrastructure & Hardware",
+    "niche": "Proxmox, Docker, TrueNAS, unRAID, self-hosted apps, WireGuard, Plex, Home Assistant",
+    "accent": "#f97316",
+    "status": "pending"
+  },
+  {
+    "id": "bug-bounty-pentesting-hub",
+    "name": "Bug Bounty & Penetration Testing Hub",
+    "slug": "bug-bounty-pentesting-hub",
+    "category": "Cybersecurity",
+    "niche": "HackerOne, Bugcrowd, Burp Suite, Web security, recon workflows, CVE vulnerability research",
+    "accent": "#ef4444",
+    "status": "pending"
+  },
+  {
+    "id": "unreal-engine-5-creators-hub",
+    "name": "Unreal Engine 5 Creators Hub",
+    "slug": "unreal-engine-5-creators-hub",
+    "category": "Game Development",
+    "niche": "UE5 Lumen, Nanite, Blueprint scripting, C++ game programming, MetaHuman, Quixel",
+    "accent": "#0e1128",
+    "status": "pending"
+  },
+  {
+    "id": "unity-6-indie-studios-hub",
+    "name": "Unity 6 Indie Studios Hub",
+    "slug": "unity-6-indie-studios-hub",
+    "category": "Game Development",
+    "niche": "Unity 6, C# game architecture, DOTS, 2D/3D physics, mobile game monetization",
+    "accent": "#222c37",
+    "status": "pending"
+  },
+  {
+    "id": "microsaas-bootstrappers-hub",
+    "name": "Micro-SaaS Bootstrappers Hub",
+    "slug": "microsaas-bootstrappers-hub",
+    "category": "Startups & SaaS",
+    "niche": "Solo founders, MRR growth, Stripe billing, product validation, build in public",
+    "accent": "#10b981",
+    "status": "pending"
+  },
+  {
+    "id": "tiktok-shop-dropshipping-hub",
+    "name": "Dropshipping & TikTok Shop Hub",
+    "slug": "tiktok-shop-dropshipping-hub",
+    "category": "E-Commerce",
+    "niche": "TikTok viral products, supplier sourcing, CJ Dropshipping, video ads, Shopify conversion",
+    "accent": "#ff0050",
+    "status": "pending"
+  },
+  {
+    "id": "notion-templates-productivity-hub",
+    "name": "Notion Systems & Productivity Hub",
+    "slug": "notion-templates-productivity-hub",
+    "category": "Productivity",
+    "niche": "Notion workspaces, GTD dashboards, second brain systems, automated Zapier workflows",
+    "accent": "#000000",
+    "status": "pending"
+  },
+  {
+    "id": "biohacking-longevity-protocols-hub",
+    "name": "Biohacking & Longevity Protocols Hub",
+    "slug": "biohacking-longevity-protocols-hub",
+    "category": "Health & Longevity",
+    "niche": "Zone 2 cardio, cold plunge, sauna protocols, supplement stacks, sleep tracking, CGM",
+    "accent": "#14b8a6",
+    "status": "pending"
+  },
+  {
+    "id": "high-yield-treasury-wealth-hub",
+    "name": "High-Yield Cash & Treasury Bills Hub",
+    "slug": "high-yield-treasury-wealth-hub",
+    "category": "Personal Finance",
+    "niche": "HYSA rates, 4-week Treasury bills, money market funds, laddering strategies, FDIC safety",
+    "accent": "#059669",
+    "status": "pending"
+  },
+  {
+    "id": "remote-tech-careers-salary-hub",
+    "name": "Remote Tech Career & Salary Hub",
+    "slug": "remote-tech-careers-salary-hub",
+    "category": "Tech Careers",
+    "niche": "Global compensation, equity grants, FAANG interview prep, async work culture, salary negotiation",
+    "accent": "#3b82f6",
+    "status": "pending"
+  },
+  {
+    "id": "postgresql-high-scale-db-hub",
+    "name": "PostgreSQL & High-Scale Database Hub",
+    "slug": "postgresql-high-scale-db-hub",
+    "category": "Databases",
+    "niche": "PostgreSQL indexing, query optimization, pgvector, replica failover, connection pooling",
+    "accent": "#336791",
+    "status": "pending"
+  },
+  {
+    "id": "flutter-multiplatform-engineers-hub",
+    "name": "Flutter & Multi-Platform Engineers Hub",
+    "slug": "flutter-multiplatform-engineers-hub",
+    "category": "Mobile Dev",
+    "niche": "Dart, Flutter widgets, Riverpod, BLoC, native iOS/Android bridge, cross-platform apps",
+    "accent": "#02569b",
+    "status": "pending"
+  },
+  {
+    "id": "generative-ai-art-midjourney-hub",
+    "name": "Generative AI Art & Midjourney Hub",
+    "slug": "generative-ai-art-midjourney-hub",
+    "category": "AI Art & Design",
+    "niche": "Midjourney v6 prompts, Stable Diffusion checkpoints, ComfyUI workflows, LoRA styling",
+    "accent": "#ec4899",
+    "status": "pending"
+  },
+  {
+    "id": "vue-nuxt-fullstack-hub",
+    "name": "Vue 3 & Nuxt Fullstack Hub",
+    "slug": "vue-nuxt-fullstack-hub",
+    "category": "Frontend Engineering",
+    "niche": "Vue 3 Composition API, Nuxt 3 SSR, Pinia state, Vite tooling, Tailwind integrations",
+    "accent": "#42b883",
+    "status": "pending"
+  },
+  {
+    "id": "swift-swiftui-ios-architects-hub",
+    "name": "Swift & SwiftUI iOS Architects Hub",
+    "slug": "swift-swiftui-ios-architects-hub",
+    "category": "iOS Development",
+    "niche": "Swift 6, SwiftUI, SwiftData, App Store optimization, VisionOS spatial computing",
+    "accent": "#f05138",
+    "status": "pending"
+  },
+  {
+    "id": "pytorch-deep-learning-research-hub",
+    "name": "Deep Learning & PyTorch Researchers Hub",
+    "slug": "pytorch-deep-learning-research-hub",
+    "category": "Machine Learning",
+    "niche": "PyTorch 2.0, CUDA optimization, transformer attention, diffusion backbones, arXiv paper implementations",
+    "accent": "#ee4c2c",
+    "status": "pending"
+  },
+  {
+    "id": "sre-incident-response-devops-hub",
+    "name": "DevOps SRE & Incident Response Hub",
+    "slug": "sre-incident-response-devops-hub",
+    "category": "DevOps & SRE",
+    "niche": "Chaos engineering, Prometheus monitoring, Grafana dashboards, PagerDuty on-call, postmortems",
+    "accent": "#f59e0b",
+    "status": "pending"
+  },
+  {
+    "id": "technical-writing-api-docs-hub",
+    "name": "Technical Writing & API Docs Hub",
+    "slug": "technical-writing-api-docs-hub",
+    "category": "Content & Documentation",
+    "niche": "Stripe-style docs, OpenAPI/Swagger, Markdown documentation, doc-as-code, developer advocacy",
+    "accent": "#64748b",
+    "status": "pending"
+  },
+  {
+    "id": "solopreneur-email-marketing-hub",
+    "name": "Solopreneur Email Marketing Hub",
+    "slug": "solopreneur-email-marketing-hub",
+    "category": "Digital Marketing",
+    "niche": "Substack growth, ConvertKit automations, cold email sequences, deliverability, open rates",
+    "accent": "#8b5cf6",
+    "status": "pending"
+  },
+  {
+    "id": "real-estate-syndications-hub",
+    "name": "Real Estate Syndications Hub",
+    "slug": "real-estate-syndications-hub",
+    "category": "Real Estate Investing",
+    "niche": "Multi-family syndications, LP investor pools, capital calls, cap rate analysis, 1031 exchange",
+    "accent": "#b45309",
+    "status": "pending"
+  },
+  {
+    "id": "b2b-saas-sales-outreach-hub",
+    "name": "B2B SaaS Sales & Cold Outreach Hub",
+    "slug": "b2b-saas-sales-outreach-hub",
+    "category": "Sales & Growth",
+    "niche": "Apollo.io lead scraping, Clay workflows, cold calling scripts, outbound email deliverability",
+    "accent": "#2563eb",
+    "status": "pending"
+  },
+  {
+    "id": "blender-3d-modeling-animation-hub",
+    "name": "Blender 3D Modeling & Animation Hub",
+    "slug": "blender-3d-modeling-animation-hub",
+    "category": "3D & VFX",
+    "niche": "Geometry nodes, procedural texturing, Cycles rendering, rigging, hard surface modeling",
+    "accent": "#ea7600",
+    "status": "pending"
+  },
+  {
+    "id": "music-production-audio-engineering-hub",
+    "name": "Audio Engineering & Music Production Hub",
+    "slug": "music-production-audio-engineering-hub",
+    "category": "Audio & Music",
+    "niche": "Ableton Live, FL Studio, vocal mixing, mastering chains, compression, sample packs",
+    "accent": "#e11d48",
+    "status": "pending"
+  },
+  {
+    "id": "private-equity-ma-dealmakers-hub",
+    "name": "Private Equity & M&A Dealmakers Hub",
+    "slug": "private-equity-ma-dealmakers-hub",
+    "category": "Finance & M&A",
+    "niche": "LBO modeling, EBITDA multiples, due diligence checklists, roll-up strategies, deal sourcing",
+    "accent": "#1e3a8a",
+    "status": "pending"
+  },
+  {
+    "id": "affiliate-marketing-niche-sites-hub",
+    "name": "Affiliate Marketing & Niche Sites Hub",
+    "slug": "affiliate-marketing-niche-sites-hub",
+    "category": "SEO & Marketing",
+    "niche": "Amazon Associates, high-ticket affiliate programs, product review schemas, conversion rate optimization",
+    "accent": "#d97706",
+    "status": "pending"
+  },
+  {
+    "id": "zk-proofs-cryptography-hub",
+    "name": "Zero-Knowledge Proofs & Cryptography Hub",
+    "slug": "zk-proofs-cryptography-hub",
+    "category": "Web3 & Math",
+    "niche": "ZK-SNARKs, Starknet, Circom, privacy rollups, homomorphic encryption, polynomial commitments",
+    "accent": "#7c3aed",
+    "status": "pending"
+  },
+  {
+    "id": "embedded-iot-hardware-hub",
+    "name": "Embedded Systems & IoT Hardware Hub",
+    "slug": "embedded-iot-hardware-hub",
+    "category": "Hardware & Firmware",
+    "niche": "ESP32, STM32, embedded C/C++, FreeRTOS, PCB design in KiCAD, MQTT protocols",
+    "accent": "#0891b2",
+    "status": "pending"
+  },
+  {
+    "id": "data-engineering-apache-spark-hub",
+    "name": "Data Engineering & Apache Spark Hub",
+    "slug": "data-engineering-apache-spark-hub",
+    "category": "Big Data",
+    "niche": "Databricks, Apache Spark, Snowflake, dbt pipelines, data mesh architectures, Kafka streaming",
+    "accent": "#e11d48",
+    "status": "pending"
+  },
+  {
+    "id": "product-management-growth-hacks-hub",
+    "name": "Product Management & Growth Hacks Hub",
+    "slug": "product-management-growth-hacks-hub",
+    "category": "Product Leadership",
+    "niche": "PRDs, North Star metrics, feature prioritization, A/B testing, user onboarding teardowns",
+    "accent": "#0284c7",
+    "status": "pending"
+  },
+  {
+    "id": "venture-capital-angel-syndicate-hub",
+    "name": "Venture Capital & Angel Syndicate Hub",
+    "slug": "venture-capital-angel-syndicate-hub",
+    "category": "Venture Capital",
+    "niche": "SAFE notes, term sheets, deal flow filtering, cap table modeling, Series A milestones",
+    "accent": "#0f766e",
+    "status": "pending"
+  },
+  {
+    "id": "pkm-obsidian-second-brain-hub",
+    "name": "Personal Knowledge Management Hub",
+    "slug": "pkm-obsidian-second-brain-hub",
+    "category": "Knowledge & Notes",
+    "niche": "Obsidian vaults, Zettelkasten method, graph connections, Tiago Forte second brain, Logseq",
+    "accent": "#7c3aed",
+    "status": "pending"
+  },
+  {
+    "id": "clean-architecture-ddd-hub",
+    "name": "Clean Architecture & Domain Driven Design Hub",
+    "slug": "clean-architecture-ddd-hub",
+    "category": "Software Architecture",
+    "niche": "Hexagonal architecture, CQRS, event sourcing, domain invariants, microservices boundaries",
+    "accent": "#475569",
+    "status": "pending"
+  },
+  {
+    "id": "docker-containers-devops-hub",
+    "name": "Docker & Container Orchestration Hub",
+    "slug": "docker-containers-devops-hub",
+    "category": "DevOps & Containers",
+    "niche": "Dockerfiles, multi-stage builds, rootless containers, Podman, compose stacks, microservices",
+    "accent": "#2496ed",
+    "status": "pending"
+  },
+  {
+    "id": "digital-forensics-incident-hub",
+    "name": "Cybersecurity Incident Forensics Hub",
+    "slug": "digital-forensics-incident-hub",
+    "category": "Cybersecurity",
+    "niche": "Memory analysis, Wireshark packet dumps, Autopsy, Volatility, timeline reconstruction, chain of custody",
+    "accent": "#991b1b",
+    "status": "pending"
+  },
+  {
+    "id": "typescript-nodejs-architects-hub",
+    "name": "TypeScript & Node.js Architects Hub",
+    "slug": "typescript-nodejs-architects-hub",
+    "category": "Web Development",
+    "niche": "TypeScript 5, strict mode, AST transforms, Fastify, NestJS, monorepos, Turborepo",
+    "accent": "#3178c6",
+    "status": "pending"
+  },
+  {
+    "id": "langchain-llamaindex-ai-hub",
+    "name": "LangChain & LlamaIndex AI Developers Hub",
+    "slug": "langchain-llamaindex-ai-hub",
+    "category": "AI Engineering",
+    "niche": "Vector store indexing, hybrid search, rerankers, ChromaDB, Pinecone, agentic memory",
+    "accent": "#10b981",
+    "status": "pending"
+  },
+  {
+    "id": "futures-commodities-alpha-hub",
+    "name": "Commodity & Futures Trading Alpha Hub",
+    "slug": "futures-commodities-alpha-hub",
+    "category": "Commodities & Futures",
+    "niche": "Crude oil, gold futures, CME ES/NQ, COT reports, order book heatmaps, volume profile",
+    "accent": "#d97706",
+    "status": "pending"
+  },
+  {
+    "id": "real-estate-deal-flow-hub",
+    "name": "Real Estate Syndication & Deal Flow Hub",
+    "slug": "real-estate-deal-flow-hub",
+    "category": "Real Estate",
+    "niche": "Underwriting models, cap rate spreadsheets, debt service coverage, mezzanine financing",
+    "accent": "#047857",
+    "status": "pending"
+  },
+  {
+    "id": "saas-landing-page-cro-hub",
+    "name": "SaaS Landing Page CRO & Design Hub",
+    "slug": "saas-landing-page-cro-hub",
+    "category": "Design & Conversion",
+    "niche": "Hero headlines, visual hierarchy, social proof badges, pricing tables, Hotjar analysis",
+    "accent": "#6366f1",
+    "status": "pending"
+  },
+  {
+    "id": "robotics-ros2-engineers-hub",
+    "name": "Robotics & ROS 2 Engineers Hub",
+    "slug": "robotics-ros2-engineers-hub",
+    "category": "Robotics & Hardware",
+    "niche": "ROS 2 Humble, Gazebo simulation, URDF modeling, SLAM navigation, LiDAR sensor fusion",
+    "accent": "#7c2d12",
+    "status": "pending"
+  },
+  {
+    "id": "fintech-payment-gateways-hub",
+    "name": "Fintech & Payment Gateway Engineers Hub",
+    "slug": "fintech-payment-gateways-hub",
+    "category": "Fintech Engineering",
+    "niche": "Stripe Connect, Adyen, ACH rails, ISO 8583, PCI-DSS compliance, double-entry ledgers",
+    "accent": "#4338ca",
+    "status": "pending"
+  },
+  {
+    "id": "shopify-developers-theme-hub",
+    "name": "Shopify App & Theme Developers Hub",
+    "slug": "shopify-developers-theme-hub",
+    "category": "E-Commerce Tech",
+    "niche": "Liquid templates, Hydrogen, Storefront API, Polaris design, Shopify App Bridge",
+    "accent": "#95bf47",
+    "status": "pending"
+  },
+  {
+    "id": "game-audio-sound-design-hub",
+    "name": "Game Audio & Interactive Sound Design Hub",
+    "slug": "game-audio-sound-design-hub",
+    "category": "Game Audio",
+    "niche": "FMOD Studio, Wwise integration, adaptive music systems, Foley recording, spatial audio",
+    "accent": "#be185d",
+    "status": "pending"
+  },
+  {
+    "id": "vulnerability-research-0day-hub",
+    "name": "Vulnerability Research & 0-Day Alpha Hub",
+    "slug": "vulnerability-research-0day-hub",
+    "category": "Security Research",
+    "niche": "Binary exploitation, IDA Pro, Ghidra decompilation, heap spray, ROP chains, ASLR bypass",
+    "accent": "#b91c1c",
+    "status": "pending"
+  },
+  {
+    "id": "web-scraping-automation-hub",
+    "name": "Web Scraping & Headless Automation Hub",
+    "slug": "web-scraping-automation-hub",
+    "category": "Automation & Data",
+    "niche": "Playwright, Puppeteer, Scrapy, anti-detect browser profiles, residential proxy pools",
+    "accent": "#0284c7",
+    "status": "pending"
+  },
+  {
+    "id": "creator-economy-influencers-hub",
+    "name": "Micro-Influencer & Creator Economy Hub",
+    "slug": "creator-economy-influencers-hub",
+    "category": "Creator Growth",
+    "niche": "Brand sponsorships, media kits, TikTok algorithms, YouTube RPM monetization, UGC contracts",
+    "accent": "#ec4899",
+    "status": "pending"
+  },
+  {
+    "id": "cloud-security-iam-guard-hub",
+    "name": "Zero-Day Cloud Security & IAM Hub",
+    "slug": "cloud-security-iam-guard-hub",
+    "category": "Cloud Security",
+    "niche": "AWS IAM roles, least privilege, GCP service accounts, Azure Entra ID, CSPM posture tools",
+    "accent": "#059669",
+    "status": "pending"
+  },
+  {
+    "id": "high-performance-cpp-hub",
+    "name": "High-Performance C++ & Game Engines Hub",
+    "slug": "high-performance-cpp-hub",
+    "category": "Systems & Gaming",
+    "niche": "Modern C++20, SIMD vectorization, memory allocators, cache coherence, Vulkan graphics",
+    "accent": "#00599c",
+    "status": "pending"
+  },
+  {
+    "id": "graphql-federation-gateways-hub",
+    "name": "GraphQL & API Gateway Federation Hub",
+    "slug": "graphql-federation-gateways-hub",
+    "category": "API Architecture",
+    "niche": "Apollo Federation, GraphQL mesh, schema stitching, subgraph composition, rate limiting",
+    "accent": "#e10098",
+    "status": "pending"
   }
 ]

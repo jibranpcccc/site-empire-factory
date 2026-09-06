@@ -1,8 +1,8 @@
 {
   "total_verified_gmails": 16,
   "status": "ALL_16_SESSIONS_VERIFIED_ACTIVE",
-  "max_sites_per_gmail": 4,
-  "total_empire_capacity": 64,
+  "max_sites_per_gmail": 20,
+  "total_empire_capacity": 320,
   "accounts": [
     {
       "email": "doriancuquejo05@gmail.com",

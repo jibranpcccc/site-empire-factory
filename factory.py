@@ -229,7 +229,7 @@ def assign_next_gmail_owner(niche, all_niches):
     min_usage = min(usage_counts.values()) if usage_counts else 0
     candidate = None
     for acc in accounts:
-        if usage_counts[acc["email"]] == min_usage and min_usage < 4:
+        if usage_counts[acc["email"]] == min_usage and min_usage < 20:
             candidate = acc
             break
 
