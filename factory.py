@@ -791,7 +791,8 @@ def build_html(niche, communities, live_url):
             const plat = document.getElementById('matcherPlatform').value;
             const sortVal = document.getElementById('matcherFilter').value;
             quickFilter(plat);
-            const grid = document.getElementById('communitiesGrid');
+            const grid = document.getElementById('vetted-communities') || document.getElementById('communitiesGrid');
+            if (!grid) return;
             const cards = Array.from(grid.querySelectorAll('.card'));
             if (sortVal === 'large') {{
                 cards.sort((a, b) => {{
