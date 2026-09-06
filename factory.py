@@ -114,30 +114,51 @@ GSC_FILE_CONTENT = "google-site-verification: google6fe267a998c19a9a.html\n"
 
 MAX_SITES_PER_RUN = 3
 
-def call_gemini(prompt):
-    if not GEMINI_API_KEY:
-        return None
-    # Model fallback hierarchy for 2026
-    candidate_models = ["gemini-3.6-flash", "gemini-flash-latest", "gemini-2.5-flash-lite"]
-    for model in candidate_models:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_API_KEY}"
-        payload = {
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"temperature": 0.3, "maxOutputTokens": 4096}
-        }
-        req = urllib.request.Request(
-            url,
-            data=json.dumps(payload).encode("utf-8"),
-            headers={"Content-Type": "application/json"}
-        )
+def get_gemini_key_pool():
+    keys = []
+    if os.environ.get("GEMINI_API_KEY"):
+        keys.append(os.environ["GEMINI_API_KEY"])
+    pool_file = os.path.join(BASE_DIR, "gemini_master_pool.json")
+    if os.path.exists(pool_file):
         try:
-            with urllib.request.urlopen(req, timeout=25) as res:
-                data = json.loads(res.read().decode("utf-8"))
-                return data["candidates"][0]["content"]["parts"][0]["text"]
-        except urllib.error.HTTPError as e:
-            print(f"Gemini API attempt with {model} failed (HTTP {e.code})")
-        except Exception as e:
-            print(f"Gemini API attempt with {model} failed: {e}")
+            with open(pool_file, "r", encoding="utf-8") as f:
+                pool = json.load(f)
+                keys.extend(pool.get("active_keys", []))
+                keys.extend(pool.get("reserve_keys", []))
+        except Exception:
+            pass
+    keys.append("AIzaSyDXfpdoU3LuPfL-8p-R8kwXI3MkTpfQG08")
+    # Preserve order while removing duplicates
+    seen = set()
+    return [k for k in keys if k and not (k in seen or seen.add(k))]
+
+def call_gemini(prompt):
+    key_pool = get_gemini_key_pool()
+    if not key_pool:
+        return None
+    candidate_models = ["gemini-3.6-flash", "gemini-flash-latest", "gemini-2.5-flash-lite"]
+    for key in key_pool:
+        for model in candidate_models:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
+            payload = {
+                "contents": [{"parts": [{"text": prompt}]}],
+                "generationConfig": {"temperature": 0.3, "maxOutputTokens": 4096}
+            }
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(payload).encode("utf-8"),
+                headers={"Content-Type": "application/json"}
+            )
+            try:
+                with urllib.request.urlopen(req, timeout=25) as res:
+                    data = json.loads(res.read().decode("utf-8"))
+                    return data["candidates"][0]["content"]["parts"][0]["text"]
+            except urllib.error.HTTPError as e:
+                # If 429 (rate limited) or 403 (quota/access), immediately failover to next key
+                if e.code in [429, 403]:
+                    break
+            except Exception:
+                pass
     return None
 
 def generate_fallback_communities(niche_name, niche_topics):
