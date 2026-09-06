@@ -132,9 +132,14 @@
     "niche": "Unity, Unreal Engine 5, Godot, pixel art, game jams",
     "category": "Game Development",
     "accent": "#f43f5e",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-06T10:41:49.484929+00:00",
+    "live_url": "https://jibranpcccc.github.io/game-dev-indie-studios-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "afolabi.081510@gmail.com",
+    "owner_profile": "Profile 43",
+    "owner_label": "Afolabi"
   },
   {
     "id": "no-code-automation-hub",
@@ -143,9 +148,14 @@
     "niche": "Make.com, Zapier, Webflow, Bubble, n8n workflows",
     "category": "Automation",
     "accent": "#14b8a6",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-06T10:43:37.959753+00:00",
+    "live_url": "https://no-code-automation-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "kerryvaquero@gmail.com",
+    "owner_profile": "Profile 44",
+    "owner_label": "Kerry Vaquero"
   },
   {
     "id": "rust-systems-engineering-hub",
@@ -154,9 +164,14 @@
     "niche": "Rustaceans, low-level systems, WASM, embedded engineering",
     "category": "Systems Programming",
     "accent": "#f97316",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-06T10:45:21.250867+00:00",
+    "live_url": "https://rust-systems-engineering-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "jestwanted@gmail.com",
+    "owner_profile": "Profile 47",
+    "owner_label": "Just Wanted"
   },
   {
     "id": "ios-android-mobile-dev-hub",
