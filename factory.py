@@ -107,7 +107,18 @@ PORTFOLIO_FILE = os.path.join(BASE_DIR, "PORTFOLIO.md")
 GMAIL_REGISTRY_FILE = os.path.join(BASE_DIR, "gmail_owners_registry.json")
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or "AIzaSyDXfpdoU3LuPfL-8p-R8kwXI3MkTpfQG08"
-GH_TOKEN = os.environ.get("GH_PAT") or os.environ.get("GITHUB_TOKEN") or ""
+def get_github_token():
+    t = os.environ.get("GH_PAT") or os.environ.get("GITHUB_TOKEN") or ""
+    if not t:
+        try:
+            p = subprocess.run(["gh", "auth", "token"], capture_output=True, text=True, timeout=5, shell=(os.name == 'nt'))
+            if p.returncode == 0 and p.stdout.strip():
+                t = p.stdout.strip()
+        except Exception:
+            pass
+    return t
+
+GH_TOKEN = get_github_token()
 GH_USER = os.environ.get("GH_USER", "jibranpcccc")
 INDEXNOW_KEY = "4a123bc89fe04b56ad781290cde456fa"
 
