@@ -100,6 +100,15 @@ Autonomous Site Empire Factory
 """
 import os, sys, time, json, datetime, urllib.request, urllib.parse, subprocess, shutil
 from eeat_pages import shared_page_styles, build_top_nav, build_footer, build_about_page, build_submit_page, build_contact_page, build_privacy_page, build_terms_page
+from community_database import (
+    VERIFIED_COMMUNITIES_DATABASE,
+    BANNED_URL_SUBSTRINGS,
+    is_fake_or_synthetic_url,
+    find_matching_category,
+    get_verified_communities_for_niche,
+    build_fallback_communities,
+    validate_and_sanitize_communities
+)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 NICHES_FILE = os.path.join(BASE_DIR, "niches.json")
@@ -298,45 +307,34 @@ def call_gemini(prompt):
     return None
 
 def generate_fallback_communities(niche_name, niche_topics):
-    platforms = ["Telegram", "Discord", "WhatsApp", "Reddit"]
-    topics = [t.strip() for t in niche_topics.split(",") if t.strip()]
-    if not topics: topics = ["General", "Networking", "Announcements", "Help & Q&A"]
-    communities = []
-    for i in range(1, 31):
-        plat = platforms[(i - 1) % len(platforms)]
-        topic = topics[(i - 1) % len(topics)].title()
-        members = f"{1200 + i * 430:,}+ members"
-        cid = f"{niche_name.lower().replace(' ', '-')}-{plat.lower()}-{i}"
-        communities.append({
-            "id": cid,
-            "title": f"{topic} Global {plat} Hub",
-            "platform": plat,
-            "category": topic,
-            "memberCount": members,
-            "description": f"Verified public {plat} community focused on {topic.lower()} discussions, active member networking, curated resource sharing, and industry updates.",
-            "joinUrl": f"https://{plat.lower()}.com/community/{cid}",
-            "tags": [topic.lower().replace(' ', '-'), plat.lower(), "networking", "verified"],
-            "verified": True,
-            "featured": (i <= 3)
-        })
-    return communities
+    """
+    Generates 30 realistic, high-value, active online communities for the given niche.
+    Guarantees 100% real, verified public community URLs from the expansive database.
+    Zero fake or synthetic links are ever produced.
+    """
+    return build_fallback_communities(niche_name, niche_topics, count=30)
 
 def generate_communities_data(niche_name, niche_topics):
     prompt = f"""You are a professional web directory data curator.
 Generate a JSON array of 30 realistic, high-value, active online communities for the niche: "{niche_name}".
 Topics covered: {niche_topics}.
-Platforms must include: "Discord", "Telegram", "WhatsApp", "Reddit".
+Platforms must include: "Discord", "Telegram", "Reddit", "Forum".
 Return ONLY valid raw JSON (no markdown formatting, no codeblocks).
+
+CRITICAL ARCHITECTURAL MANDATE ON URLS:
+All joinUrl values MUST be 100% real, active public URLs (e.g. real subreddits https://www.reddit.com/r/..., real public discord servers https://discord.gg/..., real telegram channels https://t.me/..., real GitHub discussions https://github.com/... or official verified web forums).
+NEVER hallucinate or generate synthetic URLs like https://telegram.com/community/... or https://discord.com/community/... or https://whatsapp.com/community/... or https://reddit.com/community/....
+Any fake or synthetic URLs are strictly banned and will be immediately rejected and replaced with verified real community URLs.
 
 Schema for each object:
 {{
   "id": "unique-kebab-id",
   "title": "Community Name",
-  "platform": "Telegram|Discord|WhatsApp|Reddit",
+  "platform": "Discord|Telegram|Reddit|Forum",
   "category": "Subcategory Name",
   "memberCount": "e.g. 14,200+ members",
   "description": "2-3 sentences explaining the focus, community rules, and benefits of joining.",
-  "joinUrl": "https://...",
+  "joinUrl": "https://www.reddit.com/r/... or https://discord.gg/... or https://t.me/... or https://github.com/...",
   "tags": ["tag1", "tag2", "tag3"],
   "verified": true,
   "featured": false
@@ -349,10 +347,12 @@ Schema for each object:
         if clean.endswith("```"): clean = clean[:-3]
         clean = clean.strip()
         try:
-            return json.loads(clean)
+            parsed = json.loads(clean)
+            if isinstance(parsed, list) and len(parsed) >= 10:
+                return validate_and_sanitize_communities(parsed, niche_name, niche_topics, target_count=30)
         except Exception as e:
             print(f"Error parsing Gemini JSON: {e}")
-    print(f"Using robust fallback community generator for {niche_name}...")
+    print(f"Using robust verified community generator for {niche_name}...")
     return generate_fallback_communities(niche_name, niche_topics)
 
 def build_html(niche, communities, live_url):
@@ -362,9 +362,15 @@ def build_html(niche, communities, live_url):
     now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     ds = get_niche_design_system(niche)
 
+    # Architectural Gate: Strictly validate and reject any synthetic or banned fake URLs
+    for c in communities:
+        u = str(c.get("joinUrl", "")).lower()
+        if any(bad in u for bad in ["telegram.com/community", "discord.com/community", "whatsapp.com/community", "reddit.com/community"]):
+            raise ValueError(f"CRITICAL SANITIZATION VIOLATION: Fake community URL detected in build_html: {c.get('joinUrl')}")
+
     # ItemList Schema
     item_elements = []
-    for i, c in enumerate(communities[:20]):
+    for i, c in enumerate(communities[:30]):
         item_elements.append({
             "@type": "ListItem",
             "position": i + 1,
@@ -740,8 +746,9 @@ def build_html(niche, communities, live_url):
                     <option value="all">Platform: All Communities</option>
                     <option value="discord">Platform: Discord Servers</option>
                     <option value="telegram">Platform: Telegram Channels</option>
-                    <option value="whatsapp">Platform: WhatsApp Cohorts</option>
                     <option value="reddit">Platform: Reddit Subreddits</option>
+                    <option value="github">Platform: GitHub Discussions</option>
+                    <option value="forum">Platform: Verified Forums</option>
                 </select>
                 <select id="matcherFilter" class="matcher-select" onchange="runMatcher()">
                     <option value="all">Sort By: Most Active First</option>
@@ -759,8 +766,9 @@ def build_html(niche, communities, live_url):
                 <button class="filter-btn active" data-platform="all">All</button>
                 <button class="filter-btn" data-platform="telegram">Telegram</button>
                 <button class="filter-btn" data-platform="discord">Discord</button>
-                <button class="filter-btn" data-platform="whatsapp">WhatsApp</button>
                 <button class="filter-btn" data-platform="reddit">Reddit</button>
+                <button class="filter-btn" data-platform="github">GitHub</button>
+                <button class="filter-btn" data-platform="forum">Forums</button>
             </div>
         </div>
         <div id="vetted-communities" class="grid">
@@ -1162,6 +1170,9 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
     if not communities:
         print(f"❌ Failed to generate communities for {name}, skipping.")
         return False
+
+    # Defensive validation pass: reject and replace any fake URLs before writing HTML or saving data
+    communities = validate_and_sanitize_communities(communities, name, niche["niche"], target_count=30)
 
     with open(os.path.join(site_dir, "data", "groups.json"), "w", encoding="utf-8") as f:
         json.dump(communities, f, indent=2)
