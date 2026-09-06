@@ -105,7 +105,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 NICHES_FILE = os.path.join(BASE_DIR, "niches.json")
 PORTFOLIO_FILE = os.path.join(BASE_DIR, "PORTFOLIO.md")
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or "AIzaSyDXfpdoU3LuPfL-8p-R8kwXI3MkTpfQG08"
 GH_TOKEN = os.environ.get("GH_PAT") or os.environ.get("GITHUB_TOKEN") or ""
 GH_USER = os.environ.get("GH_USER", "jibranpcccc")
 INDEXNOW_KEY = "4a123bc89fe04b56ad781290cde456fa"
@@ -117,23 +117,28 @@ MAX_SITES_PER_RUN = 3
 def call_gemini(prompt):
     if not GEMINI_API_KEY:
         return None
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.3, "maxOutputTokens": 4096}
-    }
-    req = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json"}
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=30) as res:
-            data = json.loads(res.read().decode("utf-8"))
-            return data["candidates"][0]["content"]["parts"][0]["text"]
-    except Exception as e:
-        print(f"Gemini API attempt failed: {e}")
-        return None
+    # Model fallback hierarchy for 2026
+    candidate_models = ["gemini-3.6-flash", "gemini-flash-latest", "gemini-2.5-flash-lite"]
+    for model in candidate_models:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_API_KEY}"
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 0.3, "maxOutputTokens": 4096}
+        }
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"}
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=25) as res:
+                data = json.loads(res.read().decode("utf-8"))
+                return data["candidates"][0]["content"]["parts"][0]["text"]
+        except urllib.error.HTTPError as e:
+            print(f"Gemini API attempt with {model} failed (HTTP {e.code})")
+        except Exception as e:
+            print(f"Gemini API attempt with {model} failed: {e}")
+    return None
 
 def generate_fallback_communities(niche_name, niche_topics):
     platforms = ["Telegram", "Discord", "WhatsApp", "Reddit"]
