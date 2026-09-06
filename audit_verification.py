@@ -5,7 +5,9 @@ import re
 
 hubs = [
     ("Hub 13 (Mobile Dev & Flutter)", r"c:\Users\jibra\Desktop\1\20 blogs\site-empire-factory\output\ios-android-mobile-dev-hub"),
-    ("Hub 14 (Forex Scalpers & Prop Firms)", r"c:\Users\jibra\Desktop\1\20 blogs\site-empire-factory\output\forex-scalping-signals-hub")
+    ("Hub 14 (Forex Scalpers & Prop Firms)", r"c:\Users\jibra\Desktop\1\20 blogs\site-empire-factory\output\forex-scalping-signals-hub"),
+    ("Hub 17 (FIRE Movement & Wealth)", r"c:\Users\jibra\Desktop\1\20 blogs\site-empire-factory\output\fire-personal-finance-hub"),
+    ("Hub 18 (Dividend Growth & Passive Income)", r"c:\Users\jibra\Desktop\1\20 blogs\site-empire-factory\output\dividend-growth-investing-hub")
 ]
 
 banned = ["telegram.com/community", "discord.com/community", "whatsapp.com/community", "reddit.com/community"]
