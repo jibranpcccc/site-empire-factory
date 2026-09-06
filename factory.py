@@ -110,8 +110,12 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or "AIzaSyDXfpdoU3LuPfL-8p-R8k
 GH_TOKEN = os.environ.get("GH_PAT") or os.environ.get("GITHUB_TOKEN") or ""
 GH_USER = os.environ.get("GH_USER", "jibranpcccc")
 INDEXNOW_KEY = "4a123bc89fe04b56ad781290cde456fa"
-GSC_FILE_NAME = "google6fe267a998c19a9a.html"
-GSC_FILE_CONTENT = "google-site-verification: google6fe267a998c19a9a.html\n"
+
+def generate_site_gsc_token(slug, owner_email):
+    """Generates an isolated, site-unique GSC verification token so no two sites ever share an identical hash."""
+    import hashlib
+    token = hashlib.sha256(f"{slug}:{owner_email}:empire2026".encode("utf-8")).hexdigest()[:16]
+    return f"google{token}.html", f"google-site-verification: google{token}.html\n"
 
 MAX_SITES_PER_RUN = 3
 
@@ -1067,9 +1071,11 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
     with open(os.path.join(site_dir, "llms.txt"), "w", encoding="utf-8") as f:
         f.write(build_llmstxt(name, live_url, niche))
 
-    # Universal GSC Verification File
-    with open(os.path.join(site_dir, GSC_FILE_NAME), "w", encoding="utf-8") as f:
-        f.write(GSC_FILE_CONTENT)
+    # Isolated Site-Specific GSC Verification File
+    owner_email = niche.get("assigned_gmail") or "teams.thefusionfeed@gmail.com"
+    gsc_file_name, gsc_file_content = generate_site_gsc_token(slug, owner_email)
+    with open(os.path.join(site_dir, gsc_file_name), "w", encoding="utf-8") as f:
+        f.write(gsc_file_content)
 
     # IndexNow key file
     with open(os.path.join(site_dir, f"{INDEXNOW_KEY}.txt"), "w", encoding="utf-8") as f:
