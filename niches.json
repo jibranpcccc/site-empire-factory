@@ -8,7 +8,10 @@
     "accent": "#38bdf8",
     "status": "deployed",
     "deployed_at": "2026-09-03T10:00:00.000000+00:00",
-    "live_url": "https://jibranpcccc.github.io/developer-coding-hub/"
+    "live_url": "https://jibranpcccc.github.io/developer-coding-hub/",
+    "assigned_gmail": "doriancuquejo05@gmail.com",
+    "owner_label": "Dorian Cuquejo",
+    "owner_profile": "Profile 27"
   },
   {
     "id": "deals-loot-coupons-hub",
@@ -19,7 +22,10 @@
     "accent": "#f97316",
     "status": "deployed",
     "deployed_at": "2026-09-03T10:00:00.000000+00:00",
-    "live_url": "https://jibranpcccc.github.io/deals-loot-coupons-hub/"
+    "live_url": "https://jibranpcccc.github.io/deals-loot-coupons-hub/",
+    "assigned_gmail": "teams.thefusionfeed@gmail.com",
+    "owner_label": "Teams Fusion",
+    "owner_profile": "Profile 28"
   },
   {
     "id": "scholarships-study-abroad-hub",
@@ -30,7 +36,10 @@
     "accent": "#10b981",
     "status": "deployed",
     "deployed_at": "2026-09-03T10:00:00.000000+00:00",
-    "live_url": "https://jibranpcccc.github.io/scholarships-study-abroad-hub/"
+    "live_url": "https://jibranpcccc.github.io/scholarships-study-abroad-hub/",
+    "assigned_gmail": "vickimarshall853@gmail.com",
+    "owner_label": "Vicki Marshall",
+    "owner_profile": "Profile 30"
   },
   {
     "id": "remote-work-nomad-hub",
@@ -41,7 +50,10 @@
     "accent": "#0ea5e9",
     "status": "deployed",
     "deployed_at": "2026-09-04T06:37:26.913510+00:00",
-    "live_url": "https://jibranpcccc.github.io/remote-work-nomad-hub/"
+    "live_url": "https://jibranpcccc.github.io/remote-work-nomad-hub/",
+    "assigned_gmail": "janavajannimik@gmail.com",
+    "owner_label": "Janava Jannimik",
+    "owner_profile": "Profile 31"
   },
   {
     "id": "ai-prompts-generative-hub",
@@ -52,7 +64,10 @@
     "accent": "#8b5cf6",
     "status": "deployed",
     "deployed_at": "2026-09-04T06:37:57.858553+00:00",
-    "live_url": "https://jibranpcccc.github.io/ai-prompts-generative-hub/"
+    "live_url": "https://jibranpcccc.github.io/ai-prompts-generative-hub/",
+    "assigned_gmail": "gladystuckergmgd@gmail.com",
+    "owner_label": "Gladys Tucker",
+    "owner_profile": "Profile 32"
   },
   {
     "id": "cybersecurity-infosec-hub",
@@ -63,7 +78,10 @@
     "accent": "#10b981",
     "status": "deployed",
     "deployed_at": "2026-09-04T06:38:09.922323+00:00",
-    "live_url": "https://jibranpcccc.github.io/cybersecurity-infosec-hub/"
+    "live_url": "https://jibranpcccc.github.io/cybersecurity-infosec-hub/",
+    "assigned_gmail": "siopkbritneymasnbur@gmail.com",
+    "owner_label": "Britney Masnbur",
+    "owner_profile": "Profile 34"
   },
   {
     "id": "devops-cloud-architect-hub",
@@ -74,7 +92,10 @@
     "accent": "#f59e0b",
     "status": "deployed",
     "deployed_at": "2026-09-04T11:01:07.985994+00:00",
-    "live_url": "https://jibranpcccc.github.io/devops-cloud-architect-hub/"
+    "live_url": "https://jibranpcccc.github.io/devops-cloud-architect-hub/",
+    "assigned_gmail": "christinapatelf@gmail.com",
+    "owner_label": "Christina Patel",
+    "owner_profile": "Profile 35"
   },
   {
     "id": "data-science-machine-learning-hub",
@@ -85,7 +106,10 @@
     "accent": "#6366f1",
     "status": "deployed",
     "deployed_at": "2026-09-04T11:01:38.940059+00:00",
-    "live_url": "https://jibranpcccc.github.io/data-science-machine-learning-hub/"
+    "live_url": "https://jibranpcccc.github.io/data-science-machine-learning-hub/",
+    "assigned_gmail": "mdrakibul90634@gmail.com",
+    "owner_label": "Md Sagor",
+    "owner_profile": "Profile 37"
   },
   {
     "id": "indie-hackers-micro-saas-hub",
@@ -96,7 +120,10 @@
     "accent": "#ec4899",
     "status": "deployed",
     "deployed_at": "2026-09-04T11:02:09.072159+00:00",
-    "live_url": "https://jibranpcccc.github.io/indie-hackers-micro-saas-hub/"
+    "live_url": "https://jibranpcccc.github.io/indie-hackers-micro-saas-hub/",
+    "assigned_gmail": "henryjude262@gmail.com",
+    "owner_label": "Jude Henry",
+    "owner_profile": "Profile 41"
   },
   {
     "id": "game-dev-indie-studios-hub",

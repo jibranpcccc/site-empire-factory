@@ -104,6 +104,7 @@ from eeat_pages import shared_page_styles, build_top_nav, build_footer, build_ab
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 NICHES_FILE = os.path.join(BASE_DIR, "niches.json")
 PORTFOLIO_FILE = os.path.join(BASE_DIR, "PORTFOLIO.md")
+GMAIL_REGISTRY_FILE = os.path.join(BASE_DIR, "gmail_owners_registry.json")
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or "AIzaSyDXfpdoU3LuPfL-8p-R8kwXI3MkTpfQG08"
 GH_TOKEN = os.environ.get("GH_PAT") or os.environ.get("GITHUB_TOKEN") or ""
@@ -113,6 +114,47 @@ GSC_FILE_NAME = "google6fe267a998c19a9a.html"
 GSC_FILE_CONTENT = "google-site-verification: google6fe267a998c19a9a.html\n"
 
 MAX_SITES_PER_RUN = 3
+
+def load_gmail_registry():
+    if os.path.exists(GMAIL_REGISTRY_FILE):
+        try:
+            with open(GMAIL_REGISTRY_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                return data.get("accounts", [])
+        except Exception as e:
+            print(f"Error loading gmail registry: {e}")
+    return []
+
+def assign_next_gmail_owner(niche, all_niches):
+    """
+    Assigns the next available isolated Gmail owner from gmail_owners_registry.json.
+    Picks the account with the lowest number of assigned sites (under max_sites_per_gmail = 4).
+    Guarantees deterministic round-robin partition across all 16 accounts.
+    """
+    accounts = load_gmail_registry()
+    if not accounts:
+        return None
+
+    usage_counts = {acc["email"]: 0 for acc in accounts}
+    for n in all_niches:
+        email = n.get("assigned_gmail")
+        if email in usage_counts:
+            usage_counts[email] += 1
+
+    min_usage = min(usage_counts.values()) if usage_counts else 0
+    candidate = None
+    for acc in accounts:
+        if usage_counts[acc["email"]] == min_usage and min_usage < 4:
+            candidate = acc
+            break
+
+    if not candidate:
+        candidate = min(accounts, key=lambda a: usage_counts.get(a["email"], 0))
+
+    niche["assigned_gmail"] = candidate["email"]
+    niche["owner_profile"] = candidate["profile"]
+    niche["owner_label"] = candidate["label"]
+    return candidate
 
 def get_gemini_key_pool():
     keys = []
@@ -804,13 +846,19 @@ def ping_indexnow(host, url_list):
         print(f"IndexNow [{host}] Ping error: {e}")
         return False
 
-def deploy_niche_site(niche):
+def deploy_niche_site(niche, all_niches=None):
     slug = niche["slug"]
     name = niche["name"]
     live_url = f"https://{GH_USER}.github.io/{slug}/"
     site_dir = os.path.join(BASE_DIR, "output", slug)
     os.makedirs(site_dir, exist_ok=True)
     os.makedirs(os.path.join(site_dir, "data"), exist_ok=True)
+
+    # Automatically assign isolated Gmail owner if not already assigned
+    if not niche.get("assigned_gmail") and all_niches is not None:
+        owner = assign_next_gmail_owner(niche, all_niches)
+        if owner:
+            print(f"👤 Assigned Isolated Webmaster: {owner['label']} ({owner['email']}) [{owner['profile']}]")
 
     print(f"\n🚀 Deploying Site: {name} ({slug})...")
 
@@ -932,7 +980,7 @@ def main():
 
     deployed_count = 0
     for niche in to_deploy:
-        success = deploy_niche_site(niche)
+        success = deploy_niche_site(niche, niches)
         if success:
             deployed_count += 1
         time.sleep(4)
@@ -948,11 +996,12 @@ def main():
 Total Deployed: **{len(deployed_all)} / {len(niches)}**
 Last Run: `{datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")}`
 
-| Site Name | Niche Category | Live GitHub Pages URL | Repository | Deployed At |
-|---|---|---|---|---|
+| # | Site Name | Niche Category | Live GitHub Pages URL | Repository | Webmaster / Gmail Owner | Deployed At |
+|---|---|---|---|---|---|---|
 """
-    for d in deployed_all:
-        md += f"| **{d['name']}** | {d['category']} | [{d['live_url']}]({d['live_url']}) | [{d['slug']}](https://github.com/{GH_USER}/{d['slug']}) | {d['deployed_at'][:10]} |\n"
+    for idx, d in enumerate(deployed_all, 1):
+        owner_str = f"{d.get('owner_label', 'Admin')} (`{d.get('assigned_gmail', 'Partitioned')}`)" if d.get('assigned_gmail') else "Partitioned Webmaster"
+        md += f"| {idx} | **{d['name']}** | {d['category']} | [{d['live_url']}]({d['live_url']}) | [{d['slug']}](https://github.com/{GH_USER}/{d['slug']}) | {owner_str} | {d['deployed_at'][:10]} |\n"
 
     with open(PORTFOLIO_FILE, "w", encoding="utf-8") as f:
         f.write(md)
