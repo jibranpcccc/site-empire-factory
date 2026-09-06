@@ -117,7 +117,7 @@ def generate_site_gsc_token(slug, owner_email):
     token = hashlib.sha256(f"{slug}:{owner_email}:empire2026".encode("utf-8")).hexdigest()[:16]
     return f"google{token}.html", f"google-site-verification: google{token}.html\n"
 
-MAX_SITES_PER_RUN = 3
+MAX_SITES_PER_RUN = 10
 
 HOSTING_PLATFORMS = [
     {
