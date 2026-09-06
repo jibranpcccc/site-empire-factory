@@ -930,32 +930,38 @@ def deploy_to_vercel(site_dir, slug, live_url):
     """Deploys static site to Vercel production using Vercel CLI."""
     vc_cmd = shutil.which("vercel") or "vercel"
     print(f"▲ Deploying to Vercel via CLI ({vc_cmd})...")
+    cmd = [vc_cmd, "deploy", "--prod", "--yes"]
+    token = os.environ.get("VERCEL_TOKEN")
+    if token:
+        cmd.extend(["--token", token])
     try:
         res = subprocess.run(
-            [vc_cmd, "deploy", "--prod", "--yes"],
+            cmd,
             cwd=site_dir,
             capture_output=True,
             text=True,
             shell=(os.name == "nt"),
             timeout=180
         )
-        if res.returncode == 0:
+        if res.returncode == 0 or "Aliased" in res.stdout or "Production" in res.stdout or "Aliased" in res.stderr:
             print(f"✅ Vercel production deployment succeeded: {live_url}")
             return True
         else:
             print(f"⚠️ Vercel deployment notice (Code {res.returncode}): {res.stderr.strip() or res.stdout.strip()}")
-            if "Aliased" in res.stdout or "Production" in res.stdout or "Aliased" in res.stderr:
-                return True
-            return True
+            return False
     except Exception as e:
         print(f"⚠️ Vercel CLI execution error: {e}")
-        return True
+        return False
 
 def get_netlify_team_slug():
     """Detects Netlify account team slug from CLI."""
     net_cmd = shutil.which("netlify") or "netlify"
+    auth_token = os.environ.get("NETLIFY_AUTH_TOKEN")
+    cmd = [net_cmd, "api", "listAccountsForUser"]
+    if auth_token:
+        cmd.extend(["--auth", auth_token])
     try:
-        res = subprocess.run([net_cmd, "api", "listAccountsForUser"], capture_output=True, text=True, shell=(os.name == "nt"), timeout=15)
+        res = subprocess.run(cmd, capture_output=True, text=True, shell=(os.name == "nt"), timeout=15)
         if res.returncode == 0:
             accs = json.loads(res.stdout)
             if accs and isinstance(accs, list):
@@ -968,10 +974,14 @@ def deploy_to_netlify(site_dir, slug, live_url):
     """Deploys static site to Netlify production using Netlify CLI."""
     net_cmd = shutil.which("netlify") or "netlify"
     print(f"⬥ Deploying to Netlify via CLI ({net_cmd})...")
+    auth_token = os.environ.get("NETLIFY_AUTH_TOKEN")
     team_slug = get_netlify_team_slug()
     try:
         site_id = None
-        list_res = subprocess.run([net_cmd, "api", "listSites"], capture_output=True, text=True, shell=(os.name == "nt"), timeout=15)
+        list_cmd = [net_cmd, "api", "listSites"]
+        if auth_token:
+            list_cmd.extend(["--auth", auth_token])
+        list_res = subprocess.run(list_cmd, capture_output=True, text=True, shell=(os.name == "nt"), timeout=15)
         if list_res.returncode == 0:
             try:
                 sites = json.loads(list_res.stdout)
@@ -987,16 +997,19 @@ def deploy_to_netlify(site_dir, slug, live_url):
         else:
             cmd = [net_cmd, "deploy", "--create-site", slug, "--team", team_slug, "--prod", "--dir", "."]
 
+        if auth_token:
+            cmd.extend(["--auth", auth_token])
+
         res = subprocess.run(cmd, cwd=site_dir, capture_output=True, text=True, shell=(os.name == "nt"), timeout=180)
         if res.returncode == 0 or "Deploy is live!" in res.stdout or "Production deploy is live" in res.stdout:
             print(f"✅ Netlify production deployment succeeded: {live_url}")
             return True
         else:
             print(f"⚠️ Netlify deployment notice: {res.stderr.strip() or res.stdout.strip()}")
-            return True
+            return False
     except Exception as e:
         print(f"⚠️ Netlify CLI execution error: {e}")
-        return True
+        return False
 
 def deploy_niche_site(niche, all_niches=None, platform_override=None):
     slug = niche["slug"]
@@ -1113,11 +1126,25 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
     except Exception as e:
         print(f"Git push notice for {slug}: {e}")
 
-    # 6. Execute Platform-Specific Production Deployment
+    # 6. Execute Platform-Specific Production Deployment with Automatic GitHub Pages Fallback
     if platform_id == "vercel":
-        deploy_to_vercel(site_dir, slug, live_url)
+        v_ok = deploy_to_vercel(site_dir, slug, live_url)
+        if not v_ok:
+            print("🔄 Vercel notice: falling back to GitHub Pages for 100% guaranteed uptime...")
+            deploy_to_github_pages(slug, f"https://{GH_USER}.github.io/{slug}/")
+            niche["live_url"] = f"https://{GH_USER}.github.io/{slug}/"
+            niche["hosting_platform_name"] = "GitHub Pages"
+            hosting_domain = f"{GH_USER}.github.io"
+            live_url = niche["live_url"]
     elif platform_id == "netlify":
-        deploy_to_netlify(site_dir, slug, live_url)
+        n_ok = deploy_to_netlify(site_dir, slug, live_url)
+        if not n_ok:
+            print("🔄 Netlify notice: falling back to GitHub Pages for 100% guaranteed uptime...")
+            deploy_to_github_pages(slug, f"https://{GH_USER}.github.io/{slug}/")
+            niche["live_url"] = f"https://{GH_USER}.github.io/{slug}/"
+            niche["hosting_platform_name"] = "GitHub Pages"
+            hosting_domain = f"{GH_USER}.github.io"
+            live_url = niche["live_url"]
     else:  # github_pages
         deploy_to_github_pages(slug, live_url)
 
