@@ -1,0 +1,88 @@
+{
+  "total_verified_gmails": 16,
+  "status": "ALL_16_SESSIONS_VERIFIED_ACTIVE",
+  "max_sites_per_gmail": 4,
+  "total_empire_capacity": 64,
+  "accounts": [
+    {
+      "email": "doriancuquejo05@gmail.com",
+      "profile": "Profile 27",
+      "label": "Dorian Cuquejo"
+    },
+    {
+      "email": "teams.thefusionfeed@gmail.com",
+      "profile": "Profile 28",
+      "label": "Teams Fusion"
+    },
+    {
+      "email": "vickimarshall853@gmail.com",
+      "profile": "Profile 30",
+      "label": "Vicki Marshall"
+    },
+    {
+      "email": "janavajannimik@gmail.com",
+      "profile": "Profile 31",
+      "label": "Janava Jannimik"
+    },
+    {
+      "email": "gladystuckergmgd@gmail.com",
+      "profile": "Profile 32",
+      "label": "Gladys Tucker"
+    },
+    {
+      "email": "siopkbritneymasnbur@gmail.com",
+      "profile": "Profile 34",
+      "label": "Britney Masnbur"
+    },
+    {
+      "email": "christinapatelf@gmail.com",
+      "profile": "Profile 35",
+      "label": "Christina Patel"
+    },
+    {
+      "email": "mdrakibul90634@gmail.com",
+      "profile": "Profile 37",
+      "label": "Md Sagor"
+    },
+    {
+      "email": "henryjude262@gmail.com",
+      "profile": "Profile 41",
+      "label": "Jude Henry"
+    },
+    {
+      "email": "afolabi.081510@gmail.com",
+      "profile": "Profile 43",
+      "label": "Afolabi"
+    },
+    {
+      "email": "kerryvaquero@gmail.com",
+      "profile": "Profile 44",
+      "label": "Kerry Vaquero"
+    },
+    {
+      "email": "jestwanted@gmail.com",
+      "profile": "Profile 47",
+      "label": "Just Wanted"
+    },
+    {
+      "email": "kamrakhan351@gmail.com",
+      "profile": "Profile 50",
+      "label": "Kamra Khan"
+    },
+    {
+      "email": "reynoldsdcynthia@gmail.com",
+      "profile": "Profile 6",
+      "label": "Cynthia Reynolds"
+    },
+    {
+      "email": "rockb7004@gmail.com",
+      "profile": "Profile 65",
+      "label": "Rock Butt"
+    },
+    {
+      "email": "adamsokenneth08@gmail.com",
+      "profile": "Profile 9",
+      "label": "Kenneth Adams"
+    }
+  ]
+}
