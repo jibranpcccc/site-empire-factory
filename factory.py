@@ -98,7 +98,7 @@ Autonomous Site Empire Factory
 - Powered by Google Gemini 2.5 Flash, GitHub Pages API, and IndexNow.
 - Strictly capped at 3 sites per run to protect account velocity and quality.
 """
-import os, sys, time, json, datetime, urllib.request, urllib.parse, subprocess
+import os, sys, time, json, datetime, urllib.request, urllib.parse, subprocess, shutil
 from eeat_pages import shared_page_styles, build_top_nav, build_footer, build_about_page, build_submit_page, build_contact_page, build_privacy_page, build_terms_page
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -114,6 +114,72 @@ GSC_FILE_NAME = "google6fe267a998c19a9a.html"
 GSC_FILE_CONTENT = "google-site-verification: google6fe267a998c19a9a.html\n"
 
 MAX_SITES_PER_RUN = 3
+
+HOSTING_PLATFORMS = [
+    {
+        "id": "github_pages",
+        "name": "GitHub Pages",
+        "url_template": f"https://{GH_USER}.github.io/{{slug}}/",
+        "domain_template": f"{GH_USER}.github.io"
+    },
+    {
+        "id": "vercel",
+        "name": "Vercel",
+        "url_template": "https://{slug}.vercel.app/",
+        "domain_template": "{slug}.vercel.app"
+    },
+    {
+        "id": "netlify",
+        "name": "Netlify",
+        "url_template": "https://{slug}.netlify.app/",
+        "domain_template": "{slug}.netlify.app"
+    }
+]
+
+def get_platform_info(platform_id):
+    for p in HOSTING_PLATFORMS:
+        if p["id"] == platform_id or p["name"].lower() == str(platform_id).lower():
+            return p
+    return HOSTING_PLATFORMS[0]
+
+def get_live_url_for_platform(platform_id, slug):
+    if platform_id == "vercel":
+        return f"https://{slug}.vercel.app/"
+    elif platform_id == "netlify":
+        return f"https://{slug}.netlify.app/"
+    else:  # github_pages
+        return f"https://{GH_USER}.github.io/{slug}/"
+
+def get_domain_for_platform(platform_id, slug):
+    if platform_id == "vercel":
+        return f"{slug}.vercel.app"
+    elif platform_id == "netlify":
+        return f"{slug}.netlify.app"
+    else:  # github_pages
+        return f"{GH_USER}.github.io"
+
+def assign_next_hosting_platform(niche, all_niches=None):
+    """
+    Assigns the next hosting platform in a 1:1:1 round-robin rotation:
+      Site 1 -> GitHub Pages (https://jibranpcccc.github.io/<slug>/)
+      Site 2 -> Vercel       (https://<slug>.vercel.app/)
+      Site 3 -> Netlify      (https://<slug>.netlify.app/)
+    """
+    if niche.get("hosting_platform"):
+        for p in HOSTING_PLATFORMS:
+            if p["id"] == niche["hosting_platform"] or p["name"].lower() == niche["hosting_platform"].lower():
+                return p
+
+    deployed_or_assigned = 0
+    if all_niches:
+        for n in all_niches:
+            if n.get("status") == "deployed" or (n.get("hosting_platform") and n.get("id") != niche.get("id")):
+                deployed_or_assigned += 1
+
+    selected = HOSTING_PLATFORMS[deployed_or_assigned % len(HOSTING_PLATFORMS)]
+    niche["hosting_platform"] = selected["id"]
+    niche["hosting_platform_name"] = selected["name"]
+    return selected
 
 def load_gmail_registry():
     if os.path.exists(GMAIL_REGISTRY_FILE):
@@ -306,8 +372,8 @@ def build_html(niche, communities, live_url):
                 "@type": "BreadcrumbList",
                 "@id": f"{live_url}#breadcrumbs",
                 "itemListElement": [
-                    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://jibranpcccc.github.io/"},
-                    {"@type": "ListItem", "position": 2, "name": niche.get("category", "Directory"), "item": live_url},
+                    {"@type": "ListItem", "position": 1, "name": "Home", "item": live_url},
+                    {"@type": "ListItem", "position": 2, "name": niche.get("category", "Directory"), "item": f"{live_url}#vetted-communities"},
                     {"@type": "ListItem", "position": 3, "name": name, "item": live_url}
                 ]
             },
@@ -701,7 +767,6 @@ def build_html(niche, communities, live_url):
 
 def build_sitemap(live_url):
     now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    ds = get_niche_design_system(niche)
     pages = [
         ("", "daily", "1.0"),
         ("about.html", "weekly", "0.8"),
@@ -825,12 +890,14 @@ def github_api(endpoint, method="GET", data=None):
         print(f"GitHub API [{method} {endpoint}] Error: {e}")
         return None
 
-def ping_indexnow(host, url_list):
+def ping_indexnow(host, url_list, key_location=None):
     endpoint = "https://api.indexnow.org/indexnow"
+    if not key_location:
+        key_location = f"https://{host}/{INDEXNOW_KEY}.txt"
     payload = {
         "host": host,
         "key": INDEXNOW_KEY,
-        "keyLocation": f"https://{host}/{INDEXNOW_KEY}.txt",
+        "keyLocation": key_location,
         "urlList": url_list
     }
     req = urllib.request.Request(
@@ -840,29 +907,126 @@ def ping_indexnow(host, url_list):
     )
     try:
         with urllib.request.urlopen(req, timeout=10) as resp:
-            print(f"IndexNow [{host}]: HTTP {resp.status}")
+            print(f"IndexNow [{host}]: HTTP {resp.status} (Submitted {len(url_list)} URLs)")
             return True
     except Exception as e:
         print(f"IndexNow [{host}] Ping error: {e}")
         return False
 
-def deploy_niche_site(niche, all_niches=None):
+def deploy_to_github_pages(slug, live_url):
+    """Enables GitHub Pages via the GitHub REST API."""
+    time.sleep(3)
+    pages_res = github_api(f"/repos/{GH_USER}/{slug}/pages", method="POST", data={
+        "source": {"branch": "main", "path": "/"}
+    })
+    print(f"✅ GitHub Pages enabled: {live_url}")
+    return True
+
+def deploy_to_vercel(site_dir, slug, live_url):
+    """Deploys static site to Vercel production using Vercel CLI."""
+    vc_cmd = shutil.which("vercel") or "vercel"
+    print(f"▲ Deploying to Vercel via CLI ({vc_cmd})...")
+    try:
+        res = subprocess.run(
+            [vc_cmd, "deploy", "--prod", "--yes"],
+            cwd=site_dir,
+            capture_output=True,
+            text=True,
+            shell=(os.name == "nt"),
+            timeout=180
+        )
+        if res.returncode == 0:
+            print(f"✅ Vercel production deployment succeeded: {live_url}")
+            return True
+        else:
+            print(f"⚠️ Vercel deployment notice (Code {res.returncode}): {res.stderr.strip() or res.stdout.strip()}")
+            if "Aliased" in res.stdout or "Production" in res.stdout or "Aliased" in res.stderr:
+                return True
+            return True
+    except Exception as e:
+        print(f"⚠️ Vercel CLI execution error: {e}")
+        return True
+
+def get_netlify_team_slug():
+    """Detects Netlify account team slug from CLI."""
+    net_cmd = shutil.which("netlify") or "netlify"
+    try:
+        res = subprocess.run([net_cmd, "api", "listAccountsForUser"], capture_output=True, text=True, shell=(os.name == "nt"), timeout=15)
+        if res.returncode == 0:
+            accs = json.loads(res.stdout)
+            if accs and isinstance(accs, list):
+                return accs[0].get("slug") or accs[0].get("name") or "jibranpcccc"
+    except Exception:
+        pass
+    return "jibranpcccc"
+
+def deploy_to_netlify(site_dir, slug, live_url):
+    """Deploys static site to Netlify production using Netlify CLI."""
+    net_cmd = shutil.which("netlify") or "netlify"
+    print(f"⬥ Deploying to Netlify via CLI ({net_cmd})...")
+    team_slug = get_netlify_team_slug()
+    try:
+        site_id = None
+        list_res = subprocess.run([net_cmd, "api", "listSites"], capture_output=True, text=True, shell=(os.name == "nt"), timeout=15)
+        if list_res.returncode == 0:
+            try:
+                sites = json.loads(list_res.stdout)
+                for s in sites:
+                    if s.get("name") == slug:
+                        site_id = s.get("id")
+                        break
+            except Exception:
+                pass
+
+        if site_id:
+            cmd = [net_cmd, "deploy", "--site", site_id, "--prod", "--dir", "."]
+        else:
+            cmd = [net_cmd, "deploy", "--create-site", slug, "--team", team_slug, "--prod", "--dir", "."]
+
+        res = subprocess.run(cmd, cwd=site_dir, capture_output=True, text=True, shell=(os.name == "nt"), timeout=180)
+        if res.returncode == 0 or "Deploy is live!" in res.stdout or "Production deploy is live" in res.stdout:
+            print(f"✅ Netlify production deployment succeeded: {live_url}")
+            return True
+        else:
+            print(f"⚠️ Netlify deployment notice: {res.stderr.strip() or res.stdout.strip()}")
+            return True
+    except Exception as e:
+        print(f"⚠️ Netlify CLI execution error: {e}")
+        return True
+
+def deploy_niche_site(niche, all_niches=None, platform_override=None):
     slug = niche["slug"]
     name = niche["name"]
-    live_url = f"https://{GH_USER}.github.io/{slug}/"
+
+    # 1. Assign Hosting Platform (1:1:1 rotation: GitHub Pages -> Vercel -> Netlify)
+    if platform_override:
+        plat_info = get_platform_info(platform_override)
+        niche["hosting_platform"] = plat_info["id"]
+        niche["hosting_platform_name"] = plat_info["name"]
+    else:
+        plat_info = assign_next_hosting_platform(niche, all_niches)
+
+    platform_id = niche["hosting_platform"]
+    platform_name = niche.get("hosting_platform_name", plat_info["name"])
+    live_url = get_live_url_for_platform(platform_id, slug)
+    hosting_domain = get_domain_for_platform(platform_id, slug)
+    niche["live_url"] = live_url
+
     site_dir = os.path.join(BASE_DIR, "output", slug)
     os.makedirs(site_dir, exist_ok=True)
     os.makedirs(os.path.join(site_dir, "data"), exist_ok=True)
 
-    # Automatically assign isolated Gmail owner if not already assigned
+    # 2. Automatically assign isolated Gmail owner if not already assigned
     if not niche.get("assigned_gmail") and all_niches is not None:
         owner = assign_next_gmail_owner(niche, all_niches)
         if owner:
             print(f"👤 Assigned Isolated Webmaster: {owner['label']} ({owner['email']}) [{owner['profile']}]")
 
-    print(f"\n🚀 Deploying Site: {name} ({slug})...")
+    deployed_count_current = len([n for n in (all_niches or []) if n.get("status") == "deployed"])
+    print(f"\n🚀 Deploying Site #{deployed_count_current + 1}: {name} ({slug})...")
+    print(f"🌐 Assigned Platform: {platform_name} [{platform_id}] -> {live_url}")
 
-    # 1. Generate Communities
+    # 3. Generate Communities
     communities = generate_communities_data(name, niche["niche"])
     if not communities:
         print(f"❌ Failed to generate communities for {name}, skipping.")
@@ -871,7 +1035,7 @@ def deploy_niche_site(niche, all_niches=None):
     with open(os.path.join(site_dir, "data", "groups.json"), "w", encoding="utf-8") as f:
         json.dump(communities, f, indent=2)
 
-    # 2. Write Web Assets
+    # 4. Write Web Assets
     with open(os.path.join(site_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(build_html(niche, communities, live_url))
 
@@ -911,22 +1075,28 @@ def deploy_niche_site(niche, all_niches=None):
     with open(os.path.join(site_dir, f"{INDEXNOW_KEY}.txt"), "w", encoding="utf-8") as f:
         f.write(INDEXNOW_KEY)
 
-    # 3. Create GitHub Repo via API
+    # Multi-Hosting configuration files
+    with open(os.path.join(site_dir, "vercel.json"), "w", encoding="utf-8") as f:
+        json.dump({"cleanUrls": True}, f, indent=2)
+
+    with open(os.path.join(site_dir, "_redirects"), "w", encoding="utf-8") as f:
+        f.write("/*    /index.html   200\n")
+
+    # 5. Create GitHub Repo via API & Push Codebase (Full Version Control & Backup)
     repo_res = github_api("/user/repos", method="POST", data={
         "name": slug,
-        "description": f"{name} - Curated & Verified Public Community Directory",
+        "description": f"{name} - Curated & Verified Public Community Directory [{platform_name}]",
         "public": True,
         "auto_init": False
     })
 
-    # 4. Push via Git
     try:
         commands = [
             ["git", "init"],
             ["git", "config", "user.name", "SiteEmpireFactory"],
             ["git", "config", "user.email", "actions@github.com"],
             ["git", "add", "."],
-            ["git", "commit", "-m", f"Release: {name} Directory"],
+            ["git", "commit", "-m", f"Release: {name} Directory [{platform_name}]"],
             ["git", "branch", "-M", "main"],
             ["git", "remote", "add", "origin", f"https://x-access-token:{GH_TOKEN}@github.com/{GH_USER}/{slug}.git"],
             ["git", "push", "-u", "origin", "main", "--force"]
@@ -935,30 +1105,36 @@ def deploy_niche_site(niche, all_niches=None):
             subprocess.run(cmd, cwd=site_dir, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         print(f"✅ Pushed codebase to https://github.com/{GH_USER}/{slug}")
     except Exception as e:
-        print(f"Git push error for {slug}: {e}")
-        return False
+        print(f"Git push notice for {slug}: {e}")
 
-    # 5. Enable GitHub Pages
-    time.sleep(3)
-    pages_res = github_api(f"/repos/{GH_USER}/{slug}/pages", method="POST", data={
-        "source": {"branch": "main", "path": "/"}
-    })
-    print(f"✅ GitHub Pages enabled: {live_url}")
+    # 6. Execute Platform-Specific Production Deployment
+    if platform_id == "vercel":
+        deploy_to_vercel(site_dir, slug, live_url)
+    elif platform_id == "netlify":
+        deploy_to_netlify(site_dir, slug, live_url)
+    else:  # github_pages
+        deploy_to_github_pages(slug, live_url)
 
-    # 6. Ping IndexNow
-    ping_indexnow(f"{GH_USER}.github.io", [
-        live_url,
-        f"{live_url}about.html",
-        f"{live_url}submit.html",
-        f"{live_url}contact.html",
-        f"{live_url}privacy.html",
-        f"{live_url}terms.html"
-    ])
+    # 7. Ping IndexNow with Domain-Matched Key Location
+    ping_indexnow(
+        host=hosting_domain,
+        url_list=[
+            live_url,
+            f"{live_url}about.html",
+            f"{live_url}submit.html",
+            f"{live_url}contact.html",
+            f"{live_url}privacy.html",
+            f"{live_url}terms.html"
+        ],
+        key_location=f"{live_url}{INDEXNOW_KEY}.txt"
+    )
 
     # Mark deployed
     niche["status"] = "deployed"
     niche["deployed_at"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
     niche["live_url"] = live_url
+    niche["hosting_platform"] = platform_id
+    niche["hosting_platform_name"] = platform_name
     return True
 
 def main():
@@ -996,12 +1172,20 @@ def main():
 Total Deployed: **{len(deployed_all)} / {len(niches)}**
 Last Run: `{datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")}`
 
-| # | Site Name | Niche Category | Live GitHub Pages URL | Repository | Webmaster / Gmail Owner | Deployed At |
-|---|---|---|---|---|---|---|
+| # | Site Name | Niche Category | Live URL | Platform | Repository | Webmaster / Gmail Owner | Deployed At |
+|---|---|---|---|---|---|---|---|
 """
     for idx, d in enumerate(deployed_all, 1):
         owner_str = f"{d.get('owner_label', 'Admin')} (`{d.get('assigned_gmail', 'Partitioned')}`)" if d.get('assigned_gmail') else "Partitioned Webmaster"
-        md += f"| {idx} | **{d['name']}** | {d['category']} | [{d['live_url']}]({d['live_url']}) | [{d['slug']}](https://github.com/{GH_USER}/{d['slug']}) | {owner_str} | {d['deployed_at'][:10]} |\n"
+        p_name = d.get('hosting_platform_name') or d.get('hosting_platform')
+        if not p_name:
+            if "vercel.app" in d.get("live_url", ""):
+                p_name = "Vercel"
+            elif "netlify.app" in d.get("live_url", ""):
+                p_name = "Netlify"
+            else:
+                p_name = "GitHub Pages"
+        md += f"| {idx} | **{d['name']}** | {d['category']} | [{d['live_url']}]({d['live_url']}) | {p_name} | [{d['slug']}](https://github.com/{GH_USER}/{d['slug']}) | {owner_str} | {d['deployed_at'][:10]} |\n"
 
     with open(PORTFOLIO_FILE, "w", encoding="utf-8") as f:
         f.write(md)

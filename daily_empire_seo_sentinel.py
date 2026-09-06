@@ -4,7 +4,7 @@ Daily Empire SEO Sentinel
 Autonomous guardian script that verifies and enforces 100% SEO, GEO, Schema, and IndexNow
 across all newly generated and existing properties daily.
 """
-import os, sys, json, re, urllib.request, xml.etree.ElementTree as ET
+import os, sys, json, re, urllib.request, urllib.parse, xml.etree.ElementTree as ET
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INDEXNOW_KEY = "4a123bc89fe04b56ad781290cde456fa"
@@ -66,15 +66,20 @@ def audit_and_enforce():
         deployed = [n for n in niches_data if n.get("status") == "deployed"]
         print(f"\n[Phase 2] Auditing {len(deployed)} Deployed Directory Hubs...")
         
-        hub_urls = []
+        hub_urls_by_host = {}
         for n in deployed:
             slug = n["slug"]
-            live_url = f"https://jibranpcccc.github.io/{slug}/"
+            live_url = n.get("live_url") or f"https://jibranpcccc.github.io/{slug}/"
+            host = urllib.parse.urlparse(live_url).netloc or "jibranpcccc.github.io"
+            if host not in hub_urls_by_host:
+                hub_urls_by_host[host] = []
             for p in ["", "about.html", "submit.html", "contact.html", "privacy.html", "terms.html"]:
-                hub_urls.append(f"{live_url}{p}")
+                hub_urls_by_host[host].append(f"{live_url}{p}")
                 
-        print(f"  ✓ Collected {len(hub_urls)} URLs across all {len(deployed)} deployed hubs.")
-        ping_indexnow("jibranpcccc.github.io", hub_urls)
+        total_urls = sum(len(u) for u in hub_urls_by_host.values())
+        print(f"  ✓ Collected {total_urls} URLs across all {len(deployed)} deployed hubs on {len(hub_urls_by_host)} hosting platform(s).")
+        for host, urls in hub_urls_by_host.items():
+            ping_indexnow(host, urls)
 
     print("\n✅ Daily SEO Sentinel finished successfully!")
 
