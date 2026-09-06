@@ -406,8 +406,16 @@ def build_html(niche, communities, live_url):
                 "name": name,
                 "isPartOf": {"@id": f"{live_url}#website"},
                 "breadcrumb": {"@id": f"{live_url}#breadcrumbs"},
+                "speakable": {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [
+                        ".geo-answer-block h2",
+                        ".geo-answer-block p"
+                    ]
+                },
                 "mainEntity": {
                     "@type": "ItemList",
+                    "numberOfItems": len(item_elements),
                     "itemListElement": item_elements
                 }
             },
@@ -444,7 +452,7 @@ def build_html(niche, communities, live_url):
     }, indent=2)
 
     cards_html = ""
-    for c in communities:
+    for i, c in enumerate(communities):
         tags_html = "".join([f'<span class="tag">#{t}</span>' for t in c.get("tags", [])])
         plat = c.get("platform", "Community")
         m_count = c.get("memberCount", "Active")
@@ -616,10 +624,12 @@ def build_html(niche, communities, live_url):
         .card-footer {{ display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border); padding-top: 14px; }}
         .activity-pulse {{ font-size: 0.82rem; color: #10b981; display: flex; align-items: center; gap: 6px; }}
         .pulse-dot {{ width: 8px; height: 8px; border-radius: 50%; background: #10b981; box-shadow: 0 0 8px #10b981; }}
-        .btn-join {{ display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 8px 16px; border-radius: 6px; font-size: 0.88rem; font-weight: 600; transition: opacity 0.2s; }}
-        .btn-join:hover {{ opacity: 0.9; }}
+        .card {{ background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 22px; display: flex; flex-direction: column; transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease; }}
+        .card:hover {{ transform: translateY(-3px); border-color: var(--accent); box-shadow: 0 10px 25px -5px rgba(16, 185, 129, 0.18); }}
+        .btn-join {{ display: inline-flex; align-items: center; justify-content: center; background: var(--accent); color: #fff; text-decoration: none; padding: 10px 16px; border-radius: 6px; font-size: 0.88rem; font-weight: 600; min-height: 44px; transition: opacity 0.2s ease, transform 0.2s ease; }}
+        .btn-join:hover {{ opacity: 0.92; transform: translateY(-1px); }}
         .card-actions {{ display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }}
-        .btn-copy-invite {{ display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: rgba(255, 255, 255, 0.06); color: var(--muted); border: 1px solid var(--border); border-radius: 6px; padding: 7px 12px; font-size: 0.82rem; font-weight: 600; cursor: pointer; transition: all 0.2s; }}
+        .btn-copy-invite {{ display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: rgba(255, 255, 255, 0.06); color: var(--muted); border: 1px solid var(--border); border-radius: 6px; padding: 10px 14px; font-size: 0.84rem; font-weight: 600; cursor: pointer; min-height: 44px; transition: all 0.2s; }}
         .btn-copy-invite:hover {{ background: rgba(255, 255, 255, 0.12); color: #fff; border-color: var(--accent); }}
         .btn-copy-invite.copied {{ background: rgba(16, 185, 129, 0.2); color: #10b981; border-color: #10b981; }}
         
@@ -650,8 +660,18 @@ def build_html(niche, communities, live_url):
             .mobile-dock {{ display: flex; }}
             body {{ padding-bottom: 90px; }}
         }}
-        .dock-btn {{ flex: 1; padding: 10px; border-radius: 8px; background: var(--surface); border: 1px solid var(--border); color: #fff; font-weight: 600; font-size: 0.82rem; cursor: pointer; text-align: center; }}
+        .dock-btn {{ flex: 1; padding: 12px 10px; border-radius: 8px; background: var(--surface); border: 1px solid var(--border); color: #fff; font-weight: 600; font-size: 0.82rem; cursor: pointer; text-align: center; min-height: 44px; display: flex; align-items: center; justify-content: center; }}
         .dock-btn-accent {{ background: var(--accent); border-color: var(--accent); }}
+        
+        @media (max-width: 480px) {{
+            h1 {{ font-size: 1.8rem; }}
+            .nav-brand {{ font-size: 1rem; word-break: break-word; }}
+            .container {{ padding: 20px 14px; }}
+            .geo-answer-block {{ padding: 16px; }}
+            .card {{ padding: 16px; }}
+            .card-actions {{ width: 100%; display: flex; flex-direction: column; gap: 8px; }}
+            .card-actions .btn-copy-invite, .card-actions .btn-join {{ width: 100%; }}
+        }}
         
         footer {{ text-align: center; color: var(--muted); font-size: 0.85rem; padding: 40px 20px 0; border-top: 1px solid var(--border); margin-top: 50px; }}
     </style>
@@ -661,6 +681,12 @@ def build_html(niche, communities, live_url):
     <header>
         <h1>{name}</h1>
         <p class="subtitle">Explore vetted, high-quality public communities, groups, and forums. Updated regularly.</p>
+        <div class="stat-pills-row" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-top: 15px;">
+            <span class="stat-pill" style="background: rgba(16,185,129,0.12); border: 1px solid #10b981; padding: 6px 14px; border-radius: 20px; font-size: 0.82rem; color: #10b981;">📊 <strong>30+</strong> Verified Groups</span>
+            <span class="stat-pill" style="background: rgba(245,158,11,0.1); border: 1px solid var(--border); padding: 6px 14px; border-radius: 20px; font-size: 0.82rem; color: #f59e0b;">⚡ <strong>100%</strong> Free Access</span>
+            <span class="stat-pill" style="background: rgba(16,185,129,0.12); border: 1px solid #10b981; padding: 6px 14px; border-radius: 20px; font-size: 0.82rem; color: #10b981;">🛡️ <strong>Active</strong> Moderation</span>
+            <span class="stat-pill" style="background: rgba(255,255,255,0.06); border: 1px solid var(--border); padding: 6px 14px; border-radius: 20px; font-size: 0.82rem; color: var(--muted);">🔄 <strong>24h</strong> Liveness Sweeps</span>
+        </div>
     </header>
     <div class="container">
         <section id="geo-definition" class="geo-answer-block">
