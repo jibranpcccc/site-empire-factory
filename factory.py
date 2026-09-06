@@ -116,8 +116,12 @@ MAX_SITES_PER_RUN = 3
 
 def get_gemini_key_pool():
     keys = []
-    if os.environ.get("GEMINI_API_KEY"):
-        keys.append(os.environ["GEMINI_API_KEY"])
+    env_keys = os.environ.get("GEMINI_API_KEY", "")
+    if env_keys:
+        for k in env_keys.split(","):
+            k_clean = k.strip()
+            if k_clean:
+                keys.append(k_clean)
     pool_file = os.path.join(BASE_DIR, "gemini_master_pool.json")
     if os.path.exists(pool_file):
         try:
@@ -127,7 +131,6 @@ def get_gemini_key_pool():
                 keys.extend(pool.get("reserve_keys", []))
         except Exception:
             pass
-    keys.append("AIzaSyDXfpdoU3LuPfL-8p-R8kwXI3MkTpfQG08")
     # Preserve order while removing duplicates
     seen = set()
     return [k for k in keys if k and not (k in seen or seen.add(k))]
@@ -147,7 +150,10 @@ def call_gemini(prompt):
             req = urllib.request.Request(
                 url,
                 data=json.dumps(payload).encode("utf-8"),
-                headers={"Content-Type": "application/json"}
+                headers={
+                    "Content-Type": "application/json",
+                    "X-goog-api-key": key
+                }
             )
             try:
                 with urllib.request.urlopen(req, timeout=25) as res:
