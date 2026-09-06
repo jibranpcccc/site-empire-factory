@@ -124,6 +124,8 @@ INDEXNOW_KEY = "4a123bc89fe04b56ad781290cde456fa"
 
 def generate_site_gsc_token(slug, owner_email):
     """Generates an isolated, site-unique GSC verification token so no two sites ever share an identical hash."""
+    if not owner_email or "jibranpccc" in str(owner_email).lower():
+        raise ValueError(f"CRITICAL SECURITY VIOLATION: '{owner_email}' is strictly prohibited from site creation or ownership! Only isolated accounts from gmail_owners_registry.json are permitted.")
     import hashlib
     token = hashlib.sha256(f"{slug}:{owner_email}:empire2026".encode("utf-8")).hexdigest()[:16]
     return f"google{token}.html", f"google-site-verification: google{token}.html\n"
@@ -213,8 +215,10 @@ def assign_next_gmail_owner(niche, all_niches):
     Guarantees deterministic round-robin partition across all 16 accounts.
     """
     accounts = load_gmail_registry()
+    # Strictly filter out any blacklisted emails
+    accounts = [acc for acc in accounts if "jibranpccc" not in acc.get("email", "").lower()]
     if not accounts:
-        return None
+        raise ValueError("CRITICAL: No valid isolated Gmail accounts available in registry!")
 
     usage_counts = {acc["email"]: 0 for acc in accounts}
     for n in all_niches:
@@ -231,6 +235,9 @@ def assign_next_gmail_owner(niche, all_niches):
 
     if not candidate:
         candidate = min(accounts, key=lambda a: usage_counts.get(a["email"], 0))
+
+    if "jibranpccc" in str(candidate.get("email", "")).lower():
+        raise ValueError(f"CRITICAL: Prohibited email '{candidate.get('email')}' was selected! Aborting.")
 
     niche["assigned_gmail"] = candidate["email"]
     niche["owner_profile"] = candidate["profile"]
@@ -1097,6 +1104,8 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
 
     # Isolated Site-Specific GSC Verification File
     owner_email = niche.get("assigned_gmail") or "teams.thefusionfeed@gmail.com"
+    if "jibranpccc" in str(owner_email).lower():
+        raise ValueError(f"CRITICAL SECURITY VIOLATION: '{owner_email}' is strictly prohibited from site creation or ownership!")
     gsc_file_name, gsc_file_content = generate_site_gsc_token(slug, owner_email)
     with open(os.path.join(site_dir, gsc_file_name), "w", encoding="utf-8") as f:
         f.write(gsc_file_content)
