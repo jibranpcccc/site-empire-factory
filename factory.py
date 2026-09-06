@@ -469,7 +469,10 @@ def build_html(niche, communities, live_url):
             <div class="tags-row">{tags_html}</div>
             <div class="card-footer">
                 <span class="activity-pulse"><span class="pulse-dot"></span> Live Channel</span>
-                <a href="{c.get('joinUrl','#')}" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                <div class="card-actions">
+                    <button class="btn-copy-invite" onclick="copyInviteLink(event, '{c.get('joinUrl','#')}')">📋 Copy Invite</button>
+                    <a href="{c.get('joinUrl','#')}" target="_blank" rel="noopener noreferrer" class="btn-join">Join Community →</a>
+                </div>
             </div>
         </div>
         """
@@ -615,6 +618,10 @@ def build_html(niche, communities, live_url):
         .pulse-dot {{ width: 8px; height: 8px; border-radius: 50%; background: #10b981; box-shadow: 0 0 8px #10b981; }}
         .btn-join {{ display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 8px 16px; border-radius: 6px; font-size: 0.88rem; font-weight: 600; transition: opacity 0.2s; }}
         .btn-join:hover {{ opacity: 0.9; }}
+        .card-actions {{ display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }}
+        .btn-copy-invite {{ display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: rgba(255, 255, 255, 0.06); color: var(--muted); border: 1px solid var(--border); border-radius: 6px; padding: 7px 12px; font-size: 0.82rem; font-weight: 600; cursor: pointer; transition: all 0.2s; }}
+        .btn-copy-invite:hover {{ background: rgba(255, 255, 255, 0.12); color: #fff; border-color: var(--accent); }}
+        .btn-copy-invite.copied {{ background: rgba(16, 185, 129, 0.2); color: #10b981; border-color: #10b981; }}
         
         /* Top Navigation & Multi-Column Trust Footer */
         .top-nav {{ display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 20px 20px; border-bottom: 1px solid var(--border); }}
@@ -781,6 +788,49 @@ def build_html(niche, communities, live_url):
                 activePlatform = btn.dataset.platform;
                 filterCards();
             }});
+        }});
+
+        function copyInviteLink(event, url) {{
+            if (event && event.preventDefault) event.preventDefault();
+            if (event && event.stopPropagation) event.stopPropagation();
+            var targetUrl = url || (event && event.target ? event.target.getAttribute('data-url') : '');
+            var btn = event ? (event.currentTarget || event.target) : null;
+            if (btn && btn.closest) {{
+                btn = btn.closest('.btn-copy-invite') || btn;
+            }}
+            if (!targetUrl || targetUrl === '#') return;
+            if (navigator.clipboard && navigator.clipboard.writeText) {{
+                navigator.clipboard.writeText(targetUrl).then(function() {{
+                    if (btn) {{
+                        var origHtml = btn.innerHTML;
+                        btn.innerHTML = '<span>✓ Copied!</span>';
+                        btn.classList.add('copied');
+                        setTimeout(function() {{
+                            btn.innerHTML = origHtml;
+                            btn.classList.remove('copied');
+                        }}, 2000);
+                    }}
+                }}).catch(function() {{
+                    window.open(targetUrl, '_blank');
+                }});
+            }} else {{
+                window.open(targetUrl, '_blank');
+            }}
+        }}
+
+        // Power-User Keyboard Shortcut: Press '/' to Focus Search, 'Escape' to Clear
+        document.addEventListener('keydown', function(e) {{
+            var searchEl = document.getElementById('searchInput') || document.getElementById('community-search');
+            if (!searchEl) return;
+            if (e.key === '/' && document.activeElement !== searchEl) {{
+                e.preventDefault();
+                searchEl.focus();
+                searchEl.select();
+            }} else if (e.key === 'Escape' && document.activeElement === searchEl) {{
+                searchEl.value = '';
+                if (typeof filterCards === 'function') filterCards();
+                searchEl.blur();
+            }}
         }});
     </script>
 </body>
