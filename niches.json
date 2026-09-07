@@ -468,9 +468,14 @@
     "niche": "Spotify podcasts, audio production, sponsorship pitching",
     "category": "Creator Economy",
     "accent": "#9333ea",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-07T12:10:34.809286+00:00",
+    "live_url": "https://jibranpcccc.github.io/podcasting-creator-economy-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "rockb7004@gmail.com",
+    "owner_profile": "Profile 65",
+    "owner_label": "Rock Butt"
   },
   {
     "id": "digital-products-notion-hub",
@@ -479,9 +484,14 @@
     "niche": "Gumroad sellers, Notion creators, printable planners, Stan store",
     "category": "Digital Products",
     "accent": "#14b8a6",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-07T12:11:05.042225+00:00",
+    "live_url": "https://digital-products-notion-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "adamsokenneth08@gmail.com",
+    "owner_profile": "Profile 9",
+    "owner_label": "Kenneth Adams"
   },
   {
     "id": "saas-marketing-b2b-hub",
@@ -490,9 +500,14 @@
     "niche": "product-led growth, churn reduction, LinkedIn outbound, ARR milestones",
     "category": "SaaS Marketing",
     "accent": "#0284c7",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-07T12:13:15.652538+00:00",
+    "live_url": "https://saas-marketing-b2b-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "doriancuquejo05@gmail.com",
+    "owner_profile": "Profile 27",
+    "owner_label": "Dorian Cuquejo"
   },
   {
     "id": "study-in-germany-daadvise-hub",
@@ -501,9 +516,14 @@
     "niche": "Uni-Assist, APS certificate, blocked accounts, public German universities",
     "category": "Study Abroad",
     "accent": "#f59e0b",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-07T12:14:48.987683+00:00",
+    "live_url": "https://jibranpcccc.github.io/study-in-germany-daadvise-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "teams.thefusionfeed@gmail.com",
+    "owner_profile": "Profile 28",
+    "owner_label": "Teams Fusion"
   },
   {
     "id": "usmle-medical-residency-hub",
@@ -512,9 +532,14 @@
     "niche": "Step 1, Step 2 CK prep, clinical electives, residency match",
     "category": "Medical Education",
     "accent": "#0284c7",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-07T12:16:16.925688+00:00",
+    "live_url": "https://usmle-medical-residency-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "vickimarshall853@gmail.com",
+    "owner_profile": "Profile 30",
+    "owner_label": "Vicki Marshall"
   },
   {
     "id": "ielts-toefl-band8-hub",
@@ -523,9 +548,14 @@
     "niche": "speaking mock tests, writing templates, vocabulary flashcards",
     "category": "Test Prep",
     "accent": "#10b981",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-07T12:16:58.061697+00:00",
+    "live_url": "https://ielts-toefl-band8-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "janavajannimik@gmail.com",
+    "owner_profile": "Profile 31",
+    "owner_label": "Janava Jannimik"
   },
   {
     "id": "phd-fellowships-research-hub",
@@ -534,9 +564,14 @@
     "niche": "NSF grants, Marie Curie fellowships, academic publishing, lab funding",
     "category": "Higher Education",
     "accent": "#6366f1",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-07T12:17:28.982234+00:00",
+    "live_url": "https://jibranpcccc.github.io/phd-fellowships-research-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "gladystuckergmgd@gmail.com",
+    "owner_profile": "Profile 32",
+    "owner_label": "Gladys Tucker"
   },
   {
     "id": "study-in-canada-pgwp-hub",
@@ -545,9 +580,14 @@
     "niche": "Express Entry, post-grad work permits, college admissions Canada",
     "category": "Study Abroad",
     "accent": "#ef4444",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-07T12:17:58.858439+00:00",
+    "live_url": "https://study-in-canada-pgwp-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "siopkbritneymasnbur@gmail.com",
+    "owner_profile": "Profile 34",
+    "owner_label": "Britney Masnbur"
   },
   {
     "id": "law-school-bar-exam-hub",
@@ -556,9 +596,14 @@
     "niche": "UBE bar prep, LSAT study groups, contract law outlines",
     "category": "Legal Education",
     "accent": "#475569",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-07T12:19:13.233847+00:00",
+    "live_url": "https://law-school-bar-exam-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "christinapatelf@gmail.com",
+    "owner_profile": "Profile 35",
+    "owner_label": "Christina Patel"
   },
   {
     "id": "aviation-pilot-cadet-hub",
@@ -567,9 +612,14 @@
     "niche": "flight school, ATPL exams, FAA commercial license, simulator training",
     "category": "Aviation",
     "accent": "#0ea5e9",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-07T12:20:56.236599+00:00",
+    "live_url": "https://jibranpcccc.github.io/aviation-pilot-cadet-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "mdrakibul90634@gmail.com",
+    "owner_profile": "Profile 37",
+    "owner_label": "Md Sagor"
   },
   {
     "id": "architecture-design-masters-hub",

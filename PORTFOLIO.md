@@ -1,7 +1,7 @@
 # Autonomous Site Empire Portfolio
 
-Total Deployed: **30 / 158**
-Last Run: `2026-09-07 06:13:21 UTC`
+Total Deployed: **40 / 158**
+Last Run: `2026-09-07 12:21:00 UTC`
 
 | # | Site Name | Niche Category | Live URL | Platform | Repository | Webmaster / Gmail Owner | Deployed At |
 |---|---|---|---|---|---|---|---|
@@ -35,3 +35,13 @@ Last Run: `2026-09-07 06:13:21 UTC`
 | 28 | **High-Ticket Copywriting & Sales Letters Hub** | Copywriting | [https://jibranpcccc.github.io/copywriting-high-ticket-hub/](https://jibranpcccc.github.io/copywriting-high-ticket-hub/) | GitHub Pages | [copywriting-high-ticket-hub](https://github.com/jibranpcccc/copywriting-high-ticket-hub) | Just Wanted (`jestwanted@gmail.com`) | 2026-09-07 |
 | 29 | **SMMA & Cold Outreach Agency Hub** | Agency Business | [https://smma-agency-founders-hub.vercel.app/](https://smma-agency-founders-hub.vercel.app/) | Vercel | [smma-agency-founders-hub](https://github.com/jibranpcccc/smma-agency-founders-hub) | Kamra Khan (`kamrakhan351@gmail.com`) | 2026-09-07 |
 | 30 | **Faceless YouTube & Video AI Hub** | Content Creation | [https://youtube-automation-creators-hub.netlify.app/](https://youtube-automation-creators-hub.netlify.app/) | Netlify | [youtube-automation-creators-hub](https://github.com/jibranpcccc/youtube-automation-creators-hub) | Cynthia Reynolds (`reynoldsdcynthia@gmail.com`) | 2026-09-07 |
+| 31 | **Podcasting & Audio Monetization Hub** | Creator Economy | [https://jibranpcccc.github.io/podcasting-creator-economy-hub/](https://jibranpcccc.github.io/podcasting-creator-economy-hub/) | GitHub Pages | [podcasting-creator-economy-hub](https://github.com/jibranpcccc/podcasting-creator-economy-hub) | Rock Butt (`rockb7004@gmail.com`) | 2026-09-07 |
+| 32 | **Digital Products & Notion Template Hub** | Digital Products | [https://digital-products-notion-hub.vercel.app/](https://digital-products-notion-hub.vercel.app/) | Vercel | [digital-products-notion-hub](https://github.com/jibranpcccc/digital-products-notion-hub) | Kenneth Adams (`adamsokenneth08@gmail.com`) | 2026-09-07 |
+| 33 | **B2B SaaS Growth & PLG Marketing Hub** | SaaS Marketing | [https://saas-marketing-b2b-hub.netlify.app/](https://saas-marketing-b2b-hub.netlify.app/) | Netlify | [saas-marketing-b2b-hub](https://github.com/jibranpcccc/saas-marketing-b2b-hub) | Dorian Cuquejo (`doriancuquejo05@gmail.com`) | 2026-09-07 |
+| 34 | **Study in Germany & DAAD Scholars Hub** | Study Abroad | [https://jibranpcccc.github.io/study-in-germany-daadvise-hub/](https://jibranpcccc.github.io/study-in-germany-daadvise-hub/) | GitHub Pages | [study-in-germany-daadvise-hub](https://github.com/jibranpcccc/study-in-germany-daadvise-hub) | Teams Fusion (`teams.thefusionfeed@gmail.com`) | 2026-09-07 |
+| 35 | **USMLE & International Medical Grads Hub** | Medical Education | [https://usmle-medical-residency-hub.vercel.app/](https://usmle-medical-residency-hub.vercel.app/) | Vercel | [usmle-medical-residency-hub](https://github.com/jibranpcccc/usmle-medical-residency-hub) | Vicki Marshall (`vickimarshall853@gmail.com`) | 2026-09-07 |
+| 36 | **IELTS & GRE Band 8 Masterclass Hub** | Test Prep | [https://ielts-toefl-band8-hub.netlify.app/](https://ielts-toefl-band8-hub.netlify.app/) | Netlify | [ielts-toefl-band8-hub](https://github.com/jibranpcccc/ielts-toefl-band8-hub) | Janava Jannimik (`janavajannimik@gmail.com`) | 2026-09-07 |
+| 37 | **PhD Fellowships & Postdoc Research Hub** | Higher Education | [https://jibranpcccc.github.io/phd-fellowships-research-hub/](https://jibranpcccc.github.io/phd-fellowships-research-hub/) | GitHub Pages | [phd-fellowships-research-hub](https://github.com/jibranpcccc/phd-fellowships-research-hub) | Gladys Tucker (`gladystuckergmgd@gmail.com`) | 2026-09-07 |
+| 38 | **Study in Canada & PGWP Student Hub** | Study Abroad | [https://study-in-canada-pgwp-hub.vercel.app/](https://study-in-canada-pgwp-hub.vercel.app/) | Vercel | [study-in-canada-pgwp-hub](https://github.com/jibranpcccc/study-in-canada-pgwp-hub) | Britney Masnbur (`siopkbritneymasnbur@gmail.com`) | 2026-09-07 |
+| 39 | **Law Students & Bar Exam Mastery Hub** | Legal Education | [https://law-school-bar-exam-hub.netlify.app/](https://law-school-bar-exam-hub.netlify.app/) | Netlify | [law-school-bar-exam-hub](https://github.com/jibranpcccc/law-school-bar-exam-hub) | Christina Patel (`christinapatelf@gmail.com`) | 2026-09-07 |
+| 40 | **Aviation Students & Pilot Cadets Hub** | Aviation | [https://jibranpcccc.github.io/aviation-pilot-cadet-hub/](https://jibranpcccc.github.io/aviation-pilot-cadet-hub/) | GitHub Pages | [aviation-pilot-cadet-hub](https://github.com/jibranpcccc/aviation-pilot-cadet-hub) | Md Sagor (`mdrakibul90634@gmail.com`) | 2026-09-07 |
