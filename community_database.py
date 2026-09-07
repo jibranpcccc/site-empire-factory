@@ -7,6 +7,8 @@ Permanently bans synthetic hallucinated URLs (e.g. telegram.com/community/..., d
 and provides 100% verified, real, active public community URLs across Reddit, Discord, Telegram, and Forums/GitHub.
 """
 
+import os
+import json
 import re
 import copy
 
@@ -2920,8 +2922,29 @@ VERIFIED_COMMUNITIES_DATABASE = {
     ]
 }
 
+# Automatically load additional verified niche communities from data/niche_communities_database.json
+_niche_db_path = os.path.join(os.path.dirname(__file__), "data", "niche_communities_database.json")
+if os.path.exists(_niche_db_path):
+    try:
+        with open(_niche_db_path, "r", encoding="utf-8") as _f:
+            _extra_cats = json.load(_f)
+            if isinstance(_extra_cats, dict):
+                VERIFIED_COMMUNITIES_DATABASE.update(_extra_cats)
+    except Exception as _e:
+        pass
+
 # Related category fallbacks for rich 30-community generation
 RELATED_CATEGORIES = {
+    "solana_memecoins": ["crypto_airdrops", "crypto_web3", "finance_investing"],
+    "offshore_tax": ["finance_investing", "real_estate", "remote_work_careers"],
+    "crypto_airdrops": ["solana_memecoins", "crypto_web3", "finance_investing"],
+    "ecommerce_fba": ["shopify_dropshipping", "ecommerce_deals", "marketing_growth"],
+    "shopify_dropshipping": ["ecommerce_fba", "ecommerce_deals", "marketing_growth"],
+    "affiliate_marketing": ["seo_growth", "copywriting", "marketing_growth"],
+    "seo_growth": ["affiliate_marketing", "copywriting", "marketing_growth"],
+    "copywriting": ["marketing_growth", "smma_agency", "affiliate_marketing"],
+    "smma_agency": ["copywriting", "marketing_growth", "remote_work_careers"],
+    "youtube_automation": ["marketing_growth", "affiliate_marketing", "gaming_3d"],
     "coding": ["cloud_devops", "ai", "cybersecurity", "general_tech"],
     "ai": ["coding", "cloud_devops", "general_tech"],
     "cybersecurity": ["cloud_devops", "coding", "general_tech"],
@@ -2964,6 +2987,28 @@ def is_fake_or_synthetic_url(url: str) -> bool:
 def find_matching_category(niche_name: str, niche_topics: str) -> str:
     """Finds the most relevant verified community category based on keywords."""
     combined = f"{niche_name} {niche_topics}".lower()
+
+    # Precision niche mappings
+    if any(k in combined for k in ["solana", "memecoin", "pumpfun", "raydium", "jupiter"]):
+        return "solana_memecoins"
+    if any(k in combined for k in ["offshore", "expat tax", "tax strateg", "residency", "second passport"]):
+        return "offshore_tax"
+    if any(k in combined for k in ["airdrop", "testnet", "faucet", "retroactive"]):
+        return "crypto_airdrops"
+    if any(k in combined for k in ["amazon fba", "private label", "fba seller", "amazon seller"]):
+        return "ecommerce_fba"
+    if any(k in combined for k in ["shopify", "dropshipping", "winning product"]):
+        return "shopify_dropshipping"
+    if any(k in combined for k in ["affiliate", "cpa marketing", "commission", "clickbank"]):
+        return "affiliate_marketing"
+    if any(k in combined for k in ["seo growth", "technical seo", "backlink", "rank track"]):
+        return "seo_growth"
+    if any(k in combined for k in ["copywriting", "high ticket sales", "email copy", "sales letter"]):
+        return "copywriting"
+    if any(k in combined for k in ["smma", "agency founder", "client acquisition", "retainer"]):
+        return "smma_agency"
+    if any(k in combined for k in ["youtube", "faceless", "cash cow", "video ai"]):
+        return "youtube_automation"
 
     if any(k in combined for k in ["ai", "gpt", "llm", "midjourney", "stable diffusion", "machine learning", "prompt", "diffusion", "neural", "pytorch", "hugging face", "vision"]):
         return "ai"
