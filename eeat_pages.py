@@ -369,7 +369,7 @@ def build_submit_page(niche, live_url):
                 </div>
                 <div class="form-group">
                     <label for="adminEmail">Admin / Contact Email (Optional)</label>
-                    <input type="email" id="adminEmail" class="form-control" placeholder="admin@example.com (used only for verification updates)">
+                    <input type="email" id="adminEmail" class="form-control" placeholder="admin@communitydirectory.org (used only for verification updates)">
                 </div>
                 <button type="submit" class="btn-submit">Submit Community for Verification →</button>
             </form>
@@ -476,7 +476,7 @@ def build_contact_page(niche, live_url):
                 </div>
                 <div class="form-group">
                     <label for="cEmail">Your Email *</label>
-                    <input type="email" id="cEmail" class="form-control" placeholder="alex@example.com" required>
+                    <input type="email" id="cEmail" class="form-control" placeholder="contact@communitydirectory.org" required>
                 </div>
                 <div class="form-group">
                     <label for="cSubject">Subject *</label>
