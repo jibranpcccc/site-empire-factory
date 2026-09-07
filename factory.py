@@ -1060,7 +1060,7 @@ def deploy_to_vercel(site_dir, slug, live_url):
     """Deploys static site to Vercel production using Vercel CLI."""
     vc_cmd = shutil.which("vercel") or "vercel"
     print(f"▲ Deploying to Vercel via CLI ({vc_cmd})...")
-    cmd = [vc_cmd, "deploy", "--prod", "--yes"]
+    cmd = [vc_cmd, "deploy", "--prod", "--yes", "--no-wait"]
     token = os.environ.get("VERCEL_TOKEN")
     if token:
         cmd.extend(["--token", token])
