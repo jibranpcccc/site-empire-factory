@@ -26,7 +26,7 @@ def ping_indexnow(host, url_list):
     payload = {
         "host": host,
         "key": INDEXNOW_KEY,
-        "keyLocation": INDEXNOW_KEY_LOCATION,
+        "keyLocation": f"https://{host}/{INDEXNOW_KEY}.txt",
         "urlList": url_list
     }
     req = urllib.request.Request(
