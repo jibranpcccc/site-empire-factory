@@ -788,9 +788,14 @@
     "niche": "leaderboard submissions, skip discoveries, memory manipulation",
     "category": "Speedrunning",
     "accent": "#3b82f6",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T11:01:29.123565+00:00",
+    "live_url": "https://speedrunning-glitches-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "vickimarshall853@gmail.com",
+    "owner_profile": "Profile 30",
+    "owner_label": "Vicki Marshall"
   },
   {
     "id": "cs2-lineups-premier-hub",
@@ -799,9 +804,14 @@
     "niche": "Faceit level 10 teams, utility lineups, skin trading, demo reviews",
     "category": "Esports",
     "accent": "#d97706",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T11:02:05.369737+00:00",
+    "live_url": "https://jibranpcccc.github.io/cs2-lineups-premier-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "janavajannimik@gmail.com",
+    "owner_profile": "Profile 31",
+    "owner_label": "Janava Jannimik"
   },
   {
     "id": "vr-gaming-meta-quest-hub",
@@ -810,9 +820,14 @@
     "niche": "SideQuest sideloading, PCVR setups, VR esports",
     "category": "Virtual Reality",
     "accent": "#6366f1",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T11:04:19.896390+00:00",
+    "live_url": "https://vr-gaming-meta-quest-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "gladystuckergmgd@gmail.com",
+    "owner_profile": "Profile 32",
+    "owner_label": "Gladys Tucker"
   },
   {
     "id": "travel-hacking-points-hub",
@@ -821,9 +836,14 @@
     "niche": "Amex points, Chase Sapphire, mistake fares, first class redemptions",
     "category": "Travel",
     "accent": "#0ea5e9",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T11:05:04.949112+00:00",
+    "live_url": "https://travel-hacking-points-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "siopkbritneymasnbur@gmail.com",
+    "owner_profile": "Profile 34",
+    "owner_label": "Britney Masnbur"
   },
   {
     "id": "biohacking-longevity-hub",
@@ -832,9 +852,14 @@
     "niche": "sleep tracking, NMN, cold plunge, Bryan Johnson protocol, fasting",
     "category": "Health & Longevity",
     "accent": "#10b981",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T11:05:39.993108+00:00",
+    "live_url": "https://jibranpcccc.github.io/biohacking-longevity-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "christinapatelf@gmail.com",
+    "owner_profile": "Profile 35",
+    "owner_label": "Christina Patel"
   },
   {
     "id": "calisthenics-street-workout-hub",
@@ -843,9 +868,14 @@
     "niche": "muscle-up tutorials, handstand balance, weighted pullups, street workout",
     "category": "Fitness",
     "accent": "#f97316",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T11:07:45.499930+00:00",
+    "live_url": "https://calisthenics-street-workout-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "mdrakibul90634@gmail.com",
+    "owner_profile": "Profile 37",
+    "owner_label": "Md Sagor"
   },
   {
     "id": "minimalist-slow-living-hub",
@@ -854,9 +884,14 @@
     "niche": "capsule wardrobe, decluttering, intentional living, off-grid cabins",
     "category": "Lifestyle",
     "accent": "#059669",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T11:08:28.379321+00:00",
+    "live_url": "https://minimalist-slow-living-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "henryjude262@gmail.com",
+    "owner_profile": "Profile 41",
+    "owner_label": "Jude Henry"
   },
   {
     "id": "language-exchange-polyglot-hub",
@@ -865,9 +900,14 @@
     "niche": "Spanish practice, Japanese conversation, Tandem calls, CEFR milestones",
     "category": "Languages",
     "accent": "#8b5cf6",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T11:10:02.036400+00:00",
+    "live_url": "https://jibranpcccc.github.io/language-exchange-polyglot-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "afolabi.081510@gmail.com",
+    "owner_profile": "Profile 43",
+    "owner_label": "Afolabi"
   },
   {
     "id": "remote-vanlife-overlanding-hub",
@@ -876,9 +916,14 @@
     "niche": "Sprinter conversions, Starlink mobile, wild camping, solar setups",
     "category": "Outdoor Life",
     "accent": "#b45309",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T11:10:35.995339+00:00",
+    "live_url": "https://remote-vanlife-overlanding-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "kerryvaquero@gmail.com",
+    "owner_profile": "Profile 44",
+    "owner_label": "Kerry Vaquero"
   },
   {
     "id": "book-clubs-readers-lounge-hub",
@@ -887,9 +932,14 @@
     "niche": "non-fiction literature, sci-fi reads, Goodreads challenges, philosophy",
     "category": "Literature",
     "accent": "#7c2d12",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T11:12:21.523126+00:00",
+    "live_url": "https://book-clubs-readers-lounge-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "jestwanted@gmail.com",
+    "owner_profile": "Profile 47",
+    "owner_label": "Just Wanted"
   },
   {
     "id": "stoicism-ancient-philosophy-hub",
