@@ -98,7 +98,7 @@ Autonomous Site Empire Factory
 - Powered by Google Gemini 2.5 Flash, GitHub Pages API, and IndexNow.
 - Strictly capped at 3 sites per run to protect account velocity and quality.
 """
-import os, sys, time, json, datetime, urllib.request, urllib.parse, subprocess, shutil
+import os, sys, time, json, datetime, urllib.request, urllib.parse, subprocess, shutil, xmlrpc.client
 from eeat_pages import shared_page_styles, build_top_nav, build_footer, build_about_page, build_submit_page, build_contact_page, build_privacy_page, build_terms_page
 from community_database import (
     VERIFIED_COMMUNITIES_DATABASE,
@@ -1067,7 +1067,10 @@ def github_api(endpoint, method="GET", data=None):
         return None
 
 def ping_indexnow(host, url_list, key_location=None):
-    endpoint = "https://api.indexnow.org/indexnow"
+    endpoints = [
+        "https://api.indexnow.org/indexnow",
+        "https://www.bing.com/indexnow"
+    ]
     if not key_location:
         key_location = f"https://{host}/{INDEXNOW_KEY}.txt"
     payload = {
@@ -1076,18 +1079,51 @@ def ping_indexnow(host, url_list, key_location=None):
         "keyLocation": key_location,
         "urlList": url_list
     }
-    req = urllib.request.Request(
-        endpoint,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json; charset=utf-8"}
-    )
+    for endpoint in endpoints:
+        req = urllib.request.Request(
+            endpoint,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json; charset=utf-8", "User-Agent": "SiteEmpireFactory"}
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                print(f"IndexNow [{endpoint} -> {host}]: HTTP {resp.status} (Submitted {len(url_list)} URLs)")
+        except Exception as e:
+            print(f"IndexNow [{endpoint} -> {host}] Ping notice: {e}")
+
+def ping_google_websub(rss_url):
+    """Priority alert to Googlebot via official Google WebSub (PubSubHubbub)."""
     try:
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            print(f"IndexNow [{host}]: HTTP {resp.status} (Submitted {len(url_list)} URLs)")
+        data = urllib.parse.urlencode({
+            "hub.mode": "publish",
+            "hub.url": rss_url
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            "https://pubsubhubbub.appspot.com/",
+            data=data,
+            headers={"Content-Type": "application/x-www-form-urlencoded", "User-Agent": "Mozilla/5.0"}
+        )
+        with urllib.request.urlopen(req, timeout=10) as res:
+            print(f"Google WebSub [{rss_url}]: HTTP {res.status} (Googlebot notified)")
             return True
     except Exception as e:
-        print(f"IndexNow [{host}] Ping error: {e}")
+        print(f"Google WebSub notice for {rss_url}: {e}")
         return False
+
+def ping_xmlrpc(title, url):
+    """Pings global blog search engines (Blo.gs, Twingly)."""
+    try:
+        b_srv = xmlrpc.client.ServerProxy("http://ping.blo.gs/")
+        b_res = b_srv.weblogUpdates.ping(title, url)
+        print(f"Blo.gs XML-RPC [{title}]: {b_res.get('message', 'OK')}")
+    except Exception:
+        pass
+    try:
+        t_srv = xmlrpc.client.ServerProxy("http://rpc.twingly.com/")
+        t_res = t_srv.weblogUpdates.ping(title, url)
+        print(f"Twingly XML-RPC [{title}]: {t_res.get('message', 'OK')}")
+    except Exception:
+        pass
 
 def deploy_to_github_pages(slug, live_url):
     """Enables GitHub Pages via the GitHub REST API."""
@@ -1325,19 +1361,30 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
     else:  # github_pages
         deploy_to_github_pages(slug, live_url)
 
-    # 7. Ping IndexNow with Domain-Matched Key Location
+    # 7. Set DA 96 GitHub Repository Homepage Backlink
+    github_api(f"/repos/{GH_USER}/{slug}", method="PATCH", data={
+        "homepage": live_url,
+        "description": f"{name} - Curated & Verified Public Community Directory [{platform_name}]"
+    })
+
+    # 8. Ping Multi-Protocol IndexNow (Central IndexNow & Microsoft Bing)
+    core_urls = [
+        live_url,
+        f"{live_url}about.html",
+        f"{live_url}submit.html",
+        f"{live_url}contact.html",
+        f"{live_url}privacy.html",
+        f"{live_url}terms.html"
+    ]
     ping_indexnow(
         host=hosting_domain,
-        url_list=[
-            live_url,
-            f"{live_url}about.html",
-            f"{live_url}submit.html",
-            f"{live_url}contact.html",
-            f"{live_url}privacy.html",
-            f"{live_url}terms.html"
-        ],
+        url_list=core_urls,
         key_location=f"{live_url}{INDEXNOW_KEY}.txt"
     )
+
+    # 9. Priority Googlebot Alert via Google WebSub (PubSubHubbub) & XML-RPC Spiders
+    ping_google_websub(f"{live_url}feed.xml")
+    ping_xmlrpc(name, live_url)
 
     # Mark deployed
     niche["status"] = "deployed"
