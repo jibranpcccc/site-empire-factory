@@ -1,7 +1,7 @@
 # Autonomous Site Empire Portfolio
 
-Total Deployed: **40 / 158**
-Last Run: `2026-09-07 12:21:00 UTC`
+Total Deployed: **50 / 158**
+Last Run: `2026-09-08 06:47:44 UTC`
 
 | # | Site Name | Niche Category | Live URL | Platform | Repository | Webmaster / Gmail Owner | Deployed At |
 |---|---|---|---|---|---|---|---|
@@ -45,3 +45,13 @@ Last Run: `2026-09-07 12:21:00 UTC`
 | 38 | **Study in Canada & PGWP Student Hub** | Study Abroad | [https://study-in-canada-pgwp-hub.vercel.app/](https://study-in-canada-pgwp-hub.vercel.app/) | Vercel | [study-in-canada-pgwp-hub](https://github.com/jibranpcccc/study-in-canada-pgwp-hub) | Britney Masnbur (`siopkbritneymasnbur@gmail.com`) | 2026-09-07 |
 | 39 | **Law Students & Bar Exam Mastery Hub** | Legal Education | [https://law-school-bar-exam-hub.netlify.app/](https://law-school-bar-exam-hub.netlify.app/) | Netlify | [law-school-bar-exam-hub](https://github.com/jibranpcccc/law-school-bar-exam-hub) | Christina Patel (`christinapatelf@gmail.com`) | 2026-09-07 |
 | 40 | **Aviation Students & Pilot Cadets Hub** | Aviation | [https://jibranpcccc.github.io/aviation-pilot-cadet-hub/](https://jibranpcccc.github.io/aviation-pilot-cadet-hub/) | GitHub Pages | [aviation-pilot-cadet-hub](https://github.com/jibranpcccc/aviation-pilot-cadet-hub) | Md Sagor (`mdrakibul90634@gmail.com`) | 2026-09-07 |
+| 41 | **Architecture & Spatial Design Hub** | Design Education | [https://architecture-design-masters-hub.vercel.app/](https://architecture-design-masters-hub.vercel.app/) | Vercel | [architecture-design-masters-hub](https://github.com/jibranpcccc/architecture-design-masters-hub) | Jude Henry (`henryjude262@gmail.com`) | 2026-09-08 |
+| 42 | **NCLEX-RN & Global Nurses Hub** | Healthcare Education | [https://jibranpcccc.github.io/nursing-nclex-international-hub/](https://jibranpcccc.github.io/nursing-nclex-international-hub/) | Netlify | [nursing-nclex-international-hub](https://github.com/jibranpcccc/nursing-nclex-international-hub) | Afolabi (`afolabi.081510@gmail.com`) | 2026-09-08 |
+| 43 | **Study in Japan & MEXT Scholars Hub** | Study Abroad | [https://jibranpcccc.github.io/study-in-japan-mext-hub/](https://jibranpcccc.github.io/study-in-japan-mext-hub/) | GitHub Pages | [study-in-japan-mext-hub](https://github.com/jibranpcccc/study-in-japan-mext-hub) | Kerry Vaquero (`kerryvaquero@gmail.com`) | 2026-09-08 |
+| 44 | **GTA RP Whitelisted Servers & Gangs Hub** | Gaming | [https://gta-rp-whitelist-servers-hub.vercel.app/](https://gta-rp-whitelist-servers-hub.vercel.app/) | Vercel | [gta-rp-whitelist-servers-hub](https://github.com/jibranpcccc/gta-rp-whitelist-servers-hub) | Just Wanted (`jestwanted@gmail.com`) | 2026-09-08 |
+| 45 | **Minecraft SMP & Redstone Builders Hub** | Gaming | [https://minecraft-smp-builders-hub.netlify.app/](https://minecraft-smp-builders-hub.netlify.app/) | Netlify | [minecraft-smp-builders-hub](https://github.com/jibranpcccc/minecraft-smp-builders-hub) | Kamra Khan (`kamrakhan351@gmail.com`) | 2026-09-08 |
+| 46 | **Valorant Scrims & Premier Teams Hub** | Esports | [https://jibranpcccc.github.io/valorant-scrims-competitive-hub/](https://jibranpcccc.github.io/valorant-scrims-competitive-hub/) | GitHub Pages | [valorant-scrims-competitive-hub](https://github.com/jibranpcccc/valorant-scrims-competitive-hub) | Cynthia Reynolds (`reynoldsdcynthia@gmail.com`) | 2026-09-08 |
+| 47 | **Competitive Chess & Opening Theory Hub** | Esports & Strategy | [https://chess-grandmasters-study-hub.vercel.app/](https://chess-grandmasters-study-hub.vercel.app/) | Vercel | [chess-grandmasters-study-hub](https://github.com/jibranpcccc/chess-grandmasters-study-hub) | Rock Butt (`rockb7004@gmail.com`) | 2026-09-08 |
+| 48 | **Sim Racing & F1 League Racers Hub** | Sim Gaming | [https://sim-racing-rigs-f1-hub.netlify.app/](https://sim-racing-rigs-f1-hub.netlify.app/) | Netlify | [sim-racing-rigs-f1-hub](https://github.com/jibranpcccc/sim-racing-rigs-f1-hub) | Kenneth Adams (`adamsokenneth08@gmail.com`) | 2026-09-08 |
+| 49 | **Retro Emulation & Handheld Gaming Hub** | Retro Tech | [https://jibranpcccc.github.io/retro-emulation-handhelds-hub/](https://jibranpcccc.github.io/retro-emulation-handhelds-hub/) | GitHub Pages | [retro-emulation-handhelds-hub](https://github.com/jibranpcccc/retro-emulation-handhelds-hub) | Dorian Cuquejo (`doriancuquejo05@gmail.com`) | 2026-09-08 |
+| 50 | **D&D 5e & Tabletop RPG Campaigns Hub** | Tabletop Gaming | [https://dnd-tabletop-campaigns-hub.vercel.app/](https://dnd-tabletop-campaigns-hub.vercel.app/) | Vercel | [dnd-tabletop-campaigns-hub](https://github.com/jibranpcccc/dnd-tabletop-campaigns-hub) | Teams Fusion (`teams.thefusionfeed@gmail.com`) | 2026-09-08 |

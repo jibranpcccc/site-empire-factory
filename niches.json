@@ -628,9 +628,14 @@
     "niche": "Rhino 3D, Revit modeling, portfolio critique, design studio reviews",
     "category": "Design Education",
     "accent": "#8b5cf6",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T06:02:56.704396+00:00",
+    "live_url": "https://architecture-design-masters-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "henryjude262@gmail.com",
+    "owner_profile": "Profile 41",
+    "owner_label": "Jude Henry"
   },
   {
     "id": "nursing-nclex-international-hub",
@@ -639,9 +644,14 @@
     "niche": "NCLEX questions, nursing visas, clinical case reviews",
     "category": "Healthcare Education",
     "accent": "#06b6d4",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T06:36:20.179811+00:00",
+    "live_url": "https://jibranpcccc.github.io/nursing-nclex-international-hub/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "afolabi.081510@gmail.com",
+    "owner_profile": "Profile 43",
+    "owner_label": "Afolabi"
   },
   {
     "id": "study-in-japan-mext-hub",
@@ -650,9 +660,14 @@
     "niche": "JLPT N2/N1 study, Japanese university admissions, embassy recommendations",
     "category": "Study Abroad",
     "accent": "#e11d48",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T06:36:56.867510+00:00",
+    "live_url": "https://jibranpcccc.github.io/study-in-japan-mext-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "kerryvaquero@gmail.com",
+    "owner_profile": "Profile 44",
+    "owner_label": "Kerry Vaquero"
   },
   {
     "id": "gta-rp-whitelist-servers-hub",
@@ -661,9 +676,14 @@
     "niche": "NoPixel-style RP, FiveM scripts, character lore, discord whitelist",
     "category": "Gaming",
     "accent": "#10b981",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T06:38:41.241523+00:00",
+    "live_url": "https://gta-rp-whitelist-servers-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "jestwanted@gmail.com",
+    "owner_profile": "Profile 47",
+    "owner_label": "Just Wanted"
   },
   {
     "id": "minecraft-smp-builders-hub",
@@ -672,9 +692,14 @@
     "niche": "hermitcraft style servers, modpacks, fabric/forge, megabuilds",
     "category": "Gaming",
     "accent": "#15803d",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T06:40:16.921751+00:00",
+    "live_url": "https://minecraft-smp-builders-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "kamrakhan351@gmail.com",
+    "owner_profile": "Profile 50",
+    "owner_label": "Kamra Khan"
   },
   {
     "id": "valorant-scrims-competitive-hub",
@@ -683,9 +708,14 @@
     "niche": "Immortal/Radiant LFG, team tryouts, tournament brackets",
     "category": "Esports",
     "accent": "#f43f5e",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T06:40:54.026114+00:00",
+    "live_url": "https://jibranpcccc.github.io/valorant-scrims-competitive-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "reynoldsdcynthia@gmail.com",
+    "owner_profile": "Profile 6",
+    "owner_label": "Cynthia Reynolds"
   },
   {
     "id": "chess-grandmasters-study-hub",
@@ -694,9 +724,14 @@
     "niche": "Chess.com tournaments, Lichess analysis, chess openings, puzzle tactics",
     "category": "Esports & Strategy",
     "accent": "#78716c",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T06:41:34.077312+00:00",
+    "live_url": "https://chess-grandmasters-study-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "rockb7004@gmail.com",
+    "owner_profile": "Profile 65",
+    "owner_label": "Rock Butt"
   },
   {
     "id": "sim-racing-rigs-f1-hub",
@@ -705,9 +740,14 @@
     "niche": "iRacing leagues, Assetto Corsa mods, direct drive setups",
     "category": "Sim Gaming",
     "accent": "#ea580c",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T06:43:13.831112+00:00",
+    "live_url": "https://sim-racing-rigs-f1-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "adamsokenneth08@gmail.com",
+    "owner_profile": "Profile 9",
+    "owner_label": "Kenneth Adams"
   },
   {
     "id": "retro-emulation-handhelds-hub",
@@ -716,9 +756,14 @@
     "niche": "Steam Deck tweaks, Anbernic, Miyoo Mini, ROM hacks",
     "category": "Retro Tech",
     "accent": "#8b5cf6",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T06:44:29.527387+00:00",
+    "live_url": "https://jibranpcccc.github.io/retro-emulation-handhelds-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "doriancuquejo05@gmail.com",
+    "owner_profile": "Profile 27",
+    "owner_label": "Dorian Cuquejo"
   },
   {
     "id": "dnd-tabletop-campaigns-hub",
@@ -727,9 +772,14 @@
     "niche": "Dungeon Masters, Roll20 games, homebrew campaigns, character art",
     "category": "Tabletop Gaming",
     "accent": "#dc2626",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-08T06:47:40.742677+00:00",
+    "live_url": "https://dnd-tabletop-campaigns-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "teams.thefusionfeed@gmail.com",
+    "owner_profile": "Profile 28",
+    "owner_label": "Teams Fusion"
   },
   {
     "id": "speedrunning-glitches-hub",
