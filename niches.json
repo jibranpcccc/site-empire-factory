@@ -948,9 +948,14 @@
     "niche": "Marcus Aurelius, daily journaling, Seneca letters, mental toughness",
     "category": "Mindset",
     "accent": "#475569",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-09T06:01:07.323471+00:00",
+    "live_url": "https://jibranpcccc.github.io/stoicism-ancient-philosophy-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "kamrakhan351@gmail.com",
+    "owner_profile": "Profile 50",
+    "owner_label": "Kamra Khan"
   },
   {
     "id": "mechanical-keyboards-custom-hub",
@@ -959,9 +964,14 @@
     "niche": "lube switches, GMK group buys, solder PCB, sound tests",
     "category": "Tech Hobby",
     "accent": "#ec4899",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-09T06:01:55.314179+00:00",
+    "live_url": "https://mechanical-keyboards-custom-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "reynoldsdcynthia@gmail.com",
+    "owner_profile": "Profile 6",
+    "owner_label": "Cynthia Reynolds"
   },
   {
     "id": "audiophile-high-fidelity-hub",
@@ -970,9 +980,14 @@
     "niche": "DAC amps, planar magnetic headphones, lossless audio, IEM reviews",
     "category": "Audio Tech",
     "accent": "#6366f1",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-09T06:02:53.334968+00:00",
+    "live_url": "https://audiophile-high-fidelity-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "rockb7004@gmail.com",
+    "owner_profile": "Profile 65",
+    "owner_label": "Rock Butt"
   },
   {
     "id": "ai-agents-autonomous-systems-hub",
@@ -981,9 +996,14 @@
     "niche": "CrewAI, AutoGPT, LangChain, MCP server tools, agentic workflows, local LLMs",
     "category": "Artificial Intelligence",
     "accent": "#8b5cf6",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-09T06:03:32.111025+00:00",
+    "live_url": "https://jibranpcccc.github.io/ai-agents-autonomous-systems-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "adamsokenneth08@gmail.com",
+    "owner_profile": "Profile 9",
+    "owner_label": "Kenneth Adams"
   },
   {
     "id": "solana-defi-developers-hub",
@@ -992,9 +1012,14 @@
     "niche": "Solana Rust programs, Anchor framework, Raydium liquidity, Pump.fun bots, RPC nodes",
     "category": "Web3 & Blockchain",
     "accent": "#14f195",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-09T06:04:38.003822+00:00",
+    "live_url": "https://solana-defi-developers-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "doriancuquejo05@gmail.com",
+    "owner_profile": "Profile 27",
+    "owner_label": "Dorian Cuquejo"
   },
   {
     "id": "shopify-dropshipping-growth-hub",
@@ -1003,9 +1028,14 @@
     "niche": "TikTok Shop, winning product research, Facebook ads scaling, private suppliers, 3PL",
     "category": "E-Commerce",
     "accent": "#95bf47",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-09T06:05:32.770595+00:00",
+    "live_url": "https://shopify-dropshipping-growth-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "teams.thefusionfeed@gmail.com",
+    "owner_profile": "Profile 28",
+    "owner_label": "Teams Fusion"
   },
   {
     "id": "flutter-crossplatform-mobile-hub",
@@ -1014,9 +1044,14 @@
     "niche": "Dart widgets, Riverpod state, Flutter Web, iOS App Store, Android Play Console",
     "category": "Mobile Development",
     "accent": "#02569b",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-09T06:07:13.881677+00:00",
+    "live_url": "https://jibranpcccc.github.io/flutter-crossplatform-mobile-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "vickimarshall853@gmail.com",
+    "owner_profile": "Profile 30",
+    "owner_label": "Vicki Marshall"
   },
   {
     "id": "nextjs-react-fullstack-hub",
@@ -1025,9 +1060,14 @@
     "niche": "App Router, Tailwind CSS, Supabase, Server Components, Vercel deployments, Prisma",
     "category": "Web Development",
     "accent": "#000000",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-09T06:07:56.348442+00:00",
+    "live_url": "https://nextjs-react-fullstack-hub.vercel.app/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "janavajannimik@gmail.com",
+    "owner_profile": "Profile 31",
+    "owner_label": "Janava Jannimik"
   },
   {
     "id": "kubernetes-cloud-native-hub",
@@ -1036,9 +1076,14 @@
     "niche": "K8s clusters, Helm charts, ArgoCD, Istio service mesh, Prometheus, zero downtime",
     "category": "DevOps & Cloud",
     "accent": "#326ce5",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-09T06:09:08.401808+00:00",
+    "live_url": "https://kubernetes-cloud-native-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "gladystuckergmgd@gmail.com",
+    "owner_profile": "Profile 32",
+    "owner_label": "Gladys Tucker"
   },
   {
     "id": "prompt-engineering-mastery-hub",
@@ -1047,9 +1092,14 @@
     "niche": "Claude 3.7 prompt caching, system instructions, Midjourney v6 parameters, RAG chunks",
     "category": "GenAI & Prompts",
     "accent": "#f59e0b",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-09T06:10:04.500121+00:00",
+    "live_url": "https://jibranpcccc.github.io/prompt-engineering-mastery-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "siopkbritneymasnbur@gmail.com",
+    "owner_profile": "Profile 34",
+    "owner_label": "Britney Masnbur"
   },
   {
     "id": "b2b-saas-founders-circle-hub",
