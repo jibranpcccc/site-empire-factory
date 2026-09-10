@@ -1134,12 +1134,25 @@ def deploy_to_github_pages(slug, live_url):
     print(f"✅ GitHub Pages enabled: {live_url}")
     return True
 
-def deploy_to_vercel(site_dir, slug, live_url):
-    """Deploys static site to Vercel production using Vercel CLI."""
+def deploy_to_vercel(site_dir, slug, live_url, owner_email=None):
+    """Deploys static site to Vercel production using Vercel CLI with isolated multi-account token."""
     vc_cmd = shutil.which("vercel") or "vercel"
     print(f"▲ Deploying to Vercel via CLI ({vc_cmd})...")
     cmd = [vc_cmd, "deploy", "--prod", "--yes", "--no-wait"]
-    token = os.environ.get("VERCEL_TOKEN")
+    
+    # Priority: isolated per-account token from registry
+    token = None
+    if owner_email:
+        accounts = load_gmail_registry()
+        for acc in accounts:
+            if acc.get("email", "").lower() == str(owner_email).lower() and acc.get("vercel_token"):
+                token = acc["vercel_token"]
+                print(f"🔑 Using isolated Vercel token for {owner_email}")
+                break
+    
+    if not token:
+        token = os.environ.get("VERCEL_TOKEN")
+        
     if token:
         cmd.extend(["--token", token])
     try:
@@ -1341,7 +1354,7 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
 
     # 6. Execute Platform-Specific Production Deployment with Automatic GitHub Pages Fallback
     if platform_id == "vercel":
-        v_ok = deploy_to_vercel(site_dir, slug, live_url)
+        v_ok = deploy_to_vercel(site_dir, slug, live_url, owner_email=owner_email)
         if not v_ok:
             print("🔄 Vercel notice: falling back to GitHub Pages for 100% guaranteed uptime...")
             deploy_to_github_pages(slug, f"https://{GH_USER}.github.io/{slug}/")
