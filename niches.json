@@ -1108,9 +1108,14 @@
     "niche": "cold email outbound, PLG funnels, Stripe MRR dashboards, net revenue retention, churn",
     "category": "Startups & SaaS",
     "accent": "#3b82f6",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-10T06:00:46.196905+00:00",
+    "live_url": "https://jibranpcccc.github.io/b2b-saas-founders-circle-hub/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "christinapatelf@gmail.com",
+    "owner_profile": "Profile 35",
+    "owner_label": "Christina Patel"
   },
   {
     "id": "biohacking-longevity-health-hub",
@@ -1119,9 +1124,14 @@
     "niche": "sleep tracker telemetry, cold exposure, zone 2 cardio, supplements, CGM data",
     "category": "Health & Longevity",
     "accent": "#10b981",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-10T06:02:53.929331+00:00",
+    "live_url": "https://biohacking-longevity-health-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "mdrakibul90634@gmail.com",
+    "owner_profile": "Profile 37",
+    "owner_label": "Md Sagor"
   },
   {
     "id": "smart-home-homeassistant-hub",
@@ -1130,9 +1140,14 @@
     "niche": "Zigbee2MQTT, ESPHome, local voice assistants, Matter protocol, automated lighting",
     "category": "Smart Home IoT",
     "accent": "#03a9f4",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-10T06:04:06.732389+00:00",
+    "live_url": "https://jibranpcccc.github.io/smart-home-homeassistant-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "henryjude262@gmail.com",
+    "owner_profile": "Profile 41",
+    "owner_label": "Jude Henry"
   },
   {
     "id": "cyber-threat-intelligence-hub",
@@ -1141,9 +1156,14 @@
     "niche": "dark web monitoring, malware analysis, Yara rules, OSINT investigations, SOC alerts",
     "category": "Cybersecurity",
     "accent": "#ef4444",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-10T06:04:50.846724+00:00",
+    "live_url": "https://jibranpcccc.github.io/cyber-threat-intelligence-hub/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "afolabi.081510@gmail.com",
+    "owner_profile": "Profile 43",
+    "owner_label": "Afolabi"
   },
   {
     "id": "generative-ai-video-creators-hub",
@@ -1152,9 +1172,14 @@
     "niche": "Runway Gen-3, Luma Dream Machine, Kling AI, voice cloning, AI cinematography",
     "category": "Creative AI",
     "accent": "#ec4899",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-10T06:47:44.155888+00:00",
+    "live_url": "https://generative-ai-video-creators-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "kerryvaquero@gmail.com",
+    "owner_profile": "Profile 44",
+    "owner_label": "Kerry Vaquero"
   },
   {
     "id": "ethical-hacking-bugbounty-hub",
@@ -1163,9 +1188,14 @@
     "niche": "HackerOne triage, Burp Suite Pro plugins, SSRF exploits, IDOR detection, API testing",
     "category": "InfoSec",
     "accent": "#dc2626",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-10T06:48:19.945628+00:00",
+    "live_url": "https://jibranpcccc.github.io/ethical-hacking-bugbounty-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "jestwanted@gmail.com",
+    "owner_profile": "Profile 47",
+    "owner_label": "Just Wanted"
   },
   {
     "id": "prop-firm-forex-traders-hub",
@@ -1174,9 +1204,14 @@
     "niche": "FTMO evaluation rules, risk-reward ratios, TradingView indicators, ICT concepts",
     "category": "Forex & Trading",
     "accent": "#059669",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-10T06:49:05.005591+00:00",
+    "live_url": "https://jibranpcccc.github.io/prop-firm-forex-traders-hub/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "kamrakhan351@gmail.com",
+    "owner_profile": "Profile 50",
+    "owner_label": "Kamra Khan"
   },
   {
     "id": "notion-systems-productivity-hub",
@@ -1185,9 +1220,14 @@
     "niche": "PARA framework, formula 2.0 databases, automated client portals, executive dashboards",
     "category": "Productivity",
     "accent": "#1e293b",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-10T06:50:11.067651+00:00",
+    "live_url": "https://notion-systems-productivity-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "reynoldsdcynthia@gmail.com",
+    "owner_profile": "Profile 6",
+    "owner_label": "Cynthia Reynolds"
   },
   {
     "id": "3d-blender-unreal-artists-hub",
@@ -1196,9 +1236,14 @@
     "niche": "geometry nodes, procedural shading, Nanite rendering, hard surface modeling, rigify",
     "category": "3D & CGI",
     "accent": "#f97316",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-10T06:50:48.553937+00:00",
+    "live_url": "https://jibranpcccc.github.io/3d-blender-unreal-artists-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "rockb7004@gmail.com",
+    "owner_profile": "Profile 65",
+    "owner_label": "Rock Butt"
   },
   {
     "id": "remote-developer-jobs-alpha-hub",
@@ -1207,9 +1252,14 @@
     "niche": "US tech salaries from abroad, async culture, remote interview prep, stock grant negotiation",
     "category": "Careers",
     "accent": "#0284c7",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-10T06:52:40.760748+00:00",
+    "live_url": "https://jibranpcccc.github.io/remote-developer-jobs-alpha-hub/",
+    "hosting_platform": "vercel",
+    "hosting_platform_name": "Vercel",
+    "assigned_gmail": "adamsokenneth08@gmail.com",
+    "owner_profile": "Profile 9",
+    "owner_label": "Kenneth Adams"
   },
   {
     "id": "real-estate-investing-syndicates-hub",
