@@ -35,6 +35,7 @@ class TestRealCommunityLinks(unittest.TestCase):
             "forum.hackthebox.com",
             "discuss.hashicorp.com",
             "research.ethdev.com",
+            "ethresear.ch",
             "bogleheads.org",
             "biggerpockets.com",
             "nomadlist.com",
@@ -47,7 +48,11 @@ class TestRealCommunityLinks(unittest.TestCase):
             "indiehackers.com",
             "news.ycombinator.com",
             "kaggle.com",
-            "dev.to/"
+            "dev.to/",
+            "users.rust-lang.org",
+            "discuss.pytorch.org",
+            "discuss.kubernetes.io",
+            "community.home-assistant.io"
         )
 
         for cat, items in VERIFIED_COMMUNITIES_DATABASE.items():

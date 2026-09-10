@@ -70,7 +70,7 @@ VERIFIED_COMMUNITIES_DATABASE = {
             "category": "Software Engineering",
             "memberCount": "220,000+ members",
             "description": "A collaborative multi-language developer Discord covering architecture, algorithms, career advice, and live coding.",
-            "joinUrl": "https://discord.gg/theprogrammershangout",
+            "joinUrl": "https://discord.gg/programming",
             "tags": ["programming", "multi-language", "discord", "career"]
         },
         {
@@ -223,7 +223,7 @@ VERIFIED_COMMUNITIES_DATABASE = {
             "category": "Systems Programming",
             "memberCount": "100,000+ contributors",
             "description": "Official GitHub Discussions board for the Rust programming language compiler, RFCs, and tools.",
-            "joinUrl": "https://github.com/rust-lang/rust/discussions",
+            "joinUrl": "https://users.rust-lang.org",
             "tags": ["rust", "github", "systems", "rfc"]
         },
         {
@@ -306,7 +306,7 @@ VERIFIED_COMMUNITIES_DATABASE = {
             "category": "Open Source AI",
             "memberCount": "140,000+ members",
             "description": "Hub for the open-source AI community discussing Transformers, Diffusers, model weights, and Hugging Face Spaces.",
-            "joinUrl": "https://discord.gg/huggingface",
+            "joinUrl": "https://discuss.huggingface.co",
             "tags": ["huggingface", "transformers", "open-source", "discord"]
         },
         {
@@ -378,7 +378,7 @@ VERIFIED_COMMUNITIES_DATABASE = {
             "category": "AI Engineering",
             "memberCount": "80,000+ members",
             "description": "Community dedicated to building LLM applications with LangChain, LangSmith, and LangGraph agent architectures.",
-            "joinUrl": "https://discord.gg/langchain",
+            "joinUrl": "https://github.com/langchain-ai/langchain/discussions",
             "tags": ["langchain", "agents", "ai", "discord"]
         },
         {
@@ -396,7 +396,7 @@ VERIFIED_COMMUNITIES_DATABASE = {
             "category": "Machine Learning",
             "memberCount": "90,000+ contributors",
             "description": "Official PyTorch open-source discussions on CUDA acceleration, model architectures, and compiler backends.",
-            "joinUrl": "https://github.com/pytorch/pytorch/discussions",
+            "joinUrl": "https://discuss.pytorch.org",
             "tags": ["pytorch", "github", "deep-learning", "cuda"]
         },
         {
@@ -562,7 +562,7 @@ VERIFIED_COMMUNITIES_DATABASE = {
             "category": "DevOps & SRE",
             "memberCount": "68,000+ members",
             "description": "Real-time engineering chat covering Terraform, Ansible, Prometheus, Kubernetes, and production incident triage.",
-            "joinUrl": "https://discord.gg/devops",
+            "joinUrl": "https://discord.gg/devcord",
             "tags": ["devops", "sre", "discord", "monitoring"]
         },
         {
@@ -571,7 +571,7 @@ VERIFIED_COMMUNITIES_DATABASE = {
             "category": "Container Orchestration",
             "memberCount": "52,000+ members",
             "description": "Dedicated server for cloud-native infrastructure engineers building, deploying, and scaling on Kubernetes.",
-            "joinUrl": "https://discord.gg/kubernetes",
+            "joinUrl": "https://discuss.kubernetes.io",
             "tags": ["kubernetes", "discord", "cloud-native", "devops"]
         },
         {
@@ -598,7 +598,7 @@ VERIFIED_COMMUNITIES_DATABASE = {
             "category": "Container Orchestration",
             "memberCount": "140,000+ contributors",
             "description": "Official GitHub discussions, SIG updates, and architecture debates for Kubernetes core and ecosystems.",
-            "joinUrl": "https://github.com/kubernetes/kubernetes/discussions",
+            "joinUrl": "https://discuss.kubernetes.io",
             "tags": ["kubernetes", "github", "sig", "orchestration"]
         },
         {
@@ -681,7 +681,7 @@ VERIFIED_COMMUNITIES_DATABASE = {
             "category": "Cryptographic Research",
             "memberCount": "80,000+ members",
             "description": "The premier intellectual forum for Ethereum cryptoeconomics, zero-knowledge proofs, and scaling proposals.",
-            "joinUrl": "https://research.ethdev.com",
+            "joinUrl": "https://ethresear.ch",
             "tags": ["ethereum", "forum", "cryptography", "research"]
         }
     ],
@@ -1365,7 +1365,7 @@ VERIFIED_COMMUNITIES_DATABASE = {
                 "category": "Biggerpockets",
                 "memberCount": "30,000+ members",
                 "description": "Active Discord community aligned with BiggerPockets methods: BRRRR, fix-and-flip, and passive syndications.",
-                "joinUrl": "https://discord.gg/biggerpockets",
+                "joinUrl": "https://www.biggerpockets.com/forums",
                 "tags": [
                         "biggerpockets",
                         "brrrr",
@@ -1815,7 +1815,7 @@ VERIFIED_COMMUNITIES_DATABASE = {
                 "category": "Prop Trading",
                 "memberCount": "30,000+ members",
                 "description": "Dedicated to passing prop firm challenges, drawdown calculators, payout proofs, and evaluation guidelines.",
-                "joinUrl": "https://discord.gg/proptrading",
+                "joinUrl": "https://discord.gg/trading",
                 "tags": [
                         "prop-trading",
                         "evaluations",
@@ -2054,7 +2054,7 @@ VERIFIED_COMMUNITIES_DATABASE = {
             "category": "Tech Discussion",
             "memberCount": "90,000+ members",
             "description": "Global discussion server for engineering disciplines, scientific methodology, and emerging tech.",
-            "joinUrl": "https://discord.gg/technology",
+            "joinUrl": "https://discord.gg/tech",
             "tags": ["technology", "discord", "science", "discussion"]
         },
         {
@@ -2265,7 +2265,7 @@ VERIFIED_COMMUNITIES_DATABASE = {
                 "category": "Biggerpockets",
                 "memberCount": "30,000+ members",
                 "description": "Active Discord community aligned with BiggerPockets methods: BRRRR, fix-and-flip, and passive syndications.",
-                "joinUrl": "https://discord.gg/biggerpockets",
+                "joinUrl": "https://www.biggerpockets.com/forums",
                 "tags": [
                         "biggerpockets",
                         "brrrr",
@@ -2715,7 +2715,7 @@ VERIFIED_COMMUNITIES_DATABASE = {
                 "category": "Prop Trading",
                 "memberCount": "30,000+ members",
                 "description": "Dedicated to passing prop firm challenges, drawdown calculators, payout proofs, and evaluation guidelines.",
-                "joinUrl": "https://discord.gg/proptrading",
+                "joinUrl": "https://discord.gg/trading",
                 "tags": [
                         "prop-trading",
                         "evaluations",
@@ -2959,7 +2959,16 @@ RELATED_CATEGORIES = {
     "gaming_3d": ["coding", "general_tech"],
     "productivity_automation": ["remote_work_careers", "coding", "general_tech"],
     "marketing_growth": ["ecommerce_deals", "productivity_automation", "general_tech"],
-    "general_tech": ["coding", "ai", "cloud_devops"]
+    "general_tech": ["coding", "ai", "cloud_devops"],
+    "b2b_saas": ["marketing_growth", "coding", "general_tech"],
+    "biohacking_longevity": ["general_tech", "finance_investing"],
+    "smart_home_iot": ["cloud_devops", "coding", "general_tech"],
+    "cyber_threat_intelligence": ["cybersecurity", "cloud_devops", "general_tech"],
+    "ai_video_creators": ["ai", "gaming_3d", "general_tech"],
+    "bug_bounty_hacking": ["cybersecurity", "coding", "general_tech"],
+    "notion_productivity": ["productivity_automation", "coding", "general_tech"],
+    "3d_blender_unreal": ["gaming_3d", "coding", "general_tech"],
+    "remote_developer_jobs": ["remote_work_careers", "coding", "general_tech"]
 }
 
 def is_fake_or_synthetic_url(url: str) -> bool:
@@ -2989,6 +2998,27 @@ def find_matching_category(niche_name: str, niche_topics: str) -> str:
     combined = f"{niche_name} {niche_topics}".lower()
 
     # Precision niche mappings
+    # Sites 71-80 Precision Mappings
+    if any(k in combined for k in ["b2b saas", "saas founders", "cold email", "plg funnels", "stripe mrr", "churn"]):
+        return "b2b_saas"
+    if any(k in combined for k in ["biohack", "longevity", "human optimization", "cgm data", "cold exposure", "zone 2 cardio"]):
+        return "biohacking_longevity"
+    if any(k in combined for k in ["home assistant", "smart home", "zigbee2mqtt", "esphome", "matter protocol"]):
+        return "smart_home_iot"
+    if any(k in combined for k in ["threat intelligence", "cyber threat", "dark web monitoring", "yara rules", "soc alerts"]):
+        return "cyber_threat_intelligence"
+    if any(k in combined for k in ["video creator", "virtual production", "runway gen", "luma dream", "kling ai", "ai cinematography"]):
+        return "ai_video_creators"
+    if any(k in combined for k in ["bug bounty", "ethical hacking", "hackerone", "burp suite", "ssrf exploit", "idor detection"]):
+        return "bug_bounty_hacking"
+    if any(k in combined for k in ["prop firm", "ftmo", "prop trader", "funded trader"]):
+        return "prop_trading"
+    if any(k in combined for k in ["notion", "second brain", "para framework", "formula 2.0"]):
+        return "notion_productivity"
+    if any(k in combined for k in ["blender", "unreal engine", "geometry nodes", "nanite rendering", "hard surface modeling"]):
+        return "3d_blender_unreal"
+    if any(k in combined for k in ["remote tech", "global compensation", "tech salaries from abroad", "remote developer", "stock grant negotiation"]):
+        return "remote_developer_jobs"
     if any(k in combined for k in ["solana", "memecoin", "pumpfun", "raydium", "jupiter"]):
         return "solana_memecoins"
     if any(k in combined for k in ["offshore", "expat tax", "tax strateg", "residency", "second passport"]):

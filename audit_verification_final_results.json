@@ -1,0 +1,242 @@
+{
+  "total_sites": 10,
+  "total_cards": 300,
+  "total_outbound_links": 300,
+  "total_unique_urls": 163,
+  "total_banned_found": 0,
+  "total_broken_found": 0,
+  "all_banned": [],
+  "all_broken": [],
+  "per_site": {
+    "b2b-saas-founders-circle-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "internal_missing_files": [],
+      "internal_links_in_index": {
+        "about.html": true,
+        "submit.html": true,
+        "contact.html": true,
+        "privacy.html": true,
+        "terms.html": true
+      },
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/SaaS/",
+        "https://www.reddit.com/r/startups/",
+        "https://www.reddit.com/r/Entrepreneur/"
+      ]
+    },
+    "biohacking-longevity-health-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "internal_missing_files": [],
+      "internal_links_in_index": {
+        "about.html": true,
+        "submit.html": true,
+        "contact.html": true,
+        "privacy.html": true,
+        "terms.html": true
+      },
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/Biohackers/",
+        "https://www.reddit.com/r/longevity/",
+        "https://www.reddit.com/r/Supplements/"
+      ]
+    },
+    "smart-home-homeassistant-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "internal_missing_files": [],
+      "internal_links_in_index": {
+        "about.html": true,
+        "submit.html": true,
+        "contact.html": true,
+        "privacy.html": true,
+        "terms.html": true
+      },
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/homeassistant/",
+        "https://discord.gg/home-assistant",
+        "https://community.home-assistant.io"
+      ]
+    },
+    "cyber-threat-intelligence-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "internal_missing_files": [],
+      "internal_links_in_index": {
+        "about.html": true,
+        "submit.html": true,
+        "contact.html": true,
+        "privacy.html": true,
+        "terms.html": true
+      },
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/threatintel/",
+        "https://www.reddit.com/r/OSINT/",
+        "https://www.reddit.com/r/cybersecurity/"
+      ]
+    },
+    "generative-ai-video-creators-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "internal_missing_files": [],
+      "internal_links_in_index": {
+        "about.html": true,
+        "submit.html": true,
+        "contact.html": true,
+        "privacy.html": true,
+        "terms.html": true
+      },
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/aivideo/",
+        "https://www.reddit.com/r/Midjourney/",
+        "https://www.reddit.com/r/StableDiffusion/"
+      ]
+    },
+    "ethical-hacking-bugbounty-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "internal_missing_files": [],
+      "internal_links_in_index": {
+        "about.html": true,
+        "submit.html": true,
+        "contact.html": true,
+        "privacy.html": true,
+        "terms.html": true
+      },
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/bugbounty/",
+        "https://www.reddit.com/r/ethicalhacking/",
+        "https://www.reddit.com/r/netsec/"
+      ]
+    },
+    "prop-firm-forex-traders-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "internal_missing_files": [],
+      "internal_links_in_index": {
+        "about.html": true,
+        "submit.html": true,
+        "contact.html": true,
+        "privacy.html": true,
+        "terms.html": true
+      },
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/Daytrading/",
+        "https://www.reddit.com/r/Forex/",
+        "https://www.reddit.com/r/FuturesTrading/"
+      ]
+    },
+    "notion-systems-productivity-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "internal_missing_files": [],
+      "internal_links_in_index": {
+        "about.html": true,
+        "submit.html": true,
+        "contact.html": true,
+        "privacy.html": true,
+        "terms.html": true
+      },
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/Notion/",
+        "https://www.reddit.com/r/ObsidianMD/",
+        "https://www.reddit.com/r/productivity/"
+      ]
+    },
+    "3d-blender-unreal-artists-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "internal_missing_files": [],
+      "internal_links_in_index": {
+        "about.html": true,
+        "submit.html": true,
+        "contact.html": true,
+        "privacy.html": true,
+        "terms.html": true
+      },
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/blender/",
+        "https://www.reddit.com/r/unrealengine/",
+        "https://www.reddit.com/r/3Dmodeling/"
+      ]
+    },
+    "remote-developer-jobs-alpha-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "internal_missing_files": [],
+      "internal_links_in_index": {
+        "about.html": true,
+        "submit.html": true,
+        "contact.html": true,
+        "privacy.html": true,
+        "terms.html": true
+      },
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/cscareerquestions/",
+        "https://www.reddit.com/r/remotework/",
+        "https://www.reddit.com/r/digitalnomad/"
+      ]
+    }
+  }
+}
