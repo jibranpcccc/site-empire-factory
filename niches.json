@@ -11,7 +11,9 @@
     "live_url": "https://jibranpcccc.github.io/developer-coding-hub/",
     "assigned_gmail": "doriancuquejo05@gmail.com",
     "owner_label": "Dorian Cuquejo",
-    "owner_profile": "Profile 27"
+    "owner_profile": "Profile 27",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages"
   },
   {
     "id": "deals-loot-coupons-hub",
@@ -25,7 +27,9 @@
     "live_url": "https://jibranpcccc.github.io/deals-loot-coupons-hub/",
     "assigned_gmail": "teams.thefusionfeed@gmail.com",
     "owner_label": "Teams Fusion",
-    "owner_profile": "Profile 28"
+    "owner_profile": "Profile 28",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages"
   },
   {
     "id": "scholarships-study-abroad-hub",
@@ -39,7 +43,9 @@
     "live_url": "https://jibranpcccc.github.io/scholarships-study-abroad-hub/",
     "assigned_gmail": "vickimarshall853@gmail.com",
     "owner_label": "Vicki Marshall",
-    "owner_profile": "Profile 30"
+    "owner_profile": "Profile 30",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages"
   },
   {
     "id": "remote-work-nomad-hub",
@@ -53,7 +59,9 @@
     "live_url": "https://jibranpcccc.github.io/remote-work-nomad-hub/",
     "assigned_gmail": "janavajannimik@gmail.com",
     "owner_label": "Janava Jannimik",
-    "owner_profile": "Profile 31"
+    "owner_profile": "Profile 31",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages"
   },
   {
     "id": "ai-prompts-generative-hub",
@@ -67,7 +75,9 @@
     "live_url": "https://jibranpcccc.github.io/ai-prompts-generative-hub/",
     "assigned_gmail": "gladystuckergmgd@gmail.com",
     "owner_label": "Gladys Tucker",
-    "owner_profile": "Profile 32"
+    "owner_profile": "Profile 32",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages"
   },
   {
     "id": "cybersecurity-infosec-hub",
@@ -81,7 +91,9 @@
     "live_url": "https://jibranpcccc.github.io/cybersecurity-infosec-hub/",
     "assigned_gmail": "siopkbritneymasnbur@gmail.com",
     "owner_label": "Britney Masnbur",
-    "owner_profile": "Profile 34"
+    "owner_profile": "Profile 34",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages"
   },
   {
     "id": "devops-cloud-architect-hub",
@@ -95,7 +107,9 @@
     "live_url": "https://jibranpcccc.github.io/devops-cloud-architect-hub/",
     "assigned_gmail": "christinapatelf@gmail.com",
     "owner_label": "Christina Patel",
-    "owner_profile": "Profile 35"
+    "owner_profile": "Profile 35",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages"
   },
   {
     "id": "data-science-machine-learning-hub",
@@ -109,7 +123,9 @@
     "live_url": "https://jibranpcccc.github.io/data-science-machine-learning-hub/",
     "assigned_gmail": "mdrakibul90634@gmail.com",
     "owner_label": "Md Sagor",
-    "owner_profile": "Profile 37"
+    "owner_profile": "Profile 37",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages"
   },
   {
     "id": "indie-hackers-micro-saas-hub",
@@ -123,7 +139,9 @@
     "live_url": "https://jibranpcccc.github.io/indie-hackers-micro-saas-hub/",
     "assigned_gmail": "henryjude262@gmail.com",
     "owner_label": "Jude Henry",
-    "owner_profile": "Profile 41"
+    "owner_profile": "Profile 41",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages"
   },
   {
     "id": "game-dev-indie-studios-hub",
@@ -359,8 +377,8 @@
     "status": "deployed",
     "deployed_at": "2026-09-07T06:05:55.572170+00:00",
     "live_url": "https://jibranpcccc.github.io/ecommerce-amazon-fba-hub/",
-    "hosting_platform": "netlify",
-    "hosting_platform_name": "Netlify",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
     "assigned_gmail": "christinapatelf@gmail.com",
     "owner_profile": "Profile 35",
     "owner_label": "Christina Patel"
@@ -647,8 +665,8 @@
     "status": "deployed",
     "deployed_at": "2026-09-08T06:36:20.179811+00:00",
     "live_url": "https://jibranpcccc.github.io/nursing-nclex-international-hub/",
-    "hosting_platform": "netlify",
-    "hosting_platform_name": "Netlify",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
     "assigned_gmail": "afolabi.081510@gmail.com",
     "owner_profile": "Profile 43",
     "owner_label": "Afolabi"
@@ -1111,8 +1129,8 @@
     "status": "deployed",
     "deployed_at": "2026-09-10T06:00:46.196905+00:00",
     "live_url": "https://jibranpcccc.github.io/b2b-saas-founders-circle-hub/",
-    "hosting_platform": "vercel",
-    "hosting_platform_name": "Vercel",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
     "assigned_gmail": "christinapatelf@gmail.com",
     "owner_profile": "Profile 35",
     "owner_label": "Christina Patel"
@@ -1159,8 +1177,8 @@
     "status": "deployed",
     "deployed_at": "2026-09-10T06:04:50.846724+00:00",
     "live_url": "https://jibranpcccc.github.io/cyber-threat-intelligence-hub/",
-    "hosting_platform": "vercel",
-    "hosting_platform_name": "Vercel",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
     "assigned_gmail": "afolabi.081510@gmail.com",
     "owner_profile": "Profile 43",
     "owner_label": "Afolabi"
@@ -1207,8 +1225,8 @@
     "status": "deployed",
     "deployed_at": "2026-09-10T06:49:05.005591+00:00",
     "live_url": "https://jibranpcccc.github.io/prop-firm-forex-traders-hub/",
-    "hosting_platform": "vercel",
-    "hosting_platform_name": "Vercel",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
     "assigned_gmail": "kamrakhan351@gmail.com",
     "owner_profile": "Profile 50",
     "owner_label": "Kamra Khan"
@@ -1255,8 +1273,8 @@
     "status": "deployed",
     "deployed_at": "2026-09-10T06:52:40.760748+00:00",
     "live_url": "https://jibranpcccc.github.io/remote-developer-jobs-alpha-hub/",
-    "hosting_platform": "vercel",
-    "hosting_platform_name": "Vercel",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
     "assigned_gmail": "adamsokenneth08@gmail.com",
     "owner_profile": "Profile 9",
     "owner_label": "Kenneth Adams"

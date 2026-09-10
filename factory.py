@@ -1338,8 +1338,8 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
     try:
         commands = [
             ["git", "init"],
-            ["git", "config", "user.name", "SiteEmpireFactory"],
-            ["git", "config", "user.email", "actions@github.com"],
+            ["git", "config", "user.name", niche.get("owner_label") or "Webmaster"],
+            ["git", "config", "user.email", owner_email],
             ["git", "add", "."],
             ["git", "commit", "-m", f"Release: {name} Directory [{platform_name}]"],
             ["git", "branch", "-M", "main"],
@@ -1358,8 +1358,11 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
         if not v_ok:
             print("🔄 Vercel notice: falling back to GitHub Pages for 100% guaranteed uptime...")
             deploy_to_github_pages(slug, f"https://{GH_USER}.github.io/{slug}/")
+            platform_id = "github_pages"
+            platform_name = "GitHub Pages"
             niche["live_url"] = f"https://{GH_USER}.github.io/{slug}/"
-            niche["hosting_platform_name"] = "GitHub Pages"
+            niche["hosting_platform"] = platform_id
+            niche["hosting_platform_name"] = platform_name
             hosting_domain = f"{GH_USER}.github.io"
             live_url = niche["live_url"]
     elif platform_id == "netlify":
@@ -1367,8 +1370,11 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
         if not n_ok:
             print("🔄 Netlify notice: falling back to GitHub Pages for 100% guaranteed uptime...")
             deploy_to_github_pages(slug, f"https://{GH_USER}.github.io/{slug}/")
+            platform_id = "github_pages"
+            platform_name = "GitHub Pages"
             niche["live_url"] = f"https://{GH_USER}.github.io/{slug}/"
-            niche["hosting_platform_name"] = "GitHub Pages"
+            niche["hosting_platform"] = platform_id
+            niche["hosting_platform_name"] = platform_name
             hosting_domain = f"{GH_USER}.github.io"
             live_url = niche["live_url"]
     else:  # github_pages
