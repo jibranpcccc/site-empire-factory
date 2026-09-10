@@ -1316,6 +1316,19 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
     with open(os.path.join(site_dir, gsc_file_name), "w", encoding="utf-8") as f:
         f.write(gsc_file_content)
 
+    # Standard 10: Inject isolated GSC verification meta tags into all HTML pages
+    raw_gsc_token = gsc_file_name.replace("google", "").replace(".html", "")
+    gsc_meta_snippet = f'    <meta name="google-site-verification" content="google{raw_gsc_token}">\n    <meta name="google-site-verification" content="{raw_gsc_token}">\n'
+    for html_filename in ["index.html", "about.html", "submit.html", "contact.html", "privacy.html", "terms.html"]:
+        html_filepath = os.path.join(site_dir, html_filename)
+        if os.path.exists(html_filepath):
+            with open(html_filepath, "r", encoding="utf-8") as hf:
+                hcontent = hf.read()
+            if "google-site-verification" not in hcontent and "<title>" in hcontent:
+                hcontent = hcontent.replace("<title>", f"{gsc_meta_snippet}    <title>", 1)
+                with open(html_filepath, "w", encoding="utf-8") as hf:
+                    hf.write(hcontent)
+
     # IndexNow key file
     with open(os.path.join(site_dir, f"{INDEXNOW_KEY}.txt"), "w", encoding="utf-8") as f:
         f.write(INDEXNOW_KEY)
