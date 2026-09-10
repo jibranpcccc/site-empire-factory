@@ -1,10 +1,10 @@
 # 📊 Google Analytics 4 & AI Traffic Intelligence Report
 
-**Generated:** 2026-09-09 11:18:43 PKT  
+**Generated:** 2026-09-10 11:14:47 PKT  
 **Unified GA4 Measurement ID:** `G-CK7NVYS1Y9`  
 **Unified Portfolio Folder:** `ai_directory_empire`  
 **Total Properties Monitored:** 16 (9 Directory Hubs + 7 Authority Blogs)  
-**GA4 Tracking Active:** 16/16 (100%)  
+**GA4 Tracking Active:** 9/16 (56%)  
 
 ---
 
@@ -12,22 +12,22 @@
 
 | Website Property | Category | Live URL | HTTP Status | TTFB | GA4 Tag (G-CK7NVYS1Y9) |
 |---|---|---|---|---|---|
-| **Developer & Coding Communities Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/developer-coding-hub/) | 🟢 200 OK | 236ms | ✅ Installed |
-| **Deals, Loot & Coupons Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/deals-loot-coupons-hub/) | 🟢 200 OK | 261ms | ✅ Installed |
-| **Scholarships & Study Abroad Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/scholarships-study-abroad-hub/) | 🟢 200 OK | 223ms | ✅ Installed |
-| **Remote Work & Nomad Communities Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/remote-work-nomad-hub/) | 🟢 200 OK | 204ms | ✅ Installed |
-| **AI Prompt Engineering & GenAI Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ai-prompts-generative-hub/) | 🟢 200 OK | 141ms | ✅ Installed |
-| **Cybersecurity & Ethical Hacking Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cybersecurity-infosec-hub/) | 🟢 200 OK | 176ms | ✅ Installed |
-| **DevOps & Cloud Architect Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/devops-cloud-architect-hub/) | 🟢 200 OK | 229ms | ✅ Installed |
-| **Indie Hackers & Micro SaaS Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/indie-hackers-micro-saas-hub/) | 🟢 200 OK | 150ms | ✅ Installed |
-| **Data Science & Machine Learning Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/data-science-machine-learning-hub/) | 🟢 200 OK | 147ms | ✅ Installed |
-| **Trading Signals Hub** | Blogger Authority | [trading-signals-hub.blogspot.com](https://trading-signals-hub.blogspot.com/) | 🟢 200 OK | 120ms | ✅ Installed |
-| **Crypto Airdrops & Web3 Alpha** | Blogger Authority | [crypto-airdrops-hub.blogspot.com](https://crypto-airdrops-hub.blogspot.com/) | 🟢 200 OK | 109ms | ✅ Installed |
-| **AI Tools & Automation Weekly** | Blogger Authority | [ai-tools-hub-site.blogspot.com](https://ai-tools-hub-site.blogspot.com/) | 🟢 200 OK | 136ms | ✅ Installed |
-| **Freelancing & Digital Nomad Hub** | Blogger Authority | [freelancing-hub-2026.blogspot.com](https://freelancing-hub-2026.blogspot.com/) | 🟢 200 OK | 112ms | ✅ Installed |
-| **Government & Private Job Alerts** | Blogger Authority | [dailyjobalertshub.blogspot.com](https://dailyjobalertshub.blogspot.com/) | 🟢 200 OK | 98ms | ✅ Installed |
-| **Global Remote Jobs & Tech Careers** | Blogger Authority | [job-alerts-hub.blogspot.com](https://job-alerts-hub.blogspot.com/) | 🟢 200 OK | 111ms | ✅ Installed |
-| **Movie Reviews, OTT & Entertainment** | Blogger Authority | [movies-groups-hub.blogspot.com](https://movies-groups-hub.blogspot.com/) | 🟢 200 OK | 218ms | ✅ Installed |
+| **Developer & Coding Communities Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/developer-coding-hub/) | 🟢 200 OK | 140ms | ✅ Installed |
+| **Deals, Loot & Coupons Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/deals-loot-coupons-hub/) | 🟢 200 OK | 61ms | ✅ Installed |
+| **Scholarships & Study Abroad Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/scholarships-study-abroad-hub/) | 🟢 200 OK | 121ms | ✅ Installed |
+| **Remote Work & Nomad Communities Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/remote-work-nomad-hub/) | 🟢 200 OK | 62ms | ✅ Installed |
+| **AI Prompt Engineering & GenAI Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ai-prompts-generative-hub/) | 🟢 200 OK | 74ms | ✅ Installed |
+| **Cybersecurity & Ethical Hacking Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cybersecurity-infosec-hub/) | 🟢 200 OK | 78ms | ✅ Installed |
+| **DevOps & Cloud Architect Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/devops-cloud-architect-hub/) | 🟢 200 OK | 67ms | ✅ Installed |
+| **Indie Hackers & Micro SaaS Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/indie-hackers-micro-saas-hub/) | 🟢 200 OK | 69ms | ✅ Installed |
+| **Data Science & Machine Learning Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/data-science-machine-learning-hub/) | 🟢 200 OK | 68ms | ✅ Installed |
+| **Trading Signals Hub** | Blogger Authority | [trading-signals-hub.blogspot.com](https://trading-signals-hub.blogspot.com/) | 🔴 ERR | -1ms | ⏳ Needs Settings Sync |
+| **Crypto Airdrops & Web3 Alpha** | Blogger Authority | [crypto-airdrops-hub.blogspot.com](https://crypto-airdrops-hub.blogspot.com/) | 🔴 ERR | -1ms | ⏳ Needs Settings Sync |
+| **AI Tools & Automation Weekly** | Blogger Authority | [ai-tools-hub-site.blogspot.com](https://ai-tools-hub-site.blogspot.com/) | 🔴 ERR | -1ms | ⏳ Needs Settings Sync |
+| **Freelancing & Digital Nomad Hub** | Blogger Authority | [freelancing-hub-2026.blogspot.com](https://freelancing-hub-2026.blogspot.com/) | 🔴 ERR | -1ms | ⏳ Needs Settings Sync |
+| **Government & Private Job Alerts** | Blogger Authority | [dailyjobalertshub.blogspot.com](https://dailyjobalertshub.blogspot.com/) | 🔴 ERR | -1ms | ⏳ Needs Settings Sync |
+| **Global Remote Jobs & Tech Careers** | Blogger Authority | [job-alerts-hub.blogspot.com](https://job-alerts-hub.blogspot.com/) | 🔴 ERR | -1ms | ⏳ Needs Settings Sync |
+| **Movie Reviews, OTT & Entertainment** | Blogger Authority | [movies-groups-hub.blogspot.com](https://movies-groups-hub.blogspot.com/) | 🔴 ERR | -1ms | ⏳ Needs Settings Sync |
 
 ---
 
