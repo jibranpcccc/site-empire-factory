@@ -1446,9 +1446,14 @@
     "niche": "Uniswap v3 concentrated liquidity, layer-2 staking yields, impermanent loss hedging",
     "category": "DeFi Alpha",
     "accent": "#15803d",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-11T06:00:45.517704+00:00",
+    "live_url": "https://jibranpcccc.github.io/crypto-yield-farming-staking-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "kerryvaquero@gmail.com",
+    "owner_profile": "Profile 44",
+    "owner_label": "Kerry Vaquero"
   },
   {
     "id": "no-code-bubble-automation-hub",
@@ -1457,9 +1462,14 @@
     "niche": "Bubble responsive engine, Make.com webhook flows, Zapier enterprise, Airtable backends",
     "category": "No-Code",
     "accent": "#0284c7",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-11T06:01:59.463664+00:00",
+    "live_url": "https://jibranpcccc.github.io/no-code-bubble-automation-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "jestwanted@gmail.com",
+    "owner_profile": "Profile 47",
+    "owner_label": "Just Wanted"
   },
   {
     "id": "golang-microservices-distributed-hub",
@@ -1468,9 +1478,14 @@
     "niche": "Golang concurrency, gRPC protocols, Kafka streaming, high-throughput microservices",
     "category": "Backend Engineering",
     "accent": "#00add8",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-11T06:03:05.375144+00:00",
+    "live_url": "https://golang-microservices-distributed-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "kamrakhan351@gmail.com",
+    "owner_profile": "Profile 50",
+    "owner_label": "Kamra Khan"
   },
   {
     "id": "growth-marketing-hackers-hub",
@@ -1479,9 +1494,14 @@
     "niche": "programmatic page generation, virality loops, cold traffic scaling, conversion rate experiments",
     "category": "Growth Marketing",
     "accent": "#f43f5e",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-11T06:04:04.218520+00:00",
+    "live_url": "https://jibranpcccc.github.io/growth-marketing-hackers-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "reynoldsdcynthia@gmail.com",
+    "owner_profile": "Profile 6",
+    "owner_label": "Cynthia Reynolds"
   },
   {
     "id": "ui-ux-design-systems-hub",
@@ -1490,9 +1510,14 @@
     "niche": "design tokens, auto-layout 5.0, WCAG accessibility, Figma to React pipelines",
     "category": "Product Design",
     "accent": "#a855f7",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-11T06:04:48.477385+00:00",
+    "live_url": "https://jibranpcccc.github.io/ui-ux-design-systems-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "rockb7004@gmail.com",
+    "owner_profile": "Profile 65",
+    "owner_label": "Rock Butt"
   },
   {
     "id": "sound-design-music-production-hub",
@@ -1501,9 +1526,14 @@
     "niche": "Ableton Live racks, modular Eurorack synths, mixing sub-bass, stereo imaging techniques",
     "category": "Audio Production",
     "accent": "#4338ca",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-11T06:05:48.575959+00:00",
+    "live_url": "https://sound-design-music-production-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "adamsokenneth08@gmail.com",
+    "owner_profile": "Profile 9",
+    "owner_label": "Kenneth Adams"
   },
   {
     "id": "amazon-fba-private-label-hub",
@@ -1512,9 +1542,14 @@
     "niche": "Helium 10 keyword tracking, Amazon PPC advertising, custom freight forwarding, brand registry",
     "category": "Amazon FBA",
     "accent": "#ff9900",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-11T06:06:30.713301+00:00",
+    "live_url": "https://jibranpcccc.github.io/amazon-fba-private-label-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "doriancuquejo05@gmail.com",
+    "owner_profile": "Profile 27",
+    "owner_label": "Dorian Cuquejo"
   },
   {
     "id": "personal-finance-fire-movement-hub",
@@ -1523,9 +1558,14 @@
     "niche": "safe withdrawal rate, index fund investing, tax-advantaged accounts, dividend growth",
     "category": "Personal Finance",
     "accent": "#059669",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-11T06:08:11.966133+00:00",
+    "live_url": "https://jibranpcccc.github.io/personal-finance-fire-movement-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "teams.thefusionfeed@gmail.com",
+    "owner_profile": "Profile 28",
+    "owner_label": "Teams Fusion"
   },
   {
     "id": "virtual-assistants-agency-hub",
@@ -1534,9 +1574,14 @@
     "niche": "hiring in Philippines & Latin America, SOP creation, Loom training libraries, time tracking",
     "category": "Operations",
     "accent": "#0369a1",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-11T06:12:03.366705+00:00",
+    "live_url": "https://jibranpcccc.github.io/virtual-assistants-agency-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "vickimarshall853@gmail.com",
+    "owner_profile": "Profile 30",
+    "owner_label": "Vicki Marshall"
   },
   {
     "id": "podcast-creators-audio-network-hub",
@@ -1545,9 +1590,14 @@
     "niche": "remote multi-track recording, dynamic podcast ad insertion, Spotify & Apple SEO",
     "category": "Podcasting",
     "accent": "#9333ea",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-11T06:13:25.298601+00:00",
+    "live_url": "https://jibranpcccc.github.io/podcast-creators-audio-network-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "janavajannimik@gmail.com",
+    "owner_profile": "Profile 31",
+    "owner_label": "Janava Jannimik"
   },
   {
     "id": "neurotech-brain-computer-interface-hub",
