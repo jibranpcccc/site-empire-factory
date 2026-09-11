@@ -377,6 +377,9 @@ def build_html(niche, communities, live_url):
     category = niche.get("category", "Technology")
     now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     ds = get_niche_design_system(niche)
+    owner_email = niche.get("assigned_gmail") or "teams.thefusionfeed@gmail.com"
+    gsc_file_name, _ = generate_site_gsc_token(slug, owner_email)
+    raw_gsc_token = gsc_file_name.replace("google", "").replace(".html", "")
 
     # Architectural Gate: Strictly validate and reject any synthetic or banned fake URLs
     for c in communities:
@@ -611,6 +614,8 @@ def build_html(niche, communities, live_url):
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="google{raw_gsc_token}">
+    <meta name="google-site-verification" content="{raw_gsc_token}">
     {ds["font_import"]}
     <title>{page_title}</title>
     <meta name="description" content="{page_desc}">
