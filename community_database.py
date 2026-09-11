@@ -2998,6 +2998,25 @@ def find_matching_category(niche_name: str, niche_topics: str) -> str:
     combined = f"{niche_name} {niche_topics}".lower()
 
     # Precision niche mappings
+    # Sites 91-100 Precision Mappings
+    if any(k in combined for k in ["yield farming", "staking alpha", "concentrated liquidity", "impermanent loss", "layer-2 staking"]):
+        return "defi_yield_farming"
+    if any(k in combined for k in ["bubble.io", "bubble responsive", "make.com", "airtable backends", "no-code web apps"]):
+        return "nocode_bubble"
+    if any(k in combined for k in ["golang", "go microservices", "grpc protocols", "kafka streaming", "goroutines"]):
+        return "golang_microservices"
+    if any(k in combined for k in ["growth marketing", "programmatic seo", "virality loops", "conversion rate experiments"]):
+        return "growth_marketing"
+    if any(k in combined for k in ["design systems", "figma component", "auto-layout", "wcag accessibility", "design tokens"]):
+        return "ui_ux_design"
+    if any(k in combined for k in ["electronic music", "sound design", "ableton", "modular eurorack", "synthesizer hub", "mixing sub-bass"]):
+        return "music_production_audio"
+    if any(k in combined for k in ["fire movement", "safe withdrawal rate", "financial independence hub"]):
+        return "fire_movement"
+    if any(k in combined for k in ["virtual assistant", "remote operations hub", "hiring in philippines", "sop creation"]):
+        return "virtual_assistants"
+    if any(k in combined for k in ["podcast creator", "audio syndication", "multi-track recording", "dynamic podcast ad"]):
+        return "podcast_creators"
     # Sites 71-80 Precision Mappings
     if any(k in combined for k in ["b2b saas", "saas founders", "cold email", "plg funnels", "stripe mrr", "churn"]):
         return "b2b_saas"

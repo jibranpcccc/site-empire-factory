@@ -1340,6 +1340,10 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
     with open(os.path.join(site_dir, "_redirects"), "w", encoding="utf-8") as f:
         f.write("/*    /index.html   200\n")
 
+    # Disable Jekyll on GitHub Pages to prevent build failures
+    with open(os.path.join(site_dir, ".nojekyll"), "w", encoding="utf-8") as f:
+        f.write("")
+
     # 5. Create GitHub Repo via API & Push Codebase (Full Version Control & Backup)
     repo_res = github_api("/user/repos", method="POST", data={
         "name": slug,
