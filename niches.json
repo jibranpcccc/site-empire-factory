@@ -1606,9 +1606,14 @@
     "niche": "EEG signal processing, binaural beat neuroscience, nootropics, brain-computer interfaces",
     "category": "Neuroscience & Tech",
     "accent": "#06b6d4",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-11T11:01:54.437816+00:00",
+    "live_url": "https://jibranpcccc.github.io/neurotech-brain-computer-interface-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "gladystuckergmgd@gmail.com",
+    "owner_profile": "Profile 32",
+    "owner_label": "Gladys Tucker"
   },
   {
     "id": "electric-vehicles-clean-energy-hub",
@@ -1617,9 +1622,14 @@
     "niche": "residential solar microinverters, battery backup walls, EV range optimization, bidirectional charging",
     "category": "Clean Tech",
     "accent": "#84cc16",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-11T11:02:37.522603+00:00",
+    "live_url": "https://electric-vehicles-clean-energy-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "siopkbritneymasnbur@gmail.com",
+    "owner_profile": "Profile 34",
+    "owner_label": "Britney Masnbur"
   },
   {
     "id": "indie-game-marketing-steam-hub",
@@ -1628,9 +1638,14 @@
     "niche": "Steam Next Fest wishlist velocity, game trailers, community playtesting, Godot & Unity",
     "category": "Game Development",
     "accent": "#e11d48",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null
+    "status": "deployed",
+    "deployed_at": "2026-09-11T11:03:09.186279+00:00",
+    "live_url": "https://jibranpcccc.github.io/indie-game-marketing-steam-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "christinapatelf@gmail.com",
+    "owner_profile": "Profile 35",
+    "owner_label": "Christina Patel"
   },
   {
     "id": "autonomous-ai-agents-hub",
@@ -1639,7 +1654,14 @@
     "category": "AI & Automation",
     "niche": "AutoGPT, CrewAI, LangGraph, Agentic workflows, multi-agent swarms, tool calling",
     "accent": "#6366f1",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/autonomous-ai-agents-hub/",
+    "assigned_gmail": "mdrakibul90634@gmail.com",
+    "owner_profile": "Profile 37",
+    "owner_label": "Md Sagor",
+    "deployed_at": "2026-09-11T11:03:43.549010+00:00"
   },
   {
     "id": "algo-trading-quant-hub",
@@ -1648,7 +1670,14 @@
     "category": "Quantitative Trading",
     "niche": "Python backtesting, algorithmic trading, high-frequency execution, CCXT, IBKR API",
     "accent": "#10b981",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://algo-trading-quant-hub.netlify.app/",
+    "assigned_gmail": "henryjude262@gmail.com",
+    "owner_profile": "Profile 41",
+    "owner_label": "Jude Henry",
+    "deployed_at": "2026-09-11T11:04:27.465508+00:00"
   },
   {
     "id": "golang-backend-cloud-hub",
@@ -1657,7 +1686,14 @@
     "category": "Backend Engineering",
     "niche": "Go microservices, gRPC, Gin, Fiber, concurrency, Goroutines, Kubernetes operators",
     "accent": "#00add8",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/golang-backend-cloud-hub/",
+    "assigned_gmail": "afolabi.081510@gmail.com",
+    "owner_profile": "Profile 43",
+    "owner_label": "Afolabi",
+    "deployed_at": "2026-09-11T11:05:51.466688+00:00"
   },
   {
     "id": "nextjs-fullstack-react-hub",
@@ -1666,7 +1702,14 @@
     "category": "Web Development",
     "niche": "Next.js App Router, Server Components, Tailwind CSS, Supabase, Vercel deployments",
     "accent": "#000000",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/nextjs-fullstack-react-hub/",
+    "assigned_gmail": "kerryvaquero@gmail.com",
+    "owner_profile": "Profile 44",
+    "owner_label": "Kerry Vaquero",
+    "deployed_at": "2026-09-11T11:06:23.892641+00:00"
   },
   {
     "id": "prompt-engineering-tuning-hub",
@@ -1675,7 +1718,14 @@
     "category": "AI & LLMs",
     "niche": "Few-shot prompts, LoRA fine-tuning, RAG pipelines, Vector databases, LangChain",
     "accent": "#a855f7",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://prompt-engineering-tuning-hub.netlify.app/",
+    "assigned_gmail": "jestwanted@gmail.com",
+    "owner_profile": "Profile 47",
+    "owner_label": "Just Wanted",
+    "deployed_at": "2026-09-11T11:07:07.050635+00:00"
   },
   {
     "id": "smart-contract-solidity-hub",
@@ -1684,7 +1734,14 @@
     "category": "Web3 Security",
     "niche": "Solidity audit, Foundry, Hardhat, reentrancy guards, DeFi protocol exploits, Slither",
     "accent": "#627eea",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/smart-contract-solidity-hub/",
+    "assigned_gmail": "kamrakhan351@gmail.com",
+    "owner_profile": "Profile 50",
+    "owner_label": "Kamra Khan",
+    "deployed_at": "2026-09-11T11:07:39.905087+00:00"
   },
   {
     "id": "homelab-selfhosted-linux-hub",
@@ -1693,7 +1750,14 @@
     "category": "Infrastructure & Hardware",
     "niche": "Proxmox, Docker, TrueNAS, unRAID, self-hosted apps, WireGuard, Plex, Home Assistant",
     "accent": "#f97316",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/homelab-selfhosted-linux-hub/",
+    "assigned_gmail": "reynoldsdcynthia@gmail.com",
+    "owner_profile": "Profile 6",
+    "owner_label": "Cynthia Reynolds",
+    "deployed_at": "2026-09-11T11:08:14.289003+00:00"
   },
   {
     "id": "bug-bounty-pentesting-hub",
