@@ -1766,7 +1766,14 @@
     "category": "Cybersecurity",
     "niche": "HackerOne, Bugcrowd, Burp Suite, Web security, recon workflows, CVE vulnerability research",
     "accent": "#ef4444",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://bug-bounty-pentesting-hub.netlify.app/",
+    "assigned_gmail": "rockb7004@gmail.com",
+    "owner_profile": "Profile 65",
+    "owner_label": "Rock Butt",
+    "deployed_at": "2026-09-12T06:00:56.182497+00:00"
   },
   {
     "id": "unreal-engine-5-creators-hub",
@@ -1775,7 +1782,14 @@
     "category": "Game Development",
     "niche": "UE5 Lumen, Nanite, Blueprint scripting, C++ game programming, MetaHuman, Quixel",
     "accent": "#0e1128",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/unreal-engine-5-creators-hub/",
+    "assigned_gmail": "adamsokenneth08@gmail.com",
+    "owner_profile": "Profile 9",
+    "owner_label": "Kenneth Adams",
+    "deployed_at": "2026-09-12T06:02:03.555731+00:00"
   },
   {
     "id": "unity-6-indie-studios-hub",
@@ -1784,7 +1798,14 @@
     "category": "Game Development",
     "niche": "Unity 6, C# game architecture, DOTS, 2D/3D physics, mobile game monetization",
     "accent": "#222c37",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/unity-6-indie-studios-hub/",
+    "assigned_gmail": "doriancuquejo05@gmail.com",
+    "owner_profile": "Profile 27",
+    "owner_label": "Dorian Cuquejo",
+    "deployed_at": "2026-09-12T06:03:01.984153+00:00"
   },
   {
     "id": "microsaas-bootstrappers-hub",
@@ -1793,7 +1814,14 @@
     "category": "Startups & SaaS",
     "niche": "Solo founders, MRR growth, Stripe billing, product validation, build in public",
     "accent": "#10b981",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://microsaas-bootstrappers-hub.netlify.app/",
+    "assigned_gmail": "teams.thefusionfeed@gmail.com",
+    "owner_profile": "Profile 28",
+    "owner_label": "Teams Fusion",
+    "deployed_at": "2026-09-12T06:04:26.183401+00:00"
   },
   {
     "id": "tiktok-shop-dropshipping-hub",
@@ -1802,7 +1830,14 @@
     "category": "E-Commerce",
     "niche": "TikTok viral products, supplier sourcing, CJ Dropshipping, video ads, Shopify conversion",
     "accent": "#ff0050",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/tiktok-shop-dropshipping-hub/",
+    "assigned_gmail": "vickimarshall853@gmail.com",
+    "owner_profile": "Profile 30",
+    "owner_label": "Vicki Marshall",
+    "deployed_at": "2026-09-12T06:05:04.626980+00:00"
   },
   {
     "id": "notion-templates-productivity-hub",
@@ -1811,7 +1846,14 @@
     "category": "Productivity",
     "niche": "Notion workspaces, GTD dashboards, second brain systems, automated Zapier workflows",
     "accent": "#000000",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/notion-templates-productivity-hub/",
+    "assigned_gmail": "janavajannimik@gmail.com",
+    "owner_profile": "Profile 31",
+    "owner_label": "Janava Jannimik",
+    "deployed_at": "2026-09-12T06:06:07.154862+00:00"
   },
   {
     "id": "biohacking-longevity-protocols-hub",
@@ -1820,7 +1862,14 @@
     "category": "Health & Longevity",
     "niche": "Zone 2 cardio, cold plunge, sauna protocols, supplement stacks, sleep tracking, CGM",
     "accent": "#14b8a6",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://biohacking-longevity-protocols-hub.netlify.app/",
+    "assigned_gmail": "gladystuckergmgd@gmail.com",
+    "owner_profile": "Profile 32",
+    "owner_label": "Gladys Tucker",
+    "deployed_at": "2026-09-12T06:07:04.985456+00:00"
   },
   {
     "id": "high-yield-treasury-wealth-hub",
@@ -1829,7 +1878,14 @@
     "category": "Personal Finance",
     "niche": "HYSA rates, 4-week Treasury bills, money market funds, laddering strategies, FDIC safety",
     "accent": "#059669",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/high-yield-treasury-wealth-hub/",
+    "assigned_gmail": "siopkbritneymasnbur@gmail.com",
+    "owner_profile": "Profile 34",
+    "owner_label": "Britney Masnbur",
+    "deployed_at": "2026-09-12T06:07:44.310985+00:00"
   },
   {
     "id": "remote-tech-careers-salary-hub",
@@ -1838,7 +1894,14 @@
     "category": "Tech Careers",
     "niche": "Global compensation, equity grants, FAANG interview prep, async work culture, salary negotiation",
     "accent": "#3b82f6",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/remote-tech-careers-salary-hub/",
+    "assigned_gmail": "christinapatelf@gmail.com",
+    "owner_profile": "Profile 35",
+    "owner_label": "Christina Patel",
+    "deployed_at": "2026-09-12T06:08:41.156443+00:00"
   },
   {
     "id": "postgresql-high-scale-db-hub",
@@ -1847,7 +1910,14 @@
     "category": "Databases",
     "niche": "PostgreSQL indexing, query optimization, pgvector, replica failover, connection pooling",
     "accent": "#336791",
-    "status": "pending"
+    "status": "deployed",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://postgresql-high-scale-db-hub.netlify.app/",
+    "assigned_gmail": "mdrakibul90634@gmail.com",
+    "owner_profile": "Profile 37",
+    "owner_label": "Md Sagor",
+    "deployed_at": "2026-09-12T06:09:39.306190+00:00"
   },
   {
     "id": "flutter-multiplatform-engineers-hub",
