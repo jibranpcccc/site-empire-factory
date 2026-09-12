@@ -512,13 +512,17 @@ def build_html(niche, communities, live_url):
             m_count_str = f"{int(m_count):,}+ members"
         else:
             m_count_str = str(m_count)
+        if c.get("isTodaysPick") or c.get("lastUpdated") == datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d"):
+            date_badge = '<span class="badge badge-date" style="background: rgba(245, 158, 11, 0.2); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.4); font-weight: 700;">📅 Today\'s Fresh Pick</span>'
+        else:
+            date_badge = f'<span class="badge badge-date">📅 {datetime.datetime.now().strftime("%b %Y")}</span>'
         cards_html += f"""
         <div id="community-card-{i+1}" class="card" data-platform="{plat.lower()}" data-category="{c.get('category','').lower()}">
             <div class="card-header">
                 <span class="badge badge-platform">{plat}</span>
                 <span class="badge badge-verified">✓ Verified</span>
                 <span class="badge badge-free">⚡ 100% Free</span>
-                <span class="badge badge-date">📅 Sep 2026</span>
+                {date_badge}
             </div>
             <h3 class="card-title">{c.get('title','')}</h3>
             <p class="card-desc">{c.get('description','')}</p>
