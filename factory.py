@@ -1318,26 +1318,38 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
     with open(os.path.join(site_dir, "llms.txt"), "w", encoding="utf-8") as f:
         f.write(build_llmstxt(name, live_url, niche))
 
-    # Isolated Site-Specific GSC Verification File
+    # GSC Verification Files: Universal Master Token + Site-Specific Token
     owner_email = niche.get("assigned_gmail") or "teams.thefusionfeed@gmail.com"
     if "jibranpccc" in str(owner_email).lower():
         raise ValueError(f"CRITICAL SECURITY VIOLATION: '{owner_email}' is strictly prohibited from site creation or ownership!")
+    
+    # 1. Universal Master GSC Verification File
+    with open(os.path.join(site_dir, "google6fe267a998c19a9a.html"), "w", encoding="utf-8") as f:
+        f.write("google-site-verification: google6fe267a998c19a9a.html\n")
+
+    # 2. Site-Specific GSC Verification File
     gsc_file_name, gsc_file_content = generate_site_gsc_token(slug, owner_email)
     with open(os.path.join(site_dir, gsc_file_name), "w", encoding="utf-8") as f:
         f.write(gsc_file_content)
 
-    # Standard 10: Inject isolated GSC verification meta tags into all HTML pages
+    # Standard 10: Inject both Universal Master & Site-Specific GSC verification meta tags
     raw_gsc_token = gsc_file_name.replace("google", "").replace(".html", "")
-    gsc_meta_snippet = f'    <meta name="google-site-verification" content="google{raw_gsc_token}">\n    <meta name="google-site-verification" content="{raw_gsc_token}">\n'
+    gsc_meta_snippet = (
+        '    <meta name="google-site-verification" content="google6fe267a998c19a9a">\n'
+        '    <meta name="google-site-verification" content="6fe267a998c19a9a">\n'
+        f'    <meta name="google-site-verification" content="google{raw_gsc_token}">\n'
+        f'    <meta name="google-site-verification" content="{raw_gsc_token}">\n'
+    )
     for html_filename in ["index.html", "about.html", "submit.html", "contact.html", "privacy.html", "terms.html"]:
         html_filepath = os.path.join(site_dir, html_filename)
         if os.path.exists(html_filepath):
             with open(html_filepath, "r", encoding="utf-8") as hf:
                 hcontent = hf.read()
-            if "google-site-verification" not in hcontent and "<title>" in hcontent:
-                hcontent = hcontent.replace("<title>", f"{gsc_meta_snippet}    <title>", 1)
-                with open(html_filepath, "w", encoding="utf-8") as hf:
-                    hf.write(hcontent)
+            if "<title>" in hcontent:
+                if "6fe267a998c19a9a" not in hcontent:
+                    hcontent = hcontent.replace("<title>", f"{gsc_meta_snippet}    <title>", 1)
+                    with open(html_filepath, "w", encoding="utf-8") as hf:
+                        hf.write(hcontent)
 
     # IndexNow key file
     with open(os.path.join(site_dir, f"{INDEXNOW_KEY}.txt"), "w", encoding="utf-8") as f:
