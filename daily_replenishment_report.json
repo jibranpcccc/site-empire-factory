@@ -1,16 +1,68 @@
 {
-  "timestamp": "2026-09-12T07:24:15.493082+00:00",
-  "total_processed": 1,
-  "success_count": 1,
-  "total_added": 1,
+  "timestamp": "2026-09-12T09:42:41.044398+00:00",
+  "total_processed": 5,
+  "success_count": 5,
+  "total_added": 5,
   "results": [
     {
-      "slug": "no-code-automation-hub",
-      "name": "No-Code & AI Automation Agency Hub",
+      "slug": "remote-work-nomad-hub",
+      "name": "Remote Work & Nomad Communities Hub",
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/SideProject MVP Builders"
+        "Nomad List Community Hub"
+      ],
+      "total_communities": 32,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true
+    },
+    {
+      "slug": "developer-coding-hub",
+      "name": "Developer & Coding Communities Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/docker Containers"
+      ],
+      "total_communities": 36,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true
+    },
+    {
+      "slug": "scholarships-study-abroad-hub",
+      "name": "Scholarships & Study Abroad Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/studyabroad International Students"
+      ],
+      "total_communities": 38,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true
+    },
+    {
+      "slug": "deals-loot-coupons-hub",
+      "name": "Deals, Loot & Coupons Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/shopify Store Owners"
+      ],
+      "total_communities": 66,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true
+    },
+    {
+      "slug": "ai-prompts-generative-hub",
+      "name": "AI Prompt Engineering & GenAI Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Machine Learning Digest Channel"
       ],
       "total_communities": 32,
       "git_pushed": true,
