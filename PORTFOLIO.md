@@ -1,8 +1,7 @@
 # Autonomous Site Empire Portfolio
 
-Total Deployed: **120 / 158**
-Active Fleet: **32 Verified Accounts** | Total Capacity: **128 Properties**
-Unassigned Niches: **0** (100% of 158 niches assigned)
+Total Deployed: **130 / 158**
+Last Run: `2026-09-12 10:39:34 UTC`
 
 | # | Site Name | Niche Category | Live URL | Platform | Repository | Webmaster / Gmail Owner | Deployed At |
 |---|---|---|---|---|---|---|---|
@@ -126,47 +125,13 @@ Unassigned Niches: **0** (100% of 158 niches assigned)
 | 118 | **High-Yield Cash & Treasury Bills Hub** | Personal Finance | [https://jibranpcccc.github.io/high-yield-treasury-wealth-hub/](https://jibranpcccc.github.io/high-yield-treasury-wealth-hub/) | GitHub Pages | [high-yield-treasury-wealth-hub](https://github.com/jibranpcccc/high-yield-treasury-wealth-hub) | Britney Masnbur (`siopkbritneymasnbur@gmail.com`) | 2026-09-12 |
 | 119 | **Remote Tech Career & Salary Hub** | Tech Careers | [https://jibranpcccc.github.io/remote-tech-careers-salary-hub/](https://jibranpcccc.github.io/remote-tech-careers-salary-hub/) | GitHub Pages | [remote-tech-careers-salary-hub](https://github.com/jibranpcccc/remote-tech-careers-salary-hub) | Christina Patel (`christinapatelf@gmail.com`) | 2026-09-12 |
 | 120 | **PostgreSQL & High-Scale Database Hub** | Databases | [https://postgresql-high-scale-db-hub.netlify.app/](https://postgresql-high-scale-db-hub.netlify.app/) | Netlify | [postgresql-high-scale-db-hub](https://github.com/jibranpcccc/postgresql-high-scale-db-hub) | Md Sagor (`mdrakibul90634@gmail.com`) | 2026-09-12 |
-
----
-
-## 🛡️ Webmaster Fleet & Account Isolation (32 Verified Accounts)
-
-- **Total Verified Accounts**: 32
-- **Maximum Fleet Capacity**: 128 Sites (5 sites / account limit for Google safety)
-- **Niches Covered**: 158 / 158 (0 unassigned)
-- **Strict Quarantine**: `jibranpccc@gmail.com` and `3djibranpccc@gmail.com` are 100% decoupled and quarantined.
-
-| # | Webmaster Account | Browser Profile / Environment | Assigned Niches | Security Status |
-|---|---|---|---|---|
-| 1 | `doriancuquejo05@gmail.com` | Chrome (Profile 27) | 8 Niches | ✅ Active & Clean |
-| 2 | `teams.thefusionfeed@gmail.com` | Chrome (Profile 28) | 8 Niches | ✅ Active & Clean |
-| 3 | `vickimarshall853@gmail.com` | Chrome (Profile 30) | 8 Niches | ✅ Active & Clean |
-| 4 | `janavajannimik@gmail.com` | Chrome (Profile 31) | 8 Niches | ✅ Active & Clean |
-| 5 | `gladystuckergmgd@gmail.com` | Chrome (Profile 32) | 8 Niches | ✅ Active & Clean |
-| 6 | `siopkbritneymasnbur@gmail.com` | Chrome (Profile 34) | 8 Niches | ✅ Active & Clean |
-| 7 | `christinapatelf@gmail.com` | Chrome (Profile 35) | 8 Niches | ✅ Active & Clean |
-| 8 | `mdrakibul90634@gmail.com` | Chrome (Profile 37) | 8 Niches | ✅ Active & Clean |
-| 9 | `henryjude262@gmail.com` | Chrome (Profile 41) | 7 Niches | ✅ Active & Clean |
-| 10 | `afolabi.081510@gmail.com` | Chrome (Profile 43) | 7 Niches | ✅ Active & Clean |
-| 11 | `kerryvaquero@gmail.com` | Chrome (Profile 44) | 7 Niches | ✅ Active & Clean |
-| 12 | `jestwanted@gmail.com` | Chrome (Profile 47) | 7 Niches | ✅ Active & Clean |
-| 13 | `kamrakhan351@gmail.com` | Chrome (Profile 50) | 7 Niches | ✅ Active & Clean |
-| 14 | `reynoldsdcynthia@gmail.com` | Chrome (Profile 6) | 7 Niches | ✅ Active & Clean |
-| 15 | `rockb7004@gmail.com` | Chrome (Profile 65) | 7 Niches | ✅ Active & Clean |
-| 16 | `adamsokenneth08@gmail.com` | Chrome (Profile 9) | 7 Niches | ✅ Active & Clean |
-| 17 | `rosereneee@gmail.com` | Chrome (Default) | 3 Niches | ✅ Active & Clean |
-| 18 | `resumecv1988@gmail.com` | Chrome (Profile 38) | 3 Niches | ✅ Active & Clean |
-| 19 | `mosestenzel@gmail.com` | Chrome (Profile 40) | 3 Niches | ✅ Active & Clean |
-| 20 | `neboficlamut@gmail.com` | Chrome (Profile 5) | 3 Niches | ✅ Active & Clean |
-| 21 | `3drockb7004@gmail.com` | Firefox (Firefox-Release) | 3 Niches | ✅ Active & Clean |
-| 22 | `3dthedreamrsltd@gmail.com` | Firefox (Firefox-Release) | 3 Niches | ✅ Active & Clean |
-| 23 | `bernicejones1200@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
-| 24 | `jimmyrose4028@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
-| 25 | `mubiahmed95@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
-| 26 | `opremium412@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
-| 27 | `raiaqeel900017@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
-| 28 | `raiaqeel900030@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
-| 29 | `raihunain20070@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
-| 30 | `ramzanmajeed.uk01@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
-| 31 | `thedreamrsltd@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
-| 32 | `thomasfcolling@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
+| 121 | **Flutter & Multi-Platform Engineers Hub** | Mobile Dev | [https://jibranpcccc.github.io/flutter-multiplatform-engineers-hub/](https://jibranpcccc.github.io/flutter-multiplatform-engineers-hub/) | GitHub Pages | [flutter-multiplatform-engineers-hub](https://github.com/jibranpcccc/flutter-multiplatform-engineers-hub) | Rose (`rosereneee@gmail.com`) | 2026-09-12 |
+| 122 | **Generative AI Art & Midjourney Hub** | AI Art & Design | [https://jibranpcccc.github.io/generative-ai-art-midjourney-hub/](https://jibranpcccc.github.io/generative-ai-art-midjourney-hub/) | GitHub Pages | [generative-ai-art-midjourney-hub](https://github.com/jibranpcccc/generative-ai-art-midjourney-hub) | Resume Investo (`resumecv1988@gmail.com`) | 2026-09-12 |
+| 123 | **Vue 3 & Nuxt Fullstack Hub** | Frontend Engineering | [https://vue-nuxt-fullstack-hub.netlify.app/](https://vue-nuxt-fullstack-hub.netlify.app/) | Netlify | [vue-nuxt-fullstack-hub](https://github.com/jibranpcccc/vue-nuxt-fullstack-hub) | Mose Tenzel (`mosestenzel@gmail.com`) | 2026-09-12 |
+| 124 | **Swift & SwiftUI iOS Architects Hub** | iOS Development | [https://jibranpcccc.github.io/swift-swiftui-ios-architects-hub/](https://jibranpcccc.github.io/swift-swiftui-ios-architects-hub/) | GitHub Pages | [swift-swiftui-ios-architects-hub](https://github.com/jibranpcccc/swift-swiftui-ios-architects-hub) | Ficlamut (`neboficlamut@gmail.com`) | 2026-09-12 |
+| 125 | **Deep Learning & PyTorch Researchers Hub** | Machine Learning | [https://jibranpcccc.github.io/pytorch-deep-learning-research-hub/](https://jibranpcccc.github.io/pytorch-deep-learning-research-hub/) | GitHub Pages | [pytorch-deep-learning-research-hub](https://github.com/jibranpcccc/pytorch-deep-learning-research-hub) | Rock 3D (`3drockb7004@gmail.com`) | 2026-09-12 |
+| 126 | **DevOps SRE & Incident Response Hub** | DevOps & SRE | [https://sre-incident-response-devops-hub.netlify.app/](https://sre-incident-response-devops-hub.netlify.app/) | Netlify | [sre-incident-response-devops-hub](https://github.com/jibranpcccc/sre-incident-response-devops-hub) | Dreamers 3D (`3dthedreamrsltd@gmail.com`) | 2026-09-12 |
+| 127 | **Technical Writing & API Docs Hub** | Content & Documentation | [https://jibranpcccc.github.io/technical-writing-api-docs-hub/](https://jibranpcccc.github.io/technical-writing-api-docs-hub/) | GitHub Pages | [technical-writing-api-docs-hub](https://github.com/jibranpcccc/technical-writing-api-docs-hub) | Bernice Jones (`bernicejones1200@gmail.com`) | 2026-09-12 |
+| 128 | **Solopreneur Email Marketing Hub** | Digital Marketing | [https://jibranpcccc.github.io/solopreneur-email-marketing-hub/](https://jibranpcccc.github.io/solopreneur-email-marketing-hub/) | GitHub Pages | [solopreneur-email-marketing-hub](https://github.com/jibranpcccc/solopreneur-email-marketing-hub) | Jimmy Rose (`jimmyrose4028@gmail.com`) | 2026-09-12 |
+| 129 | **Real Estate Syndications Hub** | Real Estate Investing | [https://real-estate-syndications-hub.netlify.app/](https://real-estate-syndications-hub.netlify.app/) | Netlify | [real-estate-syndications-hub](https://github.com/jibranpcccc/real-estate-syndications-hub) | Mubi Ahmed (`mubiahmed95@gmail.com`) | 2026-09-12 |
+| 130 | **B2B SaaS Sales & Cold Outreach Hub** | Sales & Growth | [https://jibranpcccc.github.io/b2b-saas-sales-outreach-hub/](https://jibranpcccc.github.io/b2b-saas-sales-outreach-hub/) | GitHub Pages | [b2b-saas-sales-outreach-hub](https://github.com/jibranpcccc/b2b-saas-sales-outreach-hub) | Opremium (`opremium412@gmail.com`) | 2026-09-12 |

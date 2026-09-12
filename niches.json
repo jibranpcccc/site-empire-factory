@@ -1926,11 +1926,15 @@
     "category": "Mobile Dev",
     "niche": "Dart, Flutter widgets, Riverpod, BLoC, native iOS/Android bridge, cross-platform apps",
     "accent": "#02569b",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "rosereneee@gmail.com",
     "owner_label": "Rose",
     "owner_profile": "Default",
-    "browser": "chrome"
+    "browser": "chrome",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/flutter-multiplatform-engineers-hub/",
+    "deployed_at": "2026-09-12T10:29:38.476503+00:00"
   },
   {
     "id": "generative-ai-art-midjourney-hub",
@@ -1939,11 +1943,15 @@
     "category": "AI Art & Design",
     "niche": "Midjourney v6 prompts, Stable Diffusion checkpoints, ComfyUI workflows, LoRA styling",
     "accent": "#ec4899",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "resumecv1988@gmail.com",
     "owner_label": "Resume Investo",
     "owner_profile": "Profile 38",
-    "browser": "chrome"
+    "browser": "chrome",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/generative-ai-art-midjourney-hub/",
+    "deployed_at": "2026-09-12T10:30:13.399084+00:00"
   },
   {
     "id": "vue-nuxt-fullstack-hub",
@@ -1952,11 +1960,15 @@
     "category": "Frontend Engineering",
     "niche": "Vue 3 Composition API, Nuxt 3 SSR, Pinia state, Vite tooling, Tailwind integrations",
     "accent": "#42b883",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "mosestenzel@gmail.com",
     "owner_label": "Mose Tenzel",
     "owner_profile": "Profile 40",
-    "browser": "chrome"
+    "browser": "chrome",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://vue-nuxt-fullstack-hub.netlify.app/",
+    "deployed_at": "2026-09-12T10:31:32.196833+00:00"
   },
   {
     "id": "swift-swiftui-ios-architects-hub",
@@ -1965,11 +1977,15 @@
     "category": "iOS Development",
     "niche": "Swift 6, SwiftUI, SwiftData, App Store optimization, VisionOS spatial computing",
     "accent": "#f05138",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "neboficlamut@gmail.com",
     "owner_label": "Ficlamut",
     "owner_profile": "Profile 5",
-    "browser": "chrome"
+    "browser": "chrome",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/swift-swiftui-ios-architects-hub/",
+    "deployed_at": "2026-09-12T10:32:58.952096+00:00"
   },
   {
     "id": "pytorch-deep-learning-research-hub",
@@ -1978,11 +1994,15 @@
     "category": "Machine Learning",
     "niche": "PyTorch 2.0, CUDA optimization, transformer attention, diffusion backbones, arXiv paper implementations",
     "accent": "#ee4c2c",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "3drockb7004@gmail.com",
     "owner_label": "Rock 3D",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/pytorch-deep-learning-research-hub/",
+    "deployed_at": "2026-09-12T10:33:35.437250+00:00"
   },
   {
     "id": "sre-incident-response-devops-hub",
@@ -1991,11 +2011,15 @@
     "category": "DevOps & SRE",
     "niche": "Chaos engineering, Prometheus monitoring, Grafana dashboards, PagerDuty on-call, postmortems",
     "accent": "#f59e0b",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "3dthedreamrsltd@gmail.com",
     "owner_label": "Dreamers 3D",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://sre-incident-response-devops-hub.netlify.app/",
+    "deployed_at": "2026-09-12T10:34:17.357913+00:00"
   },
   {
     "id": "technical-writing-api-docs-hub",
@@ -2004,11 +2028,15 @@
     "category": "Content & Documentation",
     "niche": "Stripe-style docs, OpenAPI/Swagger, Markdown documentation, doc-as-code, developer advocacy",
     "accent": "#64748b",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "bernicejones1200@gmail.com",
     "owner_label": "Bernice Jones",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/technical-writing-api-docs-hub/",
+    "deployed_at": "2026-09-12T10:35:17.847639+00:00"
   },
   {
     "id": "solopreneur-email-marketing-hub",
@@ -2017,11 +2045,15 @@
     "category": "Digital Marketing",
     "niche": "Substack growth, ConvertKit automations, cold email sequences, deliverability, open rates",
     "accent": "#8b5cf6",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "jimmyrose4028@gmail.com",
     "owner_label": "Jimmy Rose",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/solopreneur-email-marketing-hub/",
+    "deployed_at": "2026-09-12T10:36:57.903153+00:00"
   },
   {
     "id": "real-estate-syndications-hub",
@@ -2030,11 +2062,15 @@
     "category": "Real Estate Investing",
     "niche": "Multi-family syndications, LP investor pools, capital calls, cap rate analysis, 1031 exchange",
     "accent": "#b45309",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "mubiahmed95@gmail.com",
     "owner_label": "Mubi Ahmed",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://real-estate-syndications-hub.netlify.app/",
+    "deployed_at": "2026-09-12T10:38:03.309235+00:00"
   },
   {
     "id": "b2b-saas-sales-outreach-hub",
@@ -2043,11 +2079,15 @@
     "category": "Sales & Growth",
     "niche": "Apollo.io lead scraping, Clay workflows, cold calling scripts, outbound email deliverability",
     "accent": "#2563eb",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "opremium412@gmail.com",
     "owner_label": "Opremium",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/b2b-saas-sales-outreach-hub/",
+    "deployed_at": "2026-09-12T10:39:30.369963+00:00"
   },
   {
     "id": "blender-3d-modeling-animation-hub",
