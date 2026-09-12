@@ -1,0 +1,187 @@
+{
+  "https://discord.gg/audioengineering": {
+    "new": "https://gearspace.com/board/",
+    "ok": true,
+    "msg": "HTTP 403 (WAF protected active site)"
+  },
+  "https://discord.gg/bogleheads": {
+    "new": "https://www.bogleheads.org/forum/",
+    "ok": true,
+    "msg": "HTTP 403 (WAF protected active site)"
+  },
+  "https://discord.gg/fire": {
+    "new": "https://forum.mrmoneymustache.com",
+    "ok": true,
+    "msg": "HTTP 403 (WAF protected active site)"
+  },
+  "https://discord.gg/devops": {
+    "new": "https://discord.gg/devcord",
+    "ok": true,
+    "msg": "Discord 200: devcord"
+  },
+  "https://discord.gg/dexscreener": {
+    "new": "https://discord.gg/raydium",
+    "ok": true,
+    "msg": "Discord 200: Raydium Protocol"
+  },
+  "https://discord.gg/edmproduction": {
+    "new": "https://discord.gg/flstudio",
+    "ok": true,
+    "msg": "Discord 200: FL Studio Community"
+  },
+  "https://discord.gg/airtable": {
+    "new": "https://community.airtable.com",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://discord.gg/bubble": {
+    "new": "https://forum.bubble.io",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://discord.gg/flutterflow": {
+    "new": "https://discord.gg/flutter",
+    "ok": true,
+    "msg": "Discord 200: \ud83e\udd8b \ud835\udc39\ud835\udc59\ud835\udc62\ud835\udc61\ud835\udc61\ud835\udc52\ud835\udc5f \ud835\udc46\ud835\udc62\ud835\udc5a\ud835\udc5a\ud835\udc52\ud835\udc5f\ud835\udc53\ud835\udc52\ud835\udc60\ud835\udc61 \u22ee \ud835\udff8\ud835\udff6\ud835\udff8\ud835\udffc"
+  },
+  "https://discord.gg/langchain": {
+    "new": "https://github.com/langchain-ai/langchain/discussions",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://discord.gg/kubernetes": {
+    "new": "https://discuss.kubernetes.io",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://discord.gg/kotlin": {
+    "new": "https://discord.gg/android",
+    "ok": true,
+    "msg": "Discord 200: Android Discord"
+  },
+  "https://discord.gg/ethereum": {
+    "new": "https://discord.gg/solana",
+    "ok": true,
+    "msg": "Discord 200: Solana Tech"
+  },
+  "https://discord.gg/huggingface": {
+    "new": "https://discuss.huggingface.co",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://discord.gg/podcasting": {
+    "new": "https://podcastmovement.com",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://discord.gg/makinghiphop": {
+    "new": "https://discord.gg/flstudio",
+    "ok": true,
+    "msg": "Discord 200: FL Studio Community"
+  },
+  "https://discord.gg/marketing": {
+    "new": "https://discord.gg/agency",
+    "ok": true,
+    "msg": "Discord 200: CIA | .gg/Agency \ud83e\udd85"
+  },
+  "https://discord.gg/llvm": {
+    "new": "https://discourse.llvm.org",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://discord.gg/mediabuyers": {
+    "new": "https://discord.gg/ecommerce",
+    "ok": true,
+    "msg": "Discord 200: Ecommerce\u00ae"
+  },
+  "https://discord.gg/nocode": {
+    "new": "https://community.make.com",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://discord.gg/proptrading": {
+    "new": "https://discord.gg/trading",
+    "ok": true,
+    "msg": "Discord 200: TRADING"
+  },
+  "https://discord.gg/personalfinance": {
+    "new": "https://discord.gg/wealth",
+    "ok": true,
+    "msg": "Discord 200: wealth"
+  },
+  "https://discord.gg/notion": {
+    "new": "https://forum.obsidian.md",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://discord.gg/techseo": {
+    "new": "https://discord.gg/seo",
+    "ok": true,
+    "msg": "Discord 200: SEOdiy.com"
+  },
+  "https://discord.gg/theprogrammershangout": {
+    "new": "https://discord.gg/programming",
+    "ok": true,
+    "msg": "Discord 200: The Programmer's Hangout"
+  },
+  "https://discord.gg/biggerpockets": {
+    "new": "https://www.biggerpockets.com/forums",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://discord.gg/thetagang": {
+    "new": "https://discord.gg/options",
+    "ok": true,
+    "msg": "Discord 200: The Contrarian"
+  },
+  "https://discord.gg/tiktokads": {
+    "new": "https://discord.gg/dropshipping",
+    "ok": true,
+    "msg": "Discord 200: GrindCommerce"
+  },
+  "https://discord.gg/dividends": {
+    "new": "https://www.reddit.com/r/dividends/",
+    "ok": true,
+    "msg": "HTTP 429 (WAF protected active site)"
+  },
+  "https://discord.gg/technology": {
+    "new": "https://discord.gg/tech",
+    "ok": true,
+    "msg": "Discord 200: /g/ - ontology"
+  },
+  "https://discord.gg/webdev": {
+    "new": "https://discord.gg/code",
+    "ok": true,
+    "msg": "Discord 200: The Coding Den"
+  },
+  "https://github.com/kubernetes/kubernetes/discussions": {
+    "new": "https://discuss.kubernetes.io",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://discord.gg/webflow": {
+    "new": "https://discourse.webflow.com",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://discord.gg/zapier": {
+    "new": "https://community.zapier.com",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://github.com/pytorch/pytorch/discussions": {
+    "new": "https://discuss.pytorch.org",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://github.com/rust-lang/rust/discussions": {
+    "new": "https://users.rust-lang.org",
+    "ok": true,
+    "msg": "HTTP 200"
+  },
+  "https://forum.thegradcafe.com": {
+    "new": "https://www.reddit.com/r/GradSchool/",
+    "ok": true,
+    "msg": "HTTP 429 (WAF protected active site)"
+  }
+}

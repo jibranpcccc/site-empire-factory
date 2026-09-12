@@ -1,0 +1,1212 @@
+{
+  "https://discord.gg/ecommerce": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/dropshipping": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/devcord": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/devops": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/entrepreneur": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/editing": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/expats": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/biggerpockets": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/creators": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/designbuddies": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/anthropic": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/business": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/faceless": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/blender": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/frontend": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/figma": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/finance": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/fire": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/golang": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/gamedev": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/hackthebox": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/freelance": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/kubernetes": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/huggingface": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/homelab": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/graphicdesign": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/investing": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/home-assistant": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/mediabuyers": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/nextjs": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/python": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/openai": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/reactiflux": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/productdesign": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/nomads": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/programming": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/personalfinance": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/langchain": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/remotework": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/rust-lang": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/seo": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/realestate": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/stocks": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/study": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/theprogrammershangout": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/tiktokads": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/startups": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/tech": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/tailwind": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/shopify": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/technology": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/uiux": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://bogleheads.org/forum/": {
+    "status": 403,
+    "type": "http_error",
+    "msg": "HTTP Error 403: Forbidden"
+  },
+  "https://discord.gg/upwork": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/tryhackme": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/typescript": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/virtualassistants": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/webdesign": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/videoediting": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/vue": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/wealth": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/youtube": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://slickdeals.net/forums/": {
+    "status": 403,
+    "type": "http_error",
+    "msg": "HTTP Error 403: Forbidden"
+  },
+  "https://stackoverflow.com/questions/tagged/python": {
+    "status": 403,
+    "type": "http_error",
+    "msg": "HTTP Error 403: Forbidden"
+  },
+  "https://forum.figma.com": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://forum.hackthebox.com": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://github.com/kubernetes/kubernetes/discussions": {
+    "status": 404,
+    "type": "github_error",
+    "msg": "HTTP Error 404: Not Found"
+  },
+  "https://github.com/pytorch/pytorch/discussions": {
+    "status": 404,
+    "type": "github_error",
+    "msg": "HTTP Error 404: Not Found"
+  },
+  "https://github.com/rust-lang/rust/discussions": {
+    "status": 404,
+    "type": "github_error",
+    "msg": "HTTP Error 404: Not Found"
+  },
+  "https://t.me/ai_insights": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://github.com/OWASP/CheatSheetSeries/discussions": {
+    "status": 200,
+    "type": "github_ok"
+  },
+  "https://github.com/langchain-ai/langchain/discussions": {
+    "status": 200,
+    "type": "github_ok"
+  },
+  "https://t.me/bloomberg": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://discuss.huggingface.co": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://t.me/cloud_native_hub": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://github.com/vercel/next.js/discussions": {
+    "status": 200,
+    "type": "github_ok"
+  },
+  "https://discuss.hashicorp.com": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://t.me/commercialrealestate": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/devops_channel": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://discuss.kubernetes.io": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://t.me/digitalnomads": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/dubaibusiness": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://discuss.pytorch.org": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://t.me/facelessyoutube": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/highctrthumbnails": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/figma": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/infosec_alerts": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/daytrading": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/investing": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/mobileui": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/nomadcapitalist": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/nomadwealth": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/propertydeals": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/python_scripts": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/realestatemarket": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://forum.thegradcafe.com": {
+    "status": "err",
+    "type": "http_err",
+    "msg": "The read operation timed out"
+  },
+  "https://discord.gg/midjourney": {
+    "status": 200,
+    "type": "discord_valid",
+    "guild": "Midjourney"
+  },
+  "https://t.me/cybersecurity_news": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/dealnews": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/ecom_masters": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/ecomscaling": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/rust_lang_news": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/expattax": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/scholarships_feed": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/freelance": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/shopifydropshipping": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/gamedev_channel": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/tiktokviraltrends": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/techcrunch": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/remotework": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/remotework_jobs": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/machinelearning_digest": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/webdesign": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/offshorebanking": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/youtubecashcow": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/youtubemonetization": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/fbads_blueprint": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://www.reddit.com/r/3Dmodeling/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/AffiliateMarket/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/AfterEffects/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/AmerExit/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/ChatGPT/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/ClaudeAI/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://t.me/propertyinvestors": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://www.reddit.com/r/CommercialRealEstate/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/CreatorServices/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Design/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/DesignSystems/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/ExpatFIRE/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Entrepreneur/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.kaggle.com/discussion": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://t.me/uiux": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://www.reddit.com/r/FacebookAds/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/FigmaDesign/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/FinancialPlanning/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Filmmakers/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/FirstTimeHomeBuyer/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://t.me/realestateinvesting": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://www.reddit.com/r/Frugal/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Fiverr/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Houdini/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/GradSchool/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/IWantOut/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/InstagramMarketing/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/LocalLLaMA/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/MachineLearning/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Midjourney/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Landlord/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/NewTubers/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Mortgages/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Outsourcing/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/PartneredYoutube/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/PassportPorn/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/PPC/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/ProductManagement/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/PromptEngineering/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Python/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/RealEstate/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/RealEstateTechnology/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/RemoteJobs/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/SideProject/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/SEO/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/SaaS/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/TikTokAds/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/StableDiffusion/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/TinyHouses/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://users.rust-lang.org": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/UI_UX/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/UXDesign/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/UserExperienceDesign/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Upwork/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/VideoEditing/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/YouTubeCreators/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/YouTubeGamers/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/WorkOnline/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Zigbee/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/adops/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/accessibility/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/animation/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/VirtualAssistantJobs/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/audioengineering/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/aws/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/business/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/blender/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/bugbounty/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/centuryhomes/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/content_marketing/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/cscareerquestions/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/cpp/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/cybersecurity/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/css/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/digitalnomad/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/davinciresolve/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/devops/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/digitalmarketing/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/deals/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/docker/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/dropship/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/esp8266/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/esp32/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/dubai/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/expatfinance/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/ethicalhacking/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/expats/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/ecommerce/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/fatFIRE/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/financialindependence/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/frontend/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/fulfillmentbyamazon/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/forhire/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/freelance/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/gamedev/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/golang/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/homeassistant/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/homeautomation/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/homeowners/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/homelab/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/graphic_design/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/interactiondesign/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.biggerpockets.com/forums": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/investing/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/javascript/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/legaladvice/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/kubernetes/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/linux/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/marketing/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/netsec/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/panama/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/passive_income/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/onlinebusiness/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/personalfinance/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/productivity/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/premiere/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/portugalexpats/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/programming/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/raspberry_pi/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/rich/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/realestateinvesting/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/realtors/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/remotework/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/rust/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/scholarships/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/propertyinvesting/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/smallbusiness/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/shorts/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/smarthome/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/science/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/shopify/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/socialmediamarketing/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/startups/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/technology/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/tax/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/studyabroad/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/typography/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/stocks/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/telework/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/typescript/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/userexperience/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/unrealengine/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/virtualassistant/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/unity3d/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/wallstreetbets/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/webdev/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/vfx/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/webdesign/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/youtubers/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://t.me/startup_hub": {
+    "status": 200,
+    "type": "telegram",
+    "is_real": true
+  },
+  "https://t.me/realestatenews": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/viralshorts": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/videoaitools": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/virtualassistants": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/webdev_hub": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/winningproducts": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  }
+}

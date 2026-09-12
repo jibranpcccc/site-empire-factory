@@ -1,0 +1,728 @@
+{
+  "invalid": [
+    "https://t.me/affiliatefunnels",
+    "https://t.me/AaveDevelopers",
+    "https://t.me/bestbuytechdrops",
+    "https://t.me/appledealstracker",
+    "https://t.me/PythonDevelopersGlobal",
+    "https://t.me/businessclasserrors",
+    "https://t.me/amazonpromostacks",
+    "https://t.me/beautystackingdeals",
+    "https://t.me/cloudnative",
+    "https://t.me/competitive_programming_club",
+    "https://t.me/canada_study_permit_forum",
+    "https://t.me/copywritingpros",
+    "https://t.me/cryptonews",
+    "https://t.me/cloud_native_hub",
+    "https://t.me/amazonppc",
+    "https://t.me/airdropalert",
+    "https://t.me/ChatGPT_AI",
+    "https://t.me/affiliatemarketing",
+    "https://t.me/devops_feed",
+    "https://t.me/defifarmer",
+    "https://t.me/costcoclearancefinds",
+    "https://t.me/cruiseglitchwatch",
+    "https://t.me/directresponsecopy",
+    "https://t.me/cryptoairdrops",
+    "https://t.me/ecommercehub",
+    "https://t.me/ecomworld",
+    "https://t.me/emailcopy",
+    "https://t.me/errorfareradar",
+    "https://t.me/cybersecurity",
+    "https://t.me/forexscalpingpro",
+    "https://t.me/eth_developers_hub",
+    "https://t.me/freelancewriters",
+    "https://t.me/deeplearning_ai_community",
+    "https://t.me/germany_student_visa_help",
+    "https://t.me/glitchdealalerts",
+    "https://t.me/godotengine",
+    "https://t.me/gre_quant_verbal_elite",
+    "https://t.me/growthhacking",
+    "https://t.me/homeappliancedrops",
+    "https://t.me/ielts_academic_prep_hub",
+    "https://t.me/devops_engineers_channel",
+    "https://t.me/indiegamedev",
+    "https://t.me/dexscreener",
+    "https://t.me/kubernetes",
+    "https://t.me/infosec_alerts",
+    "https://t.me/machinelearning",
+    "https://t.me/machinelearning_digest",
+    "https://t.me/marketingpro",
+    "https://t.me/erasmus_mundus_scholars",
+    "https://t.me/mistakefaresglobal",
+    "https://t.me/passiveincome",
+    "https://t.me/eth",
+    "https://t.me/fxstreet",
+    "https://t.me/privatelabel",
+    "https://t.me/react_devs_group",
+    "https://t.me/remoteworking",
+    "https://t.me/defipulse",
+    "https://t.me/rust_lang_news",
+    "https://t.me/sneakerstealsdrop",
+    "https://t.me/solana",
+    "https://t.me/microservices",
+    "https://t.me/targetwalmartinsider",
+    "https://t.me/linux",
+    "https://t.me/luxuryoutletsteals",
+    "https://t.me/testnet_news",
+    "https://t.me/uk_student_visa_community",
+    "https://t.me/uniswap",
+    "https://t.me/wealthbuilding",
+    "https://t.me/slickdeals",
+    "https://t.me/vslscripts",
+    "https://t.me/python_scripts",
+    "https://t.me/python_datascience",
+    "https://t.me/seo",
+    "https://t.me/superaffiliates",
+    "https://t.me/systemdesign_fightclub",
+    "https://t.me/wholefoodsperks",
+    "https://t.me/webdev_hub"
+  ],
+  "results": {
+    "https://t.me/CoinMarketCap": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/affiliatefunnels": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/ai_insights": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/AaveDevelopers": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/ai_machinelearning": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/bestbuytechdrops": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/appledealstracker": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/bogleheads": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/bugbounty": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/PythonDevelopersGlobal": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/businessclasserrors": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/amazonpromostacks": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/beautystackingdeals": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/bloomberg": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/cloudnative": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/competitive_programming_club": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/canada_study_permit_forum": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/coindesk": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/copywritingpros": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/cryptonews": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/curvefi": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/cloud_native_hub": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/cybersecurity_news": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/cpanetworks": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/dailyfx": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/datascience": {
+      "valid": true,
+      "title": "\u200c\u0645\u062d\u0645\u062f\u0631\u0636\u0627 \u0645\u062d\u062a\u0627\u0637",
+      "status": 200
+    },
+    "https://t.me/datascienceiot": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/deeplearning": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/amazonppc": {
+      "valid": false,
+      "title": "Err: <urlopen error timed out>",
+      "status": 0
+    },
+    "https://t.me/airdropalert": {
+      "valid": false,
+      "title": "Err: <urlopen error _ssl.c:1011: Th",
+      "status": 0
+    },
+    "https://t.me/ChatGPT_AI": {
+      "valid": false,
+      "title": "Err: <urlopen error _ssl.c:1011: Th",
+      "status": 0
+    },
+    "https://t.me/affiliatemarketing": {
+      "valid": false,
+      "title": "Err: <urlopen error _ssl.c:1011: Th",
+      "status": 0
+    },
+    "https://t.me/defiairdrops": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/devops": {
+      "valid": true,
+      "title": "Alexey Kirillov",
+      "status": 200
+    },
+    "https://t.me/devops_feed": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/defifarmer": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/costcoclearancefinds": {
+      "valid": false,
+      "title": "Err: <urlopen error _ssl.c:1011: Th",
+      "status": 0
+    },
+    "https://t.me/cruiseglitchwatch": {
+      "valid": false,
+      "title": "Err: <urlopen error timed out>",
+      "status": 0
+    },
+    "https://t.me/digitalnomads": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/digitalmarketing": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/directresponsecopy": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/cryptoairdrops": {
+      "valid": false,
+      "title": "Err: <urlopen error timed out>",
+      "status": 0
+    },
+    "https://t.me/dividendinvestors": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/docker": {
+      "valid": true,
+      "title": "Pavel \u00abDocker&#33;\u00bb Kuly\u00f6v",
+      "status": 200
+    },
+    "https://t.me/ecommercehub": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/ecomworld": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/emailcopy": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/directresponse": {
+      "valid": true,
+      "title": "D R",
+      "status": 200
+    },
+    "https://t.me/errorfareradar": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/cybersecurity": {
+      "valid": false,
+      "title": "Err: <urlopen error timed out>",
+      "status": 0
+    },
+    "https://t.me/deals": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/financialindependence": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/fbasellers": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/forexlive": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/forexscalpingpro": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/ftmotraders": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/eth_developers_hub": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/forexsignals": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/freelancewriters": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/deeplearning_ai_community": {
+      "valid": false,
+      "title": "Err: <urlopen error timed out>",
+      "status": 0
+    },
+    "https://t.me/gamedev_channel": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/germany_student_visa_help": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/glitchdealalerts": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/godotengine": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/gre_quant_verbal_elite": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/growthhacking": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/homeappliancedrops": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/ielts_academic_prep_hub": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/devops_engineers_channel": {
+      "valid": false,
+      "title": "Err: <urlopen error _ssl.c:1011: Th",
+      "status": 0
+    },
+    "https://t.me/indiehackers": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/indiegamedev": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/dexscreener": {
+      "valid": false,
+      "title": "Err: <urlopen error _ssl.c:1011: Th",
+      "status": 0
+    },
+    "https://t.me/infosec": {
+      "valid": true,
+      "title": "Marin Ivezic",
+      "status": 200
+    },
+    "https://t.me/golang": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/jupiterchannel": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/kubernetes": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/hackers": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/gamedev": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/infosec_alerts": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/machinelearning": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/machinelearning_digest": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/marketingpro": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/mediabuying": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/erasmus_mundus_scholars": {
+      "valid": false,
+      "title": "Err: <urlopen error _ssl.c:1011: Th",
+      "status": 0
+    },
+    "https://t.me/midjourney": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/mistakefaresglobal": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/passiveincome": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/personalfinance": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/producthunt": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/eth": {
+      "valid": false,
+      "title": "Err: <urlopen error _ssl.c:1011: Th",
+      "status": 0
+    },
+    "https://t.me/priceactionforex": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/fxstreet": {
+      "valid": false,
+      "title": "Err: <urlopen error timed out>",
+      "status": 0
+    },
+    "https://t.me/privatelabel": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/productsourcing": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/pumpfun": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/productivity_hacks": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/react_devs_group": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/remotework_jobs": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/remoteworking": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/saasfounders": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/defipulse": {
+      "valid": false,
+      "title": "Err: <urlopen error _ssl.c:1011: Th",
+      "status": 0
+    },
+    "https://t.me/rust_lang_news": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/sneakerstealsdrop": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/solana": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/solopreneurs": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/startups": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/microservices": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/performancemarketing": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/targetwalmartinsider": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/linux": {
+      "valid": false,
+      "title": "Err: <urlopen error timed out>",
+      "status": 0
+    },
+    "https://t.me/luxuryoutletsteals": {
+      "valid": false,
+      "title": "Err: <urlopen error timed out>",
+      "status": 0
+    },
+    "https://t.me/testnet_news": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/raydium": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/uk_student_visa_community": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/uniswap": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/valueinvesting": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/wealthbuilding": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/slickdeals": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/vslscripts": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/techcrunch": {
+      "valid": true,
+      "title": "\ud835\udd6d\ud835\udd70",
+      "status": 200
+    },
+    "https://t.me/yearnfinance": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/python_scripts": {
+      "valid": false,
+      "title": "Err: <urlopen error timed out>",
+      "status": 0
+    },
+    "https://t.me/python_datascience": {
+      "valid": false,
+      "title": "Err: <urlopen error _ssl.c:1011: Th",
+      "status": 0
+    },
+    "https://t.me/seo": {
+      "valid": false,
+      "title": "Err: <urlopen error _ssl.c:1011: Th",
+      "status": 0
+    },
+    "https://t.me/superaffiliates": {
+      "valid": false,
+      "title": "Err: <urlopen error timed out>",
+      "status": 0
+    },
+    "https://t.me/tradingview": {
+      "valid": true,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/systemdesign_fightclub": {
+      "valid": false,
+      "title": "Err: <urlopen error _ssl.c:1011: Th",
+      "status": 0
+    },
+    "https://t.me/wholefoodsperks": {
+      "valid": false,
+      "title": null,
+      "status": 200
+    },
+    "https://t.me/webdev_hub": {
+      "valid": false,
+      "title": "Err: <urlopen error _ssl.c:1011: Th",
+      "status": 0
+    }
+  }
+}

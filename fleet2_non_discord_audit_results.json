@@ -1,0 +1,1717 @@
+{
+  "https://podcastmovement.com": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://slickdeals.net/forums/": {
+    "valid": true,
+    "msg": "blocked_403_likely_active",
+    "code": 403
+  },
+  "https://stackoverflow.com/questions/tagged/python": {
+    "valid": true,
+    "msg": "blocked_403_likely_active",
+    "code": 403
+  },
+  "https://forum.mrmoneymustache.com": {
+    "valid": true,
+    "msg": "blocked_403_likely_active",
+    "code": 403
+  },
+  "https://gearspace.com/board/": {
+    "valid": true,
+    "msg": "blocked_403_likely_active",
+    "code": 403
+  },
+  "https://bogleheads.org/forum/": {
+    "valid": true,
+    "msg": "blocked_403_likely_active",
+    "code": 403
+  },
+  "https://community.home-assistant.io": {
+    "valid": true,
+    "msg": "blocked_403_likely_active",
+    "code": 403
+  },
+  "https://podnews.net": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://community.make.com": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://blenderartists.org": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://github.com/pytorch/pytorch/discussions": {
+    "valid": false,
+    "msg": "http_error_404",
+    "code": 404
+  },
+  "https://github.com/rust-lang/rust/discussions": {
+    "valid": false,
+    "msg": "http_error_404",
+    "code": 404
+  },
+  "https://community.shopify.com": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://github.com/kubernetes/kubernetes/discussions": {
+    "valid": false,
+    "msg": "http_error_404",
+    "code": 404
+  },
+  "https://t.me/CoinMarketCap": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/agencyretainers": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://nomadlist.com": {
+    "valid": true,
+    "msg": "blocked_403_likely_active",
+    "code": 403
+  },
+  "https://github.com/langchain-ai/langchain/discussions": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://community.airtable.com": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://discuss.huggingface.co": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://community.openai.com": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/androiddev": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://forum.bubble.io": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/audioengineering": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/bloomberg": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://github.com/vercel/next.js/discussions": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://news.ycombinator.com": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://discuss.pytorch.org": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://forum.obsidian.md": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://discuss.hashicorp.com": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/creators": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/daytrading": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/dealnews": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/cryptotrading": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/devops_channel": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/dividendinvestors": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/ecom_masters": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://community.zapier.com": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/agencygrowthhub": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/flstudio": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/ableton": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/google_updates": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/b2bleadgen": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/investing": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/jupiterchannel": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/kotlin_lang": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/embedded_programming": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/nichesites": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/n8n_io": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/fluttercommunity": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/linkbuilding": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/automation": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/personalfinance": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/cryptonews": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/programmaticseo": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/propertydeals": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/proptraders": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/propertyinvestors": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/pumpfun": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/raydium": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/podcasters": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/python_scripts": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/realestateinvesting": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/remotework_jobs": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://forum.thegradcafe.com": {
+    "valid": false,
+    "msg": "error_The read operation timed out",
+    "code": 0
+  },
+  "https://t.me/ai_insights": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/dexscreener": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/cloud_native_hub": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/coldemailinfra": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/flutter": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/commercialrealestate": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/coindesk": {
+    "valid": false,
+    "msg": "error_<urlopen error _ssl.c:1011: The handshake operation timed out>",
+    "code": 0
+  },
+  "https://t.me/seomasters": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/fbads_blueprint": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/financialindependence": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/solana": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/sounddesign": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/startup_hub": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/forexsignals": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/forextrading": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/gamedev_channel": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/swift_dev": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/systems_programming": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/techcrunch": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/tradingview": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/machinelearning_digest": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/mobileappdev": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/musicproduction": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/wasm_community": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/ecomscaling": {
+    "valid": false,
+    "msg": "error_<urlopen error _ssl.c:1011: The handshake operation timed out>",
+    "code": 0
+  },
+  "https://t.me/smmamasters": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/webdev_hub": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/webflow": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/nocode": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/optionstrading": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://whatsapp.com/channel/0029Va5f7vN7YSd1fG7k341d": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.bogleheads.org/forum/": {
+    "valid": true,
+    "msg": "blocked_403_likely_active",
+    "code": 403
+  },
+  "https://whatsapp.com/channel/0029Va889wM2v1IqfX5Z1U3p": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/tiktokviraltrends": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.early-retirement.org/forums/": {
+    "valid": true,
+    "msg": "blocked_403_likely_active",
+    "code": 403
+  },
+  "https://www.kvraudio.com/forum/": {
+    "valid": true,
+    "msg": "blocked_403_likely_active",
+    "code": 403
+  },
+  "https://www.indiehackers.com": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.producthunt.com": {
+    "valid": true,
+    "msg": "blocked_403_likely_active",
+    "code": 403
+  },
+  "https://www.producthunt.com/discussions": {
+    "valid": true,
+    "msg": "blocked_403_likely_active",
+    "code": 403
+  },
+  "https://t.me/productivity_hacks": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://transom.org": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.choosefi.com/community/": {
+    "valid": true,
+    "msg": "blocked_403_likely_active",
+    "code": 403
+  },
+  "https://www.kaggle.com/discussion": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Automate/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Bitwig/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://users.rust-lang.org": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/webflow_ru": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Blogging/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/C_Programming/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/ChatGPT/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/ChubbyFIRE/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/ClaudeAI/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/CoastFIRE/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/CommercialRealEstate/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/CryptoCurrency/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/CryptoMarkets/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/CryptoMoonShots/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Daytrading/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Entrepreneur/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/ExperiencedDevs/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/FIREyFemmes/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/FL_Studio/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/FacebookAds/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/FinancialPlanning/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/swiftlang": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/FirstTimeHomeBuyer/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/FlutterFlow/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/FlutterDev/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Forex/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Frugal/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/FuturesTrading/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.biggerpockets.com/forums": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/GetOrganized/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/GoogleSearchConsole/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/GradSchool/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/InstagramMarketing/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/ITCareerQuestions/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/IndieHackers/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Journalism/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Integromat/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/JetpackCompose/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/JupiterExchange/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Kotlin/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Landlord/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/LocalLLaMA/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Logic_Studio/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/LowCode/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Midjourney/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/MachineLearning/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Mortgages/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Notion/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/ObsidianMD/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/PKMS/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/PPC/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/PovertyFinance/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/PowerAutomate/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/PromptEngineering/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/PumpFun/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Python/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Raydium/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/RealEstate/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/RealEstateTechnology/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Reaper/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.modwiggler.com/forum/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/SPACs/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/SEO/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/SaaS/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/SideProject/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/SatoshiStreetBets/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/SolanaMemeCoins/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/reactnative_dev": {
+    "valid": false,
+    "msg": "error_<urlopen error _ssl.c:1011: The handshake operation timed out>",
+    "code": 0
+  },
+  "https://www.reddit.com/r/StableDiffusion/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/SwiftUI/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/StockMarket/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/SwingTrading/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/TinyHouses/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/TikTokAds/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/TechSEO/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/TradingView/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/realestatemarket": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://www.reddit.com/r/WeAreTheMusicMakers/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/WebAssembly/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/ValueInvesting/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Webflow/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/realestatenews": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://www.reddit.com/r/Zapier/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/YouTube_Startups/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/WordPress/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Zig/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/ableton/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/agency/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/algotrading/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/adops/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/altcoin/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/analytics/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/androiddev/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/appsmith/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/audioengineering/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/audiodrama/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/automation/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/aws/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/audiophile/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/b2b/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/bigseo/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/blender/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/broadcastengineering/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/business/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/centuryhomes/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/coldemail/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/compilers/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/Zigbee/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/consulting/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/cpp/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/content_marketing/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/cscareerquestions/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/deals/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/devops/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/dexscreener/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/digitalmarketing/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/defi/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/digitalnomad/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/deficryptos/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/ReverseEngineering/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/dividends/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/dropship/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/docker/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/ecommerce/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/embedded/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/edmproduction/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/esp32/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/ethtrader/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/ethfinance/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/fatFIRE/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/esp8266/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/financialindependence/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/freelance/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/fulfillmentbyamazon/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/gtd/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/golang/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/growthhacking/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/gamedev/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/homeassistant/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/homeautomation/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/iOSProgramming/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/homeowners/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/homelab/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/indiebiz/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/interviews/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/investing/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/javascript/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/kernel/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/leadgeneration/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/kubernetes/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/leetcode/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/leanfire/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/linux/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/linkbuilding/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/lowlevel/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/makinghiphop/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/marketing/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/n8n/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/modular/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/mixingmastering/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/mobiledev/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/nocode/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/microphones/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/onlinebusiness/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/optionscalping/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/options/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/media/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/osdev/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/passive_income/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/pennystocks/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/personalfinance/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/podcasts/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/rustlang": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/propertyinvesting/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/podcasting/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/raspberry_pi/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/productivity/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/programming/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/reactnative/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/realestateinvesting/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/realtors/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/rust/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/remotework/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/sales/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/rust_gamedev/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/salespipeline/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/shopify/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/scholarships/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/science/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/smallbusiness/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/socialmediamarketing/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/smarthome/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/software/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/solana/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/clientacquisition": {
+    "valid": false,
+    "msg": "error_<urlopen error _ssl.c:1011: The handshake operation timed out>",
+    "code": 0
+  },
+  "https://www.reddit.com/r/storytelling/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/sounddesign/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/startups/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/stocks/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/studyabroad/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/swift/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/swingtrading/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/synthesizers/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/thetagang/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/technology/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/trapproduction/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/technicalanalysis/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/tax/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/typescript/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/unity3d/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/unrealengine/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/voiceacting/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/webdev/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/workfromhome/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/wallstreetbets/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.reddit.com/r/zapier/": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.soundonsound.com/forum": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/rust_lang_news": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/shopifydropshipping": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/scholarships_feed": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://www.whatsapp.com/channel/0029Va4K0bZ0G0Nsz9jQn32b": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://www.whatsapp.com/channel/0029Va7rJzS2Jl8E7h51fF0l": {
+    "valid": true,
+    "msg": "ok",
+    "code": 200
+  },
+  "https://t.me/seroundtable": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/valueinvesting": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/wallstreetbets": {
+    "valid": false,
+    "msg": "error_<urlopen error timed out>",
+    "code": 0
+  },
+  "https://t.me/winningproducts": {
+    "valid": false,
+    "msg": "error_<urlopen error _ssl.c:1011: The handshake operation timed out>",
+    "code": 0
+  },
+  "https://t.me/voiceacting": {
+    "valid": false,
+    "msg": "error_<urlopen error _ssl.c:1011: The handshake operation timed out>",
+    "code": 0
+  },
+  "https://www.reddit.com/r/AIAgents/": {
+    "valid": false,
+    "msg": "error_The read operation timed out",
+    "code": 0
+  },
+  "https://www.reddit.com/r/AffiliateMarket/": {
+    "valid": false,
+    "msg": "error_The read operation timed out",
+    "code": 0
+  },
+  "https://www.reddit.com/r/Airtable/": {
+    "valid": false,
+    "msg": "error_The read operation timed out",
+    "code": 0
+  },
+  "https://www.reddit.com/r/AppDevelopers/": {
+    "valid": false,
+    "msg": "error_The read operation timed out",
+    "code": 0
+  },
+  "https://www.reddit.com/r/Anki/": {
+    "valid": false,
+    "msg": "error_The read operation timed out",
+    "code": 0
+  },
+  "https://www.reddit.com/r/Bogleheads/": {
+    "valid": false,
+    "msg": "error_The read operation timed out",
+    "code": 0
+  },
+  "https://www.reddit.com/r/Bubbleio/": {
+    "valid": false,
+    "msg": "error_The read operation timed out",
+    "code": 0
+  },
+  "https://t.me/stockmarket": {
+    "valid": false,
+    "msg": "error_<urlopen error _ssl.c:1011: The handshake operation timed out>",
+    "code": 0
+  }
+}

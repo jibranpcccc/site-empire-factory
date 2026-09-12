@@ -1,0 +1,801 @@
+{
+  "total": 131,
+  "valid": 125,
+  "invalid": 6,
+  "invalid_urls": [
+    "https://discord.gg/ansible",
+    "https://discord.gg/awardtravel",
+    "https://discord.gg/bogleheads",
+    "https://discord.gg/buildapcsales",
+    "https://discord.gg/buildinpublic",
+    "https://discord.gg/confluent"
+  ],
+  "results": {
+    "https://discord.gg/ansible": {
+      "valid": false,
+      "msg": "HTTP Error 404",
+      "code": 404,
+      "guild": null
+    },
+    "https://discord.gg/0xpolygon": {
+      "valid": true,
+      "msg": "OK: Polygon (789 members)",
+      "code": 200,
+      "guild": "Polygon"
+    },
+    "https://discord.gg/aave": {
+      "valid": true,
+      "msg": "OK: Aave Community (30776 members)",
+      "code": 200,
+      "guild": "Aave Community"
+    },
+    "https://discord.gg/affiliate": {
+      "valid": true,
+      "msg": "OK: /affiliate (2279 members)",
+      "code": 200,
+      "guild": "/affiliate"
+    },
+    "https://discord.gg/ai": {
+      "valid": true,
+      "msg": "OK: \ud835\udc12\ud835\udc22\ud835\udc20\ud835\udc21\ud835\udc2d \u2745 (7098 members)",
+      "code": 200,
+      "guild": "\ud835\udc12\ud835\udc22\ud835\udc20\ud835\udc21\ud835\udc2d \u2745"
+    },
+    "https://discord.gg/anthropic": {
+      "valid": true,
+      "msg": "OK: Claude (126237 members)",
+      "code": 200,
+      "guild": "Claude"
+    },
+    "https://discord.gg/awardtravel": {
+      "valid": false,
+      "msg": "HTTP Error 404",
+      "code": 404,
+      "guild": null
+    },
+    "https://discord.gg/aws": {
+      "valid": true,
+      "msg": "OK: \ud835\udc00\ud835\udc2b\ud835\udc1a\ud835\udc1b \ud835\udc16\ud835\udc1a\ud835\udc2b\ud835\udc2b\ud835\udc22\ud835\udc28\ud835\udc2b\ud835\udc2c (7515 members)",
+      "code": 200,
+      "guild": "\ud835\udc00\ud835\udc2b\ud835\udc1a\ud835\udc1b \ud835\udc16\ud835\udc1a\ud835\udc2b\ud835\udc2b\ud835\udc22\ud835\udc28\ud835\udc2b\ud835\udc2c"
+    },
+    "https://discord.gg/arbitrum": {
+      "valid": true,
+      "msg": "OK: Arbitrum (300563 members)",
+      "code": 200,
+      "guild": "Arbitrum"
+    },
+    "https://discord.gg/berachain": {
+      "valid": true,
+      "msg": "OK: Berachain (310227 members)",
+      "code": 200,
+      "guild": "Berachain"
+    },
+    "https://discord.gg/blender": {
+      "valid": true,
+      "msg": "OK: Blender Community (218316 members)",
+      "code": 200,
+      "guild": "Blender Community"
+    },
+    "https://discord.gg/bogleheads": {
+      "valid": false,
+      "msg": "HTTP Error 404",
+      "code": 404,
+      "guild": null
+    },
+    "https://discord.gg/buildapcsales": {
+      "valid": false,
+      "msg": "HTTP Error 404",
+      "code": 404,
+      "guild": null
+    },
+    "https://discord.gg/bugbounty": {
+      "valid": true,
+      "msg": "OK: Bounty Hunters (18740 members)",
+      "code": 200,
+      "guild": "Bounty Hunters"
+    },
+    "https://discord.gg/buildinpublic": {
+      "valid": false,
+      "msg": "HTTP Error 404",
+      "code": 404,
+      "guild": null
+    },
+    "https://discord.gg/buildonbase": {
+      "valid": true,
+      "msg": "OK: Base (590144 members)",
+      "code": 200,
+      "guild": "Base"
+    },
+    "https://discord.gg/chainlink": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/bun": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/cncf": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/civitai": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/confluent": {
+      "valid": false,
+      "msg": "HTTP Error 404",
+      "code": 404,
+      "guild": null
+    },
+    "https://discord.gg/codeforces": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/cohere": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/creators": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/ctf": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/cursor": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/datascience": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/cyber": {
+      "valid": true,
+      "msg": "OK: /cyber (1069 members)",
+      "code": 200,
+      "guild": "/cyber"
+    },
+    "https://discord.gg/devcord": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/devcordlounge": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/curvefinance": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/devdao": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/digitalmarketing": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/dividends": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/docker": {
+      "valid": true,
+      "msg": "OK: Docker (244 members)",
+      "code": 200,
+      "guild": "Docker"
+    },
+    "https://discord.gg/elevenlabs": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/ecommerce": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/dropshipping": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/ethereum": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/fba": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/forex": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/fire": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/futures": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/gamedeals": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/gamesteals": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/gamemaker": {
+      "valid": true,
+      "msg": "OK: GameMaker (28014 members)",
+      "code": 200,
+      "guild": "GameMaker"
+    },
+    "https://discord.gg/gamedev": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/gitlab": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/godot": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/gophers": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/golang": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/handheldsteals": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/grafana": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/hardwaredrops": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/growth": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/hashicorp": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/indiedev": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/kali": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/jup": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/layerzero": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/learnmath": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/leetcode": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/lido": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/linux": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/lootmatrix": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/llamaindex": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/ludumdare": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/machinelearning": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/marketing": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/mediabuyers": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/midjourney": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/mistralai": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/nextjs": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/nahamsec": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/nomads": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/ollama": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/offsec": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/obsidian": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/openai": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/optimism": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/passiveincome": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/hackthebox": {
+      "valid": true,
+      "msg": "OK: HackTheBox (385874 members)",
+      "code": 200,
+      "guild": "HackTheBox"
+    },
+    "https://discord.gg/orca": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/personalfinance": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/phantom": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/pixelart": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/programming": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/python": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/polygon": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/pytorch": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/raydium": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/reactiflux": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/remotework": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/redteam": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/rust-lang": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/replicate": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/saas": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/sans": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/security": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/sales": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/seo": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/shopify": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/smarthomesteals": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/solana": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/stablediffusion": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/solanadev": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/startups": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/starknet": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/stocks": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/stockmarket": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/tech": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/tailwind": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/streetwearsteals": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/thecybermentor": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/tensorflow": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/toefl-study-prep": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/theodinproject": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/trading": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/togetherai": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/tryhackme": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/uniswap": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/unity": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/typescript": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/unreal": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/valueinvesting": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/vue": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/wallstreetbets": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/webdev": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/watchdeals": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/writers": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    },
+    "https://discord.gg/zksync": {
+      "valid": true,
+      "msg": "Rate limited (429) - assumed valid",
+      "code": 429,
+      "guild": null
+    }
+  }
+}

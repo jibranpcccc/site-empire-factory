@@ -1,0 +1,656 @@
+{
+  "fleet": "Fleet Part 2 (Sites 41 to 80)",
+  "total_sites_inspected": 40,
+  "total_outbound_links": 1722,
+  "total_card_join_links": 1202,
+  "total_copy_invite_links": 1202,
+  "total_schema_links": 1200,
+  "total_groups_links": 1202,
+  "total_unique_verified_urls": 771,
+  "total_banned_placeholders_found": 0,
+  "total_broken_or_404_links_remaining": 0,
+  "all_banned_details": [],
+  "all_broken_details": [],
+  "sites": {
+    "gta-rp-whitelist-servers-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "high-yield-treasury-wealth-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/investing/",
+        "https://www.reddit.com/r/stocks/",
+        "https://www.reddit.com/r/personalfinance/"
+      ]
+    },
+    "ielts-toefl-band8-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "ios-android-mobile-dev-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/FlutterDev/",
+        "https://discord.gg/flutter",
+        "https://t.me/flutter"
+      ]
+    },
+    "kubernetes-cloud-native-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/devops/",
+        "https://www.reddit.com/r/kubernetes/",
+        "https://www.reddit.com/r/docker/"
+      ]
+    },
+    "law-school-bar-exam-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "mechanical-keyboards-custom-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "microsaas-bootstrappers-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/SEO/",
+        "https://www.reddit.com/r/marketing/",
+        "https://www.reddit.com/r/startups/"
+      ]
+    },
+    "minecraft-smp-builders-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "nextjs-react-fullstack-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/MachineLearning/",
+        "https://www.reddit.com/r/LocalLLaMA/",
+        "https://www.reddit.com/r/ChatGPT/"
+      ]
+    },
+    "no-code-automation-hub": {
+      "outbound_links_count": 45,
+      "cards_count": 32,
+      "card_join_links_count": 32,
+      "copy_invite_links_count": 32,
+      "schema_links_count": 30,
+      "groups_links_count": 32,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/SideProject/",
+        "https://www.reddit.com/r/FlutterDev/",
+        "https://www.reddit.com/r/nocode/"
+      ]
+    },
+    "no-code-bubble-automation-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/Bubbleio/",
+        "https://www.reddit.com/r/nocode/",
+        "https://www.reddit.com/r/Zapier/"
+      ]
+    },
+    "notion-systems-productivity-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/Notion/",
+        "https://www.reddit.com/r/ObsidianMD/",
+        "https://www.reddit.com/r/productivity/"
+      ]
+    },
+    "notion-templates-productivity-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/Notion/",
+        "https://www.reddit.com/r/ObsidianMD/",
+        "https://www.reddit.com/r/productivity/"
+      ]
+    },
+    "nursing-nclex-international-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "options-trading-wealth-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/options/",
+        "https://www.reddit.com/r/thetagang/",
+        "https://www.reddit.com/r/wallstreetbets/"
+      ]
+    },
+    "personal-finance-fire-movement-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/financialindependence/",
+        "https://www.reddit.com/r/leanfire/",
+        "https://www.reddit.com/r/fatFIRE/"
+      ]
+    },
+    "phd-fellowships-research-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/scholarships/",
+        "https://www.reddit.com/r/studyabroad/",
+        "https://www.reddit.com/r/GradSchool/"
+      ]
+    },
+    "podcast-creators-audio-network-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/podcasting/",
+        "https://www.reddit.com/r/podcasts/",
+        "https://www.reddit.com/r/audioengineering/"
+      ]
+    },
+    "podcasting-creator-economy-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "postgresql-high-scale-db-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/MachineLearning/",
+        "https://www.reddit.com/r/LocalLLaMA/",
+        "https://www.reddit.com/r/ChatGPT/"
+      ]
+    },
+    "prompt-engineering-mastery-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/MachineLearning/",
+        "https://www.reddit.com/r/LocalLLaMA/",
+        "https://www.reddit.com/r/ChatGPT/"
+      ]
+    },
+    "prop-firm-forex-traders-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/Daytrading/",
+        "https://www.reddit.com/r/Forex/",
+        "https://www.reddit.com/r/FuturesTrading/"
+      ]
+    },
+    "prop-trading-challenge-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/Daytrading/",
+        "https://www.reddit.com/r/Forex/",
+        "https://www.reddit.com/r/FuturesTrading/"
+      ]
+    },
+    "real-estate-wholesaling-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/realestateinvesting/",
+        "https://www.reddit.com/r/RealEstate/",
+        "https://www.reddit.com/r/CommercialRealEstate/"
+      ]
+    },
+    "remote-developer-jobs-alpha-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/cscareerquestions/",
+        "https://www.reddit.com/r/remotework/",
+        "https://www.reddit.com/r/digitalnomad/"
+      ]
+    },
+    "remote-tech-careers-salary-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/cscareerquestions/",
+        "https://www.reddit.com/r/remotework/",
+        "https://www.reddit.com/r/digitalnomad/"
+      ]
+    },
+    "retro-emulation-handhelds-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/gamedev/",
+        "https://www.reddit.com/r/blender/",
+        "https://www.reddit.com/r/unity3d/"
+      ]
+    },
+    "rust-systems-engineering-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/rust/",
+        "https://www.reddit.com/r/cpp/",
+        "https://www.reddit.com/r/C_Programming/"
+      ]
+    },
+    "saas-marketing-b2b-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/SEO/",
+        "https://www.reddit.com/r/marketing/",
+        "https://www.reddit.com/r/startups/"
+      ]
+    },
+    "seo-growth-hackers-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/SEO/",
+        "https://www.reddit.com/r/bigseo/",
+        "https://www.reddit.com/r/TechSEO/"
+      ]
+    },
+    "shopify-dropshipping-growth-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/shopify/",
+        "https://www.reddit.com/r/dropship/",
+        "https://www.reddit.com/r/TikTokAds/"
+      ]
+    },
+    "shopify-dropshipping-viral-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/shopify/",
+        "https://www.reddit.com/r/dropship/",
+        "https://www.reddit.com/r/TikTokAds/"
+      ]
+    },
+    "sim-racing-rigs-f1-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "smart-home-homeassistant-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/homeassistant/",
+        "https://discord.gg/home-assistant",
+        "https://community.home-assistant.io"
+      ]
+    },
+    "smma-agency-founders-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/socialmediamarketing/",
+        "https://www.reddit.com/r/marketing/",
+        "https://www.reddit.com/r/digitalmarketing/"
+      ]
+    },
+    "solana-defi-developers-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/solana/",
+        "https://www.reddit.com/r/SolanaMemeCoins/",
+        "https://www.reddit.com/r/CryptoMoonShots/"
+      ]
+    },
+    "sound-design-music-production-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/edmproduction/",
+        "https://www.reddit.com/r/synthesizers/",
+        "https://www.reddit.com/r/WeAreTheMusicMakers/"
+      ]
+    },
+    "stoicism-ancient-philosophy-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/MachineLearning/",
+        "https://www.reddit.com/r/LocalLLaMA/",
+        "https://www.reddit.com/r/ChatGPT/"
+      ]
+    },
+    "study-in-canada-pgwp-hub": {
+      "outbound_links_count": 43,
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "missing_pages": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "sample_urls": [
+        "https://www.reddit.com/r/scholarships/",
+        "https://www.reddit.com/r/studyabroad/",
+        "https://www.reddit.com/r/GradSchool/"
+      ]
+    }
+  }
+}

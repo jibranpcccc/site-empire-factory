@@ -1,0 +1,593 @@
+{
+  "https://bogleheads.org/forum/": {
+    "status": 403,
+    "type": "http_error",
+    "msg": "HTTP Error 403: Forbidden"
+  },
+  "https://blenderartists.org": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://discord.gg/kubernetes": {
+    "status": 404,
+    "type": "discord_error",
+    "msg": "HTTP Error 404: Not Found"
+  },
+  "https://discord.gg/huggingface": {
+    "status": 404,
+    "type": "discord_error",
+    "msg": "HTTP Error 404: Not Found"
+  },
+  "https://discord.gg/devops": {
+    "status": 404,
+    "type": "discord_error",
+    "msg": "HTTP Error 404: Not Found"
+  },
+  "https://discord.gg/golang": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/biggerpockets": {
+    "status": 404,
+    "type": "discord_error",
+    "msg": "HTTP Error 404: Not Found"
+  },
+  "https://discord.gg/midjourney": {
+    "status": 200,
+    "type": "discord_valid",
+    "guild": "Midjourney"
+  },
+  "https://discord.gg/finance": {
+    "status": 200,
+    "type": "discord_valid",
+    "guild": "Capital Finance"
+  },
+  "https://discord.gg/entrepreneur": {
+    "status": 200,
+    "type": "discord_valid",
+    "guild": "Pegasus"
+  },
+  "https://discord.gg/blender": {
+    "status": 200,
+    "type": "discord_valid",
+    "guild": "Blender Community"
+  },
+  "https://discord.gg/nextjs": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/business": {
+    "status": 200,
+    "type": "discord_valid",
+    "guild": "Businesscord"
+  },
+  "https://discord.gg/langchain": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/gamedev": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/openai": {
+    "status": 200,
+    "type": "discord_valid",
+    "guild": "OpenAI"
+  },
+  "https://discord.gg/hackthebox": {
+    "status": 200,
+    "type": "discord_valid",
+    "guild": "HackTheBox"
+  },
+  "https://discord.gg/daytrading": {
+    "status": 200,
+    "type": "discord_valid",
+    "guild": "Daytrading"
+  },
+  "https://discord.gg/options": {
+    "status": 200,
+    "type": "discord_valid",
+    "guild": "The Contrarian"
+  },
+  "https://discord.gg/investing": {
+    "status": 200,
+    "type": "discord_valid",
+    "guild": "QuantMap's Investing Discord: Day Trading\u30fbForex\u30fbOptions\u30fbFinance\u30fbFutures \u30fbQuant"
+  },
+  "https://community.openai.com": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://discord.gg/anthropic": {
+    "status": 200,
+    "type": "discord_valid",
+    "guild": "Claude"
+  },
+  "https://discord.gg/proptrading": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://0x00sec.org": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://discord.gg/devcord": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/stocks": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/rust-lang": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://github.com/pytorch/pytorch/discussions": {
+    "status": 404,
+    "type": "http_error",
+    "msg": "HTTP Error 404: Not Found"
+  },
+  "https://discord.gg/wallstreetbets": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://forum.hackthebox.com": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://discord.gg/realestate": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/vue": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://github.com/kubernetes/kubernetes/discussions": {
+    "status": 404,
+    "type": "http_error",
+    "msg": "HTTP Error 404: Not Found"
+  },
+  "https://discord.gg/theprogrammershangout": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/tailwind": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/trading": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/forex": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/reactiflux": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/typescript": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://stackoverflow.com/questions/tagged/python": {
+    "status": 403,
+    "type": "http_error",
+    "msg": "HTTP Error 403: Forbidden"
+  },
+  "https://github.com/rust-lang/rust/discussions": {
+    "status": 404,
+    "type": "http_error",
+    "msg": "HTTP Error 404: Not Found"
+  },
+  "https://discord.gg/tryhackme": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/wealth": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discuss.huggingface.co": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://github.com/OWASP/CheatSheetSeries/discussions": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://discuss.hashicorp.com": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://discord.gg/technology": {
+    "status": 429,
+    "type": "discord_error",
+    "msg": "HTTP Error 429: Too Many Requests"
+  },
+  "https://discord.gg/python": {
+    "status": 200,
+    "type": "discord_valid",
+    "guild": "Python"
+  },
+  "https://news.ycombinator.com": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://github.com/vercel/next.js/discussions": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/ChatGPT/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/ClaudeAI/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.kaggle.com/discussion": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/CommercialRealEstate/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/CryptoCurrency/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Daytrading/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/FinancialPlanning/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/FirstTimeHomeBuyer/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Forex/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/FuturesTrading/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Landlord/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/LocalLLaMA/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/MachineLearning/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Midjourney/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Mortgages/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/PromptEngineering/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/Python/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/RealEstate/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/RealEstateTechnology/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/StableDiffusion/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/StockMarket/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://t.me/bloomberg": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/cloud_native_hub": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/cybersecurity_news": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/forextrading": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/investing": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://www.reddit.com/r/SwingTrading/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://t.me/daytrading": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/cryptotrading": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://www.reddit.com/r/TradingView/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://t.me/devops_channel": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/gamedev_channel": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/proptraders": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/infosec_alerts": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/python_scripts": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/realestatemarket": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://www.reddit.com/r/algotrading/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/aws/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://t.me/forexsignals": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "The read operation timed out"
+  },
+  "https://www.reddit.com/r/bugbounty/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/cpp/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/blender/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://t.me/techcrunch": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error timed out>"
+  },
+  "https://t.me/machinelearning_digest": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "The read operation timed out"
+  },
+  "https://www.reddit.com/r/cybersecurity/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.biggerpockets.com/forums": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/devops/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/ethicalhacking/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/docker/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/financialindependence/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/homeowners/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/golang/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/kubernetes/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/javascript/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/gamedev/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/investing/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/linux/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/netsec/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/options/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/pennystocks/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/propertyinvesting/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/programming/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/personalfinance/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/realestateinvesting/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/realtors/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/stocks/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/rust/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/science/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/technicalanalysis/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/tax/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/technology/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/unity3d/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/wallstreetbets/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/unrealengine/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/typescript/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://www.reddit.com/r/webdev/": {
+    "status": 200,
+    "type": "http_ok"
+  },
+  "https://t.me/tradingview": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/webdev_hub": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/ai_insights": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/rust_lang_news": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/propertyinvestors": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  },
+  "https://t.me/stockmarket": {
+    "status": "err",
+    "type": "telegram_err",
+    "msg": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+  }
+}

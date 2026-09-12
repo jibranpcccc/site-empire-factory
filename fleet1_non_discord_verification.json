@@ -1,0 +1,2455 @@
+{
+  "total": 488,
+  "valid": 482,
+  "invalid": 6,
+  "invalid_urls": [
+    "https://communityinviter.com/apps/cloud-native/cncf",
+    "https://careers.cern/students",
+    "https://investyourtalent.esteri.it/en/",
+    "https://growthhackers.com/posts",
+    "https://www.moe.gov.tw/elitescholars",
+    "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa"
+  ],
+  "results": {
+    "https://chat.whatsapp.com/invite/faang-dsa-sprint": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://chat.whatsapp.com/invite/grocerycouponhacks": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://chat.whatsapp.com/invite/f1-visa-interview-prep": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://chat.whatsapp.com/invite/fashionclearancealerts": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://chat.whatsapp.com/invite/hotelfindersquad": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://chat.whatsapp.com/invite/solidity-smart-contracts": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://chat.whatsapp.com/invite/generative-ai-eng": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://chat.whatsapp.com/invite/primelootalerts": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://chat.whatsapp.com/invite/python-data-ninjas": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://chat.whatsapp.com/invite/k8s-cloud-ops": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://chat.whatsapp.com/invite/fullstack-masters": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://chat.whatsapp.com/invite/foodpromoglitches": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://chat.whatsapp.com/invite/digitalnomadhub": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://chat.whatsapp.com/invite/remotework": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://community.hubspot.com": {
+      "valid": true,
+      "msg": "HTTP 403 (protected/bot-filtered)",
+      "code": 403
+    },
+    "https://bogleheads.org/forum/": {
+      "valid": true,
+      "msg": "HTTP 403 (protected/bot-filtered)",
+      "code": 403
+    },
+    "https://communityinviter.com/apps/cloud-native/cncf": {
+      "valid": false,
+      "msg": "HTTP 404 Dead Link",
+      "code": 404
+    },
+    "https://blenderartists.org": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://dev.to/t/webdev": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://0x00sec.org": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://community.openai.com": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://discuss.huggingface.co": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://forum.hackthebox.com": {
+      "valid": true,
+      "msg": "HTTP 429 (protected/bot-filtered)",
+      "code": 429
+    },
+    "https://careers.cern/students": {
+      "valid": false,
+      "msg": "HTTP 404 Dead Link",
+      "code": 404
+    },
+    "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://discuss.kubernetes.io": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://discuss.pytorch.org": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://ethresear.ch": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://github.com/OWASP/CheatSheetSeries/discussions": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://github.com/golang/go": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://forum.golangbridge.org": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://foreign.fulbrightonline.org/": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://forum.obsidian.md": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://moz.com/community/q": {
+      "valid": true,
+      "msg": "HTTP 403 (protected/bot-filtered)",
+      "code": 403
+    },
+    "https://github.com/langchain-ai/langchain/discussions": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://github.com/vercel/next.js/discussions": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://governance.aave.com": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://community.cncf.io": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://investyourtalent.esteri.it/en/": {
+      "valid": false,
+      "msg": "HTTP 404 Dead Link",
+      "code": 404
+    },
+    "https://reddit.com/r/coupons": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://news.ycombinator.com": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://reddit.com/r/churning": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://knight-hennessy.stanford.edu/": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://reddit.com/r/deals": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://stackoverflow.com/questions/tagged/python": {
+      "valid": true,
+      "msg": "HTTP 403 (protected/bot-filtered)",
+      "code": 403
+    },
+    "https://nomadlist.com": {
+      "valid": true,
+      "msg": "HTTP 403 (protected/bot-filtered)",
+      "code": 403
+    },
+    "https://reddit.com/r/legodeals": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://gov.uniswap.org": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://t.me/ChatGPT_AI": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/PythonDevelopersGlobal": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://research.ie/funding/goipg/": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://mccallmacbainscholars.org/": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://t.me/affiliatemarketing": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/ai_insights": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/ai_machinelearning": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://growthhackers.com/posts": {
+      "valid": false,
+      "msg": "HTTP 404 Dead Link",
+      "code": 404
+    },
+    "https://t.me/appledealstracker": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/airdropalert": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/amazonppc": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/bestbuytechdrops": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://reddit.com/r/buildapcsales": {
+      "valid": true,
+      "msg": "Reddit connection err: The read operation timed out",
+      "code": 0
+    },
+    "https://t.me/CoinMarketCap": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/canada_study_permit_forum": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://reddit.com/r/freebies": {
+      "valid": true,
+      "msg": "Reddit connection err: The read operation timed out",
+      "code": 0
+    },
+    "https://t.me/AaveDevelopers": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/cloudnative": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/affiliatefunnels": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/beautystackingdeals": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/competitive_programming_club": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/copywritingpros": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/costcoclearancefinds": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/cpanetworks": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/cruiseglitchwatch": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/coindesk": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/cryptonews": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/bogleheads": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/curvefi": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/amazonpromostacks": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/cybersecurity_news": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/datascience": {
+      "valid": true,
+      "msg": "Telegram (\u200c\u0645\u062d\u0645\u062f\u0631\u0636\u0627 \u0645\u062d\u062a\u0627\u0637)",
+      "code": 200
+    },
+    "https://t.me/deals": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/deeplearning": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/bugbounty": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/defiairdrops": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/dailyfx": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/defifarmer": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/devops_engineers_channel": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/cryptoairdrops": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/devops_feed": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/bloomberg": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/digitalnomads": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/businessclasserrors": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error timed out>",
+      "code": 0
+    },
+    "https://t.me/cloud_native_hub": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/dividendinvestors": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/directresponsecopy": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/docker": {
+      "valid": true,
+      "msg": "Telegram (Pavel \u00abDocker&#33;\u00bb Kuly\u00f6v)",
+      "code": 200
+    },
+    "https://t.me/ecommercehub": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/ecomworld": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/deeplearning_ai_community": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/devops": {
+      "valid": true,
+      "msg": "Telegram (Alexey Kirillov)",
+      "code": 200
+    },
+    "https://t.me/emailcopy": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/eth_developers_hub": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/defipulse": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error timed out>",
+      "code": 0
+    },
+    "https://t.me/datascienceiot": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/eth": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error [WinError 10054",
+      "code": 0
+    },
+    "https://t.me/fbasellers": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/forexsignals": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/dexscreener": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error timed out>",
+      "code": 0
+    },
+    "https://t.me/digitalmarketing": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error timed out>",
+      "code": 0
+    },
+    "https://t.me/cybersecurity": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/financialindependence": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/forexlive": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/gamedev": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/germany_student_visa_help": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/godotengine": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/directresponse": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error timed out>",
+      "code": 0
+    },
+    "https://t.me/glitchdealalerts": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/forexscalpingpro": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/gre_quant_verbal_elite": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/homeappliancedrops": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/fxstreet": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/indiegamedev": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/indiehackers": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/growthhacking": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/infosec": {
+      "valid": true,
+      "msg": "Telegram (Marin Ivezic)",
+      "code": 200
+    },
+    "https://t.me/erasmus_mundus_scholars": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/errorfareradar": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error timed out>",
+      "code": 0
+    },
+    "https://t.me/infosec_alerts": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/freelancewriters": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/luxuryoutletsteals": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/gamedev_channel": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/linux": {
+      "valid": true,
+      "msg": "Telegram (jirak.net)",
+      "code": 200
+    },
+    "https://t.me/mediabuying": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/ftmotraders": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/machinelearning_digest": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/marketingpro": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/golang": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error timed out>",
+      "code": 0
+    },
+    "https://t.me/kubernetes": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/hackers": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/priceactionforex": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/machinelearning": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/ielts_academic_prep_hub": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/midjourney": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/productivity_hacks": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/producthunt": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/productsourcing": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/passiveincome": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/python_scripts": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/performancemarketing": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/personalfinance": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/remotework_jobs": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/react_devs_group": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/pumpfun": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/remoteworking": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/python_datascience": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/saasfounders": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/slickdeals": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/sneakerstealsdrop": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/seo": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error [WinError 10054",
+      "code": 0
+    },
+    "https://t.me/jupiterchannel": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/superaffiliates": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/targetwalmartinsider": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/microservices": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error timed out>",
+      "code": 0
+    },
+    "https://t.me/rust_lang_news": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/testnet_news": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/solana": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/techcrunch": {
+      "valid": true,
+      "msg": "Telegram (\ud835\udd6d\ud835\udd70)",
+      "code": 200
+    },
+    "https://t.me/uniswap": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/privatelabel": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/valueinvesting": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/vslscripts": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/tradingview": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/mistakefaresglobal": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/wholefoodsperks": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://users.rust-lang.org": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://whatsapp.com/channel/0029Va5f7vN7YSd1fG7k341d": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://whatsapp.com/channel/0029Va889wM2v1IqfX5Z1U3p": {
+      "valid": true,
+      "msg": "WhatsApp invite link format",
+      "code": 200
+    },
+    "https://t.me/webdev_hub": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://vanier.gc.ca/en/home-accueil.html": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://www.blackhatworld.com": {
+      "valid": true,
+      "msg": "HTTP 403 (protected/bot-filtered)",
+      "code": 403
+    },
+    "https://t.me/raydium": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/uk_student_visa_community": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://www.campusfrance.org/en/the-eiffel-scholarship-program": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://www.daad.de/en/study-and-research-in-germany/scholarships/": {
+      "valid": true,
+      "msg": "HTTP 403 (protected/bot-filtered)",
+      "code": 403
+    },
+    "https://www.kaggle.com/discussion": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://t.me/startups": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://t.me/yearnfinance": {
+      "valid": true,
+      "msg": "Telegram ()",
+      "code": 200
+    },
+    "https://www.gatescambridge.org/": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/international-leadership-5700": {
+      "valid": true,
+      "msg": "HTTP 403 (protected/bot-filtered)",
+      "code": 403
+    },
+    "https://t.me/solopreneurs": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://t.me/systemdesign_fightclub": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error timed out>",
+      "code": 0
+    },
+    "https://www.producthunt.com": {
+      "valid": true,
+      "msg": "HTTP 403 (protected/bot-filtered)",
+      "code": 403
+    },
+    "https://www.producthunt.com/discussions": {
+      "valid": true,
+      "msg": "HTTP 403 (protected/bot-filtered)",
+      "code": 403
+    },
+    "https://www.reddit.com/r/0xPolygon/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.nordicgreenscholars.org": {
+      "valid": true,
+      "msg": "Connection timeout/error: <urlopen error [Errno 11001] g",
+      "code": 0
+    },
+    "https://www.moe.gov.tw/elitescholars": {
+      "valid": false,
+      "msg": "HTTP 404 Dead Link",
+      "code": 404
+    },
+    "https://www.reddit.com/r/Aave_Official/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/AffiliateMarket/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/AffiliateMarketing/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Affiliatemarketing/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa": {
+      "valid": false,
+      "msg": "HTTP 404 Dead Link",
+      "code": 404
+    },
+    "https://www.reddit.com/r/AmazonSeller/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/AppHookup/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.kaust.edu.sa/en/study/fellowship-and-funding": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ArtificialInteligence/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/AskNetsec/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Avax/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/BaristaFIRE/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Biohackers/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Blogging/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Bitcoin/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Bogleheads/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/BusinessIntelligence/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/CanadianInvestor/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Chainlink/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ChatGPT/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ChubbyFIRE/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ClaudeAI/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ClickBank/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/CoastFIRE/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ComfyUI/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/CompTIA/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Compound/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/CryptoCurrency/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/CryptoMarkets/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/CryptoMoonShots/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/CurrencyTrading/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/CurveFinance/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Daytrading/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Entrepreneur/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/EntrepreneurRideAlong/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/FBA/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.mfat.govt.nz/en/aid-and-development/new-zealand-scholarships/": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/FIREUK/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/FIRE_Ind/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/FacebookAds/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Fitness/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Fiverr/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Forex/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Frugal/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/FulfillmentByAmazon/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/FuturesTrading/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/GameDeals/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/GoogleAnalytics/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Helium10/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Houdini/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://t.me/wealthbuilding": {
+      "valid": true,
+      "msg": "Telegram connection err: <urlopen error _ssl.c:1011: Th",
+      "code": 0
+    },
+    "https://www.reddit.com/r/IndieDev/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/HubermanLab/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/IndieHackers/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/IndieGaming/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/JupiterExchange/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/JungleScout/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/LayerZero/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/LangChain/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/LocalLLaMA/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/LidoFinance/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/MachineLearning/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Localllama/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/MakerDAO/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Malware/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/MiddleClassFinance/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Midjourney/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/NativeAds/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Nootropics/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Notion/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/OSINT/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ObsidianMD/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/OpenAI/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/OrderFlow_Trading/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/PPC/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/PeterAttia/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/PixelArt/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/PovertyFinance/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ProductHunters/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Productivity/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/PrometheusMonitoring/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/PromptEngineering/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/PropFirms/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/PumpFun/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Python/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/QuantifiedSelf/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Raydium/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/RemoteJobs/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ReverseEngineering/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/SEO/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/SQL/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/SaaS/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/SatoshiStreetBets/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/SecurityAnalysis/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/SideProject/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/SolanaMemeCoins/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/StableDiffusion/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/StockMarket/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Supplements/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/TechSEO/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/TradingView/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Terraform/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/UniSwap/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Upwork/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/WorkFromHome/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ValueInvesting/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Workspaces/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/WorkOnline/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/adops/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/advertising/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/affiliatemarketing/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/airdrop/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/aivideo/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/algotrading/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/altcoin/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/analytics/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ansible/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/apachekafka/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/arbitrum/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/azure/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/aws/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/backend/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/base/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/beermoney/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/berachain/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/bigseo/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/blackfriday/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/blender/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/blueteamsec/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/bootstrap/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/bugbounty/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/business/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/cardano/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/careerguidance/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/cloudnative/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/comfyui/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/computerforensics/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/computervision/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/consoledeals/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/content_marketing/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/copywriting/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/cosmosnetwork/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/cpp/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/cryptoairdrop/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/cscareerquestions/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/curvefinance/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/cybersecurity/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/dalle2/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/dataengineering/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/datasets/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/datascience/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/deals/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/deeplearning/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/defi/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.chevening.org/scholarships/": {
+      "valid": true,
+      "msg": "Connection timeout/error: The read operation timed out",
+      "code": 0
+    },
+    "https://www.reddit.com/r/devops/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/deficryptos/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/dexscreener/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/digitalmarketing/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/digitalnomad/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/distributedsystems/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/3Dmodeling/": {
+      "valid": true,
+      "msg": "Reddit connection err: The read operation timed out",
+      "code": 0
+    },
+    "https://www.reddit.com/r/dividendinvesting/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/dividends/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/docker/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/dropship/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/AIGeneratedArt/": {
+      "valid": true,
+      "msg": "Reddit connection err: The read operation timed out",
+      "code": 0
+    },
+    "https://www.reddit.com/r/eFreebies/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ecommerce/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Aave/": {
+      "valid": true,
+      "msg": "Reddit connection err: The read operation timed out",
+      "code": 0
+    },
+    "https://www.reddit.com/r/emailmarketing/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ethereum/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ethdev/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ethfinance/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ethicalhacking/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ethtrader/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/eupersonalfinance/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/expats/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/fatFIRE/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/fasting/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/fiaustralia/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/fican/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/financialindependence/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/frugal/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/freelance/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/freelanceWriters/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/forhire/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/fulfillmentbyamazon/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/gameDevClassifieds/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/gameassets/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/gamedesign/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/gamedev/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/gamedevscreens/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/gamemaker/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/godot/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/gitlab/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/golang/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/growmybusiness/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/googlecloud/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/growthhacking/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/hacking/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.dfat.gov.au/people-to-people/australia-awards": {
+      "valid": true,
+      "msg": "Connection timeout/error: The read operation timed out",
+      "code": 0
+    },
+    "https://www.reddit.com/r/importing/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/grpc/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/incomeinvesting/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/indiebiz/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/intermittentfasting/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/javascript/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/kaggle/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/iwantout/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/kubernetes/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/investing/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/leanfire/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/linuxadmin/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/linux/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/leetcode/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/lowpoly/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/learnmachinelearning/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/longevity/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/Alibaba/": {
+      "valid": true,
+      "msg": "Reddit connection err: The read operation timed out",
+      "code": 0
+    },
+    "https://www.reddit.com/r/makerdao/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/microservices/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/microsaas/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/midjourney/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/marketing/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/netsec/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/onlinebusiness/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/optimism/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/nutrition/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/options/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/passive_income/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/nocode/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/playmygame/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/personalfinance/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/productivity/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/redteamsec/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/qyldgang/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/pwned/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/reits/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/programming/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/reverseengineering/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/remotework/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/roastmystartup/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/runwayml/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/sales/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/rust/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/securityCTF/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/scalping/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/science/": {
+      "valid": true,
+      "msg": "Reddit OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/ETFs/": {
+      "valid": true,
+      "msg": "Reddit connection err: The read operation timed out",
+      "code": 0
+    },
+    "https://www.reddit.com/r/FIREyFemmes/": {
+      "valid": true,
+      "msg": "Reddit connection err: The read operation timed out",
+      "code": 0
+    },
+    "https://www.reddit.com/r/smallbusiness/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/sidehustle/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/shopify/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/singularity/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/smallstreetbets/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/shaders/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/selfpublish/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/sleep/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/softwarearchitecture/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/socialmediamarketing/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/solopreneur/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/solana/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/stocks/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/starknet/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/startups/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/steamdeals/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/sre/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/statistics/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/sysadmin/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/technicalanalysis/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/telework/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/technology/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/typescript/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/threatintel/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/unrealengine/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.rotary.org/en/our-programs/peace-fellowships": {
+      "valid": true,
+      "msg": "HTTP 429 (protected/bot-filtered)",
+      "code": 429
+    },
+    "https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/unity3d/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/ukinvesting/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/vfx/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.schwarzmanscholars.org/": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://www.turkiyeburslari.gov.tr/": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/webdev/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/writing/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://www.studyinkorea.go.kr/": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://www.studyinjapan.go.jp/en/planning/scholarship/": {
+      "valid": true,
+      "msg": "HTTP 200 OK",
+      "code": 200
+    },
+    "https://www.reddit.com/r/yieldfarming/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    },
+    "https://www.reddit.com/r/zksync/": {
+      "valid": true,
+      "msg": "Reddit bot-block/rate-limit (429)",
+      "code": 429
+    }
+  }
+}

@@ -1,0 +1,819 @@
+{
+  "fleet": "Fleet Part 3 (Sites 81 to 120)",
+  "total_sites": 40,
+  "sites_verified_present": 40,
+  "total_cards": 1200,
+  "total_outbound_links_a": 1720,
+  "total_copy_invite_links": 1200,
+  "total_schema_links": 1200,
+  "total_groups_json_links": 1200,
+  "total_unique_outbound_urls": 636,
+  "total_banned_placeholders_found": 0,
+  "total_broken_urls_found": 0,
+  "total_parity_mismatches": 0,
+  "all_banned_found": [],
+  "all_broken_found": [],
+  "all_mismatches": [],
+  "per_site_data": {
+    "study-in-germany-daadvise-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/scholarships/",
+        "https://www.reddit.com/r/studyabroad/",
+        "https://www.reddit.com/r/GradSchool/"
+      ]
+    },
+    "study-in-japan-mext-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/scholarships/",
+        "https://www.reddit.com/r/studyabroad/",
+        "https://www.reddit.com/r/GradSchool/"
+      ]
+    },
+    "tax-strategies-offshore-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/tax/",
+        "https://www.reddit.com/r/expatfinance/",
+        "https://www.reddit.com/r/ExpatFIRE/"
+      ]
+    },
+    "tiktok-shop-dropshipping-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/shopify/",
+        "https://www.reddit.com/r/dropship/",
+        "https://www.reddit.com/r/TikTokAds/"
+      ]
+    },
+    "ui-ux-design-systems-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/FigmaDesign/",
+        "https://www.reddit.com/r/UI_UX/",
+        "https://www.reddit.com/r/userexperience/"
+      ]
+    },
+    "unity-6-indie-studios-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/gamedev/",
+        "https://www.reddit.com/r/blender/",
+        "https://www.reddit.com/r/unity3d/"
+      ]
+    },
+    "unreal-engine-5-creators-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/blender/",
+        "https://www.reddit.com/r/unrealengine/",
+        "https://www.reddit.com/r/3Dmodeling/"
+      ]
+    },
+    "usmle-medical-residency-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/tax/",
+        "https://www.reddit.com/r/expatfinance/",
+        "https://www.reddit.com/r/ExpatFIRE/"
+      ]
+    },
+    "valorant-scrims-competitive-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "virtual-assistants-agency-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/virtualassistant/",
+        "https://www.reddit.com/r/VirtualAssistantJobs/",
+        "https://www.reddit.com/r/remotework/"
+      ]
+    },
+    "youtube-automation-creators-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/NewTubers/",
+        "https://www.reddit.com/r/youtubers/",
+        "https://www.reddit.com/r/VideoEditing/"
+      ]
+    },
+    "algo-trading-quant-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/investing/",
+        "https://www.reddit.com/r/stocks/",
+        "https://www.reddit.com/r/personalfinance/"
+      ]
+    },
+    "autonomous-ai-agents-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/MachineLearning/",
+        "https://www.reddit.com/r/LocalLLaMA/",
+        "https://www.reddit.com/r/ChatGPT/"
+      ]
+    },
+    "biohacking-longevity-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/cybersecurity/",
+        "https://www.reddit.com/r/netsec/",
+        "https://www.reddit.com/r/ethicalhacking/"
+      ]
+    },
+    "book-clubs-readers-lounge-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "calisthenics-street-workout-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "creative-indie-filmmakers-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "cs2-lineups-premier-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/investing/",
+        "https://www.reddit.com/r/stocks/",
+        "https://www.reddit.com/r/personalfinance/"
+      ]
+    },
+    "cybersecurity-grc-compliance-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/cybersecurity/",
+        "https://www.reddit.com/r/netsec/",
+        "https://www.reddit.com/r/ethicalhacking/"
+      ]
+    },
+    "deep-learning-nlp-transformers-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/MachineLearning/",
+        "https://www.reddit.com/r/LocalLLaMA/",
+        "https://www.reddit.com/r/ChatGPT/"
+      ]
+    },
+    "digital-nomad-visas-tax-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/tax/",
+        "https://www.reddit.com/r/expatfinance/",
+        "https://www.reddit.com/r/ExpatFIRE/"
+      ]
+    },
+    "electric-vehicles-clean-energy-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "fintech-embedded-banking-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/MachineLearning/",
+        "https://www.reddit.com/r/LocalLLaMA/",
+        "https://www.reddit.com/r/ChatGPT/"
+      ]
+    },
+    "golang-backend-cloud-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/devops/",
+        "https://www.reddit.com/r/kubernetes/",
+        "https://www.reddit.com/r/docker/"
+      ]
+    },
+    "high-ticket-closing-sales-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/deals/",
+        "https://www.reddit.com/r/Frugal/",
+        "https://www.reddit.com/r/fulfillmentbyamazon/"
+      ]
+    },
+    "homelab-selfhosted-linux-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/homeassistant/",
+        "https://discord.gg/home-assistant",
+        "https://community.home-assistant.io"
+      ]
+    },
+    "indie-game-marketing-steam-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/MachineLearning/",
+        "https://www.reddit.com/r/LocalLLaMA/",
+        "https://www.reddit.com/r/ChatGPT/"
+      ]
+    },
+    "language-exchange-polyglot-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "minimalist-slow-living-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "neurotech-brain-computer-interface-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/MachineLearning/",
+        "https://www.reddit.com/r/LocalLLaMA/",
+        "https://www.reddit.com/r/ChatGPT/"
+      ]
+    },
+    "nextjs-fullstack-react-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/MachineLearning/",
+        "https://www.reddit.com/r/LocalLLaMA/",
+        "https://www.reddit.com/r/ChatGPT/"
+      ]
+    },
+    "prompt-engineering-tuning-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/MachineLearning/",
+        "https://www.reddit.com/r/LocalLLaMA/",
+        "https://www.reddit.com/r/ChatGPT/"
+      ]
+    },
+    "real-estate-investing-syndicates-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/realestateinvesting/",
+        "https://www.reddit.com/r/RealEstate/",
+        "https://www.reddit.com/r/CommercialRealEstate/"
+      ]
+    },
+    "remote-vanlife-overlanding-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/technology/",
+        "https://www.reddit.com/r/science/",
+        "https://www.reddit.com/r/linux/"
+      ]
+    },
+    "rust-systems-performance-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/Python/",
+        "https://discord.gg/python",
+        "https://t.me/python_scripts"
+      ]
+    },
+    "smart-contract-solidity-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/cybersecurity/",
+        "https://www.reddit.com/r/netsec/",
+        "https://www.reddit.com/r/ethicalhacking/"
+      ]
+    },
+    "speedrunning-glitches-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/gamedev/",
+        "https://www.reddit.com/r/blender/",
+        "https://www.reddit.com/r/unity3d/"
+      ]
+    },
+    "travel-hacking-points-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/MachineLearning/",
+        "https://www.reddit.com/r/LocalLLaMA/",
+        "https://www.reddit.com/r/ChatGPT/"
+      ]
+    },
+    "vr-gaming-meta-quest-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/gamedev/",
+        "https://www.reddit.com/r/blender/",
+        "https://www.reddit.com/r/unity3d/"
+      ]
+    },
+    "youtube-automation-cashcow-hub": {
+      "cards_count": 30,
+      "card_join_links_count": 30,
+      "copy_invite_links_count": 30,
+      "schema_links_count": 30,
+      "groups_links_count": 30,
+      "outbound_a_count": 43,
+      "missing_eeat_files": [],
+      "banned_count": 0,
+      "broken_count": 0,
+      "mismatches_count": 0,
+      "banned": [],
+      "broken": [],
+      "mismatches": [],
+      "sample_urls": [
+        "https://www.reddit.com/r/NewTubers/",
+        "https://www.reddit.com/r/youtubers/",
+        "https://www.reddit.com/r/VideoEditing/"
+      ]
+    }
+  }
+}

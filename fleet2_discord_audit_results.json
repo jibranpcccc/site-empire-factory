@@ -1,0 +1,517 @@
+{
+  "https://discord.gg/ableton": {
+    "status": 200,
+    "valid": true,
+    "guild": "Ableton"
+  },
+  "https://discord.gg/agency": {
+    "status": 200,
+    "valid": true,
+    "guild": "CIA | .gg/Agency \ud83e\udd85"
+  },
+  "https://discord.gg/airtable": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/android": {
+    "status": 200,
+    "valid": true,
+    "guild": "Android Discord"
+  },
+  "https://discord.gg/anthropic": {
+    "status": 200,
+    "valid": true,
+    "guild": "Claude"
+  },
+  "https://discord.gg/apple": {
+    "status": 200,
+    "valid": true,
+    "guild": "r/Apple"
+  },
+  "https://discord.gg/audioengineering": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/bevy": {
+    "status": 200,
+    "valid": true,
+    "guild": "Bevy"
+  },
+  "https://discord.gg/biggerpockets": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/blender": {
+    "status": 200,
+    "valid": true,
+    "guild": "Blender Community"
+  },
+  "https://discord.gg/bogleheads": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/bubble": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/business": {
+    "status": 200,
+    "valid": true,
+    "guild": "Businesscord"
+  },
+  "https://discord.gg/code": {
+    "status": 200,
+    "valid": true,
+    "guild": "The Coding Den"
+  },
+  "https://discord.gg/cpp": {
+    "status": 200,
+    "valid": true,
+    "guild": "C++"
+  },
+  "https://discord.gg/creators": {
+    "status": 200,
+    "valid": true,
+    "guild": "Creators Hub"
+  },
+  "https://discord.gg/daytrading": {
+    "status": 200,
+    "valid": true,
+    "guild": "Daytrading"
+  },
+  "https://discord.gg/devcord": {
+    "status": 200,
+    "valid": true,
+    "guild": "devcord"
+  },
+  "https://discord.gg/devops": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/dexscreener": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/dividends": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/dropshipping": {
+    "status": 200,
+    "valid": true,
+    "guild": "GrindCommerce"
+  },
+  "https://discord.gg/ecommerce": {
+    "status": 200,
+    "valid": true,
+    "guild": "Ecommerce\u00ae"
+  },
+  "https://discord.gg/edmproduction": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/embedded": {
+    "status": 200,
+    "valid": true,
+    "guild": "Embedded Engineering \ud83d\udcf6 - Amulius"
+  },
+  "https://discord.gg/entrepreneur": {
+    "status": 200,
+    "valid": true,
+    "guild": "Pegasus"
+  },
+  "https://discord.gg/ethereum": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/finance": {
+    "status": 200,
+    "valid": true,
+    "guild": "Capital Finance"
+  },
+  "https://discord.gg/fire": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/flstudio": {
+    "status": 200,
+    "valid": true,
+    "guild": "FL Studio Community"
+  },
+  "https://discord.gg/flutter": {
+    "status": 200,
+    "valid": true,
+    "guild": "\ud83e\udd8b \ud835\udc39\ud835\udc59\ud835\udc62\ud835\udc61\ud835\udc61\ud835\udc52\ud835\udc5f \ud835\udc46\ud835\udc62\ud835\udc5a\ud835\udc5a\ud835\udc52\ud835\udc5f\ud835\udc53\ud835\udc52\ud835\udc60\ud835\udc61 \u22ee \ud835\udff8\ud835\udff6\ud835\udff8\ud835\udffc"
+  },
+  "https://discord.gg/flutterflow": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/forex": {
+    "status": 200,
+    "valid": true,
+    "guild": ".gg/forex"
+  },
+  "https://discord.gg/futures": {
+    "status": 200,
+    "valid": true,
+    "guild": "Anon Hub"
+  },
+  "https://discord.gg/gamedev": {
+    "status": 200,
+    "valid": true,
+    "guild": "Game Dev League"
+  },
+  "https://discord.gg/golang": {
+    "status": 200,
+    "valid": true,
+    "guild": "Discord Gophers"
+  },
+  "https://discord.gg/home-assistant": {
+    "status": 200,
+    "valid": true,
+    "guild": "Home Assistant"
+  },
+  "https://discord.gg/homelab": {
+    "status": 200,
+    "valid": true,
+    "guild": "homelab."
+  },
+  "https://discord.gg/huggingface": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/investing": {
+    "status": 200,
+    "valid": true,
+    "guild": "QuantMap's Investing Discord: Day Trading\u30fbForex\u30fbOptions\u30fbFinance\u30fbFutures \u30fbQuant"
+  },
+  "https://discord.gg/jup": {
+    "status": 200,
+    "valid": true,
+    "guild": "Jupiter"
+  },
+  "https://discord.gg/kotlin": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/kubernetes": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/langchain": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/llvm": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/make": {
+    "status": 200,
+    "valid": true,
+    "guild": "/make"
+  },
+  "https://discord.gg/makinghiphop": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/marketing": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/mediabuyers": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/midjourney": {
+    "status": 200,
+    "valid": true,
+    "guild": "Midjourney"
+  },
+  "https://discord.gg/modular": {
+    "status": 200,
+    "valid": true,
+    "guild": "Modular"
+  },
+  "https://discord.gg/musicproduction": {
+    "status": 200,
+    "valid": true,
+    "guild": "Music Production"
+  },
+  "https://discord.gg/n8n": {
+    "status": 200,
+    "valid": true,
+    "guild": "n8n"
+  },
+  "https://discord.gg/nextjs": {
+    "status": 200,
+    "valid": true,
+    "guild": "Next.js"
+  },
+  "https://discord.gg/nocode": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/nomads": {
+    "status": 200,
+    "valid": true,
+    "guild": "Nomads\u2122"
+  },
+  "https://discord.gg/notion": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/obsidian": {
+    "status": 200,
+    "valid": true,
+    "guild": "Obsidian Entertainment"
+  },
+  "https://discord.gg/openai": {
+    "status": 200,
+    "valid": true,
+    "guild": "OpenAI"
+  },
+  "https://discord.gg/options": {
+    "status": 200,
+    "valid": true,
+    "guild": "The Contrarian"
+  },
+  "https://discord.gg/orca": {
+    "status": 200,
+    "valid": true,
+    "guild": "ORCA"
+  },
+  "https://discord.gg/osdev": {
+    "status": 200,
+    "valid": true,
+    "guild": "Operating System Development"
+  },
+  "https://discord.gg/personalfinance": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/phantom": {
+    "status": 200,
+    "valid": true,
+    "guild": "Phantom"
+  },
+  "https://discord.gg/podcasting": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/programming": {
+    "status": 200,
+    "valid": true,
+    "guild": "The Programmer's Hangout"
+  },
+  "https://discord.gg/proptrading": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/python": {
+    "status": 200,
+    "valid": true,
+    "guild": "Python"
+  },
+  "https://discord.gg/raydium": {
+    "status": 200,
+    "valid": true,
+    "guild": "Raydium Protocol"
+  },
+  "https://discord.gg/reactiflux": {
+    "status": 200,
+    "valid": true,
+    "guild": "Reactiflux"
+  },
+  "https://discord.gg/realestate": {
+    "status": 200,
+    "valid": true,
+    "guild": "Real Estate | Investing \u2022 Social \u2022 Property \u2022 Stocks"
+  },
+  "https://discord.gg/rust-lang": {
+    "status": 200,
+    "valid": true,
+    "guild": "The Rust Programming Language (read only archive)"
+  },
+  "https://discord.gg/rust-lang-community": {
+    "status": 200,
+    "valid": true,
+    "guild": "Rust Programming Language Community"
+  },
+  "https://discord.gg/sales": {
+    "status": 200,
+    "valid": true,
+    "guild": "Impact Team"
+  },
+  "https://discord.gg/seo": {
+    "status": 200,
+    "valid": true,
+    "guild": "SEOdiy.com"
+  },
+  "https://discord.gg/shopify": {
+    "status": 200,
+    "valid": true,
+    "guild": "Shopify Community"
+  },
+  "https://discord.gg/smma": {
+    "status": 200,
+    "valid": true,
+    "guild": "Runway"
+  },
+  "https://discord.gg/solana": {
+    "status": 200,
+    "valid": true,
+    "guild": "Solana Tech"
+  },
+  "https://discord.gg/sounddesign": {
+    "status": 200,
+    "valid": true,
+    "guild": "voltrax's portfolio"
+  },
+  "https://discord.gg/startups": {
+    "status": 200,
+    "valid": true,
+    "guild": "Tech Startups"
+  },
+  "https://discord.gg/stocks": {
+    "status": 200,
+    "valid": true,
+    "guild": ".gg/stocks"
+  },
+  "https://discord.gg/study": {
+    "status": 200,
+    "valid": true,
+    "guild": "Study Together \ud83c\udf92"
+  },
+  "https://discord.gg/swift": {
+    "status": 200,
+    "valid": true,
+    "guild": "Swifty's"
+  },
+  "https://discord.gg/tailwind": {
+    "status": 200,
+    "valid": true,
+    "guild": "Tailwind CSS"
+  },
+  "https://discord.gg/tech": {
+    "status": 200,
+    "valid": true,
+    "guild": "/g/ - ontology"
+  },
+  "https://discord.gg/technology": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/techseo": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/theprogrammershangout": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/thetagang": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/tiktokads": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/tokio": {
+    "status": 200,
+    "valid": true,
+    "guild": "Tokio"
+  },
+  "https://discord.gg/trading": {
+    "status": 200,
+    "valid": true,
+    "guild": "TRADING"
+  },
+  "https://discord.gg/typescript": {
+    "status": 200,
+    "valid": true,
+    "guild": "TypeScript Community"
+  },
+  "https://discord.gg/voiceacting": {
+    "status": 200,
+    "valid": true,
+    "guild": "StoryCraft"
+  },
+  "https://discord.gg/vue": {
+    "status": 200,
+    "valid": true,
+    "guild": "Vue Land"
+  },
+  "https://discord.gg/wallstreetbets": {
+    "status": 200,
+    "valid": true,
+    "guild": "Official  wallstreetbets"
+  },
+  "https://discord.gg/wealth": {
+    "status": 200,
+    "valid": true,
+    "guild": "wealth"
+  },
+  "https://discord.gg/webassembly": {
+    "status": 200,
+    "valid": true,
+    "guild": "WebAssembly"
+  },
+  "https://discord.gg/webdev": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/webflow": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/youtube": {
+    "status": 200,
+    "valid": true,
+    "guild": "YouTube Product Community"
+  },
+  "https://discord.gg/zapier": {
+    "status": 404,
+    "valid": false,
+    "msg": "Unknown/Dead Invite"
+  },
+  "https://discord.gg/zig": {
+    "status": 200,
+    "valid": true,
+    "guild": "Zig Programming Language"
+  }
+}
