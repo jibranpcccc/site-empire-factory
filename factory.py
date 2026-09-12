@@ -1323,11 +1323,8 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
     if "jibranpccc" in str(owner_email).lower():
         raise ValueError(f"CRITICAL SECURITY VIOLATION: '{owner_email}' is strictly prohibited from site creation or ownership!")
     
-    # 1. Universal Master GSC Verification File
-    with open(os.path.join(site_dir, "google6fe267a998c19a9a.html"), "w", encoding="utf-8") as f:
-        f.write("google-site-verification: google6fe267a998c19a9a.html\n")
 
-    # 2. Site-Specific GSC Verification File
+    # Site-Specific GSC Verification File
     gsc_file_name, gsc_file_content = generate_site_gsc_token(slug, owner_email)
     with open(os.path.join(site_dir, gsc_file_name), "w", encoding="utf-8") as f:
         f.write(gsc_file_content)
@@ -1335,8 +1332,6 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
     # Standard 10: Inject both Universal Master & Site-Specific GSC verification meta tags
     raw_gsc_token = gsc_file_name.replace("google", "").replace(".html", "")
     gsc_meta_snippet = (
-        '    <meta name="google-site-verification" content="google6fe267a998c19a9a">\n'
-        '    <meta name="google-site-verification" content="6fe267a998c19a9a">\n'
         f'    <meta name="google-site-verification" content="google{raw_gsc_token}">\n'
         f'    <meta name="google-site-verification" content="{raw_gsc_token}">\n'
     )
@@ -1345,8 +1340,7 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
         if os.path.exists(html_filepath):
             with open(html_filepath, "r", encoding="utf-8") as hf:
                 hcontent = hf.read()
-            if "<title>" in hcontent:
-                if "6fe267a998c19a9a" not in hcontent:
+                if "google-site-verification" not in hcontent:
                     hcontent = hcontent.replace("<title>", f"{gsc_meta_snippet}    <title>", 1)
                     with open(html_filepath, "w", encoding="utf-8") as hf:
                         hf.write(hcontent)
