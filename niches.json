@@ -1926,7 +1926,11 @@
     "category": "Mobile Dev",
     "niche": "Dart, Flutter widgets, Riverpod, BLoC, native iOS/Android bridge, cross-platform apps",
     "accent": "#02569b",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "rosereneee@gmail.com",
+    "owner_label": "Rose",
+    "owner_profile": "Default",
+    "browser": "chrome"
   },
   {
     "id": "generative-ai-art-midjourney-hub",
@@ -1935,7 +1939,11 @@
     "category": "AI Art & Design",
     "niche": "Midjourney v6 prompts, Stable Diffusion checkpoints, ComfyUI workflows, LoRA styling",
     "accent": "#ec4899",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "resumecv1988@gmail.com",
+    "owner_label": "Resume Investo",
+    "owner_profile": "Profile 38",
+    "browser": "chrome"
   },
   {
     "id": "vue-nuxt-fullstack-hub",
@@ -1944,7 +1952,11 @@
     "category": "Frontend Engineering",
     "niche": "Vue 3 Composition API, Nuxt 3 SSR, Pinia state, Vite tooling, Tailwind integrations",
     "accent": "#42b883",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "mosestenzel@gmail.com",
+    "owner_label": "Mose Tenzel",
+    "owner_profile": "Profile 40",
+    "browser": "chrome"
   },
   {
     "id": "swift-swiftui-ios-architects-hub",
@@ -1953,7 +1965,11 @@
     "category": "iOS Development",
     "niche": "Swift 6, SwiftUI, SwiftData, App Store optimization, VisionOS spatial computing",
     "accent": "#f05138",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "neboficlamut@gmail.com",
+    "owner_label": "Ficlamut",
+    "owner_profile": "Profile 5",
+    "browser": "chrome"
   },
   {
     "id": "pytorch-deep-learning-research-hub",
@@ -1962,7 +1978,11 @@
     "category": "Machine Learning",
     "niche": "PyTorch 2.0, CUDA optimization, transformer attention, diffusion backbones, arXiv paper implementations",
     "accent": "#ee4c2c",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "3drockb7004@gmail.com",
+    "owner_label": "Rock 3D",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "sre-incident-response-devops-hub",
@@ -1971,7 +1991,11 @@
     "category": "DevOps & SRE",
     "niche": "Chaos engineering, Prometheus monitoring, Grafana dashboards, PagerDuty on-call, postmortems",
     "accent": "#f59e0b",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "3dthedreamrsltd@gmail.com",
+    "owner_label": "Dreamers 3D",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "technical-writing-api-docs-hub",
@@ -1980,7 +2004,11 @@
     "category": "Content & Documentation",
     "niche": "Stripe-style docs, OpenAPI/Swagger, Markdown documentation, doc-as-code, developer advocacy",
     "accent": "#64748b",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "bernicejones1200@gmail.com",
+    "owner_label": "Bernice Jones",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "solopreneur-email-marketing-hub",
@@ -1989,7 +2017,11 @@
     "category": "Digital Marketing",
     "niche": "Substack growth, ConvertKit automations, cold email sequences, deliverability, open rates",
     "accent": "#8b5cf6",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "jimmyrose4028@gmail.com",
+    "owner_label": "Jimmy Rose",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "real-estate-syndications-hub",
@@ -1998,7 +2030,11 @@
     "category": "Real Estate Investing",
     "niche": "Multi-family syndications, LP investor pools, capital calls, cap rate analysis, 1031 exchange",
     "accent": "#b45309",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "mubiahmed95@gmail.com",
+    "owner_label": "Mubi Ahmed",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "b2b-saas-sales-outreach-hub",
@@ -2007,7 +2043,11 @@
     "category": "Sales & Growth",
     "niche": "Apollo.io lead scraping, Clay workflows, cold calling scripts, outbound email deliverability",
     "accent": "#2563eb",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "opremium412@gmail.com",
+    "owner_label": "Opremium",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "blender-3d-modeling-animation-hub",
@@ -2016,7 +2056,11 @@
     "category": "3D & VFX",
     "niche": "Geometry nodes, procedural texturing, Cycles rendering, rigging, hard surface modeling",
     "accent": "#ea7600",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "raiaqeel900017@gmail.com",
+    "owner_label": "Rai Aqeel 17",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "music-production-audio-engineering-hub",
@@ -2025,7 +2069,11 @@
     "category": "Audio & Music",
     "niche": "Ableton Live, FL Studio, vocal mixing, mastering chains, compression, sample packs",
     "accent": "#e11d48",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "raiaqeel900030@gmail.com",
+    "owner_label": "Rai Aqeel 30",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "private-equity-ma-dealmakers-hub",
@@ -2034,7 +2082,11 @@
     "category": "Finance & M&A",
     "niche": "LBO modeling, EBITDA multiples, due diligence checklists, roll-up strategies, deal sourcing",
     "accent": "#1e3a8a",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "raihunain20070@gmail.com",
+    "owner_label": "Rai Hunain",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "affiliate-marketing-niche-sites-hub",
@@ -2043,7 +2095,11 @@
     "category": "SEO & Marketing",
     "niche": "Amazon Associates, high-ticket affiliate programs, product review schemas, conversion rate optimization",
     "accent": "#d97706",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "ramzanmajeed.uk01@gmail.com",
+    "owner_label": "Ramzan Majeed",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "zk-proofs-cryptography-hub",
@@ -2052,7 +2108,11 @@
     "category": "Web3 & Math",
     "niche": "ZK-SNARKs, Starknet, Circom, privacy rollups, homomorphic encryption, polynomial commitments",
     "accent": "#7c3aed",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "thedreamrsltd@gmail.com",
+    "owner_label": "The Dreamers Ltd",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "embedded-iot-hardware-hub",
@@ -2061,7 +2121,11 @@
     "category": "Hardware & Firmware",
     "niche": "ESP32, STM32, embedded C/C++, FreeRTOS, PCB design in KiCAD, MQTT protocols",
     "accent": "#0891b2",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "thomasfcolling@gmail.com",
+    "owner_label": "Thomas Colling",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "data-engineering-apache-spark-hub",
@@ -2070,7 +2134,11 @@
     "category": "Big Data",
     "niche": "Databricks, Apache Spark, Snowflake, dbt pipelines, data mesh architectures, Kafka streaming",
     "accent": "#e11d48",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "rosereneee@gmail.com",
+    "owner_label": "Rose",
+    "owner_profile": "Default",
+    "browser": "chrome"
   },
   {
     "id": "product-management-growth-hacks-hub",
@@ -2079,7 +2147,11 @@
     "category": "Product Leadership",
     "niche": "PRDs, North Star metrics, feature prioritization, A/B testing, user onboarding teardowns",
     "accent": "#0284c7",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "resumecv1988@gmail.com",
+    "owner_label": "Resume Investo",
+    "owner_profile": "Profile 38",
+    "browser": "chrome"
   },
   {
     "id": "venture-capital-angel-syndicate-hub",
@@ -2088,7 +2160,11 @@
     "category": "Venture Capital",
     "niche": "SAFE notes, term sheets, deal flow filtering, cap table modeling, Series A milestones",
     "accent": "#0f766e",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "mosestenzel@gmail.com",
+    "owner_label": "Mose Tenzel",
+    "owner_profile": "Profile 40",
+    "browser": "chrome"
   },
   {
     "id": "pkm-obsidian-second-brain-hub",
@@ -2097,7 +2173,11 @@
     "category": "Knowledge & Notes",
     "niche": "Obsidian vaults, Zettelkasten method, graph connections, Tiago Forte second brain, Logseq",
     "accent": "#7c3aed",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "neboficlamut@gmail.com",
+    "owner_label": "Ficlamut",
+    "owner_profile": "Profile 5",
+    "browser": "chrome"
   },
   {
     "id": "clean-architecture-ddd-hub",
@@ -2106,7 +2186,11 @@
     "category": "Software Architecture",
     "niche": "Hexagonal architecture, CQRS, event sourcing, domain invariants, microservices boundaries",
     "accent": "#475569",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "3drockb7004@gmail.com",
+    "owner_label": "Rock 3D",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "docker-containers-devops-hub",
@@ -2115,7 +2199,11 @@
     "category": "DevOps & Containers",
     "niche": "Dockerfiles, multi-stage builds, rootless containers, Podman, compose stacks, microservices",
     "accent": "#2496ed",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "3dthedreamrsltd@gmail.com",
+    "owner_label": "Dreamers 3D",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "digital-forensics-incident-hub",
@@ -2124,7 +2212,11 @@
     "category": "Cybersecurity",
     "niche": "Memory analysis, Wireshark packet dumps, Autopsy, Volatility, timeline reconstruction, chain of custody",
     "accent": "#991b1b",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "bernicejones1200@gmail.com",
+    "owner_label": "Bernice Jones",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "typescript-nodejs-architects-hub",
@@ -2133,7 +2225,11 @@
     "category": "Web Development",
     "niche": "TypeScript 5, strict mode, AST transforms, Fastify, NestJS, monorepos, Turborepo",
     "accent": "#3178c6",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "jimmyrose4028@gmail.com",
+    "owner_label": "Jimmy Rose",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "langchain-llamaindex-ai-hub",
@@ -2142,7 +2238,11 @@
     "category": "AI Engineering",
     "niche": "Vector store indexing, hybrid search, rerankers, ChromaDB, Pinecone, agentic memory",
     "accent": "#10b981",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "mubiahmed95@gmail.com",
+    "owner_label": "Mubi Ahmed",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "futures-commodities-alpha-hub",
@@ -2151,7 +2251,11 @@
     "category": "Commodities & Futures",
     "niche": "Crude oil, gold futures, CME ES/NQ, COT reports, order book heatmaps, volume profile",
     "accent": "#d97706",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "opremium412@gmail.com",
+    "owner_label": "Opremium",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "real-estate-deal-flow-hub",
@@ -2160,7 +2264,11 @@
     "category": "Real Estate",
     "niche": "Underwriting models, cap rate spreadsheets, debt service coverage, mezzanine financing",
     "accent": "#047857",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "raiaqeel900017@gmail.com",
+    "owner_label": "Rai Aqeel 17",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "saas-landing-page-cro-hub",
@@ -2169,7 +2277,11 @@
     "category": "Design & Conversion",
     "niche": "Hero headlines, visual hierarchy, social proof badges, pricing tables, Hotjar analysis",
     "accent": "#6366f1",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "raiaqeel900030@gmail.com",
+    "owner_label": "Rai Aqeel 30",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "robotics-ros2-engineers-hub",
@@ -2178,7 +2290,11 @@
     "category": "Robotics & Hardware",
     "niche": "ROS 2 Humble, Gazebo simulation, URDF modeling, SLAM navigation, LiDAR sensor fusion",
     "accent": "#7c2d12",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "raihunain20070@gmail.com",
+    "owner_label": "Rai Hunain",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "fintech-payment-gateways-hub",
@@ -2187,7 +2303,11 @@
     "category": "Fintech Engineering",
     "niche": "Stripe Connect, Adyen, ACH rails, ISO 8583, PCI-DSS compliance, double-entry ledgers",
     "accent": "#4338ca",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "ramzanmajeed.uk01@gmail.com",
+    "owner_label": "Ramzan Majeed",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "shopify-developers-theme-hub",
@@ -2196,7 +2316,11 @@
     "category": "E-Commerce Tech",
     "niche": "Liquid templates, Hydrogen, Storefront API, Polaris design, Shopify App Bridge",
     "accent": "#95bf47",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "thedreamrsltd@gmail.com",
+    "owner_label": "The Dreamers Ltd",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "game-audio-sound-design-hub",
@@ -2205,7 +2329,11 @@
     "category": "Game Audio",
     "niche": "FMOD Studio, Wwise integration, adaptive music systems, Foley recording, spatial audio",
     "accent": "#be185d",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "thomasfcolling@gmail.com",
+    "owner_label": "Thomas Colling",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "vulnerability-research-0day-hub",
@@ -2214,7 +2342,11 @@
     "category": "Security Research",
     "niche": "Binary exploitation, IDA Pro, Ghidra decompilation, heap spray, ROP chains, ASLR bypass",
     "accent": "#b91c1c",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "rosereneee@gmail.com",
+    "owner_label": "Rose",
+    "owner_profile": "Default",
+    "browser": "chrome"
   },
   {
     "id": "web-scraping-automation-hub",
@@ -2223,7 +2355,11 @@
     "category": "Automation & Data",
     "niche": "Playwright, Puppeteer, Scrapy, anti-detect browser profiles, residential proxy pools",
     "accent": "#0284c7",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "resumecv1988@gmail.com",
+    "owner_label": "Resume Investo",
+    "owner_profile": "Profile 38",
+    "browser": "chrome"
   },
   {
     "id": "creator-economy-influencers-hub",
@@ -2232,7 +2368,11 @@
     "category": "Creator Growth",
     "niche": "Brand sponsorships, media kits, TikTok algorithms, YouTube RPM monetization, UGC contracts",
     "accent": "#ec4899",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "mosestenzel@gmail.com",
+    "owner_label": "Mose Tenzel",
+    "owner_profile": "Profile 40",
+    "browser": "chrome"
   },
   {
     "id": "cloud-security-iam-guard-hub",
@@ -2241,7 +2381,11 @@
     "category": "Cloud Security",
     "niche": "AWS IAM roles, least privilege, GCP service accounts, Azure Entra ID, CSPM posture tools",
     "accent": "#059669",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "neboficlamut@gmail.com",
+    "owner_label": "Ficlamut",
+    "owner_profile": "Profile 5",
+    "browser": "chrome"
   },
   {
     "id": "high-performance-cpp-hub",
@@ -2250,7 +2394,11 @@
     "category": "Systems & Gaming",
     "niche": "Modern C++20, SIMD vectorization, memory allocators, cache coherence, Vulkan graphics",
     "accent": "#00599c",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "3drockb7004@gmail.com",
+    "owner_label": "Rock 3D",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   },
   {
     "id": "graphql-federation-gateways-hub",
@@ -2259,6 +2407,10 @@
     "category": "API Architecture",
     "niche": "Apollo Federation, GraphQL mesh, schema stitching, subgraph composition, rate limiting",
     "accent": "#e10098",
-    "status": "pending"
+    "status": "pending",
+    "assigned_gmail": "3dthedreamrsltd@gmail.com",
+    "owner_label": "Dreamers 3D",
+    "owner_profile": "Firefox-Release",
+    "browser": "firefox"
   }
 ]

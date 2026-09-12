@@ -1,8 +1,8 @@
 {
-  "total_verified_gmails": 16,
-  "status": "ALL_16_SESSIONS_VERIFIED_ACTIVE",
-  "max_sites_per_gmail": 20,
-  "total_empire_capacity": 320,
+  "total_verified_gmails": 32,
+  "status": "ALL_32_ACCOUNTS_VERIFIED_ACTIVE",
+  "max_sites_per_gmail": 4,
+  "total_empire_capacity": 128,
   "accounts": [
     {
       "email": "doriancuquejo05@gmail.com",
@@ -83,6 +83,102 @@
       "email": "adamsokenneth08@gmail.com",
       "profile": "Profile 9",
       "label": "Kenneth Adams"
+    },
+    {
+      "email": "rosereneee@gmail.com",
+      "profile": "Default",
+      "label": "Rose",
+      "browser": "chrome"
+    },
+    {
+      "email": "resumecv1988@gmail.com",
+      "profile": "Profile 38",
+      "label": "Resume Investo",
+      "browser": "chrome"
+    },
+    {
+      "email": "mosestenzel@gmail.com",
+      "profile": "Profile 40",
+      "label": "Mose Tenzel",
+      "browser": "chrome"
+    },
+    {
+      "email": "neboficlamut@gmail.com",
+      "profile": "Profile 5",
+      "label": "Ficlamut",
+      "browser": "chrome"
+    },
+    {
+      "email": "3drockb7004@gmail.com",
+      "profile": "Firefox-Release",
+      "label": "Rock 3D",
+      "browser": "firefox"
+    },
+    {
+      "email": "3dthedreamrsltd@gmail.com",
+      "profile": "Firefox-Release",
+      "label": "Dreamers 3D",
+      "browser": "firefox"
+    },
+    {
+      "email": "bernicejones1200@gmail.com",
+      "profile": "Firefox-Release",
+      "label": "Bernice Jones",
+      "browser": "firefox"
+    },
+    {
+      "email": "jimmyrose4028@gmail.com",
+      "profile": "Firefox-Release",
+      "label": "Jimmy Rose",
+      "browser": "firefox"
+    },
+    {
+      "email": "mubiahmed95@gmail.com",
+      "profile": "Firefox-Release",
+      "label": "Mubi Ahmed",
+      "browser": "firefox"
+    },
+    {
+      "email": "opremium412@gmail.com",
+      "profile": "Firefox-Release",
+      "label": "Opremium",
+      "browser": "firefox"
+    },
+    {
+      "email": "raiaqeel900017@gmail.com",
+      "profile": "Firefox-Release",
+      "label": "Rai Aqeel 17",
+      "browser": "firefox"
+    },
+    {
+      "email": "raiaqeel900030@gmail.com",
+      "profile": "Firefox-Release",
+      "label": "Rai Aqeel 30",
+      "browser": "firefox"
+    },
+    {
+      "email": "raihunain20070@gmail.com",
+      "profile": "Firefox-Release",
+      "label": "Rai Hunain",
+      "browser": "firefox"
+    },
+    {
+      "email": "ramzanmajeed.uk01@gmail.com",
+      "profile": "Firefox-Release",
+      "label": "Ramzan Majeed",
+      "browser": "firefox"
+    },
+    {
+      "email": "thedreamrsltd@gmail.com",
+      "profile": "Firefox-Release",
+      "label": "The Dreamers Ltd",
+      "browser": "firefox"
+    },
+    {
+      "email": "thomasfcolling@gmail.com",
+      "profile": "Firefox-Release",
+      "label": "Thomas Colling",
+      "browser": "firefox"
     }
   ]
 }

@@ -1,7 +1,8 @@
 # Autonomous Site Empire Portfolio
 
 Total Deployed: **120 / 158**
-Last Run: `2026-09-12 06:09:43 UTC`
+Active Fleet: **32 Verified Accounts** | Total Capacity: **128 Properties**
+Unassigned Niches: **0** (100% of 158 niches assigned)
 
 | # | Site Name | Niche Category | Live URL | Platform | Repository | Webmaster / Gmail Owner | Deployed At |
 |---|---|---|---|---|---|---|---|
@@ -125,3 +126,47 @@ Last Run: `2026-09-12 06:09:43 UTC`
 | 118 | **High-Yield Cash & Treasury Bills Hub** | Personal Finance | [https://jibranpcccc.github.io/high-yield-treasury-wealth-hub/](https://jibranpcccc.github.io/high-yield-treasury-wealth-hub/) | GitHub Pages | [high-yield-treasury-wealth-hub](https://github.com/jibranpcccc/high-yield-treasury-wealth-hub) | Britney Masnbur (`siopkbritneymasnbur@gmail.com`) | 2026-09-12 |
 | 119 | **Remote Tech Career & Salary Hub** | Tech Careers | [https://jibranpcccc.github.io/remote-tech-careers-salary-hub/](https://jibranpcccc.github.io/remote-tech-careers-salary-hub/) | GitHub Pages | [remote-tech-careers-salary-hub](https://github.com/jibranpcccc/remote-tech-careers-salary-hub) | Christina Patel (`christinapatelf@gmail.com`) | 2026-09-12 |
 | 120 | **PostgreSQL & High-Scale Database Hub** | Databases | [https://postgresql-high-scale-db-hub.netlify.app/](https://postgresql-high-scale-db-hub.netlify.app/) | Netlify | [postgresql-high-scale-db-hub](https://github.com/jibranpcccc/postgresql-high-scale-db-hub) | Md Sagor (`mdrakibul90634@gmail.com`) | 2026-09-12 |
+
+---
+
+## 🛡️ Webmaster Fleet & Account Isolation (32 Verified Accounts)
+
+- **Total Verified Accounts**: 32
+- **Maximum Fleet Capacity**: 128 Sites (5 sites / account limit for Google safety)
+- **Niches Covered**: 158 / 158 (0 unassigned)
+- **Strict Quarantine**: `jibranpccc@gmail.com` and `3djibranpccc@gmail.com` are 100% decoupled and quarantined.
+
+| # | Webmaster Account | Browser Profile / Environment | Assigned Niches | Security Status |
+|---|---|---|---|---|
+| 1 | `doriancuquejo05@gmail.com` | Chrome (Profile 27) | 8 Niches | ✅ Active & Clean |
+| 2 | `teams.thefusionfeed@gmail.com` | Chrome (Profile 28) | 8 Niches | ✅ Active & Clean |
+| 3 | `vickimarshall853@gmail.com` | Chrome (Profile 30) | 8 Niches | ✅ Active & Clean |
+| 4 | `janavajannimik@gmail.com` | Chrome (Profile 31) | 8 Niches | ✅ Active & Clean |
+| 5 | `gladystuckergmgd@gmail.com` | Chrome (Profile 32) | 8 Niches | ✅ Active & Clean |
+| 6 | `siopkbritneymasnbur@gmail.com` | Chrome (Profile 34) | 8 Niches | ✅ Active & Clean |
+| 7 | `christinapatelf@gmail.com` | Chrome (Profile 35) | 8 Niches | ✅ Active & Clean |
+| 8 | `mdrakibul90634@gmail.com` | Chrome (Profile 37) | 8 Niches | ✅ Active & Clean |
+| 9 | `henryjude262@gmail.com` | Chrome (Profile 41) | 7 Niches | ✅ Active & Clean |
+| 10 | `afolabi.081510@gmail.com` | Chrome (Profile 43) | 7 Niches | ✅ Active & Clean |
+| 11 | `kerryvaquero@gmail.com` | Chrome (Profile 44) | 7 Niches | ✅ Active & Clean |
+| 12 | `jestwanted@gmail.com` | Chrome (Profile 47) | 7 Niches | ✅ Active & Clean |
+| 13 | `kamrakhan351@gmail.com` | Chrome (Profile 50) | 7 Niches | ✅ Active & Clean |
+| 14 | `reynoldsdcynthia@gmail.com` | Chrome (Profile 6) | 7 Niches | ✅ Active & Clean |
+| 15 | `rockb7004@gmail.com` | Chrome (Profile 65) | 7 Niches | ✅ Active & Clean |
+| 16 | `adamsokenneth08@gmail.com` | Chrome (Profile 9) | 7 Niches | ✅ Active & Clean |
+| 17 | `rosereneee@gmail.com` | Chrome (Default) | 3 Niches | ✅ Active & Clean |
+| 18 | `resumecv1988@gmail.com` | Chrome (Profile 38) | 3 Niches | ✅ Active & Clean |
+| 19 | `mosestenzel@gmail.com` | Chrome (Profile 40) | 3 Niches | ✅ Active & Clean |
+| 20 | `neboficlamut@gmail.com` | Chrome (Profile 5) | 3 Niches | ✅ Active & Clean |
+| 21 | `3drockb7004@gmail.com` | Firefox (Firefox-Release) | 3 Niches | ✅ Active & Clean |
+| 22 | `3dthedreamrsltd@gmail.com` | Firefox (Firefox-Release) | 3 Niches | ✅ Active & Clean |
+| 23 | `bernicejones1200@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
+| 24 | `jimmyrose4028@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
+| 25 | `mubiahmed95@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
+| 26 | `opremium412@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
+| 27 | `raiaqeel900017@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
+| 28 | `raiaqeel900030@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
+| 29 | `raihunain20070@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
+| 30 | `ramzanmajeed.uk01@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
+| 31 | `thedreamrsltd@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
+| 32 | `thomasfcolling@gmail.com` | Firefox (Firefox-Release) | 2 Niches | ✅ Active & Clean |
