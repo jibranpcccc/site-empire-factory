@@ -2266,11 +2266,15 @@
     "category": "Software Architecture",
     "niche": "Hexagonal architecture, CQRS, event sourcing, domain invariants, microservices boundaries",
     "accent": "#475569",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "3drockb7004@gmail.com",
     "owner_label": "Rock 3D",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://clean-architecture-ddd-hub.netlify.app/",
+    "deployed_at": "2026-09-13T11:32:47.491034+00:00"
   },
   {
     "id": "docker-containers-devops-hub",
@@ -2279,11 +2283,15 @@
     "category": "DevOps & Containers",
     "niche": "Dockerfiles, multi-stage builds, rootless containers, Podman, compose stacks, microservices",
     "accent": "#2496ed",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "3dthedreamrsltd@gmail.com",
     "owner_label": "Dreamers 3D",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/docker-containers-devops-hub/",
+    "deployed_at": "2026-09-13T11:33:23.752657+00:00"
   },
   {
     "id": "digital-forensics-incident-hub",
@@ -2292,11 +2300,15 @@
     "category": "Cybersecurity",
     "niche": "Memory analysis, Wireshark packet dumps, Autopsy, Volatility, timeline reconstruction, chain of custody",
     "accent": "#991b1b",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "bernicejones1200@gmail.com",
     "owner_label": "Bernice Jones",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/digital-forensics-incident-hub/",
+    "deployed_at": "2026-09-13T11:34:10.989716+00:00"
   },
   {
     "id": "typescript-nodejs-architects-hub",
@@ -2305,11 +2317,15 @@
     "category": "Web Development",
     "niche": "TypeScript 5, strict mode, AST transforms, Fastify, NestJS, monorepos, Turborepo",
     "accent": "#3178c6",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "jimmyrose4028@gmail.com",
     "owner_label": "Jimmy Rose",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://typescript-nodejs-architects-hub.netlify.app/",
+    "deployed_at": "2026-09-13T11:34:56.380963+00:00"
   },
   {
     "id": "langchain-llamaindex-ai-hub",
@@ -2318,11 +2334,15 @@
     "category": "AI Engineering",
     "niche": "Vector store indexing, hybrid search, rerankers, ChromaDB, Pinecone, agentic memory",
     "accent": "#10b981",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "mubiahmed95@gmail.com",
     "owner_label": "Mubi Ahmed",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/langchain-llamaindex-ai-hub/",
+    "deployed_at": "2026-09-13T11:35:34.192628+00:00"
   },
   {
     "id": "futures-commodities-alpha-hub",
@@ -2331,11 +2351,15 @@
     "category": "Commodities & Futures",
     "niche": "Crude oil, gold futures, CME ES/NQ, COT reports, order book heatmaps, volume profile",
     "accent": "#d97706",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "opremium412@gmail.com",
     "owner_label": "Opremium",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/futures-commodities-alpha-hub/",
+    "deployed_at": "2026-09-13T11:37:47.660356+00:00"
   },
   {
     "id": "real-estate-deal-flow-hub",
@@ -2344,11 +2368,15 @@
     "category": "Real Estate",
     "niche": "Underwriting models, cap rate spreadsheets, debt service coverage, mezzanine financing",
     "accent": "#047857",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "raiaqeel900017@gmail.com",
     "owner_label": "Rai Aqeel 17",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://real-estate-deal-flow-hub.netlify.app/",
+    "deployed_at": "2026-09-13T11:38:27.959066+00:00"
   },
   {
     "id": "saas-landing-page-cro-hub",
@@ -2357,11 +2385,15 @@
     "category": "Design & Conversion",
     "niche": "Hero headlines, visual hierarchy, social proof badges, pricing tables, Hotjar analysis",
     "accent": "#6366f1",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "raiaqeel900030@gmail.com",
     "owner_label": "Rai Aqeel 30",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/saas-landing-page-cro-hub/",
+    "deployed_at": "2026-09-13T11:40:39.011440+00:00"
   },
   {
     "id": "robotics-ros2-engineers-hub",
@@ -2370,11 +2402,15 @@
     "category": "Robotics & Hardware",
     "niche": "ROS 2 Humble, Gazebo simulation, URDF modeling, SLAM navigation, LiDAR sensor fusion",
     "accent": "#7c2d12",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "raihunain20070@gmail.com",
     "owner_label": "Rai Hunain",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/robotics-ros2-engineers-hub/",
+    "deployed_at": "2026-09-13T11:41:17.930227+00:00"
   },
   {
     "id": "fintech-payment-gateways-hub",
@@ -2383,11 +2419,15 @@
     "category": "Fintech Engineering",
     "niche": "Stripe Connect, Adyen, ACH rails, ISO 8583, PCI-DSS compliance, double-entry ledgers",
     "accent": "#4338ca",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "ramzanmajeed.uk01@gmail.com",
     "owner_label": "Ramzan Majeed",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://fintech-payment-gateways-hub.netlify.app/",
+    "deployed_at": "2026-09-13T11:42:19.698471+00:00"
   },
   {
     "id": "shopify-developers-theme-hub",
