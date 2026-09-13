@@ -1,0 +1,90 @@
+{
+  "last_run": "2026-09-13",
+  "total_generated": 6,
+  "records": [
+    {
+      "site_name": "Vue 3 & Nuxt Fullstack Hub",
+      "category": "Frontend Engineering",
+      "tier": "Tier 1: GitHub Gists (DA 96)",
+      "platform_domain": "gist.github.com",
+      "da": 96,
+      "backlink_type": "Daily Curated Technical Gist",
+      "backlink_url": "https://gist.github.com/jibranpcccc/7c356096a5eb5af46435a38120c67cc0",
+      "target_anchor": "https://vue-nuxt-fullstack-hub.netlify.app/",
+      "status_code": 200,
+      "status_msg": "OK",
+      "latency_ms": 659,
+      "date_added": "2026-09-13"
+    },
+    {
+      "site_name": "Vue 3 & Nuxt Fullstack Hub",
+      "category": "Frontend Engineering",
+      "tier": "Tier 1: GitHub Releases (DA 96)",
+      "platform_domain": "github.com",
+      "da": 96,
+      "backlink_type": "Daily Incremental Tagged Release",
+      "backlink_url": "https://github.com/jibranpcccc/vue-nuxt-fullstack-hub/releases/tag/v2026.09.13",
+      "target_anchor": "https://vue-nuxt-fullstack-hub.netlify.app/",
+      "status_code": 200,
+      "status_msg": "OK",
+      "latency_ms": 586,
+      "date_added": "2026-09-13"
+    },
+    {
+      "site_name": "Vue 3 & Nuxt Fullstack Hub",
+      "category": "Frontend Engineering",
+      "tier": "Tier 1: Cloud CDNs (DA 92)",
+      "platform_domain": "jsdelivr.net",
+      "da": 92,
+      "backlink_type": "Daily jsDelivr CDN Edge Mirror",
+      "backlink_url": "https://cdn.jsdelivr.net/gh/jibranpcccc/vue-nuxt-fullstack-hub@main/data/groups.json",
+      "target_anchor": "https://vue-nuxt-fullstack-hub.netlify.app/",
+      "status_code": 200,
+      "status_msg": "OK",
+      "latency_ms": 1628,
+      "date_added": "2026-09-13"
+    },
+    {
+      "site_name": "Swift & SwiftUI iOS Architects Hub",
+      "category": "iOS Development",
+      "tier": "Tier 1: GitHub Gists (DA 96)",
+      "platform_domain": "gist.github.com",
+      "da": 96,
+      "backlink_type": "Daily Curated Technical Gist",
+      "backlink_url": "https://gist.github.com/jibranpcccc/34e3f762a7c92de0fad9a32054888ae7",
+      "target_anchor": "https://jibranpcccc.github.io/swift-swiftui-ios-architects-hub/",
+      "status_code": 200,
+      "status_msg": "OK",
+      "latency_ms": 508,
+      "date_added": "2026-09-13"
+    },
+    {
+      "site_name": "Swift & SwiftUI iOS Architects Hub",
+      "category": "iOS Development",
+      "tier": "Tier 1: GitHub Releases (DA 96)",
+      "platform_domain": "github.com",
+      "da": 96,
+      "backlink_type": "Daily Incremental Tagged Release",
+      "backlink_url": "https://github.com/jibranpcccc/swift-swiftui-ios-architects-hub/releases/tag/v2026.09.13",
+      "target_anchor": "https://jibranpcccc.github.io/swift-swiftui-ios-architects-hub/",
+      "status_code": 200,
+      "status_msg": "OK",
+      "latency_ms": 613,
+      "date_added": "2026-09-13"
+    },
+    {
+      "site_name": "Swift & SwiftUI iOS Architects Hub",
+      "category": "iOS Development",
+      "tier": "Tier 1: Cloud CDNs (DA 92)",
+      "platform_domain": "jsdelivr.net",
+      "da": 92,
+      "backlink_type": "Daily jsDelivr CDN Edge Mirror",
+      "backlink_url": "https://cdn.jsdelivr.net/gh/jibranpcccc/swift-swiftui-ios-architects-hub@main/data/groups.json",
+      "target_anchor": "https://jibranpcccc.github.io/swift-swiftui-ios-architects-hub/",
+      "status_code": 200,
+      "status_msg": "OK",
+      "latency_ms": 971,
+      "date_added": "2026-09-13"
+    }
+  ]
+}
