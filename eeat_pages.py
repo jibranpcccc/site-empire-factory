@@ -233,6 +233,12 @@ def build_about_page(niche, live_url):
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{page_title}">
     <meta name="twitter:description" content="{page_desc}">
+    <meta property="og:image" content="{live_url}og-preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{name} - {page_title}">
+    <meta name="twitter:image" content="{live_url}og-preview.png">
+    <meta name="twitter:image:alt" content="{name} - {page_title}">
     <script type="application/ld+json">
 {schema_json}
     </script>
@@ -327,6 +333,12 @@ def build_submit_page(niche, live_url):
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{page_title}">
     <meta name="twitter:description" content="{page_desc}">
+    <meta property="og:image" content="{live_url}og-preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{name} - {page_title}">
+    <meta name="twitter:image" content="{live_url}og-preview.png">
+    <meta name="twitter:image:alt" content="{name} - {page_title}">
     <script type="application/ld+json">
 {schema_json}
     </script>
@@ -467,6 +479,12 @@ def build_contact_page(niche, live_url):
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{page_title}">
     <meta name="twitter:description" content="{page_desc}">
+    <meta property="og:image" content="{live_url}og-preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{name} - {page_title}">
+    <meta name="twitter:image" content="{live_url}og-preview.png">
+    <meta name="twitter:image:alt" content="{name} - {page_title}">
     <script type="application/ld+json">
 {schema_json}
     </script>
@@ -601,6 +619,12 @@ def build_privacy_page(niche, live_url):
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{page_title}">
     <meta name="twitter:description" content="{page_desc}">
+    <meta property="og:image" content="{live_url}og-preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{name} - {page_title}">
+    <meta name="twitter:image" content="{live_url}og-preview.png">
+    <meta name="twitter:image:alt" content="{name} - {page_title}">
     <script type="application/ld+json">
 {schema_json}
     </script>
@@ -704,6 +728,12 @@ def build_terms_page(niche, live_url):
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{page_title}">
     <meta name="twitter:description" content="{page_desc}">
+    <meta property="og:image" content="{live_url}og-preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{name} - {page_title}">
+    <meta name="twitter:image" content="{live_url}og-preview.png">
+    <meta name="twitter:image:alt" content="{name} - {page_title}">
     <script type="application/ld+json">
 {schema_json}
     </script>

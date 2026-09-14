@@ -635,6 +635,12 @@ def build_html(niche, communities, live_url):
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{page_title}">
     <meta name="twitter:description" content="{page_desc}">
+    <meta property="og:image" content="{live_url}og-preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{name} - Verified Community Directory">
+    <meta name="twitter:image" content="{live_url}og-preview.png">
+    <meta name="twitter:image:alt" content="{name} - Verified Community Directory">
     <script type="application/ld+json">
 {schema_json}
     </script>
@@ -768,6 +774,18 @@ def build_html(niche, communities, live_url):
             .card-actions .btn-copy-invite, .card-actions .btn-join {{ width: 100%; }}
         }}
         
+        /* Semantic Accessible FAQ Accordion */
+        .faq-section {{ margin-top: 50px; margin-bottom: 30px; }}
+        .section-heading {{ font-size: 1.6rem; color: #fff; margin-bottom: 20px; text-align: center; }}
+        .faq-grid {{ display: flex; flex-direction: column; gap: 14px; max-width: 900px; margin: 0 auto; }}
+        .faq-item {{ background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; transition: border-color 0.2s; }}
+        .faq-item:hover, .faq-item[open] {{ border-color: var(--accent); }}
+        .faq-question {{ padding: 18px 22px; font-weight: 600; font-size: 1.05rem; color: #fff; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; user-select: none; }}
+        .faq-question::-webkit-details-marker {{ display: none; }}
+        .faq-question::after {{ content: '▾'; font-size: 1.2rem; color: var(--accent); transition: transform 0.2s ease; }}
+        .faq-item[open] .faq-question::after {{ transform: rotate(180deg); }}
+        .faq-answer {{ padding: 0 22px 18px; color: var(--muted); font-size: 0.95rem; line-height: 1.65; border-top: 1px solid rgba(255,255,255,0.04); padding-top: 14px; }}
+        
         footer {{ text-align: center; color: var(--muted); font-size: 0.85rem; padding: 40px 20px 0; border-top: 1px solid var(--border); margin-top: 50px; }}
     </style>
 </head>
@@ -834,6 +852,31 @@ def build_html(niche, communities, live_url):
         <div id="vetted-communities" class="grid">
             {cards_html}
         </div>
+
+        <!-- Semantic & Accessible FAQ Accordion Section (100% Mirror to FAQPage Schema) -->
+        <section id="faq" class="faq-section" aria-labelledby="faqHeading">
+            <h2 id="faqHeading" class="section-heading">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <details class="faq-item" open>
+                    <summary class="faq-question">How do I join the communities in {name}?</summary>
+                    <div class="faq-answer">
+                        <p>Click on any verified community card to access direct invite links for Telegram, Discord, WhatsApp, or Reddit. All links are checked and vetted.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">Are these communities free to join?</summary>
+                    <div class="faq-answer">
+                        <p>Yes, all indexed public communities in this directory are 100% free to access.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">How often is this directory updated?</summary>
+                    <div class="faq-answer">
+                        <p>This directory is updated continuously with automated link liveness checks and fresh community discovery.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
     </div>
     {build_footer(niche, live_url)}
 
@@ -1349,12 +1392,55 @@ def deploy_niche_site(niche, all_niches=None, platform_override=None):
     with open(os.path.join(site_dir, f"{INDEXNOW_KEY}.txt"), "w", encoding="utf-8") as f:
         f.write(INDEXNOW_KEY)
 
-    # Multi-Hosting configuration files
+    # Multi-Hosting configuration files with Core Web Vitals & Security Headers
+    headers_content = """/*
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Cache-Control: public, max-age=3600
+
+/og-preview.png
+  Cache-Control: public, max-age=31536000, immutable
+"""
+    with open(os.path.join(site_dir, "_headers"), "w", encoding="utf-8") as f:
+        f.write(headers_content)
+
+    vercel_config = {
+        "cleanUrls": True,
+        "headers": [
+            {
+                "source": "/(.*)",
+                "headers": [
+                    {"key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload"},
+                    {"key": "X-Content-Type-Options", "value": "nosniff"},
+                    {"key": "X-Frame-Options", "value": "DENY"},
+                    {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"},
+                    {"key": "Permissions-Policy", "value": "geolocation=(), microphone=(), camera=()"},
+                    {"key": "Cache-Control", "value": "public, max-age=3600"}
+                ]
+            },
+            {
+                "source": "/og-preview.png",
+                "headers": [
+                    {"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}
+                ]
+            }
+        ]
+    }
     with open(os.path.join(site_dir, "vercel.json"), "w", encoding="utf-8") as f:
-        json.dump({"cleanUrls": True}, f, indent=2)
+        json.dump(vercel_config, f, indent=2)
 
     with open(os.path.join(site_dir, "_redirects"), "w", encoding="utf-8") as f:
         f.write("/*    /index.html   200\n")
+
+    # Generate 1200x630 High-Contrast Social Preview Image
+    try:
+        from apply_boss_seo_upgrades import generate_og_preview
+        generate_og_preview(name, niche.get("category", "Directory"), os.path.join(site_dir, "og-preview.png"), niche.get("accent", "#38bdf8"))
+    except Exception as e:
+        print(f"Notice: og preview generation in factory: {e}")
 
     # Disable Jekyll on GitHub Pages to prevent build failures
     with open(os.path.join(site_dir, ".nojekyll"), "w", encoding="utf-8") as f:

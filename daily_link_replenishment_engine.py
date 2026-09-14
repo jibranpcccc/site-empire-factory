@@ -168,6 +168,18 @@ def ping_indexnow(host, url_list):
             pass
     return success
 
+def ping_wayback_archive(url):
+    """Submits canonical URL to Internet Archive / Wayback Machine to timestamp authority."""
+    try:
+        req = urllib.request.Request(
+            f"https://web.archive.org/save/{url}",
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+        )
+        with urllib.request.urlopen(req, timeout=12) as res:
+            return res.status in [200, 302]
+    except Exception:
+        return False
+
 def select_fresh_communities(niche, existing_groups, count=1):
     """
     Selects 1 to 3 verified authentic communities not yet present in the site's groups.json.
@@ -393,9 +405,10 @@ def replenish_single_site(niche, count=1, dry_run=False):
         except Exception as e:
             pass
 
-    # 7. Broadcast IndexNow and Google WebSub ping
+    # 7. Broadcast IndexNow, Google WebSub, and Internet Archive Wayback Machine pings
     websub_ok = ping_google_websub(f"{live_url}feed.xml")
     indexnow_ok = ping_indexnow(host, [live_url, f"{live_url}feed.xml"])
+    wayback_ok = ping_wayback_archive(live_url)
 
     return {
         "slug": slug,
@@ -406,7 +419,8 @@ def replenish_single_site(niche, count=1, dry_run=False):
         "total_communities": len(updated_groups),
         "git_pushed": git_pushed,
         "websub_ok": websub_ok,
-        "indexnow_ok": indexnow_ok
+        "indexnow_ok": indexnow_ok,
+        "wayback_ok": wayback_ok
     }
 
 def run_replenishment_engine(limit=None, slug_filter=None, workers=4, dry_run=False):

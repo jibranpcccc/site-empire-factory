@@ -42,6 +42,18 @@ def ping_indexnow(host, url_list):
         print(f"  ⚠️ IndexNow [{host}] Ping error: {e}")
         return False
 
+def ping_wayback_archive(url):
+    """Submits canonical URL to Internet Archive / Wayback Machine to timestamp authority."""
+    try:
+        req = urllib.request.Request(
+            f"https://web.archive.org/save/{url}",
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+        )
+        with urllib.request.urlopen(req, timeout=10) as res:
+            return res.status in [200, 302]
+    except Exception:
+        return False
+
 def audit_and_enforce():
     print("\n=======================================================")
     print("🛡️ DAILY EMPIRE SEO SENTINEL: AUDIT & ENFORCEMENT")
