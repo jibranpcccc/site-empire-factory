@@ -1,47 +1,22 @@
 {
-  "timestamp": "2026-09-14T06:09:39.556452+00:00",
+  "timestamp": "2026-09-14T10:50:05.814238+00:00",
   "total_processed": 158,
-  "success_count": 148,
-  "total_added": 148,
+  "success_count": 158,
+  "total_added": 158,
   "results": [
-    {
-      "slug": "deals-loot-coupons-hub",
-      "name": "Deals, Loot & Coupons Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Shopify Community Forum"
-      ],
-      "total_communities": 73,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "scholarships-study-abroad-hub",
-      "name": "Scholarships & Study Abroad Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Global Scholarships & Grants Feed"
-      ],
-      "total_communities": 41,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
     {
       "slug": "remote-work-nomad-hub",
       "name": "Remote Work & Nomad Communities Hub",
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/nocode Visual Development"
+        "Obsidian Members Discord"
       ],
-      "total_communities": 35,
+      "total_communities": 36,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "developer-coding-hub",
@@ -49,12 +24,41 @@
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "Kubernetes Community Discord"
+        "DevOps & SRE News Channel"
       ],
-      "total_communities": 39,
+      "total_communities": 40,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "deals-loot-coupons-hub",
+      "name": "Deals, Loot & Coupons Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Slickdeals Community Forum"
+      ],
+      "total_communities": 74,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "scholarships-study-abroad-hub",
+      "name": "Scholarships & Study Abroad Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/digitalnomad Global Travelers"
+      ],
+      "total_communities": 42,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "ai-prompts-generative-hub",
@@ -62,12 +66,13 @@
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "OpenAI Developer Forum"
+        "Kaggle Data & AI Discussions"
       ],
-      "total_communities": 35,
+      "total_communities": 36,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "cybersecurity-infosec-hub",
@@ -75,16 +80,1613 @@
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "HackTheBox Community Forum"
+        "0x00sec Security Researchers Forum"
       ],
-      "total_communities": 33,
+      "total_communities": 34,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "data-science-machine-learning-hub",
+      "name": "Data Science & Deep Learning Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/StableDiffusion Local Art"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "devops-cloud-architect-hub",
       "name": "DevOps & Cloud Architecture Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/Python Developer Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "indie-hackers-micro-saas-hub",
+      "name": "Indie Hackers & Micro-SaaS Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/bugbounty Hunters"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "game-dev-indie-studios-hub",
+      "name": "Indie Game Developers & Modders Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/cpp High-Performance Graphics Engines"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "rust-systems-engineering-hub",
+      "name": "Rust & Systems Programming Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/programming International"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": false,
+      "wayback_ok": false
+    },
+    {
+      "slug": "no-code-automation-hub",
+      "name": "No-Code & AI Automation Agency Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/software Architecture Forum"
+      ],
+      "total_communities": 36,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "ios-android-mobile-dev-hub",
+      "name": "Mobile Dev & Flutter Engineers Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/programming International"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "forex-scalping-signals-hub",
+      "name": "Forex Scalpers & Prop Firm Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "WallStreetBets High Volatility Lounge"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "options-trading-wealth-hub",
+      "name": "Options Trading & Wheel Strategy Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Real Estate Mastermind Subreddit"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "crypto-defi-yield-hub",
+      "name": "Crypto DeFi & Yield Farming Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/LidoFinance Liquid Staking"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "fire-personal-finance-hub",
+      "name": "FIRE Movement & Wealth Building Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/passive_income Automated Cashflow"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "dividend-growth-investing-hub",
+      "name": "Dividend Growth & Passive Income Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Bogleheads Forum Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "real-estate-wholesaling-hub",
+      "name": "Real Estate Wholesaling & BRRRR Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Bloomberg Market Feed Channel"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "prop-trading-challenge-hub",
+      "name": "Prop Trading Firms & Pass Challenge Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Bloomberg Market Feed Channel"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "crypto-solana-memecoins-hub",
+      "name": "Solana Ecosystem & Alpha Callers Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/optimism Collective & RetroPGF"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "tax-strategies-offshore-hub",
+      "name": "Offshore Banking & Tax Strategy Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/realestateinvesting Wealth Hub"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "crypto-airdrop-testnets-hub",
+      "name": "Crypto Testnets & Airdrop Farmers Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/JupiterExchange DEX Aggregator Hub"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "ecommerce-amazon-fba-hub",
+      "name": "Amazon FBA & Private Label Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/socialmediamarketing Organic Reach"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "shopify-dropshipping-viral-hub",
+      "name": "Shopify Dropshipping & TikTok Ads Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/AmazonSeller Seller Central Q&A"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "seo-growth-hackers-hub",
+      "name": "SEO Masters & Programmatic Growth Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/copywriting Direct Response"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "affiliate-marketing-masters-hub",
+      "name": "Super Affiliates & CPA Networks Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/content_marketing Editorial Growth"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "copywriting-high-ticket-hub",
+      "name": "High-Ticket Copywriting & Sales Letters Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Global Startups Hub Channel"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "smma-agency-founders-hub",
+      "name": "SMMA & Cold Outreach Agency Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Hacker News Founder Discussions"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "youtube-automation-creators-hub",
+      "name": "Faceless YouTube & Video AI Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/SaaS Software as a Service"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "podcasting-creator-economy-hub",
+      "name": "Podcasting & Audio Monetization Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "digital-products-notion-hub",
+      "name": "Digital Products & Notion Template Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/zapier Automated Workflow Pipelines"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "saas-marketing-b2b-hub",
+      "name": "B2B SaaS Growth & PLG Marketing Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/sales B2B Outbound & Pipeline"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "study-in-germany-daadvise-hub",
+      "name": "Study in Germany & DAAD Scholars Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/IELTS Preparation Mastery"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "usmle-medical-residency-hub",
+      "name": "USMLE & International Medical Grads Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/realestateinvesting Wealth Hub"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "ielts-toefl-band8-hub",
+      "name": "IELTS & GRE Band 8 Masterclass Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "phd-fellowships-research-hub",
+      "name": "PhD Fellowships & Postdoc Research Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/TOEFLadvice Study Group"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "study-in-canada-pgwp-hub",
+      "name": "Study in Canada & PGWP Student Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/TOEFLadvice Study Group"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "law-school-bar-exam-hub",
+      "name": "Law Students & Bar Exam Mastery Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "aviation-pilot-cadet-hub",
+      "name": "Aviation Students & Pilot Cadets Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/cpp High Performance Systems"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "architecture-design-masters-hub",
+      "name": "Architecture & Spatial Design Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/technology World News"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "nursing-nclex-international-hub",
+      "name": "NCLEX-RN & Global Nurses Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "study-in-japan-mext-hub",
+      "name": "Study in Japan & MEXT Scholars Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/IELTS Preparation Mastery"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "gta-rp-whitelist-servers-hub",
+      "name": "GTA RP Whitelisted Servers & Gangs Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "minecraft-smp-builders-hub",
+      "name": "Minecraft SMP & Redstone Builders Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "valorant-scrims-competitive-hub",
+      "name": "Valorant Scrims & Premier Teams Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "chess-grandmasters-study-hub",
+      "name": "Competitive Chess & Opening Theory Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "sim-racing-rigs-f1-hub",
+      "name": "Sim Racing & F1 League Racers Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "retro-emulation-handhelds-hub",
+      "name": "Retro Emulation & Handheld Gaming Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/technology World News"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "dnd-tabletop-campaigns-hub",
+      "name": "D&D 5e & Tabletop RPG Campaigns Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/cpp High Performance Systems"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "speedrunning-glitches-hub",
+      "name": "Speedrunners & Game Glitch Hunters Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/technology World News"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "cs2-lineups-premier-hub",
+      "name": "Counter-Strike 2 Premier & Smokes Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Off-Market Property Deals Channel"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "vr-gaming-meta-quest-hub",
+      "name": "VR Gaming & Meta Quest Modders Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/technology World News"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "biohacking-longevity-hub",
+      "name": "Biohacking & Longevity Protocols Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/Nootropics Cognitive Enhancement"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "travel-hacking-points-hub",
+      "name": "Travel Hacking & Airline Points Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/cpp High Performance Systems"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "calisthenics-street-workout-hub",
+      "name": "Calisthenics & Bodyweight Athlete Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "minimalist-slow-living-hub",
+      "name": "Minimalism & Zero-Waste Lifestyle Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "language-exchange-polyglot-hub",
+      "name": "Polyglots & Language Exchange Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "remote-vanlife-overlanding-hub",
+      "name": "Vanlife & Off-Grid Overlanders Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "book-clubs-readers-lounge-hub",
+      "name": "Book Clubs & Deep Reading Collective",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "stoicism-ancient-philosophy-hub",
+      "name": "Modern Stoics & Philosophy Collective",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/cpp High Performance Systems"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "mechanical-keyboards-custom-hub",
+      "name": "Custom Mechanical Keyboards & Thock Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "audiophile-high-fidelity-hub",
+      "name": "Audiophiles & Hi-Fi Headphone Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "ai-agents-autonomous-systems-hub",
+      "name": "Autonomous AI Agents & Multi-Agent Systems Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/cpp High Performance Systems"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "solana-defi-developers-hub",
+      "name": "Solana DeFi & Rust Developers Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/arbitrum Layer 2 Ecosystem"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "flutter-crossplatform-mobile-hub",
+      "name": "Flutter & Cross-Platform Mobile Guild",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "HashiCorp Discuss Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "shopify-dropshipping-growth-hub",
+      "name": "Shopify E-Commerce & Dropshipping Growth Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/AmazonSeller Seller Central Q&A"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "nextjs-react-fullstack-hub",
+      "name": "Next.js & Modern React Full-Stack Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/cpp High Performance Systems"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "kubernetes-cloud-native-hub",
+      "name": "Kubernetes & Cloud Native Architect Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Stack Overflow Python Questions"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "prompt-engineering-mastery-hub",
+      "name": "Prompt Engineering & Context Design Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/cpp High Performance Systems"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "b2b-saas-founders-circle-hub",
+      "name": "B2B SaaS Founders & Bootstrappers Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Indie Hackers Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "biohacking-longevity-health-hub",
+      "name": "Biohacking, Longevity & Human Optimization Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Hacker News Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": false,
+      "wayback_ok": false
+    },
+    {
+      "slug": "smart-home-homeassistant-hub",
+      "name": "Home Assistant & Local Smart Home Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Kubernetes Community Discord"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "generative-ai-video-creators-hub",
+      "name": "Generative AI Video & Virtual Production Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/unrealengine Creators"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "cyber-threat-intelligence-hub",
+      "name": "Cyber Threat Intelligence & OSINT Collective",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/aws Cloud Architects"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "ethical-hacking-bugbounty-hub",
+      "name": "Bug Bounty & Ethical Hacking Hunters Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Web Developers Network"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "prop-firm-forex-traders-hub",
+      "name": "Prop Firm Traders & Forex Alpha Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Bogleheads Forum Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "3d-blender-unreal-artists-hub",
+      "name": "Blender 3D & Unreal Engine 5 Guild",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Go Language Official Discord"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "notion-systems-productivity-hub",
+      "name": "Notion Systems & Second Brain Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/programming International"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "remote-developer-jobs-alpha-hub",
+      "name": "Remote Tech Careers & Global Compensation Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/rust Systems Programming"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "real-estate-investing-syndicates-hub",
+      "name": "Real Estate Syndication & Cash Flow Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Bloomberg Market Feed Channel"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "youtube-automation-cashcow-hub",
+      "name": "Faceless YouTube Automation & Media Empire Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/SaaS Software as a Service"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "digital-nomad-visas-tax-hub",
+      "name": "Digital Nomad Visas & Global Tax Residency Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/realestateinvesting Wealth Hub"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "fintech-embedded-banking-hub",
+      "name": "Fintech & Embedded Banking Developers Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/cpp High Performance Systems"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "deep-learning-nlp-transformers-hub",
+      "name": "Deep Learning & LLM Research Collective",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/cpp High Performance Systems"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "freelance-copywriters-guild-hub",
+      "name": "High-Conversion Copywriting & VSL Guild",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Global Startups Hub Channel"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "cybersecurity-grc-compliance-hub",
+      "name": "Cybersecurity GRC, SOC2 & ISO 27001 Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Go Language Official Discord"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "rust-systems-performance-hub",
+      "name": "Rust Systems & High-Performance Computing Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "HashiCorp Discuss Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "creative-indie-filmmakers-hub",
+      "name": "Indie Filmmakers & Cinema Gear Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "high-ticket-closing-sales-hub",
+      "name": "High-Ticket B2B Sales & Closing Collective",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/selfhosted Sovereign Cloud"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "crypto-yield-farming-staking-hub",
+      "name": "DeFi Yield Farming & Staking Alpha Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Technology & Science Discord"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "no-code-bubble-automation-hub",
+      "name": "No-Code Web Apps & Bubble.io Builders Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Airtable Builders Discord"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "golang-microservices-distributed-hub",
+      "name": "Go Microservices & Distributed Architecture Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Technology & Science Discord"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "growth-marketing-hackers-hub",
+      "name": "Growth Marketing & Programmatic SEO Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Technology & Science Discord"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "ui-ux-design-systems-hub",
+      "name": "Design Systems & Figma Component Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Technology & Science Discord"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "sound-design-music-production-hub",
+      "name": "Electronic Music Production & Synthesizer Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/technology World News"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "amazon-fba-private-label-hub",
+      "name": "Amazon FBA Private Label & Brand Scaling Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/socialmediamarketing Organic Reach"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "personal-finance-fire-movement-hub",
+      "name": "FIRE Movement & Financial Independence Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Bogleheads Investors Discord"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "virtual-assistants-agency-hub",
+      "name": "Global Virtual Assistants & Remote Operations Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Technology & Science Discord"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "podcast-creators-audio-network-hub",
+      "name": "Podcast Creators & Audio Syndication Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/science Academic Research"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "neurotech-brain-computer-interface-hub",
+      "name": "Neurotechnology & Cognitive Enhancement Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/webdev Builders Hub"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "electric-vehicles-clean-energy-hub",
+      "name": "Clean Energy, Solar & EV Enthusiasts Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/ChatGPT AI Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "indie-game-marketing-steam-hub",
+      "name": "Steam Indie Game Developers & Marketing Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/webdev Builders Hub"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "autonomous-ai-agents-hub",
+      "name": "Autonomous AI Agents Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/webdev Builders Hub"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "algo-trading-quant-hub",
+      "name": "Quantitative Finance & Algo Trading Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Global Investors Alpha Telegram"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "golang-backend-cloud-hub",
+      "name": "Golang Cloud Backend Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/grpc RPC Protocols"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "nextjs-fullstack-react-hub",
+      "name": "Next.js & Full-Stack React Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/webdev Builders Hub"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "prompt-engineering-tuning-hub",
+      "name": "Prompt Engineering & LLM Tuning Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/webdev Builders Hub"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "smart-contract-solidity-hub",
+      "name": "Smart Contract & Solidity Security Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/typescript Architecture"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "homelab-selfhosted-linux-hub",
+      "name": "HomeLab & Self-Hosted Linux Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Kubernetes Community Discord"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "bug-bounty-pentesting-hub",
+      "name": "Bug Bounty & Penetration Testing Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Web Developers Network"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "unreal-engine-5-creators-hub",
+      "name": "Unreal Engine 5 Creators Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Go Language Official Discord"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "unity-6-indie-studios-hub",
+      "name": "Unity 6 Indie Studios Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/technology World News"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "microsaas-bootstrappers-hub",
+      "name": "Micro-SaaS Bootstrappers Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/Entrepreneur Business Guild"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "tiktok-shop-dropshipping-hub",
+      "name": "Dropshipping & TikTok Shop Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/JungleScout Market Intelligence"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "notion-templates-productivity-hub",
+      "name": "Notion Systems & Productivity Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/programming International"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "biohacking-longevity-protocols-hub",
+      "name": "Biohacking & Longevity Protocols Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Hacker News Community"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "high-yield-treasury-wealth-hub",
+      "name": "High-Yield Cash & Treasury Bills Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Global Investors Alpha Telegram"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "remote-tech-careers-salary-hub",
+      "name": "Remote Tech Career & Salary Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/rust Systems Programming"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "postgresql-high-scale-db-hub",
+      "name": "PostgreSQL & High-Scale Database Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/webdev Builders Hub"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "flutter-multiplatform-engineers-hub",
+      "name": "Flutter & Multi-Platform Engineers Hub",
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
@@ -93,440 +1695,68 @@
       "total_communities": 33,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
-      "slug": "data-science-machine-learning-hub",
-      "name": "Data Science & Deep Learning Hub",
+      "slug": "generative-ai-art-midjourney-hub",
+      "name": "Generative AI Art & Midjourney Hub",
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/Midjourney Prompt Engineering"
+        "r/cpp High Performance Systems"
       ],
       "total_communities": 33,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
-      "slug": "indie-hackers-micro-saas-hub",
-      "name": "Indie Hackers & Micro-SaaS Hub",
+      "slug": "vue-nuxt-fullstack-hub",
+      "name": "Vue 3 & Nuxt Fullstack Hub",
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/ethicalhacking Community"
+        "r/cpp High Performance Systems"
       ],
       "total_communities": 33,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
-      "slug": "game-dev-indie-studios-hub",
-      "name": "Indie Game Developers & Modders Hub",
+      "slug": "swift-swiftui-ios-architects-hub",
+      "name": "Swift & SwiftUI iOS Architects Hub",
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "Indie Game Developers Channel"
+        "r/cpp High Performance Systems"
       ],
       "total_communities": 33,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
-      "slug": "no-code-automation-hub",
-      "name": "No-Code & AI Automation Agency Hub",
+      "slug": "pytorch-deep-learning-research-hub",
+      "name": "Deep Learning & PyTorch Researchers Hub",
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/appsmith Internal Tools"
-      ],
-      "total_communities": 35,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "rust-systems-engineering-hub",
-      "name": "Rust & Systems Programming Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Python Developers Telegram Channel"
+        "r/cpp High Performance Systems"
       ],
       "total_communities": 33,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": false
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
-      "slug": "ios-android-mobile-dev-hub",
-      "name": "Mobile Dev & Flutter Engineers Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Python Developers Telegram Channel"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "forex-scalping-signals-hub",
-      "name": "Forex Scalpers & Prop Firm Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Stock Market & Technical Breakouts"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "options-trading-wealth-hub",
-      "name": "Options Trading & Wheel Strategy Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "BiggerPockets Real Estate Forum"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "crypto-defi-yield-hub",
-      "name": "Crypto DeFi & Yield Farming Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/Compound Money Markets"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "dividend-growth-investing-hub",
-      "name": "Dividend Growth & Passive Income Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Bloomberg Market Feed Channel"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "fire-personal-finance-hub",
-      "name": "FIRE Movement & Wealth Building Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/ValueInvesting Fundamental Analysis"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "real-estate-wholesaling-hub",
-      "name": "Real Estate Wholesaling & BRRRR Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/wallstreetbets Alpha & Options"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "prop-trading-challenge-hub",
-      "name": "Prop Trading Firms & Pass Challenge Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/realestateinvesting Wealth Hub"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "crypto-solana-memecoins-hub",
-      "name": "Solana Ecosystem & Alpha Callers Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/arbitrum Layer 2 Ecosystem"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "tax-strategies-offshore-hub",
-      "name": "Offshore Banking & Tax Strategy Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/wallstreetbets Alpha & Options"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "ecommerce-amazon-fba-hub",
-      "name": "Amazon FBA & Private Label Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/marketing Growth & Strategy"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "crypto-airdrop-testnets-hub",
-      "name": "Crypto Testnets & Airdrop Farmers Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/Raydium AMM & Liquidity Pools"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "shopify-dropshipping-viral-hub",
-      "name": "Shopify Dropshipping & TikTok Ads Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/FBA Amazon Seller Mastermind"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "affiliate-marketing-masters-hub",
-      "name": "Super Affiliates & CPA Networks Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/Linkbuilding Authority Acquisition"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "seo-growth-hackers-hub",
-      "name": "SEO Masters & Programmatic Growth Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/AffiliateMarketing Performance RevShare"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "copywriting-high-ticket-hub",
-      "name": "High-Ticket Copywriting & Sales Letters Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "SEO Professionals Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "smma-agency-founders-hub",
-      "name": "SMMA & Cold Outreach Agency Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Product Hunt Launch Network"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "youtube-automation-creators-hub",
-      "name": "Faceless YouTube & Video AI Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/startups Founders & Builders"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "podcasting-creator-economy-hub",
-      "name": "Podcasting & Audio Monetization Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "digital-products-notion-hub",
-      "name": "Digital Products & Notion Template Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/Anki Spaced Repetition & Retention"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "saas-marketing-b2b-hub",
-      "name": "B2B SaaS Growth & PLG Marketing Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/growthhacking Scaling Hub"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "study-in-germany-daadvise-hub",
-      "name": "Study in Germany & DAAD Scholars Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/PhD Doctoral Researchers Guild"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "usmle-medical-residency-hub",
-      "name": "USMLE & International Medical Grads Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/wallstreetbets Alpha & Options"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "ielts-toefl-band8-hub",
-      "name": "IELTS & GRE Band 8 Masterclass Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "phd-fellowships-research-hub",
-      "name": "PhD Fellowships & Postdoc Research Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/IELTS Preparation Mastery"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "study-in-canada-pgwp-hub",
-      "name": "Study in Canada & PGWP Student Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/IELTS Preparation Mastery"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "law-school-bar-exam-hub",
-      "name": "Law Students & Bar Exam Mastery Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "aviation-pilot-cadet-hub",
-      "name": "Aviation Students & Pilot Cadets Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "TypeScript Community Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "architecture-design-masters-hub",
-      "name": "Architecture & Spatial Design Hub",
+      "slug": "sre-incident-response-devops-hub",
+      "name": "DevOps SRE & Incident Response Hub",
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
@@ -535,375 +1765,26 @@
       "total_communities": 33,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
-      "slug": "nursing-nclex-international-hub",
-      "name": "NCLEX-RN & Global Nurses Hub",
+      "slug": "technical-writing-api-docs-hub",
+      "name": "Technical Writing & API Docs Hub",
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/LocalLLaMA Open Models"
+        "HashiCorp Discuss Community"
       ],
       "total_communities": 33,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
-      "slug": "study-in-japan-mext-hub",
-      "name": "Study in Japan & MEXT Scholars Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/PhD Doctoral Researchers Guild"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "gta-rp-whitelist-servers-hub",
-      "name": "GTA RP Whitelisted Servers & Gangs Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "minecraft-smp-builders-hub",
-      "name": "Minecraft SMP & Redstone Builders Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "valorant-scrims-competitive-hub",
-      "name": "Valorant Scrims & Premier Teams Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "chess-grandmasters-study-hub",
-      "name": "Competitive Chess & Opening Theory Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "sim-racing-rigs-f1-hub",
-      "name": "Sim Racing & F1 League Racers Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "retro-emulation-handhelds-hub",
-      "name": "Retro Emulation & Handheld Gaming Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "DEV Community WebDev Hub"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "dnd-tabletop-campaigns-hub",
-      "name": "D&D 5e & Tabletop RPG Campaigns Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "TypeScript Community Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "speedrunning-glitches-hub",
-      "name": "Speedrunners & Game Glitch Hunters Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "DEV Community WebDev Hub"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "cs2-lineups-premier-hub",
-      "name": "Counter-Strike 2 Premier & Smokes Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Real Estate Wholesaling & Investing Alerts"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "vr-gaming-meta-quest-hub",
-      "name": "VR Gaming & Meta Quest Modders Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "DEV Community WebDev Hub"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "travel-hacking-points-hub",
-      "name": "Travel Hacking & Airline Points Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "TypeScript Community Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "biohacking-longevity-hub",
-      "name": "Biohacking & Longevity Protocols Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/Supplements Evidence-Based Nutrition"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "calisthenics-street-workout-hub",
-      "name": "Calisthenics & Bodyweight Athlete Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "minimalist-slow-living-hub",
-      "name": "Minimalism & Zero-Waste Lifestyle Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "language-exchange-polyglot-hub",
-      "name": "Polyglots & Language Exchange Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "remote-vanlife-overlanding-hub",
-      "name": "Vanlife & Off-Grid Overlanders Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "stoicism-ancient-philosophy-hub",
-      "name": "Modern Stoics & Philosophy Collective",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "TypeScript Community Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "book-clubs-readers-lounge-hub",
-      "name": "Book Clubs & Deep Reading Collective",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "mechanical-keyboards-custom-hub",
-      "name": "Custom Mechanical Keyboards & Thock Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "audiophile-high-fidelity-hub",
-      "name": "Audiophiles & Hi-Fi Headphone Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "ai-agents-autonomous-systems-hub",
-      "name": "Autonomous AI Agents & Multi-Agent Systems Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "TypeScript Community Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "solana-defi-developers-hub",
-      "name": "Solana DeFi & Rust Developers Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/cryptoairdrop Farming Guides"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "shopify-dropshipping-growth-hub",
-      "name": "Shopify E-Commerce & Dropshipping Growth Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/FBA Amazon Seller Mastermind"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "flutter-crossplatform-mobile-hub",
-      "name": "Flutter & Cross-Platform Mobile Guild",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Cloud Native & K8s Network"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "nextjs-react-fullstack-hub",
-      "name": "Next.js & Modern React Full-Stack Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "TypeScript Community Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "kubernetes-cloud-native-hub",
-      "name": "Kubernetes & Cloud Native Architect Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Next.js GitHub Discussions"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "b2b-saas-founders-circle-hub",
-      "name": "B2B SaaS Founders & Bootstrappers Hub",
+      "slug": "solopreneur-email-marketing-hub",
+      "name": "Solopreneur Email Marketing Hub",
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
@@ -912,761 +1793,8 @@
       "total_communities": 33,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "prompt-engineering-mastery-hub",
-      "name": "Prompt Engineering & Context Design Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "TypeScript Community Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "cyber-threat-intelligence-hub",
-      "name": "Cyber Threat Intelligence & OSINT Collective",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/docker Containers"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "smart-home-homeassistant-hub",
-      "name": "Home Assistant & Local Smart Home Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/aws Cloud Architects"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "biohacking-longevity-health-hub",
-      "name": "Biohacking, Longevity & Human Optimization Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Technology & Science Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": false
-    },
-    {
-      "slug": "generative-ai-video-creators-hub",
-      "name": "Generative AI Video & Virtual Production Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/unity3d Engine Developers"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "prop-firm-forex-traders-hub",
-      "name": "Prop Firm Traders & Forex Alpha Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Bloomberg Market Feed Channel"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "ethical-hacking-bugbounty-hub",
-      "name": "Bug Bounty & Ethical Hacking Hunters Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Reactiflux Discord Community"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "3d-blender-unreal-artists-hub",
-      "name": "Blender 3D & Unreal Engine 5 Guild",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/golang Backend Hub"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "notion-systems-productivity-hub",
-      "name": "Notion Systems & Second Brain Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/Python Developer Community"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "real-estate-investing-syndicates-hub",
-      "name": "Real Estate Syndication & Cash Flow Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/wallstreetbets Alpha & Options"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "remote-developer-jobs-alpha-hub",
-      "name": "Remote Tech Careers & Global Compensation Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/Python Developer Community"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "youtube-automation-cashcow-hub",
-      "name": "Faceless YouTube Automation & Media Empire Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/startups Founders & Builders"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "digital-nomad-visas-tax-hub",
-      "name": "Digital Nomad Visas & Global Tax Residency Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/wallstreetbets Alpha & Options"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "deep-learning-nlp-transformers-hub",
-      "name": "Deep Learning & LLM Research Collective",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "TypeScript Community Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "freelance-copywriters-guild-hub",
-      "name": "High-Conversion Copywriting & VSL Guild",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "SEO Professionals Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "fintech-embedded-banking-hub",
-      "name": "Fintech & Embedded Banking Developers Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "TypeScript Community Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "cybersecurity-grc-compliance-hub",
-      "name": "Cybersecurity GRC, SOC2 & ISO 27001 Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/golang Backend Hub"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "rust-systems-performance-hub",
-      "name": "Rust Systems & High-Performance Computing Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Cloud Native & K8s Network"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "crypto-yield-farming-staking-hub",
-      "name": "DeFi Yield Farming & Staking Alpha Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/linux Open Source OS"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "creative-indie-filmmakers-hub",
-      "name": "Indie Filmmakers & Cinema Gear Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "high-ticket-closing-sales-hub",
-      "name": "High-Ticket B2B Sales & Closing Collective",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/hardware Enthusiasts & Benchmarks"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "no-code-bubble-automation-hub",
-      "name": "No-Code Web Apps & Bubble.io Builders Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "NoCode Developers Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "ui-ux-design-systems-hub",
-      "name": "Design Systems & Figma Component Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/linux Open Source OS"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "growth-marketing-hackers-hub",
-      "name": "Growth Marketing & Programmatic SEO Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/linux Open Source OS"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "golang-microservices-distributed-hub",
-      "name": "Go Microservices & Distributed Architecture Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/science Academic Research"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "personal-finance-fire-movement-hub",
-      "name": "FIRE Movement & Financial Independence Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Dividends & Cashflow Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "sound-design-music-production-hub",
-      "name": "Electronic Music Production & Synthesizer Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Beatmakers Lounge Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "amazon-fba-private-label-hub",
-      "name": "Amazon FBA Private Label & Brand Scaling Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/marketing Growth & Strategy"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "virtual-assistants-agency-hub",
-      "name": "Global Virtual Assistants & Remote Operations Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/linux Open Source OS"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "neurotech-brain-computer-interface-hub",
-      "name": "Neurotechnology & Cognitive Enhancement Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/cpp High Performance Systems"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "podcast-creators-audio-network-hub",
-      "name": "Podcast Creators & Audio Syndication Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/technology World News"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "electric-vehicles-clean-energy-hub",
-      "name": "Clean Energy, Solar & EV Enthusiasts Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/LocalLLaMA Open Models"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "indie-game-marketing-steam-hub",
-      "name": "Steam Indie Game Developers & Marketing Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/cpp High Performance Systems"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "autonomous-ai-agents-hub",
-      "name": "Autonomous AI Agents Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/cpp High Performance Systems"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "algo-trading-quant-hub",
-      "name": "Quantitative Finance & Algo Trading Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Off-Market Property Deals Channel"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "golang-backend-cloud-hub",
-      "name": "Golang Cloud Backend Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/apachekafka Event Streaming"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "nextjs-fullstack-react-hub",
-      "name": "Next.js & Full-Stack React Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/cpp High Performance Systems"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "homelab-selfhosted-linux-hub",
-      "name": "HomeLab & Self-Hosted Linux Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/aws Cloud Architects"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "smart-contract-solidity-hub",
-      "name": "Smart Contract & Solidity Security Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Go Language Official Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "prompt-engineering-tuning-hub",
-      "name": "Prompt Engineering & LLM Tuning Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/cpp High Performance Systems"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "bug-bounty-pentesting-hub",
-      "name": "Bug Bounty & Penetration Testing Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Reactiflux Discord Community"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "unity-6-indie-studios-hub",
-      "name": "Unity 6 Indie Studios Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "DEV Community WebDev Hub"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "unreal-engine-5-creators-hub",
-      "name": "Unreal Engine 5 Creators Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/golang Backend Hub"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "microsaas-bootstrappers-hub",
-      "name": "Micro-SaaS Bootstrappers Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/copywriting Conversion Writers"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "tiktok-shop-dropshipping-hub",
-      "name": "Dropshipping & TikTok Shop Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/Helium10 Product Research Guild"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "notion-templates-productivity-hub",
-      "name": "Notion Systems & Productivity Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/Python Developer Community"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "high-yield-treasury-wealth-hub",
-      "name": "High-Yield Cash & Treasury Bills Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Off-Market Property Deals Channel"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "biohacking-longevity-protocols-hub",
-      "name": "Biohacking & Longevity Protocols Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Technology & Science Discord"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "remote-tech-careers-salary-hub",
-      "name": "Remote Tech Career & Salary Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/Python Developer Community"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "postgresql-high-scale-db-hub",
-      "name": "PostgreSQL & High-Scale Database Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/cpp High Performance Systems"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "generative-ai-art-midjourney-hub",
-      "name": "Generative AI Art & Midjourney Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "TypeScript Community Discord"
-      ],
-      "total_communities": 32,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "flutter-multiplatform-engineers-hub",
-      "name": "Flutter & Multi-Platform Engineers Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Cloud Native & K8s Network"
-      ],
-      "total_communities": 32,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "vue-nuxt-fullstack-hub",
-      "name": "Vue 3 & Nuxt Fullstack Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "TypeScript Community Discord"
-      ],
-      "total_communities": 32,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "swift-swiftui-ios-architects-hub",
-      "name": "Swift & SwiftUI iOS Architects Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "TypeScript Community Discord"
-      ],
-      "total_communities": 32,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "sre-incident-response-devops-hub",
-      "name": "DevOps SRE & Incident Response Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Stack Overflow Python Questions"
-      ],
-      "total_communities": 32,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "pytorch-deep-learning-research-hub",
-      "name": "Deep Learning & PyTorch Researchers Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "TypeScript Community Discord"
-      ],
-      "total_communities": 32,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "technical-writing-api-docs-hub",
-      "name": "Technical Writing & API Docs Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Cloud Native & K8s Network"
-      ],
-      "total_communities": 32,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "solopreneur-email-marketing-hub",
-      "name": "Solopreneur Email Marketing Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "SEO Professionals Discord"
-      ],
-      "total_communities": 32,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "real-estate-syndications-hub",
@@ -1674,12 +1802,13 @@
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/stocks Market News"
+        "r/personalfinance Money Management"
       ],
-      "total_communities": 32,
+      "total_communities": 33,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "b2b-saas-sales-outreach-hub",
@@ -1687,12 +1816,13 @@
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "SEO Professionals Discord"
+        "Global Startups Hub Channel"
       ],
-      "total_communities": 32,
+      "total_communities": 33,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "blender-3d-modeling-animation-hub",
@@ -1700,25 +1830,13 @@
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/golang Backend Hub"
+        "Go Language Official Discord"
       ],
-      "total_communities": 33,
+      "total_communities": 34,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "private-equity-ma-dealmakers-hub",
-      "name": "Private Equity & M&A Dealmakers Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Off-Market Property Deals Channel"
-      ],
-      "total_communities": 33,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "music-production-audio-engineering-hub",
@@ -1726,12 +1844,27 @@
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/linux Open Source OS"
+        "Technology & Science Discord"
       ],
-      "total_communities": 33,
+      "total_communities": 34,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "private-equity-ma-dealmakers-hub",
+      "name": "Private Equity & M&A Dealmakers Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Global Investors Alpha Telegram"
+      ],
+      "total_communities": 34,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "affiliate-marketing-niche-sites-hub",
@@ -1739,12 +1872,13 @@
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/Linkbuilding Authority Acquisition"
+        "r/content_marketing Editorial Growth"
       ],
-      "total_communities": 33,
+      "total_communities": 34,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "zk-proofs-cryptography-hub",
@@ -1752,12 +1886,13 @@
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/cpp High Performance Systems"
+        "r/webdev Builders Hub"
       ],
-      "total_communities": 33,
+      "total_communities": 34,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "embedded-iot-hardware-hub",
@@ -1765,12 +1900,13 @@
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/LocalLLaMA Open Models"
+        "r/ChatGPT AI Community"
       ],
-      "total_communities": 33,
+      "total_communities": 34,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "data-engineering-apache-spark-hub",
@@ -1778,62 +1914,13 @@
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "Technology & Science Discord"
+        "TechCrunch Official Channel"
       ],
-      "total_communities": 33,
+      "total_communities": 34,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "clean-architecture-ddd-hub",
-      "status": "error",
-      "message": "Site directory not found"
-    },
-    {
-      "slug": "docker-containers-devops-hub",
-      "status": "error",
-      "message": "Site directory not found"
-    },
-    {
-      "slug": "digital-forensics-incident-hub",
-      "status": "error",
-      "message": "Site directory not found"
-    },
-    {
-      "slug": "typescript-nodejs-architects-hub",
-      "status": "error",
-      "message": "Site directory not found"
-    },
-    {
-      "slug": "langchain-llamaindex-ai-hub",
-      "status": "error",
-      "message": "Site directory not found"
-    },
-    {
-      "slug": "futures-commodities-alpha-hub",
-      "status": "error",
-      "message": "Site directory not found"
-    },
-    {
-      "slug": "real-estate-deal-flow-hub",
-      "status": "error",
-      "message": "Site directory not found"
-    },
-    {
-      "slug": "saas-landing-page-cro-hub",
-      "status": "error",
-      "message": "Site directory not found"
-    },
-    {
-      "slug": "robotics-ros2-engineers-hub",
-      "status": "error",
-      "message": "Site directory not found"
-    },
-    {
-      "slug": "fintech-payment-gateways-hub",
-      "status": "error",
-      "message": "Site directory not found"
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "product-management-growth-hacks-hub",
@@ -1841,12 +1928,13 @@
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/copywriting Conversion Writers"
+        "r/Entrepreneur Business Guild"
       ],
-      "total_communities": 33,
+      "total_communities": 34,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "venture-capital-angel-syndicate-hub",
@@ -1854,12 +1942,13 @@
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/hardware Enthusiasts & Benchmarks"
+        "r/selfhosted Sovereign Cloud"
       ],
-      "total_communities": 33,
+      "total_communities": 34,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
       "slug": "pkm-obsidian-second-brain-hub",
@@ -1867,42 +1956,17 @@
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/Python Developer Community"
+        "r/programming International"
       ],
-      "total_communities": 33,
+      "total_communities": 34,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
-      "slug": "shopify-developers-theme-hub",
-      "name": "Shopify App & Theme Developers Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/FBA Amazon Seller Mastermind"
-      ],
-      "total_communities": 31,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "game-audio-sound-design-hub",
-      "name": "Game Audio & Interactive Sound Design Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "r/technology World News"
-      ],
-      "total_communities": 31,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "vulnerability-research-0day-hub",
-      "name": "Vulnerability Research & 0-Day Alpha Hub",
+      "slug": "clean-architecture-ddd-hub",
+      "name": "Clean Architecture & Domain Driven Design Hub",
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
@@ -1911,63 +1975,40 @@
       "total_communities": 31,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
-      "slug": "web-scraping-automation-hub",
-      "name": "Web Scraping & Headless Automation Hub",
+      "slug": "docker-containers-devops-hub",
+      "name": "Docker & Container Orchestration Hub",
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "Devcord Web Developers"
+        "r/typescript Architecture"
       ],
       "total_communities": 31,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
-      "slug": "creator-economy-influencers-hub",
-      "name": "Micro-Influencer & Creator Economy Hub",
+      "slug": "digital-forensics-incident-hub",
+      "name": "Cybersecurity Incident Forensics Hub",
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
-        "r/SEO Search Engine Optimization"
+        "r/typescript Architecture"
       ],
       "total_communities": 31,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
     },
     {
-      "slug": "cloud-security-iam-guard-hub",
-      "name": "Zero-Day Cloud Security & IAM Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Web Developers Network"
-      ],
-      "total_communities": 31,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "high-performance-cpp-hub",
-      "name": "High-Performance C++ & Game Engines Hub",
-      "status": "success",
-      "added_count": 1,
-      "fresh_titles": [
-        "Next.js GitHub Discussions"
-      ],
-      "total_communities": 31,
-      "git_pushed": true,
-      "websub_ok": true,
-      "indexnow_ok": true
-    },
-    {
-      "slug": "graphql-federation-gateways-hub",
-      "name": "GraphQL & API Gateway Federation Hub",
+      "slug": "typescript-nodejs-architects-hub",
+      "name": "TypeScript & Node.js Architects Hub",
       "status": "success",
       "added_count": 1,
       "fresh_titles": [
@@ -1976,7 +2017,204 @@
       "total_communities": 31,
       "git_pushed": true,
       "websub_ok": true,
-      "indexnow_ok": true
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "futures-commodities-alpha-hub",
+      "name": "Commodity & Futures Trading Alpha Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Commercial Real Estate Network"
+      ],
+      "total_communities": 31,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "langchain-llamaindex-ai-hub",
+      "name": "LangChain & LlamaIndex AI Developers Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/typescript Architecture"
+      ],
+      "total_communities": 31,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "real-estate-deal-flow-hub",
+      "name": "Real Estate Syndication & Deal Flow Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/investing Long Term Wealth"
+      ],
+      "total_communities": 31,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "saas-landing-page-cro-hub",
+      "name": "SaaS Landing Page CRO & Design Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/digitalmarketing Practitioners"
+      ],
+      "total_communities": 31,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "fintech-payment-gateways-hub",
+      "name": "Fintech & Payment Gateway Engineers Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/typescript Architecture"
+      ],
+      "total_communities": 31,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "robotics-ros2-engineers-hub",
+      "name": "Robotics & ROS 2 Engineers Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "DEV Community WebDev Hub"
+      ],
+      "total_communities": 31,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "shopify-developers-theme-hub",
+      "name": "Shopify App & Theme Developers Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/AmazonSeller Seller Central Q&A"
+      ],
+      "total_communities": 32,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "game-audio-sound-design-hub",
+      "name": "Game Audio & Interactive Sound Design Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/science Academic Research"
+      ],
+      "total_communities": 32,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "vulnerability-research-0day-hub",
+      "name": "Vulnerability Research & 0-Day Alpha Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "TypeScript Community Discord"
+      ],
+      "total_communities": 32,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "web-scraping-automation-hub",
+      "name": "Web Scraping & Headless Automation Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Next.js Developers Discord"
+      ],
+      "total_communities": 32,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "creator-economy-influencers-hub",
+      "name": "Micro-Influencer & Creator Economy Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/marketing Growth & Strategy"
+      ],
+      "total_communities": 32,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "cloud-security-iam-guard-hub",
+      "name": "Zero-Day Cloud Security & IAM Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "r/golang Backend Hub"
+      ],
+      "total_communities": 32,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "high-performance-cpp-hub",
+      "name": "High-Performance C++ & Game Engines Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Stack Overflow Python Questions"
+      ],
+      "total_communities": 32,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
+    },
+    {
+      "slug": "graphql-federation-gateways-hub",
+      "name": "GraphQL & API Gateway Federation Hub",
+      "status": "success",
+      "added_count": 1,
+      "fresh_titles": [
+        "Cloud Native & K8s Network"
+      ],
+      "total_communities": 32,
+      "git_pushed": true,
+      "websub_ok": true,
+      "indexnow_ok": true,
+      "wayback_ok": false
     }
   ]
 }
