@@ -1,0 +1,70 @@
+{
+  "git_gate": {
+    "factory": [
+      "65e4efac0d620ff7bb00df7ec7830d73ba2ff207",
+      "FusionFeed Empire <teams.thefusionfeed@gmail.com>",
+      "Mon Sep 14 14:45:48 2026 +0500"
+    ]
+  },
+  "quarantine_gate": {
+    "banned_found": 0,
+    "status": "CLEAN (0 occurrences)"
+  },
+  "og_images_dimensions": {
+    "total_scanned": 140,
+    "exact_1200x630_count": 140,
+    "compliance_rate": "100.0%"
+  },
+  "sample_properties": [
+    {
+      "slug": "developer-coding-hub",
+      "path": ".\\developer-coding-hub",
+      "details_faq_elements": 3,
+      "canonical_present": true,
+      "og_image_meta": true,
+      "twitter_image_meta": true,
+      "netlify_headers_file": true,
+      "vercel_json_headers": true
+    },
+    {
+      "slug": "no-code-automation-hub",
+      "path": "site-empire-factory\\output\\no-code-automation-hub",
+      "details_faq_elements": 3,
+      "canonical_present": true,
+      "og_image_meta": true,
+      "twitter_image_meta": true,
+      "netlify_headers_file": true,
+      "vercel_json_headers": true
+    },
+    {
+      "slug": "rust-systems-engineering-hub",
+      "path": "site-empire-factory\\output\\rust-systems-engineering-hub",
+      "details_faq_elements": 3,
+      "canonical_present": true,
+      "og_image_meta": true,
+      "twitter_image_meta": true,
+      "netlify_headers_file": true,
+      "vercel_json_headers": true
+    },
+    {
+      "slug": "deals-loot-coupons-hub",
+      "path": ".\\deals-loot-coupons-hub",
+      "details_faq_elements": 5,
+      "canonical_present": true,
+      "og_image_meta": true,
+      "twitter_image_meta": true,
+      "netlify_headers_file": true,
+      "vercel_json_headers": true
+    },
+    {
+      "slug": "music-production-audio-engineering-hub",
+      "path": "site-empire-factory\\output\\music-production-audio-engineering-hub",
+      "details_faq_elements": 3,
+      "canonical_present": true,
+      "og_image_meta": true,
+      "twitter_image_meta": true,
+      "netlify_headers_file": true,
+      "vercel_json_headers": true
+    }
+  ]
+}
