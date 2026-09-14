@@ -2436,11 +2436,15 @@
     "category": "E-Commerce Tech",
     "niche": "Liquid templates, Hydrogen, Storefront API, Polaris design, Shopify App Bridge",
     "accent": "#95bf47",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "thedreamrsltd@gmail.com",
     "owner_label": "The Dreamers Ltd",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/shopify-developers-theme-hub/",
+    "deployed_at": "2026-09-14T06:00:41.639078+00:00"
   },
   {
     "id": "game-audio-sound-design-hub",
@@ -2449,11 +2453,15 @@
     "category": "Game Audio",
     "niche": "FMOD Studio, Wwise integration, adaptive music systems, Foley recording, spatial audio",
     "accent": "#be185d",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "thomasfcolling@gmail.com",
     "owner_label": "Thomas Colling",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/game-audio-sound-design-hub/",
+    "deployed_at": "2026-09-14T06:01:19.114473+00:00"
   },
   {
     "id": "vulnerability-research-0day-hub",
@@ -2462,11 +2470,15 @@
     "category": "Security Research",
     "niche": "Binary exploitation, IDA Pro, Ghidra decompilation, heap spray, ROP chains, ASLR bypass",
     "accent": "#b91c1c",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "rosereneee@gmail.com",
     "owner_label": "Rose",
     "owner_profile": "Default",
-    "browser": "chrome"
+    "browser": "chrome",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://vulnerability-research-0day-hub.netlify.app/",
+    "deployed_at": "2026-09-14T06:02:19.151085+00:00"
   },
   {
     "id": "web-scraping-automation-hub",
@@ -2475,11 +2487,15 @@
     "category": "Automation & Data",
     "niche": "Playwright, Puppeteer, Scrapy, anti-detect browser profiles, residential proxy pools",
     "accent": "#0284c7",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "resumecv1988@gmail.com",
     "owner_label": "Resume Investo",
     "owner_profile": "Profile 38",
-    "browser": "chrome"
+    "browser": "chrome",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/web-scraping-automation-hub/",
+    "deployed_at": "2026-09-14T06:02:56.515605+00:00"
   },
   {
     "id": "creator-economy-influencers-hub",
@@ -2488,11 +2504,15 @@
     "category": "Creator Growth",
     "niche": "Brand sponsorships, media kits, TikTok algorithms, YouTube RPM monetization, UGC contracts",
     "accent": "#ec4899",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "mosestenzel@gmail.com",
     "owner_label": "Mose Tenzel",
     "owner_profile": "Profile 40",
-    "browser": "chrome"
+    "browser": "chrome",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/creator-economy-influencers-hub/",
+    "deployed_at": "2026-09-14T06:03:40.859329+00:00"
   },
   {
     "id": "cloud-security-iam-guard-hub",
@@ -2501,11 +2521,15 @@
     "category": "Cloud Security",
     "niche": "AWS IAM roles, least privilege, GCP service accounts, Azure Entra ID, CSPM posture tools",
     "accent": "#059669",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "neboficlamut@gmail.com",
     "owner_label": "Ficlamut",
     "owner_profile": "Profile 5",
-    "browser": "chrome"
+    "browser": "chrome",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "live_url": "https://cloud-security-iam-guard-hub.netlify.app/",
+    "deployed_at": "2026-09-14T06:04:43.333969+00:00"
   },
   {
     "id": "high-performance-cpp-hub",
@@ -2514,11 +2538,15 @@
     "category": "Systems & Gaming",
     "niche": "Modern C++20, SIMD vectorization, memory allocators, cache coherence, Vulkan graphics",
     "accent": "#00599c",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "3drockb7004@gmail.com",
     "owner_label": "Rock 3D",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/high-performance-cpp-hub/",
+    "deployed_at": "2026-09-14T06:05:50.536782+00:00"
   },
   {
     "id": "graphql-federation-gateways-hub",
@@ -2527,10 +2555,14 @@
     "category": "API Architecture",
     "niche": "Apollo Federation, GraphQL mesh, schema stitching, subgraph composition, rate limiting",
     "accent": "#e10098",
-    "status": "pending",
+    "status": "deployed",
     "assigned_gmail": "3dthedreamrsltd@gmail.com",
     "owner_label": "Dreamers 3D",
     "owner_profile": "Firefox-Release",
-    "browser": "firefox"
+    "browser": "firefox",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "live_url": "https://jibranpcccc.github.io/graphql-federation-gateways-hub/",
+    "deployed_at": "2026-09-14T06:06:28.976222+00:00"
   }
 ]
