@@ -1,0 +1,1591 @@
+{
+  "total_sites": 158,
+  "fresh_pick_found": 158,
+  "feed_updated_count": 158,
+  "fake_link_violations": 0,
+  "quarantine_violations": 0,
+  "topic_mismatches_count": 0,
+  "topic_mismatches": [],
+  "sites": [
+    {
+      "slug": "developer-coding-hub",
+      "site_name": "Developer & Coding Communities Hub",
+      "total_communities": 40,
+      "todays_pick": "DevOps & SRE News Channel",
+      "todays_url": "https://t.me/devops_channel",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "deals-loot-coupons-hub",
+      "site_name": "Deals, Loot & Coupons Hub",
+      "total_communities": 74,
+      "todays_pick": "Slickdeals Community Forum",
+      "todays_url": "https://slickdeals.net/forums/",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "scholarships-study-abroad-hub",
+      "site_name": "Scholarships & Study Abroad Hub",
+      "total_communities": 42,
+      "todays_pick": "r/digitalnomad Global Travelers",
+      "todays_url": "https://www.reddit.com/r/digitalnomad/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "remote-work-nomad-hub",
+      "site_name": "Remote Work & Nomad Communities Hub",
+      "total_communities": 36,
+      "todays_pick": "Obsidian Members Discord",
+      "todays_url": "https://discord.gg/obsidian",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "ai-prompts-generative-hub",
+      "site_name": "AI Prompt Engineering & GenAI Hub",
+      "total_communities": 36,
+      "todays_pick": "Kaggle Data & AI Discussions",
+      "todays_url": "https://www.kaggle.com/discussion",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "cybersecurity-infosec-hub",
+      "site_name": "Cybersecurity & Ethical Hacking Hub",
+      "total_communities": 34,
+      "todays_pick": "0x00sec Security Researchers Forum",
+      "todays_url": "https://0x00sec.org",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "devops-cloud-architect-hub",
+      "site_name": "DevOps & Cloud Architecture Hub",
+      "total_communities": 34,
+      "todays_pick": "r/Python Developer Community",
+      "todays_url": "https://www.reddit.com/r/Python/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "data-science-machine-learning-hub",
+      "site_name": "Data Science & Deep Learning Hub",
+      "total_communities": 34,
+      "todays_pick": "r/StableDiffusion Local Art",
+      "todays_url": "https://www.reddit.com/r/StableDiffusion/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "indie-hackers-micro-saas-hub",
+      "site_name": "Indie Hackers & Micro-SaaS Hub",
+      "total_communities": 34,
+      "todays_pick": "r/bugbounty Hunters",
+      "todays_url": "https://www.reddit.com/r/bugbounty/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "game-dev-indie-studios-hub",
+      "site_name": "Indie Game Developers & Modders Hub",
+      "total_communities": 34,
+      "todays_pick": "r/cpp High-Performance Graphics Engines",
+      "todays_url": "https://www.reddit.com/r/cpp/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "no-code-automation-hub",
+      "site_name": "No-Code & AI Automation Agency Hub",
+      "total_communities": 36,
+      "todays_pick": "r/software Architecture Forum",
+      "todays_url": "https://www.reddit.com/r/software/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "rust-systems-engineering-hub",
+      "site_name": "Rust & Systems Programming Hub",
+      "total_communities": 34,
+      "todays_pick": "r/programming International",
+      "todays_url": "https://www.reddit.com/r/programming/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "ios-android-mobile-dev-hub",
+      "site_name": "Mobile Dev & Flutter Engineers Hub",
+      "total_communities": 34,
+      "todays_pick": "r/programming International",
+      "todays_url": "https://www.reddit.com/r/programming/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "forex-scalping-signals-hub",
+      "site_name": "Forex Scalpers & Prop Firm Hub",
+      "total_communities": 34,
+      "todays_pick": "WallStreetBets High Volatility Lounge",
+      "todays_url": "https://www.reddit.com/r/wallstreetbets/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "crypto-defi-yield-hub",
+      "site_name": "Crypto DeFi & Yield Farming Hub",
+      "total_communities": 34,
+      "todays_pick": "r/LidoFinance Liquid Staking",
+      "todays_url": "https://www.reddit.com/r/LidoFinance/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "options-trading-wealth-hub",
+      "site_name": "Options Trading & Wheel Strategy Hub",
+      "total_communities": 34,
+      "todays_pick": "Real Estate Mastermind Subreddit",
+      "todays_url": "https://www.reddit.com/r/RealEstate/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "fire-personal-finance-hub",
+      "site_name": "FIRE Movement & Wealth Building Hub",
+      "total_communities": 34,
+      "todays_pick": "r/passive_income Automated Cashflow",
+      "todays_url": "https://www.reddit.com/r/passive_income/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "dividend-growth-investing-hub",
+      "site_name": "Dividend Growth & Passive Income Hub",
+      "total_communities": 34,
+      "todays_pick": "Bogleheads Forum Community",
+      "todays_url": "https://bogleheads.org/forum/",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "real-estate-wholesaling-hub",
+      "site_name": "Real Estate Wholesaling & BRRRR Hub",
+      "total_communities": 34,
+      "todays_pick": "Bloomberg Market Feed Channel",
+      "todays_url": "https://t.me/bloomberg",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "prop-trading-challenge-hub",
+      "site_name": "Prop Trading Firms & Pass Challenge Hub",
+      "total_communities": 34,
+      "todays_pick": "Bloomberg Market Feed Channel",
+      "todays_url": "https://t.me/bloomberg",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "crypto-solana-memecoins-hub",
+      "site_name": "Solana Ecosystem & Alpha Callers Hub",
+      "total_communities": 34,
+      "todays_pick": "r/optimism Collective & RetroPGF",
+      "todays_url": "https://www.reddit.com/r/optimism/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "tax-strategies-offshore-hub",
+      "site_name": "Offshore Banking & Tax Strategy Hub",
+      "total_communities": 34,
+      "todays_pick": "r/realestateinvesting Wealth Hub",
+      "todays_url": "https://www.reddit.com/r/realestateinvesting/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "crypto-airdrop-testnets-hub",
+      "site_name": "Crypto Testnets & Airdrop Farmers Hub",
+      "total_communities": 34,
+      "todays_pick": "r/JupiterExchange DEX Aggregator Hub",
+      "todays_url": "https://www.reddit.com/r/JupiterExchange/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "ecommerce-amazon-fba-hub",
+      "site_name": "Amazon FBA & Private Label Hub",
+      "total_communities": 34,
+      "todays_pick": "r/socialmediamarketing Organic Reach",
+      "todays_url": "https://www.reddit.com/r/socialmediamarketing/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "shopify-dropshipping-viral-hub",
+      "site_name": "Shopify Dropshipping & TikTok Ads Hub",
+      "total_communities": 34,
+      "todays_pick": "r/AmazonSeller Seller Central Q&A",
+      "todays_url": "https://www.reddit.com/r/AmazonSeller/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "affiliate-marketing-masters-hub",
+      "site_name": "Super Affiliates & CPA Networks Hub",
+      "total_communities": 34,
+      "todays_pick": "r/content_marketing Editorial Growth",
+      "todays_url": "https://www.reddit.com/r/content_marketing/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "seo-growth-hackers-hub",
+      "site_name": "SEO Masters & Programmatic Growth Hub",
+      "total_communities": 34,
+      "todays_pick": "r/copywriting Direct Response",
+      "todays_url": "https://www.reddit.com/r/copywriting/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "copywriting-high-ticket-hub",
+      "site_name": "High-Ticket Copywriting & Sales Letters Hub",
+      "total_communities": 34,
+      "todays_pick": "Global Startups Hub Channel",
+      "todays_url": "https://t.me/startup_hub",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "smma-agency-founders-hub",
+      "site_name": "SMMA & Cold Outreach Agency Hub",
+      "total_communities": 34,
+      "todays_pick": "Hacker News Founder Discussions",
+      "todays_url": "https://news.ycombinator.com",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "youtube-automation-creators-hub",
+      "site_name": "Faceless YouTube & Video AI Hub",
+      "total_communities": 34,
+      "todays_pick": "r/SaaS Software as a Service",
+      "todays_url": "https://www.reddit.com/r/SaaS/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "podcasting-creator-economy-hub",
+      "site_name": "Podcasting & Audio Monetization Hub",
+      "total_communities": 35,
+      "todays_pick": "r/podcasting Audio Engineers & Hosts",
+      "todays_url": "https://www.reddit.com/r/podcasting/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "digital-products-notion-hub",
+      "site_name": "Digital Products & Notion Template Hub",
+      "total_communities": 34,
+      "todays_pick": "r/zapier Automated Workflow Pipelines",
+      "todays_url": "https://www.reddit.com/r/zapier/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "saas-marketing-b2b-hub",
+      "site_name": "B2B SaaS Growth & PLG Marketing Hub",
+      "total_communities": 34,
+      "todays_pick": "r/sales B2B Outbound & Pipeline",
+      "todays_url": "https://www.reddit.com/r/sales/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "study-in-germany-daadvise-hub",
+      "site_name": "Study in Germany & DAAD Scholars Hub",
+      "total_communities": 34,
+      "todays_pick": "r/IELTS Preparation Mastery",
+      "todays_url": "https://www.reddit.com/r/IELTS/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "usmle-medical-residency-hub",
+      "site_name": "USMLE & International Medical Grads Hub",
+      "total_communities": 34,
+      "todays_pick": "r/realestateinvesting Wealth Hub",
+      "todays_url": "https://www.reddit.com/r/realestateinvesting/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "ielts-toefl-band8-hub",
+      "site_name": "IELTS & GRE Band 8 Masterclass Hub",
+      "total_communities": 35,
+      "todays_pick": "r/IELTS Band 8+ Academic Mastery",
+      "todays_url": "https://www.reddit.com/r/IELTS/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "phd-fellowships-research-hub",
+      "site_name": "PhD Fellowships & Postdoc Research Hub",
+      "total_communities": 34,
+      "todays_pick": "r/TOEFLadvice Study Group",
+      "todays_url": "https://www.reddit.com/r/TOEFLadvice/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "study-in-canada-pgwp-hub",
+      "site_name": "Study in Canada & PGWP Student Hub",
+      "total_communities": 34,
+      "todays_pick": "r/TOEFLadvice Study Group",
+      "todays_url": "https://www.reddit.com/r/TOEFLadvice/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "law-school-bar-exam-hub",
+      "site_name": "Law Students & Bar Exam Mastery Hub",
+      "total_communities": 35,
+      "todays_pick": "r/LawSchool Academic Outline Guild",
+      "todays_url": "https://www.reddit.com/r/LawSchool/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "aviation-pilot-cadet-hub",
+      "site_name": "Aviation Students & Pilot Cadets Hub",
+      "total_communities": 34,
+      "todays_pick": "r/cpp High Performance Systems",
+      "todays_url": "https://www.reddit.com/r/cpp/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "architecture-design-masters-hub",
+      "site_name": "Architecture & Spatial Design Hub",
+      "total_communities": 35,
+      "todays_pick": "r/architecture Spatial Designers Guild",
+      "todays_url": "https://www.reddit.com/r/architecture/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "nursing-nclex-international-hub",
+      "site_name": "NCLEX-RN & Global Nurses Hub",
+      "total_communities": 35,
+      "todays_pick": "r/StudentNurse Clinical & NCLEX Guild",
+      "todays_url": "https://www.reddit.com/r/StudentNurse/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "study-in-japan-mext-hub",
+      "site_name": "Study in Japan & MEXT Scholars Hub",
+      "total_communities": 34,
+      "todays_pick": "r/IELTS Preparation Mastery",
+      "todays_url": "https://www.reddit.com/r/IELTS/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "gta-rp-whitelist-servers-hub",
+      "site_name": "GTA RP Whitelisted Servers & Gangs Hub",
+      "total_communities": 35,
+      "todays_pick": "FiveM Official Modding Discord",
+      "todays_url": "https://discord.gg/fivem",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "minecraft-smp-builders-hub",
+      "site_name": "Minecraft SMP & Redstone Builders Hub",
+      "total_communities": 35,
+      "todays_pick": "Minecraft Official Community Discord",
+      "todays_url": "https://discord.gg/minecraft",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "valorant-scrims-competitive-hub",
+      "site_name": "Valorant Scrims & Premier Teams Hub",
+      "total_communities": 35,
+      "todays_pick": "Valorant Official Esports Discord",
+      "todays_url": "https://discord.gg/valorant",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "chess-grandmasters-study-hub",
+      "site_name": "Competitive Chess & Opening Theory Hub",
+      "total_communities": 35,
+      "todays_pick": "Chess.com Official Community Discord",
+      "todays_url": "https://discord.gg/chesscom",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "sim-racing-rigs-f1-hub",
+      "site_name": "Sim Racing & F1 League Racers Hub",
+      "total_communities": 35,
+      "todays_pick": "r/simracing Rig Builders & Drivers",
+      "todays_url": "https://www.reddit.com/r/simracing/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "retro-emulation-handhelds-hub",
+      "site_name": "Retro Emulation & Handheld Gaming Hub",
+      "total_communities": 35,
+      "todays_pick": "r/SBCGaming Retro Handhelds Guild",
+      "todays_url": "https://www.reddit.com/r/SBCGaming/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "dnd-tabletop-campaigns-hub",
+      "site_name": "D&D 5e & Tabletop RPG Campaigns Hub",
+      "total_communities": 34,
+      "todays_pick": "r/cpp High Performance Systems",
+      "todays_url": "https://www.reddit.com/r/cpp/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "speedrunning-glitches-hub",
+      "site_name": "Speedrunners & Game Glitch Hunters Hub",
+      "total_communities": 35,
+      "todays_pick": "Speedrun.com Global Discord",
+      "todays_url": "https://discord.gg/speedrun",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "cs2-lineups-premier-hub",
+      "site_name": "Counter-Strike 2 Premier & Smokes Hub",
+      "total_communities": 34,
+      "todays_pick": "Off-Market Property Deals Channel",
+      "todays_url": "https://t.me/propertydeals",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "vr-gaming-meta-quest-hub",
+      "site_name": "VR Gaming & Meta Quest Modders Hub",
+      "total_communities": 35,
+      "todays_pick": "SideQuest VR Official Discord",
+      "todays_url": "https://discord.gg/sidequest",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "travel-hacking-points-hub",
+      "site_name": "Travel Hacking & Airline Points Hub",
+      "total_communities": 34,
+      "todays_pick": "r/cpp High Performance Systems",
+      "todays_url": "https://www.reddit.com/r/cpp/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "biohacking-longevity-hub",
+      "site_name": "Biohacking & Longevity Protocols Hub",
+      "total_communities": 34,
+      "todays_pick": "r/Nootropics Cognitive Enhancement",
+      "todays_url": "https://www.reddit.com/r/Nootropics/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "calisthenics-street-workout-hub",
+      "site_name": "Calisthenics & Bodyweight Athlete Hub",
+      "total_communities": 35,
+      "todays_pick": "r/bodyweightfitness Gymnastic Strength",
+      "todays_url": "https://www.reddit.com/r/bodyweightfitness/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "minimalist-slow-living-hub",
+      "site_name": "Minimalism & Zero-Waste Lifestyle Hub",
+      "total_communities": 35,
+      "todays_pick": "r/simpleliving Slow Life Collective",
+      "todays_url": "https://www.reddit.com/r/simpleliving/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "language-exchange-polyglot-hub",
+      "site_name": "Polyglots & Language Exchange Hub",
+      "total_communities": 35,
+      "todays_pick": "Language Cafe Global Discord",
+      "todays_url": "https://discord.gg/languages",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "remote-vanlife-overlanding-hub",
+      "site_name": "Vanlife & Off-Grid Overlanders Hub",
+      "total_communities": 35,
+      "todays_pick": "r/vandwellers Nomad Build Guild",
+      "todays_url": "https://www.reddit.com/r/vandwellers/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "book-clubs-readers-lounge-hub",
+      "site_name": "Book Clubs & Deep Reading Collective",
+      "total_communities": 35,
+      "todays_pick": "r/books Deep Readers Collective",
+      "todays_url": "https://www.reddit.com/r/books/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "stoicism-ancient-philosophy-hub",
+      "site_name": "Modern Stoics & Philosophy Collective",
+      "total_communities": 34,
+      "todays_pick": "r/cpp High Performance Systems",
+      "todays_url": "https://www.reddit.com/r/cpp/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "mechanical-keyboards-custom-hub",
+      "site_name": "Custom Mechanical Keyboards & Thock Hub",
+      "total_communities": 35,
+      "todays_pick": "MechKeys Official Builders Discord",
+      "todays_url": "https://discord.gg/mechkeys",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "audiophile-high-fidelity-hub",
+      "site_name": "Audiophiles & Hi-Fi Headphone Hub",
+      "total_communities": 35,
+      "todays_pick": "r/audiophile High-Fidelity Sound Guild",
+      "todays_url": "https://www.reddit.com/r/audiophile/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "ai-agents-autonomous-systems-hub",
+      "site_name": "Autonomous AI Agents & Multi-Agent Systems Hub",
+      "total_communities": 34,
+      "todays_pick": "r/cpp High Performance Systems",
+      "todays_url": "https://www.reddit.com/r/cpp/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "solana-defi-developers-hub",
+      "site_name": "Solana DeFi & Rust Developers Hub",
+      "total_communities": 34,
+      "todays_pick": "r/arbitrum Layer 2 Ecosystem",
+      "todays_url": "https://www.reddit.com/r/arbitrum/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "shopify-dropshipping-growth-hub",
+      "site_name": "Shopify E-Commerce & Dropshipping Growth Hub",
+      "total_communities": 34,
+      "todays_pick": "r/AmazonSeller Seller Central Q&A",
+      "todays_url": "https://www.reddit.com/r/AmazonSeller/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "flutter-crossplatform-mobile-hub",
+      "site_name": "Flutter & Cross-Platform Mobile Guild",
+      "total_communities": 34,
+      "todays_pick": "HashiCorp Discuss Community",
+      "todays_url": "https://discuss.hashicorp.com",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "nextjs-react-fullstack-hub",
+      "site_name": "Next.js & Modern React Full-Stack Hub",
+      "total_communities": 34,
+      "todays_pick": "r/cpp High Performance Systems",
+      "todays_url": "https://www.reddit.com/r/cpp/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "kubernetes-cloud-native-hub",
+      "site_name": "Kubernetes & Cloud Native Architect Hub",
+      "total_communities": 34,
+      "todays_pick": "Stack Overflow Python Questions",
+      "todays_url": "https://stackoverflow.com/questions/tagged/python",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "prompt-engineering-mastery-hub",
+      "site_name": "Prompt Engineering & Context Design Hub",
+      "total_communities": 34,
+      "todays_pick": "r/PromptEngineering Prompt Hackers",
+      "todays_url": "https://www.reddit.com/r/PromptEngineering/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "b2b-saas-founders-circle-hub",
+      "site_name": "B2B SaaS Founders & Bootstrappers Hub",
+      "total_communities": 34,
+      "todays_pick": "Indie Hackers Community",
+      "todays_url": "https://www.indiehackers.com",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "biohacking-longevity-health-hub",
+      "site_name": "Biohacking, Longevity & Human Optimization Hub",
+      "total_communities": 34,
+      "todays_pick": "Hacker News Community",
+      "todays_url": "https://news.ycombinator.com",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "smart-home-homeassistant-hub",
+      "site_name": "Home Assistant & Local Smart Home Hub",
+      "total_communities": 34,
+      "todays_pick": "Kubernetes Community Discord",
+      "todays_url": "https://discuss.kubernetes.io",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "cyber-threat-intelligence-hub",
+      "site_name": "Cyber Threat Intelligence & OSINT Collective",
+      "total_communities": 34,
+      "todays_pick": "r/aws Cloud Architects",
+      "todays_url": "https://www.reddit.com/r/aws/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "generative-ai-video-creators-hub",
+      "site_name": "Generative AI Video & Virtual Production Hub",
+      "total_communities": 34,
+      "todays_pick": "r/unrealengine Creators",
+      "todays_url": "https://www.reddit.com/r/unrealengine/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "ethical-hacking-bugbounty-hub",
+      "site_name": "Bug Bounty & Ethical Hacking Hunters Hub",
+      "total_communities": 35,
+      "todays_pick": "NahamSec Ethical Hackers Discord",
+      "todays_url": "https://discord.gg/nahamsec",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "prop-firm-forex-traders-hub",
+      "site_name": "Prop Firm Traders & Forex Alpha Hub",
+      "total_communities": 34,
+      "todays_pick": "Bogleheads Forum Community",
+      "todays_url": "https://bogleheads.org/forum/",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "notion-systems-productivity-hub",
+      "site_name": "Notion Systems & Second Brain Hub",
+      "total_communities": 34,
+      "todays_pick": "r/programming International",
+      "todays_url": "https://www.reddit.com/r/programming/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "3d-blender-unreal-artists-hub",
+      "site_name": "Blender 3D & Unreal Engine 5 Guild",
+      "total_communities": 34,
+      "todays_pick": "Go Language Official Discord",
+      "todays_url": "https://discord.gg/golang",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "remote-developer-jobs-alpha-hub",
+      "site_name": "Remote Tech Careers & Global Compensation Hub",
+      "total_communities": 34,
+      "todays_pick": "r/rust Systems Programming",
+      "todays_url": "https://www.reddit.com/r/rust/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "real-estate-investing-syndicates-hub",
+      "site_name": "Real Estate Syndication & Cash Flow Hub",
+      "total_communities": 34,
+      "todays_pick": "Bloomberg Market Feed Channel",
+      "todays_url": "https://t.me/bloomberg",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "youtube-automation-cashcow-hub",
+      "site_name": "Faceless YouTube Automation & Media Empire Hub",
+      "total_communities": 34,
+      "todays_pick": "r/SaaS Software as a Service",
+      "todays_url": "https://www.reddit.com/r/SaaS/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "digital-nomad-visas-tax-hub",
+      "site_name": "Digital Nomad Visas & Global Tax Residency Hub",
+      "total_communities": 34,
+      "todays_pick": "r/realestateinvesting Wealth Hub",
+      "todays_url": "https://www.reddit.com/r/realestateinvesting/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "fintech-embedded-banking-hub",
+      "site_name": "Fintech & Embedded Banking Developers Hub",
+      "total_communities": 34,
+      "todays_pick": "r/cpp High Performance Systems",
+      "todays_url": "https://www.reddit.com/r/cpp/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "deep-learning-nlp-transformers-hub",
+      "site_name": "Deep Learning & LLM Research Collective",
+      "total_communities": 35,
+      "todays_pick": "Hugging Face Official AI Discord",
+      "todays_url": "https://discord.gg/huggingface",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "freelance-copywriters-guild-hub",
+      "site_name": "High-Conversion Copywriting & VSL Guild",
+      "total_communities": 34,
+      "todays_pick": "Global Startups Hub Channel",
+      "todays_url": "https://t.me/startup_hub",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "cybersecurity-grc-compliance-hub",
+      "site_name": "Cybersecurity GRC, SOC2 & ISO 27001 Hub",
+      "total_communities": 34,
+      "todays_pick": "Go Language Official Discord",
+      "todays_url": "https://discord.gg/golang",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "rust-systems-performance-hub",
+      "site_name": "Rust Systems & High-Performance Computing Hub",
+      "total_communities": 34,
+      "todays_pick": "HashiCorp Discuss Community",
+      "todays_url": "https://discuss.hashicorp.com",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "creative-indie-filmmakers-hub",
+      "site_name": "Indie Filmmakers & Cinema Gear Hub",
+      "total_communities": 35,
+      "todays_pick": "r/Filmmakers Indie Cinema Guild",
+      "todays_url": "https://www.reddit.com/r/Filmmakers/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "high-ticket-closing-sales-hub",
+      "site_name": "High-Ticket B2B Sales & Closing Collective",
+      "total_communities": 35,
+      "todays_pick": "r/sales B2B Enterprise Closers",
+      "todays_url": "https://www.reddit.com/r/sales/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "crypto-yield-farming-staking-hub",
+      "site_name": "DeFi Yield Farming & Staking Alpha Hub",
+      "total_communities": 35,
+      "todays_pick": "r/deficryptos Yield Farmers Guild",
+      "todays_url": "https://www.reddit.com/r/deficryptos/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "no-code-bubble-automation-hub",
+      "site_name": "No-Code Web Apps & Bubble.io Builders Hub",
+      "total_communities": 34,
+      "todays_pick": "Airtable Builders Discord",
+      "todays_url": "https://discord.gg/airtable",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "golang-microservices-distributed-hub",
+      "site_name": "Go Microservices & Distributed Architecture Hub",
+      "total_communities": 34,
+      "todays_pick": "Gophers Official Go Discord",
+      "todays_url": "https://discord.gg/gophers",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "growth-marketing-hackers-hub",
+      "site_name": "Growth Marketing & Programmatic SEO Hub",
+      "total_communities": 34,
+      "todays_pick": "r/growthhacking Viral Strategy Hub",
+      "todays_url": "https://www.reddit.com/r/growthhacking/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "ui-ux-design-systems-hub",
+      "site_name": "Design Systems & Figma Component Hub",
+      "total_communities": 34,
+      "todays_pick": "Technology & Science Discord",
+      "todays_url": "https://discord.gg/tech",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "sound-design-music-production-hub",
+      "site_name": "Electronic Music Production & Synthesizer Hub",
+      "total_communities": 34,
+      "todays_pick": "r/technology World News",
+      "todays_url": "https://www.reddit.com/r/technology/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "amazon-fba-private-label-hub",
+      "site_name": "Amazon FBA Private Label & Brand Scaling Hub",
+      "total_communities": 34,
+      "todays_pick": "r/socialmediamarketing Organic Reach",
+      "todays_url": "https://www.reddit.com/r/socialmediamarketing/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "personal-finance-fire-movement-hub",
+      "site_name": "FIRE Movement & Financial Independence Hub",
+      "total_communities": 34,
+      "todays_pick": "Bogleheads Investors Discord",
+      "todays_url": "https://discord.gg/bogleheads",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "virtual-assistants-agency-hub",
+      "site_name": "Global Virtual Assistants & Remote Operations Hub",
+      "total_communities": 34,
+      "todays_pick": "Technology & Science Discord",
+      "todays_url": "https://discord.gg/tech",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "podcast-creators-audio-network-hub",
+      "site_name": "Podcast Creators & Audio Syndication Hub",
+      "total_communities": 34,
+      "todays_pick": "r/science Academic Research",
+      "todays_url": "https://www.reddit.com/r/science/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "neurotech-brain-computer-interface-hub",
+      "site_name": "Neurotechnology & Cognitive Enhancement Hub",
+      "total_communities": 34,
+      "todays_pick": "r/webdev Builders Hub",
+      "todays_url": "https://www.reddit.com/r/webdev/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "electric-vehicles-clean-energy-hub",
+      "site_name": "Clean Energy, Solar & EV Enthusiasts Hub",
+      "total_communities": 35,
+      "todays_pick": "r/electricvehicles Clean Mobility Guild",
+      "todays_url": "https://www.reddit.com/r/electricvehicles/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "indie-game-marketing-steam-hub",
+      "site_name": "Steam Indie Game Developers & Marketing Hub",
+      "total_communities": 34,
+      "todays_pick": "r/webdev Builders Hub",
+      "todays_url": "https://www.reddit.com/r/webdev/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "autonomous-ai-agents-hub",
+      "site_name": "Autonomous AI Agents Hub",
+      "total_communities": 34,
+      "todays_pick": "r/webdev Builders Hub",
+      "todays_url": "https://www.reddit.com/r/webdev/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "algo-trading-quant-hub",
+      "site_name": "Quantitative Finance & Algo Trading Hub",
+      "total_communities": 34,
+      "todays_pick": "Global Investors Alpha Telegram",
+      "todays_url": "https://t.me/investing",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "golang-backend-cloud-hub",
+      "site_name": "Golang Cloud Backend Hub",
+      "total_communities": 34,
+      "todays_pick": "r/grpc RPC Protocols",
+      "todays_url": "https://www.reddit.com/r/grpc/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "nextjs-fullstack-react-hub",
+      "site_name": "Next.js & Full-Stack React Hub",
+      "total_communities": 34,
+      "todays_pick": "r/webdev Builders Hub",
+      "todays_url": "https://www.reddit.com/r/webdev/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "prompt-engineering-tuning-hub",
+      "site_name": "Prompt Engineering & LLM Tuning Hub",
+      "total_communities": 34,
+      "todays_pick": "r/webdev Builders Hub",
+      "todays_url": "https://www.reddit.com/r/webdev/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "smart-contract-solidity-hub",
+      "site_name": "Smart Contract & Solidity Security Hub",
+      "total_communities": 34,
+      "todays_pick": "r/typescript Architecture",
+      "todays_url": "https://www.reddit.com/r/typescript/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "homelab-selfhosted-linux-hub",
+      "site_name": "HomeLab & Self-Hosted Linux Hub",
+      "total_communities": 34,
+      "todays_pick": "Kubernetes Community Discord",
+      "todays_url": "https://discuss.kubernetes.io",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "bug-bounty-pentesting-hub",
+      "site_name": "Bug Bounty & Penetration Testing Hub",
+      "total_communities": 34,
+      "todays_pick": "HackTheBox Official Discord",
+      "todays_url": "https://discord.gg/hackthebox",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "unreal-engine-5-creators-hub",
+      "site_name": "Unreal Engine 5 Creators Hub",
+      "total_communities": 34,
+      "todays_pick": "Go Language Official Discord",
+      "todays_url": "https://discord.gg/golang",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "unity-6-indie-studios-hub",
+      "site_name": "Unity 6 Indie Studios Hub",
+      "total_communities": 35,
+      "todays_pick": "Unity Developers Official Discord",
+      "todays_url": "https://discord.gg/unity",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "microsaas-bootstrappers-hub",
+      "site_name": "Micro-SaaS Bootstrappers Hub",
+      "total_communities": 34,
+      "todays_pick": "r/Entrepreneur Business Guild",
+      "todays_url": "https://www.reddit.com/r/Entrepreneur/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "tiktok-shop-dropshipping-hub",
+      "site_name": "Dropshipping & TikTok Shop Hub",
+      "total_communities": 34,
+      "todays_pick": "r/JungleScout Market Intelligence",
+      "todays_url": "https://www.reddit.com/r/JungleScout/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "notion-templates-productivity-hub",
+      "site_name": "Notion Systems & Productivity Hub",
+      "total_communities": 34,
+      "todays_pick": "r/programming International",
+      "todays_url": "https://www.reddit.com/r/programming/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "biohacking-longevity-protocols-hub",
+      "site_name": "Biohacking & Longevity Protocols Hub",
+      "total_communities": 34,
+      "todays_pick": "Hacker News Community",
+      "todays_url": "https://news.ycombinator.com",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "high-yield-treasury-wealth-hub",
+      "site_name": "High-Yield Cash & Treasury Bills Hub",
+      "total_communities": 34,
+      "todays_pick": "Global Investors Alpha Telegram",
+      "todays_url": "https://t.me/investing",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "remote-tech-careers-salary-hub",
+      "site_name": "Remote Tech Career & Salary Hub",
+      "total_communities": 34,
+      "todays_pick": "r/rust Systems Programming",
+      "todays_url": "https://www.reddit.com/r/rust/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "postgresql-high-scale-db-hub",
+      "site_name": "PostgreSQL & High-Scale Database Hub",
+      "total_communities": 34,
+      "todays_pick": "r/webdev Builders Hub",
+      "todays_url": "https://www.reddit.com/r/webdev/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "flutter-multiplatform-engineers-hub",
+      "site_name": "Flutter & Multi-Platform Engineers Hub",
+      "total_communities": 33,
+      "todays_pick": "HashiCorp Discuss Community",
+      "todays_url": "https://discuss.hashicorp.com",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "generative-ai-art-midjourney-hub",
+      "site_name": "Generative AI Art & Midjourney Hub",
+      "total_communities": 33,
+      "todays_pick": "r/cpp High Performance Systems",
+      "todays_url": "https://www.reddit.com/r/cpp/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "vue-nuxt-fullstack-hub",
+      "site_name": "Vue 3 & Nuxt Fullstack Hub",
+      "total_communities": 33,
+      "todays_pick": "r/cpp High Performance Systems",
+      "todays_url": "https://www.reddit.com/r/cpp/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "swift-swiftui-ios-architects-hub",
+      "site_name": "Swift & SwiftUI iOS Architects Hub",
+      "total_communities": 34,
+      "todays_pick": "iOS Developers Official Discord",
+      "todays_url": "https://discord.gg/swift",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "pytorch-deep-learning-research-hub",
+      "site_name": "Deep Learning & PyTorch Researchers Hub",
+      "total_communities": 34,
+      "todays_pick": "PyTorch Official Community Discord",
+      "todays_url": "https://discord.gg/pytorch",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "sre-incident-response-devops-hub",
+      "site_name": "DevOps SRE & Incident Response Hub",
+      "total_communities": 33,
+      "todays_pick": "DEV Community WebDev Hub",
+      "todays_url": "https://dev.to/t/webdev",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "technical-writing-api-docs-hub",
+      "site_name": "Technical Writing & API Docs Hub",
+      "total_communities": 33,
+      "todays_pick": "HashiCorp Discuss Community",
+      "todays_url": "https://discuss.hashicorp.com",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "solopreneur-email-marketing-hub",
+      "site_name": "Solopreneur Email Marketing Hub",
+      "total_communities": 33,
+      "todays_pick": "Global Startups Hub Channel",
+      "todays_url": "https://t.me/startup_hub",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "real-estate-syndications-hub",
+      "site_name": "Real Estate Syndications Hub",
+      "total_communities": 33,
+      "todays_pick": "r/personalfinance Money Management",
+      "todays_url": "https://www.reddit.com/r/personalfinance/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "b2b-saas-sales-outreach-hub",
+      "site_name": "B2B SaaS Sales & Cold Outreach Hub",
+      "total_communities": 33,
+      "todays_pick": "Global Startups Hub Channel",
+      "todays_url": "https://t.me/startup_hub",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "blender-3d-modeling-animation-hub",
+      "site_name": "Blender 3D Modeling & Animation Hub",
+      "total_communities": 34,
+      "todays_pick": "Go Language Official Discord",
+      "todays_url": "https://discord.gg/golang",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "music-production-audio-engineering-hub",
+      "site_name": "Audio Engineering & Music Production Hub",
+      "total_communities": 34,
+      "todays_pick": "Technology & Science Discord",
+      "todays_url": "https://discord.gg/tech",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "private-equity-ma-dealmakers-hub",
+      "site_name": "Private Equity & M&A Dealmakers Hub",
+      "total_communities": 34,
+      "todays_pick": "Global Investors Alpha Telegram",
+      "todays_url": "https://t.me/investing",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "affiliate-marketing-niche-sites-hub",
+      "site_name": "Affiliate Marketing & Niche Sites Hub",
+      "total_communities": 34,
+      "todays_pick": "r/content_marketing Editorial Growth",
+      "todays_url": "https://www.reddit.com/r/content_marketing/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "zk-proofs-cryptography-hub",
+      "site_name": "Zero-Knowledge Proofs & Cryptography Hub",
+      "total_communities": 34,
+      "todays_pick": "r/webdev Builders Hub",
+      "todays_url": "https://www.reddit.com/r/webdev/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "embedded-iot-hardware-hub",
+      "site_name": "Embedded Systems & IoT Hardware Hub",
+      "total_communities": 34,
+      "todays_pick": "r/ChatGPT AI Community",
+      "todays_url": "https://www.reddit.com/r/ChatGPT/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "data-engineering-apache-spark-hub",
+      "site_name": "Data Engineering & Apache Spark Hub",
+      "total_communities": 34,
+      "todays_pick": "TechCrunch Official Channel",
+      "todays_url": "https://t.me/techcrunch",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "product-management-growth-hacks-hub",
+      "site_name": "Product Management & Growth Hacks Hub",
+      "total_communities": 34,
+      "todays_pick": "r/Entrepreneur Business Guild",
+      "todays_url": "https://www.reddit.com/r/Entrepreneur/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "venture-capital-angel-syndicate-hub",
+      "site_name": "Venture Capital & Angel Syndicate Hub",
+      "total_communities": 35,
+      "todays_pick": "r/venturecapital Investor Network",
+      "todays_url": "https://www.reddit.com/r/venturecapital/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "pkm-obsidian-second-brain-hub",
+      "site_name": "Personal Knowledge Management Hub",
+      "total_communities": 34,
+      "todays_pick": "r/programming International",
+      "todays_url": "https://www.reddit.com/r/programming/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "clean-architecture-ddd-hub",
+      "site_name": "Clean Architecture & Domain Driven Design Hub",
+      "total_communities": 31,
+      "todays_pick": "r/typescript Architecture",
+      "todays_url": "https://www.reddit.com/r/typescript/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "docker-containers-devops-hub",
+      "site_name": "Docker & Container Orchestration Hub",
+      "total_communities": 31,
+      "todays_pick": "r/typescript Architecture",
+      "todays_url": "https://www.reddit.com/r/typescript/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "digital-forensics-incident-hub",
+      "site_name": "Cybersecurity Incident Forensics Hub",
+      "total_communities": 31,
+      "todays_pick": "r/typescript Architecture",
+      "todays_url": "https://www.reddit.com/r/typescript/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "typescript-nodejs-architects-hub",
+      "site_name": "TypeScript & Node.js Architects Hub",
+      "total_communities": 31,
+      "todays_pick": "DevOps & SRE News Channel",
+      "todays_url": "https://t.me/devops_channel",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "langchain-llamaindex-ai-hub",
+      "site_name": "LangChain & LlamaIndex AI Developers Hub",
+      "total_communities": 31,
+      "todays_pick": "r/typescript Architecture",
+      "todays_url": "https://www.reddit.com/r/typescript/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "futures-commodities-alpha-hub",
+      "site_name": "Commodity & Futures Trading Alpha Hub",
+      "total_communities": 31,
+      "todays_pick": "Commercial Real Estate Network",
+      "todays_url": "https://t.me/commercialrealestate",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "real-estate-deal-flow-hub",
+      "site_name": "Real Estate Syndication & Deal Flow Hub",
+      "total_communities": 31,
+      "todays_pick": "r/investing Long Term Wealth",
+      "todays_url": "https://www.reddit.com/r/investing/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "saas-landing-page-cro-hub",
+      "site_name": "SaaS Landing Page CRO & Design Hub",
+      "total_communities": 31,
+      "todays_pick": "r/digitalmarketing Practitioners",
+      "todays_url": "https://www.reddit.com/r/digitalmarketing/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "robotics-ros2-engineers-hub",
+      "site_name": "Robotics & ROS 2 Engineers Hub",
+      "total_communities": 31,
+      "todays_pick": "DEV Community WebDev Hub",
+      "todays_url": "https://dev.to/t/webdev",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "fintech-payment-gateways-hub",
+      "site_name": "Fintech & Payment Gateway Engineers Hub",
+      "total_communities": 31,
+      "todays_pick": "r/typescript Architecture",
+      "todays_url": "https://www.reddit.com/r/typescript/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "shopify-developers-theme-hub",
+      "site_name": "Shopify App & Theme Developers Hub",
+      "total_communities": 32,
+      "todays_pick": "r/AmazonSeller Seller Central Q&A",
+      "todays_url": "https://www.reddit.com/r/AmazonSeller/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "game-audio-sound-design-hub",
+      "site_name": "Game Audio & Interactive Sound Design Hub",
+      "total_communities": 32,
+      "todays_pick": "r/science Academic Research",
+      "todays_url": "https://www.reddit.com/r/science/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "vulnerability-research-0day-hub",
+      "site_name": "Vulnerability Research & 0-Day Alpha Hub",
+      "total_communities": 32,
+      "todays_pick": "TypeScript Community Discord",
+      "todays_url": "https://discord.gg/typescript",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "web-scraping-automation-hub",
+      "site_name": "Web Scraping & Headless Automation Hub",
+      "total_communities": 32,
+      "todays_pick": "Next.js Developers Discord",
+      "todays_url": "https://discord.gg/nextjs",
+      "todays_platform": "Discord",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "creator-economy-influencers-hub",
+      "site_name": "Micro-Influencer & Creator Economy Hub",
+      "total_communities": 32,
+      "todays_pick": "r/marketing Growth & Strategy",
+      "todays_url": "https://www.reddit.com/r/marketing/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "cloud-security-iam-guard-hub",
+      "site_name": "Zero-Day Cloud Security & IAM Hub",
+      "total_communities": 32,
+      "todays_pick": "r/golang Backend Hub",
+      "todays_url": "https://www.reddit.com/r/golang/",
+      "todays_platform": "Reddit",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "high-performance-cpp-hub",
+      "site_name": "High-Performance C++ & Game Engines Hub",
+      "total_communities": 32,
+      "todays_pick": "Stack Overflow Python Questions",
+      "todays_url": "https://stackoverflow.com/questions/tagged/python",
+      "todays_platform": "Forum",
+      "feed_updated": true,
+      "is_fake": false
+    },
+    {
+      "slug": "graphql-federation-gateways-hub",
+      "site_name": "GraphQL & API Gateway Federation Hub",
+      "total_communities": 32,
+      "todays_pick": "Cloud Native & K8s Network",
+      "todays_url": "https://t.me/cloud_native_hub",
+      "todays_platform": "Telegram",
+      "feed_updated": true,
+      "is_fake": false
+    }
+  ]
+}
