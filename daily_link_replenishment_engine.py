@@ -201,29 +201,29 @@ def select_fresh_communities(niche, existing_groups, count=1):
         if u not in existing_urls and t not in existing_titles and not is_fake_or_synthetic_url(u):
             candidates.append(c)
             
-    # 2. Check Expanded Reserves
+    # 2. Check Expanded Reserves - STRICTLY for matching category (zero cross-niche bleeding)
     if len(candidates) < count:
-        reserves = EXPANDED_RESERVES.get(cat, []) + EXPANDED_RESERVES.get("general_tech", [])
+        reserves = EXPANDED_RESERVES.get(cat, [])
         for c in reserves:
             u = str(c.get("joinUrl", "")).strip().lower()
             t = str(c.get("title", "")).strip().lower()
             if u not in existing_urls and t not in existing_titles and not is_fake_or_synthetic_url(u):
                 candidates.append(c)
 
-    # 3. Check niche_communities_database.json if present
+    # 3. Check niche_communities_database.json - STRICTLY for matching category
     db_json = os.path.join(FACTORY_DIR, "data", "niche_communities_database.json")
     if len(candidates) < count and os.path.exists(db_json):
         try:
             with open(db_json, "r", encoding="utf-8") as f:
                 extra_db = json.load(f)
-            for extra_cat, items in extra_db.items():
-                for c in items:
-                    u = str(c.get("joinUrl", "")).strip().lower()
-                    t = str(c.get("title", "")).strip().lower()
-                    if u not in existing_urls and t not in existing_titles and not is_fake_or_synthetic_url(u):
-                        candidates.append(c)
-                        if len(candidates) >= count * 2:
-                            break
+            matching_items = extra_db.get(cat, [])
+            for c in matching_items:
+                u = str(c.get("joinUrl", "")).strip().lower()
+                t = str(c.get("title", "")).strip().lower()
+                if u not in existing_urls and t not in existing_titles and not is_fake_or_synthetic_url(u):
+                    candidates.append(c)
+                    if len(candidates) >= count:
+                        break
         except Exception:
             pass
 
@@ -395,7 +395,7 @@ def replenish_single_site(niche, count=1, dry_run=False):
     if os.path.exists(git_dir):
         try:
             commands = [
-                ["git", "add", "data/groups.json", "index.html", "feed.xml"],
+                ["git", "add", "-A"],
                 ["git", "commit", "-m", f"feat(replenishment): fresh community links added - {today_str} [skip ci]"],
                 ["git", "push", "origin", "main"]
             ]
