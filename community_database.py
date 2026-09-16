@@ -961,6 +961,105 @@ VERIFIED_COMMUNITIES_DATABASE = {
             "description": "Admissions result tracking database, applicant stats, and discipline-specific forums for graduate programs worldwide.",
             "joinUrl": "https://www.reddit.com/r/GradSchool/",
             "tags": ["gradcafe", "admissions", "phd", "forum"]
+        },
+        {
+            "title": "r/AusVisa Australian Immigration & Student Visas",
+            "platform": "Reddit",
+            "category": "Australian Visas",
+            "memberCount": "85,000+ members",
+            "description": "Advice on Australian subclass 500 student visas, 485 post-study work rights, skills assessments, and PR pathways.",
+            "joinUrl": "https://www.reddit.com/r/AusVisa/",
+            "tags": ["ausvisa", "study-in-australia", "visas", "reddit"]
+        },
+        {
+            "title": "r/Erasmus European Student Exchange Guild",
+            "platform": "Reddit",
+            "category": "Erasmus & Exchange",
+            "memberCount": "42,000+ members",
+            "description": "Community of European exchange students, Erasmus+ grant recipients, EMJMD scholars, and university course mappings.",
+            "joinUrl": "https://www.reddit.com/r/Erasmus/",
+            "tags": ["erasmus", "study-abroad", "europe", "reddit"]
+        },
+        {
+            "title": "r/StudyInGermany Student Hub",
+            "platform": "Reddit",
+            "category": "International Education",
+            "memberCount": "120,000+ members",
+            "description": "The definitive subreddit for international students in Germany, covering DAAD scholarships, visa bureaucracy, and public university applications.",
+            "joinUrl": "https://www.reddit.com/r/StudyInGermany/",
+            "tags": ["study-in-germany", "daad", "universities", "reddit"]
+        },
+        {
+            "title": "r/GradAdmissions Forum",
+            "platform": "Reddit",
+            "category": "Graduate Admissions",
+            "memberCount": "210,000+ members",
+            "description": "Global community discussing MS and PhD admissions, statement of purpose reviews, GRE cutoffs, professor outreach, and funding.",
+            "joinUrl": "https://www.reddit.com/r/GradAdmissions/",
+            "tags": ["grad-school", "admissions", "sop", "reddit"]
+        },
+        {
+            "title": "r/PhD Doctoral Researchers Guild",
+            "platform": "Reddit",
+            "category": "Doctoral Studies",
+            "memberCount": "250,000+ members",
+            "description": "A supportive international forum for PhD students and postdoctoral researchers discussing dissertation defenses, advisor management, and fellowships.",
+            "joinUrl": "https://www.reddit.com/r/PhD/",
+            "tags": ["phd", "research", "fellowships", "reddit"]
+        },
+        {
+            "title": "r/IELTS Preparation Mastery",
+            "platform": "Reddit",
+            "category": "Test Preparation",
+            "memberCount": "165,000+ members",
+            "description": "Dedicated study forum for IELTS academic and general training exam takers, featuring writing task evaluations and band 8+ strategies.",
+            "joinUrl": "https://www.reddit.com/r/IELTS/",
+            "tags": ["ielts", "study-abroad", "english", "reddit"]
+        },
+        {
+            "title": "r/TOEFLadvice Study Group",
+            "platform": "Reddit",
+            "category": "Test Preparation",
+            "memberCount": "42,000+ members",
+            "description": "Community dedicated to TOEFL iBT exam prep, test center feedback, template strategies, and score improvement for international students.",
+            "joinUrl": "https://www.reddit.com/r/TOEFLadvice/",
+            "tags": ["toefl", "test-prep", "admissions", "reddit"]
+        },
+        {
+            "title": "r/IntltoUSA Student Collective",
+            "platform": "Reddit",
+            "category": "Study Abroad USA",
+            "memberCount": "78,000+ members",
+            "description": "Resource and advice center for international students seeking undergraduate and graduate admission with full aid at US universities.",
+            "joinUrl": "https://www.reddit.com/r/IntltoUSA/",
+            "tags": ["usa", "study-abroad", "admissions", "reddit"]
+        },
+        {
+            "title": "r/GRE Test Strategy Collective",
+            "platform": "Reddit",
+            "category": "Graduate Exams",
+            "memberCount": "130,000+ members",
+            "description": "Forum focused on GRE quantitative reasoning, verbal strategies, vocabulary lists, and GregMat study schedules.",
+            "joinUrl": "https://www.reddit.com/r/GRE/",
+            "tags": ["gre", "grad-school", "quant", "reddit"]
+        },
+        {
+            "title": "Study Abroad International Discord",
+            "platform": "Discord",
+            "category": "Student Exchange",
+            "memberCount": "48,000+ members",
+            "description": "Active real-time Discord server connecting university students planning study abroad programs in Australia, UK, Germany, Canada, and Europe.",
+            "joinUrl": "https://discord.gg/studyabroad",
+            "tags": ["study-abroad", "discord", "exchange", "students"]
+        },
+        {
+            "title": "Global Scholars Telegram Channel",
+            "platform": "Telegram",
+            "category": "Fellowships & Grants",
+            "memberCount": "39,000+ members",
+            "description": "Curated daily alerts on fully-funded international scholarships, government grants, and postdoctoral fellowships.",
+            "joinUrl": "https://t.me/scholars_official",
+            "tags": ["scholarships", "telegram", "fellowships", "funding"]
         }
     ],
     "gaming_3d": [
