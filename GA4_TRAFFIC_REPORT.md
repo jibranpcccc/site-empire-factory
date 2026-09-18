@@ -1,6 +1,6 @@
 # 📊 Google Analytics 4 & AI Traffic Intelligence Report
 
-**Generated:** 2026-09-17 11:32:38 PKT  
+**Generated:** 2026-09-18 11:01:31 PKT  
 **Unified GA4 Measurement ID:** `G-CK7NVYS1Y9`  
 **Unified Portfolio Folder:** `ai_directory_empire`  
 **Total Properties Monitored:** 16 (9 Directory Hubs + 7 Authority Blogs)  
@@ -12,15 +12,15 @@
 
 | Website Property | Category | Live URL | HTTP Status | TTFB | GA4 Tag (G-CK7NVYS1Y9) |
 |---|---|---|---|---|---|
-| **Developer & Coding Communities Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/developer-coding-hub/) | 🟢 200 OK | 127ms | ✅ Installed |
-| **Deals, Loot & Coupons Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/deals-loot-coupons-hub/) | 🟢 200 OK | 139ms | ✅ Installed |
-| **Scholarships & Study Abroad Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/scholarships-study-abroad-hub/) | 🟢 200 OK | 97ms | ✅ Installed |
-| **Remote Work & Nomad Communities Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/remote-work-nomad-hub/) | 🟢 200 OK | 91ms | ✅ Installed |
-| **AI Prompt Engineering & GenAI Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ai-prompts-generative-hub/) | 🟢 200 OK | 118ms | ✅ Installed |
-| **Cybersecurity & Ethical Hacking Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cybersecurity-infosec-hub/) | 🟢 200 OK | 113ms | ✅ Installed |
-| **DevOps & Cloud Architect Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/devops-cloud-architect-hub/) | 🟢 200 OK | 83ms | ✅ Installed |
-| **Indie Hackers & Micro SaaS Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/indie-hackers-micro-saas-hub/) | 🟢 200 OK | 154ms | ✅ Installed |
-| **Data Science & Machine Learning Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/data-science-machine-learning-hub/) | 🟢 200 OK | 465ms | ✅ Installed |
+| **Developer & Coding Communities Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/developer-coding-hub/) | 🟢 200 OK | 220ms | ✅ Installed |
+| **Deals, Loot & Coupons Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/deals-loot-coupons-hub/) | 🟢 200 OK | 115ms | ✅ Installed |
+| **Scholarships & Study Abroad Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/scholarships-study-abroad-hub/) | 🟢 200 OK | 136ms | ✅ Installed |
+| **Remote Work & Nomad Communities Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/remote-work-nomad-hub/) | 🟢 200 OK | 310ms | ✅ Installed |
+| **AI Prompt Engineering & GenAI Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ai-prompts-generative-hub/) | 🟢 200 OK | 156ms | ✅ Installed |
+| **Cybersecurity & Ethical Hacking Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cybersecurity-infosec-hub/) | 🟢 200 OK | 125ms | ✅ Installed |
+| **DevOps & Cloud Architect Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/devops-cloud-architect-hub/) | 🟢 200 OK | 443ms | ✅ Installed |
+| **Indie Hackers & Micro SaaS Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/indie-hackers-micro-saas-hub/) | 🟢 200 OK | 136ms | ✅ Installed |
+| **Data Science & Machine Learning Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/data-science-machine-learning-hub/) | 🟢 200 OK | 204ms | ✅ Installed |
 | **Trading Signals Hub** | Blogger Authority | [trading-signals-hub.blogspot.com](https://trading-signals-hub.blogspot.com/) | 🔴 ERR | -1ms | ⏳ Needs Settings Sync |
 | **Crypto Airdrops & Web3 Alpha** | Blogger Authority | [crypto-airdrops-hub.blogspot.com](https://crypto-airdrops-hub.blogspot.com/) | 🔴 ERR | -1ms | ⏳ Needs Settings Sync |
 | **AI Tools & Automation Weekly** | Blogger Authority | [ai-tools-hub-site.blogspot.com](https://ai-tools-hub-site.blogspot.com/) | 🔴 ERR | -1ms | ⏳ Needs Settings Sync |

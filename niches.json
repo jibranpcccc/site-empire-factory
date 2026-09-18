@@ -4012,14 +4012,14 @@
     "niche": "eurogames, Kickstarter previews, board game arena tournaments, unboxing reviews",
     "category": "Tabletop Games",
     "accent": "#65a30d",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null,
-    "hosting_platform": null,
-    "hosting_platform_name": null,
-    "assigned_gmail": null,
-    "owner_profile": null,
-    "owner_label": null
+    "status": "deployed",
+    "deployed_at": "2026-09-18T10:59:17.513546+00:00",
+    "live_url": "https://board-game-geeks-strategy-masterminds-hub.netlify.app/",
+    "hosting_platform": "netlify",
+    "hosting_platform_name": "Netlify",
+    "assigned_gmail": "hhaarrris@gmail.com",
+    "owner_profile": "Profile 66",
+    "owner_label": "Haris"
   },
   {
     "id": "custom-iems-portable-audiophile-rigs-hub",
@@ -4028,13 +4028,13 @@
     "niche": "multi-BA custom in-ear monitors, silver cables, dongle DACs, audiophile music sources",
     "category": "Audiophile",
     "accent": "#9333ea",
-    "status": "pending",
-    "deployed_at": null,
-    "live_url": null,
-    "hosting_platform": null,
-    "hosting_platform_name": null,
-    "assigned_gmail": null,
-    "owner_profile": null,
-    "owner_label": null
+    "status": "deployed",
+    "deployed_at": "2026-09-18T11:00:50.994919+00:00",
+    "live_url": "https://jibranpcccc.github.io/custom-iems-portable-audiophile-rigs-hub/",
+    "hosting_platform": "github_pages",
+    "hosting_platform_name": "GitHub Pages",
+    "assigned_gmail": "ashf3467q@gmail.com",
+    "owner_profile": "Profile 66",
+    "owner_label": "Ishfaq"
   }
 ]
