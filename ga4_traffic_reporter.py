@@ -18,54 +18,75 @@ PROPERTY_ID = os.environ.get("GA4_PROPERTY_ID", "properties/default")
 MEASUREMENT_ID = "G-CK7NVYS1Y9"
 REPORT_OUTPUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "GA4_TRAFFIC_REPORT.md")
 
-ALL_PROPERTIES = [
-    {"name": "Developer & Coding Communities Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/developer-coding-hub/", "domain": "jibranpcccc.github.io"},
-    {"name": "Deals, Loot & Coupons Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/deals-loot-coupons-hub/", "domain": "jibranpcccc.github.io"},
-    {"name": "Scholarships & Study Abroad Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/scholarships-study-abroad-hub/", "domain": "jibranpcccc.github.io"},
-    {"name": "Remote Work & Nomad Communities Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/remote-work-nomad-hub/", "domain": "jibranpcccc.github.io"},
-    {"name": "AI Prompt Engineering & GenAI Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/ai-prompts-generative-hub/", "domain": "jibranpcccc.github.io"},
-    {"name": "Cybersecurity & Ethical Hacking Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/cybersecurity-infosec-hub/", "domain": "jibranpcccc.github.io"},
-    {"name": "DevOps & Cloud Architect Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/devops-cloud-architect-hub/", "domain": "jibranpcccc.github.io"},
-    {"name": "Indie Hackers & Micro SaaS Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/indie-hackers-micro-saas-hub/", "domain": "jibranpcccc.github.io"},
-    {"name": "Data Science & Machine Learning Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/data-science-machine-learning-hub/", "domain": "jibranpcccc.github.io"},
-    {"name": "Trading Signals Hub", "type": "Blogger Authority", "url": "https://trading-signals-hub.blogspot.com/", "domain": "trading-signals-hub.blogspot.com"},
-    {"name": "Crypto Airdrops & Web3 Alpha", "type": "Blogger Authority", "url": "https://crypto-airdrops-hub.blogspot.com/", "domain": "crypto-airdrops-hub.blogspot.com"},
-    {"name": "AI Tools & Automation Weekly", "type": "Blogger Authority", "url": "https://ai-tools-hub-site.blogspot.com/", "domain": "ai-tools-hub-site.blogspot.com"},
-    {"name": "Freelancing & Digital Nomad Hub", "type": "Blogger Authority", "url": "https://freelancing-hub-2026.blogspot.com/", "domain": "freelancing-hub-2026.blogspot.com"},
-    {"name": "Government & Private Job Alerts", "type": "Blogger Authority", "url": "https://dailyjobalertshub.blogspot.com/", "domain": "dailyjobalertshub.blogspot.com"},
-    {"name": "Global Remote Jobs & Tech Careers", "type": "Blogger Authority", "url": "https://job-alerts-hub.blogspot.com/", "domain": "job-alerts-hub.blogspot.com"},
-    {"name": "Movie Reviews, OTT & Entertainment", "type": "Blogger Authority", "url": "https://movies-groups-hub.blogspot.com/", "domain": "movies-groups-hub.blogspot.com"}
-]
+import concurrent.futures
 
-def check_live_status():
-    print("🔍 Auditing live response and tracking tag across all properties...")
-    results = []
-    for prop in ALL_PROPERTIES:
+NICHES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "niches.json")
+
+def load_all_properties():
+    props = []
+    if os.path.exists(NICHES_FILE):
         try:
-            req = urllib.request.Request(prop["url"], headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
-            start = datetime.datetime.now()
-            with urllib.request.urlopen(req, timeout=10) as resp:
-                elapsed = int((datetime.datetime.now() - start).total_seconds() * 1000)
-                body = resp.read().decode("utf-8", errors="ignore")
-                has_ga4 = (MEASUREMENT_ID in body) or ("G-CK7NVYS1Y9" in body)
-                results.append({
-                    "name": prop["name"],
-                    "type": prop["type"],
-                    "url": prop["url"],
-                    "status": resp.status,
-                    "ttfb_ms": elapsed,
-                    "ga4_active": has_ga4
-                })
+            with open(NICHES_FILE, "r", encoding="utf-8") as f:
+                niches = json.load(f)
+            for n in niches:
+                if n.get("status") == "deployed" and n.get("live_url"):
+                    props.append({
+                        "name": n.get("name"),
+                        "type": "Directory Hub",
+                        "url": n.get("live_url"),
+                        "domain": urllib.parse.urlparse(n.get("live_url")).netloc
+                    })
         except Exception as e:
-            results.append({
+            print(f"Error loading niches.json: {e}")
+    if not props:
+        props = [
+            {"name": "Developer & Coding Communities Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/developer-coding-hub/", "domain": "jibranpcccc.github.io"},
+            {"name": "Deals, Loot & Coupons Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/deals-loot-coupons-hub/", "domain": "jibranpcccc.github.io"},
+            {"name": "Scholarships & Study Abroad Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/scholarships-study-abroad-hub/", "domain": "jibranpcccc.github.io"},
+            {"name": "Remote Work & Nomad Communities Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/remote-work-nomad-hub/", "domain": "jibranpcccc.github.io"},
+            {"name": "AI Prompt Engineering & GenAI Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/ai-prompts-generative-hub/", "domain": "jibranpcccc.github.io"},
+            {"name": "Cybersecurity & Ethical Hacking Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/cybersecurity-infosec-hub/", "domain": "jibranpcccc.github.io"},
+            {"name": "DevOps & Cloud Architect Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/devops-cloud-architect-hub/", "domain": "jibranpcccc.github.io"},
+            {"name": "Indie Hackers & Micro SaaS Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/indie-hackers-micro-saas-hub/", "domain": "jibranpcccc.github.io"},
+            {"name": "Data Science & Machine Learning Hub", "type": "Directory Hub", "url": "https://jibranpcccc.github.io/data-science-machine-learning-hub/", "domain": "jibranpcccc.github.io"}
+        ]
+    return props
+
+def probe_property(prop):
+    try:
+        req = urllib.request.Request(prop["url"], headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+        start = datetime.datetime.now()
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            elapsed = int((datetime.datetime.now() - start).total_seconds() * 1000)
+            body = resp.read().decode("utf-8", errors="ignore")
+            has_ga4 = (MEASUREMENT_ID in body) or ("G-CK7NVYS1Y9" in body)
+            return {
                 "name": prop["name"],
                 "type": prop["type"],
                 "url": prop["url"],
-                "status": "ERR",
-                "ttfb_ms": -1,
-                "ga4_active": False
-            })
-    return results
+                "status": resp.status,
+                "ttfb_ms": elapsed,
+                "ga4_active": has_ga4
+            }
+    except Exception as e:
+        return {
+            "name": prop["name"],
+            "type": prop["type"],
+            "url": prop["url"],
+            "status": "ERR",
+            "ttfb_ms": -1,
+            "ga4_active": False
+        }
+
+def check_live_status():
+    props = load_all_properties()
+    print(f"🔍 Auditing live response and tracking tag across all {len(props)} properties in parallel...")
+    results = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
+        futures = [executor.submit(probe_property, p) for p in props]
+        for f in concurrent.futures.as_completed(futures):
+            results.append(f.result())
+    return sorted(results, key=lambda x: x["name"])
 
 def generate_report():
     live_checks = check_live_status()
