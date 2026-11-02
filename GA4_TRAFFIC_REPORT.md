@@ -1,10 +1,10 @@
 # 📊 Google Analytics 4 & AI Traffic Intelligence Report
 
-**Generated:** 2026-11-01 13:02:08 PKT  
+**Generated:** 2026-11-02 15:23:59 PKT  
 **Unified GA4 Measurement ID:** `G-CK7NVYS1Y9`  
 **Unified Portfolio Folder:** `ai_directory_empire`  
 **Total Properties Monitored:** 250 (9 Directory Hubs + 7 Authority Blogs)  
-**GA4 Tracking Active:** 248/250 (99%)  
+**GA4 Tracking Active:** 250/250 (100%)  
 
 ---
 
@@ -12,256 +12,256 @@
 
 | Website Property | Category | Live URL | HTTP Status | TTFB | GA4 Tag (G-CK7NVYS1Y9) |
 |---|---|---|---|---|---|
-| **AI Prompt Engineering & GenAI Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ai-prompts-generative-hub/) | 🟢 200 OK | 639ms | ✅ Installed |
-| **AI Voice Synthesis & Cloning Hub** | Directory Hub | [ai-voice-synthesis-cloning-hub.netlify.app](https://ai-voice-synthesis-cloning-hub.netlify.app/) | 🟢 200 OK | 862ms | ✅ Installed |
-| **AWS Certified Solutions Architects Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/aws-certified-solutions-architects-guild/) | 🟢 200 OK | 541ms | ✅ Installed |
-| **Ableton Live Electronic Music Producers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ableton-live-electronic-music-producers-hub/) | 🟢 200 OK | 204ms | ✅ Installed |
-| **Affiliate Marketing & Niche Sites Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/affiliate-marketing-niche-sites-hub/) | 🟢 200 OK | 196ms | ✅ Installed |
-| **Amazon FBA & Private Label Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ecommerce-amazon-fba-hub/) | 🟢 200 OK | 418ms | ✅ Installed |
-| **Amazon FBA Private Label & Brand Scaling Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/amazon-fba-private-label-hub/) | 🟢 200 OK | 167ms | ✅ Installed |
-| **Amazon Wholesale & FBA Distributors Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/amazon-wholesale-fba-distributors-guild/) | 🟢 200 OK | 558ms | ✅ Installed |
-| **Angel Investors & Micro-Venture Syndicate Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/angel-investors-micro-venture-syndicate-hub/) | 🟢 200 OK | 186ms | ✅ Installed |
-| **Apex Legends Ranked & Competitive Scrims Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/apex-legends-ranked-competitive-scrims-hub/) | 🟢 200 OK | 198ms | ✅ Installed |
-| **Architecture & Spatial Design Hub** | Directory Hub | [architecture-design-masters-hub.vercel.app](https://architecture-design-masters-hub.vercel.app/) | 🟢 200 OK | 408ms | ✅ Installed |
-| **Audio Engineering & Music Production Hub** | Directory Hub | [music-production-audio-engineering-hub.netlify.app](https://music-production-audio-engineering-hub.netlify.app/) | 🟢 200 OK | 879ms | ✅ Installed |
-| **Audiophiles & Hi-Fi Headphone Hub** | Directory Hub | [audiophile-high-fidelity-hub.netlify.app](https://audiophile-high-fidelity-hub.netlify.app/) | 🟢 200 OK | 898ms | ✅ Installed |
-| **Autonomous AI Agents & Multi-Agent Systems Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ai-agents-autonomous-systems-hub/) | 🟢 200 OK | 211ms | ✅ Installed |
-| **Autonomous AI Agents Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/autonomous-ai-agents-hub/) | 🟢 200 OK | 189ms | ✅ Installed |
-| **Autonomous Robotics & SLAM Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/autonomous-robotics-slam-hub/) | 🟢 200 OK | 294ms | ✅ Installed |
-| **Aviation Students & Pilot Cadets Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/aviation-pilot-cadet-hub/) | 🟢 200 OK | 324ms | ✅ Installed |
-| **B2B Cold Email & Lead Generation Alpha Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/b2b-cold-email-leadgen-alpha-hub/) | 🟢 200 OK | 521ms | ✅ Installed |
-| **B2B SaaS Founders & Bootstrappers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/b2b-saas-founders-circle-hub/) | 🟢 200 OK | 181ms | ✅ Installed |
-| **B2B SaaS Growth & PLG Marketing Hub** | Directory Hub | [saas-marketing-b2b-hub.netlify.app](https://saas-marketing-b2b-hub.netlify.app/) | 🟢 200 OK | 825ms | ✅ Installed |
-| **B2B SaaS Sales & Cold Outreach Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/b2b-saas-sales-outreach-hub/) | 🟢 200 OK | 294ms | ✅ Installed |
-| **Biohacking & Longevity Protocols Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/biohacking-longevity-hub/) | 🟢 200 OK | 291ms | ✅ Installed |
-| **Biohacking & Longevity Protocols Hub** | Directory Hub | [biohacking-longevity-protocols-hub.netlify.app](https://biohacking-longevity-protocols-hub.netlify.app/) | 🟢 200 OK | 828ms | ✅ Installed |
-| **Biohacking, Longevity & Human Optimization Hub** | Directory Hub | [biohacking-longevity-health-hub.netlify.app](https://biohacking-longevity-health-hub.netlify.app/) | 🟢 200 OK | 864ms | ✅ Installed |
-| **Blender 3D & Unreal Engine 5 Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/3d-blender-unreal-artists-hub/) | 🟢 200 OK | 517ms | ✅ Installed |
-| **Blender 3D Modeling & Animation Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/blender-3d-modeling-animation-hub/) | 🟢 200 OK | 203ms | ✅ Installed |
-| **Blender Geometry Nodes & Procedural Art Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/blender-geometry-nodes-procedural-art-hub/) | 🟢 200 OK | 304ms | ✅ Installed |
-| **Board Game Geeks & Strategy Masterminds Hub** | Directory Hub | [board-game-geeks-strategy-masterminds-hub.netlify.app](https://board-game-geeks-strategy-masterminds-hub.netlify.app/) | 🟢 200 OK | 1009ms | ✅ Installed |
-| **Bogleheads Passive Indexing Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/bogleheads-passive-indexing-guild/) | 🟢 200 OK | 214ms | ✅ Installed |
-| **Book Clubs & Deep Reading Collective** | Directory Hub | [book-clubs-readers-lounge-hub.netlify.app](https://book-clubs-readers-lounge-hub.netlify.app/) | 🟢 200 OK | 804ms | ✅ Installed |
-| **Bug Bounty & Ethical Hacking Hunters Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ethical-hacking-bugbounty-hub/) | 🟢 200 OK | 661ms | ✅ Installed |
-| **Bug Bounty & Penetration Testing Hub** | Directory Hub | [bug-bounty-pentesting-hub.netlify.app](https://bug-bounty-pentesting-hub.netlify.app/) | 🟢 200 OK | 457ms | ✅ Installed |
-| **CFA Exam Level 1-3 Candidates Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cfa-exam-level-1-3-candidates-guild/) | 🟢 200 OK | 202ms | ✅ Installed |
-| **Calisthenics & Bodyweight Athlete Hub** | Directory Hub | [calisthenics-street-workout-hub.vercel.app](https://calisthenics-street-workout-hub.vercel.app/) | 🟢 200 OK | 412ms | ✅ Installed |
-| **Cinema 4D & Octane Render Motion Designers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cinema-4d-octane-motion-designers-hub/) | 🟢 200 OK | 294ms | ✅ Installed |
-| **Clean Architecture & Domain Driven Design Hub** | Directory Hub | [clean-architecture-ddd-hub.netlify.app](https://clean-architecture-ddd-hub.netlify.app/) | 🟢 200 OK | 886ms | ✅ Installed |
-| **Clean Energy, Solar & EV Enthusiasts Hub** | Directory Hub | [electric-vehicles-clean-energy-hub.netlify.app](https://electric-vehicles-clean-energy-hub.netlify.app/) | 🟢 200 OK | 877ms | ✅ Installed |
-| **Color Grading & DaVinci Resolve Studio Hub** | Directory Hub | [color-grading-davinci-resolve-studio-hub.netlify.app](https://color-grading-davinci-resolve-studio-hub.netlify.app/) | 🟢 200 OK | 863ms | ✅ Installed |
-| **Commercial Real Estate Syndication Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/commercial-real-estate-syndication-hub/) | 🟢 200 OK | 302ms | ✅ Installed |
-| **Commodity & Futures Trading Alpha Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/futures-commodities-alpha-hub/) | 🟢 200 OK | 190ms | ✅ Installed |
-| **CompTIA Security+ & Cyber Career Starters Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/comptia-security-plus-cyber-careers-hub/) | 🟢 200 OK | 289ms | ✅ Installed |
-| **Competitive Chess & Opening Theory Hub** | Directory Hub | [chess-grandmasters-study-hub.vercel.app](https://chess-grandmasters-study-hub.vercel.app/) | 🟢 200 OK | 435ms | ✅ Installed |
-| **Computer Vision & YOLO Engineers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/computer-vision-yolo-engineers-hub/) | 🟢 200 OK | 309ms | ✅ Installed |
-| **Concept Artists & Worldbuilders Collective** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/concept-artists-worldbuilders-collective/) | 🟢 200 OK | 556ms | ✅ Installed |
-| **Conversion Rate Optimization & A/B Testing Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cro-ab-testing-experimentation-guild/) | 🟢 200 OK | 295ms | ✅ Installed |
-| **Counter-Strike 2 Premier & Smokes Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cs2-lineups-premier-hub/) | 🟢 200 OK | 223ms | ✅ Installed |
-| **Creator Brand Sponsorships & Agency Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/creator-brand-sponsorships-agency-hub/) | 🟢 200 OK | 225ms | ✅ Installed |
-| **Crypto DeFi & Yield Farming Hub** | Directory Hub | [crypto-defi-yield-hub.netlify.app](https://crypto-defi-yield-hub.netlify.app/) | 🟢 200 OK | 1074ms | ✅ Installed |
-| **Crypto Layer-2 & Rollups Alpha Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/crypto-layer2-rollups-alpha-hub/) | 🟢 200 OK | 176ms | ✅ Installed |
-| **Crypto Testnets & Airdrop Farmers Hub** | Directory Hub | [crypto-airdrop-testnets-hub.vercel.app](https://crypto-airdrop-testnets-hub.vercel.app/) | 🟢 200 OK | 593ms | ✅ Installed |
-| **Custom IEMs & Portable Audiophile Rigs Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/custom-iems-portable-audiophile-rigs-hub/) | 🟢 200 OK | 435ms | ✅ Installed |
-| **Custom Mechanical Keyboards & Thock Hub** | Directory Hub | [mechanical-keyboards-custom-hub.vercel.app](https://mechanical-keyboards-custom-hub.vercel.app/) | 🟢 200 OK | 126ms | ✅ Installed |
-| **Custom PC Watercooling & Overclocking Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/custom-pc-watercooling-overclocking-guild/) | 🟢 200 OK | 271ms | ✅ Installed |
-| **Cyber Threat Intelligence & OSINT Collective** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cyber-threat-intelligence-hub/) | 🟢 200 OK | 301ms | ✅ Installed |
-| **Cybersecurity & Ethical Hacking Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cybersecurity-infosec-hub/) | 🟢 200 OK | 521ms | ✅ Installed |
-| **Cybersecurity GRC, SOC2 & ISO 27001 Hub** | Directory Hub | [cybersecurity-grc-compliance-hub.netlify.app](https://cybersecurity-grc-compliance-hub.netlify.app/) | 🟢 200 OK | 822ms | ✅ Installed |
-| **Cybersecurity Incident Forensics Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/digital-forensics-incident-hub/) | 🟢 200 OK | 175ms | ✅ Installed |
-| **D&D 5e & Tabletop RPG Campaigns Hub** | Directory Hub | [dnd-tabletop-campaigns-hub.vercel.app](https://dnd-tabletop-campaigns-hub.vercel.app/) | 🟢 200 OK | 495ms | ✅ Installed |
-| **Data Engineering & Apache Spark Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/data-engineering-apache-spark-hub/) | 🟢 200 OK | 144ms | ✅ Installed |
-| **Data Science & Deep Learning Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/data-science-machine-learning-hub/) | 🟢 200 OK | 513ms | ✅ Installed |
-| **DeFi Liquidity Providing & DEX Arbitrage Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/defi-liquidity-dex-arbitrage-hub/) | 🟢 200 OK | 207ms | ✅ Installed |
-| **DeFi Yield Farming & Staking Alpha Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/crypto-yield-farming-staking-hub/) | 🟢 200 OK | 215ms | ✅ Installed |
-| **Deals, Loot & Coupons Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/deals-loot-coupons-hub/) | 🟢 200 OK | 886ms | ✅ Installed |
-| **Deep Learning & LLM Research Collective** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/deep-learning-nlp-transformers-hub/) | 🟢 200 OK | 239ms | ✅ Installed |
-| **Deep Learning & PyTorch Researchers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/pytorch-deep-learning-research-hub/) | 🟢 200 OK | 335ms | ✅ Installed |
-| **Design Systems & Figma Component Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ui-ux-design-systems-hub/) | 🟢 200 OK | 509ms | ✅ Installed |
-| **DevOps & Cloud Architecture Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/devops-cloud-architect-hub/) | 🟢 200 OK | 415ms | ✅ Installed |
-| **DevOps SRE & Incident Response Hub** | Directory Hub | [sre-incident-response-devops-hub.netlify.app](https://sre-incident-response-devops-hub.netlify.app/) | 🟢 200 OK | 823ms | ✅ Installed |
-| **DevSecOps & CI/CD Security Hub** | Directory Hub | [devsecops-cicd-security-hub.netlify.app](https://devsecops-cicd-security-hub.netlify.app/) | 🟢 200 OK | 874ms | ✅ Installed |
-| **Developer & Coding Communities Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/developer-coding-hub/) | 🟢 200 OK | 756ms | ✅ Installed |
-| **Digital Nomad Visas & Global Tax Residency Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/digital-nomad-visas-tax-hub/) | 🟢 200 OK | 195ms | ✅ Installed |
-| **Digital Product Flipping & Empire Flippers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/digital-product-flipping-empire-flippers-hub/) | 🟢 200 OK | 684ms | ✅ Installed |
-| **Digital Products & Notion Template Hub** | Directory Hub | [digital-products-notion-hub.vercel.app](https://digital-products-notion-hub.vercel.app/) | 🟢 200 OK | 446ms | ✅ Installed |
-| **Dividend Growth & Passive Income Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/dividend-growth-investing-hub/) | 🟢 200 OK | 622ms | ✅ Installed |
-| **Docker & Container Orchestration Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/docker-containers-devops-hub/) | 🟢 200 OK | 294ms | ✅ Installed |
-| **Dropshipping & TikTok Shop Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/tiktok-shop-dropshipping-hub/) | 🟢 200 OK | 181ms | ✅ Installed |
-| **Dubai Freelancer Visa & UAE Tax Residency Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/dubai-freelancer-visa-uae-tax-residency-hub/) | 🟢 200 OK | 507ms | ✅ Installed |
-| **Electronic Music Production & Synthesizer Hub** | Directory Hub | [sound-design-music-production-hub.netlify.app](https://sound-design-music-production-hub.netlify.app/) | 🟢 200 OK | 795ms | ✅ Installed |
-| **Embedded Systems & IoT Hardware Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/embedded-iot-hardware-hub/) | 🟢 200 OK | 261ms | ✅ Installed |
-| **Erasmus Mundus Joint Masters Scholars Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/erasmus-mundus-joint-masters-scholars-hub/) | 🟢 200 OK | 199ms | ✅ Installed |
-| **F1 Fantasy & Race Strategy Fanatics Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/f1-fantasy-race-strategy-fanatics-hub/) | 🟢 200 OK | 179ms | ✅ Installed |
-| **FIRE Movement & Financial Independence Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/personal-finance-fire-movement-hub/) | 🟢 200 OK | 502ms | ✅ Installed |
-| **FIRE Movement & Wealth Building Hub** | Directory Hub | [fire-personal-finance-hub.vercel.app](https://fire-personal-finance-hub.vercel.app/) | 🟢 200 OK | 605ms | ✅ Installed |
-| **FL Studio Beatmakers & Trap Producers Guild** | Directory Hub | [fl-studio-beatmakers-trap-producers-guild.netlify.app](https://fl-studio-beatmakers-trap-producers-guild.netlify.app/) | 🟢 200 OK | 827ms | ✅ Installed |
-| **Faceless YouTube & Video AI Hub** | Directory Hub | [youtube-automation-creators-hub.netlify.app](https://youtube-automation-creators-hub.netlify.app/) | 🔴 ERR | -1ms | ⏳ Needs Settings Sync |
-| **Faceless YouTube Automation & Media Empire Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/youtube-automation-cashcow-hub/) | 🟢 200 OK | 435ms | ✅ Installed |
-| **Fighting Game Community & Frame Data Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/fighting-game-community-frame-data-guild/) | 🟢 200 OK | 297ms | ✅ Installed |
-| **Figma Design System Leaders & UI Architects Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/figma-design-systems-ui-architects-hub/) | 🟢 200 OK | 220ms | ✅ Installed |
-| **Fintech & Embedded Banking Developers Hub** | Directory Hub | [fintech-embedded-banking-hub.netlify.app](https://fintech-embedded-banking-hub.netlify.app/) | 🟢 200 OK | 885ms | ✅ Installed |
-| **Fintech & Payment Gateway Engineers Hub** | Directory Hub | [fintech-payment-gateways-hub.netlify.app](https://fintech-payment-gateways-hub.netlify.app/) | 🟢 200 OK | 903ms | ✅ Installed |
-| **Flutter & Cross-Platform Mobile Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/flutter-crossplatform-mobile-hub/) | 🟢 200 OK | 286ms | ✅ Installed |
-| **Flutter & Multi-Platform Engineers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/flutter-multiplatform-engineers-hub/) | 🟢 200 OK | 525ms | ✅ Installed |
-| **Font Designers & Kinetic Typography Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/font-designers-kinetic-typography-guild/) | 🟢 200 OK | 323ms | ✅ Installed |
-| **Foreign Service Officer & Diplomacy Career Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/foreign-service-officer-diplomacy-career-hub/) | 🟢 200 OK | 303ms | ✅ Installed |
-| **Forex Scalpers & Prop Firm Hub** | Directory Hub | [forex-scalping-signals-hub.vercel.app](https://forex-scalping-signals-hub.vercel.app/) | 🟢 200 OK | 635ms | ✅ Installed |
-| **Fulbright Foreign Student Program Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/fulbright-foreign-student-program-hub/) | 🟢 200 OK | 260ms | ✅ Installed |
-| **Futures Daytrading & Volume Profile Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/futures-daytrading-volume-profile-hub/) | 🟢 200 OK | 263ms | ✅ Installed |
-| **GTA RP Whitelisted Servers & Gangs Hub** | Directory Hub | [gta-rp-whitelist-servers-hub.vercel.app](https://gta-rp-whitelist-servers-hub.vercel.app/) | 🟢 200 OK | 412ms | ✅ Installed |
-| **Game Audio & Interactive Sound Design Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/game-audio-sound-design-hub/) | 🟢 200 OK | 513ms | ✅ Installed |
-| **Game Audio Sound Design & Wwise / FMOD Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/game-audio-sound-design-wwise-fmod-hub/) | 🟢 200 OK | 289ms | ✅ Installed |
-| **Generative AI Art & Midjourney Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/generative-ai-art-midjourney-hub/) | 🟢 200 OK | 319ms | ✅ Installed |
-| **Generative AI Video & Virtual Production Hub** | Directory Hub | [generative-ai-video-creators-hub.netlify.app](https://generative-ai-video-creators-hub.netlify.app/) | 🟢 200 OK | 855ms | ✅ Installed |
-| **Generative Music & Modular Eurorack Synthesizers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/generative-music-modular-eurorack-hub/) | 🟢 200 OK | 321ms | ✅ Installed |
-| **German Language B2-C1 TestDaF Preparation Hub** | Directory Hub | [german-language-b2-c1-testdaf-prep-hub.netlify.app](https://german-language-b2-c1-testdaf-prep-hub.netlify.app/) | 🟢 200 OK | 987ms | ✅ Installed |
-| **Global Macro & Central Bank Watchers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/global-macro-central-bank-watchers-hub/) | 🟢 200 OK | 192ms | ✅ Installed |
-| **Global Virtual Assistants & Remote Operations Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/virtual-assistants-agency-hub/) | 🟢 200 OK | 530ms | ✅ Installed |
-| **Go Microservices & Distributed Architecture Hub** | Directory Hub | [golang-microservices-distributed-hub.netlify.app](https://golang-microservices-distributed-hub.netlify.app/) | 🟢 200 OK | 833ms | ✅ Installed |
-| **Golang Cloud Backend Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/golang-backend-cloud-hub/) | 🟢 200 OK | 546ms | ✅ Installed |
-| **Google Ads & PPC Search Arbitrage Hub** | Directory Hub | [google-ads-ppc-search-arbitrage-hub.netlify.app](https://google-ads-ppc-search-arbitrage-hub.netlify.app/) | 🟢 200 OK | 950ms | ✅ Installed |
-| **GraphQL & API Gateway Federation Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/graphql-federation-gateways-hub/) | 🟢 200 OK | 218ms | ✅ Installed |
-| **GraphQL Subgraphs & Apollo Federation Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/graphql-subgraphs-apollo-federation-hub/) | 🟢 200 OK | 208ms | ✅ Installed |
-| **Graphic Designers & Visual Brand Identity Hub** | Directory Hub | [graphic-designers-brand-identity-hub.netlify.app](https://graphic-designers-brand-identity-hub.netlify.app/) | 🟢 200 OK | 915ms | ✅ Installed |
-| **Growth Marketing & Programmatic SEO Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/growth-marketing-hackers-hub/) | 🟢 200 OK | 528ms | ✅ Installed |
-| **High-Conversion Copywriting & VSL Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/freelance-copywriters-guild-hub/) | 🟢 200 OK | 195ms | ✅ Installed |
-| **High-Performance C++ & Game Engines Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/high-performance-cpp-hub/) | 🔴 ERR | -1ms | ⏳ Needs Settings Sync |
-| **High-Ticket B2B Sales & Closing Collective** | Directory Hub | [high-ticket-closing-sales-hub.netlify.app](https://high-ticket-closing-sales-hub.netlify.app/) | 🟢 200 OK | 953ms | ✅ Installed |
-| **High-Ticket B2B Sales Closers Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/high-ticket-b2b-sales-closers-guild/) | 🟢 200 OK | 516ms | ✅ Installed |
-| **High-Ticket Copywriting & Sales Letters Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/copywriting-high-ticket-hub/) | 🟢 200 OK | 308ms | ✅ Installed |
-| **High-Yield Bond & Fixed Income Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/high-yield-bond-fixed-income-guild/) | 🟢 200 OK | 507ms | ✅ Installed |
-| **High-Yield Cash & Treasury Bills Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/high-yield-treasury-wealth-hub/) | 🟢 200 OK | 296ms | ✅ Installed |
-| **Home Assistant & Local Smart Home Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/smart-home-homeassistant-hub/) | 🟢 200 OK | 180ms | ✅ Installed |
-| **HomeLab & Self-Hosted Linux Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/homelab-selfhosted-linux-hub/) | 🟢 200 OK | 177ms | ✅ Installed |
-| **Homelab Proxmox & TrueNAS Storage Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/homelab-proxmox-truenas-storage-guild/) | 🟢 200 OK | 178ms | ✅ Installed |
-| **Houdini FX & Particle Dynamics Masterminds** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/houdini-fx-particle-dynamics-masterminds/) | 🟢 200 OK | 178ms | ✅ Installed |
-| **IELTS & GRE Band 8 Masterclass Hub** | Directory Hub | [ielts-toefl-band8-hub.netlify.app](https://ielts-toefl-band8-hub.netlify.app/) | 🟢 200 OK | 891ms | ✅ Installed |
-| **Indie Filmmakers & Cinema Gear Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/creative-indie-filmmakers-hub/) | 🟢 200 OK | 306ms | ✅ Installed |
-| **Indie Game Developers & Modders Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/game-dev-indie-studios-hub/) | 🟢 200 OK | 463ms | ✅ Installed |
-| **Indie Hackers & Micro-SaaS Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/indie-hackers-micro-saas-hub/) | 🟢 200 OK | 545ms | ✅ Installed |
-| **Japanese JLPT N1-N3 Grammar & Kanji Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/japanese-jlpt-n1-n3-grammar-kanji-hub/) | 🟢 200 OK | 246ms | ✅ Installed |
-| **Kafka & Event-Driven Streaming Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/kafka-event-driven-streaming-hub/) | 🟢 200 OK | 424ms | ✅ Installed |
-| **Klaviyo Email Automation & Retention Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/klaviyo-email-automation-retention-hub/) | 🟢 200 OK | 190ms | ✅ Installed |
-| **Kubernetes & Cloud Native Architect Hub** | Directory Hub | [kubernetes-cloud-native-hub.netlify.app](https://kubernetes-cloud-native-hub.netlify.app/) | 🟢 200 OK | 822ms | ✅ Installed |
-| **Kubernetes Operators & Cloud Native Hub** | Directory Hub | [kubernetes-operators-cloud-native-hub.netlify.app](https://kubernetes-operators-cloud-native-hub.netlify.app/) | 🟢 200 OK | 985ms | ✅ Installed |
-| **LangChain & LlamaIndex AI Developers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/langchain-llamaindex-ai-hub/) | 🟢 200 OK | 505ms | ✅ Installed |
-| **Law Students & Bar Exam Mastery Hub** | Directory Hub | [law-school-bar-exam-hub.netlify.app](https://law-school-bar-exam-hub.netlify.app/) | 🟢 200 OK | 865ms | ✅ Installed |
-| **League of Legends Tier 1 Clash & Meta Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/league-of-legends-clash-meta-hub/) | 🟢 200 OK | 310ms | ✅ Installed |
-| **Local LLMs & Self-Hosted AI Hub** | Directory Hub | [local-llms-selfhosted-ai-hub.netlify.app](https://local-llms-selfhosted-ai-hub.netlify.app/) | 🟢 200 OK | 878ms | ✅ Installed |
-| **Local Lead Gen & Pay-Per-Call Agency Hub** | Directory Hub | [local-lead-gen-pay-per-call-hub.netlify.app](https://local-lead-gen-pay-per-call-hub.netlify.app/) | 🟢 200 OK | 835ms | ✅ Installed |
-| **MCAT Exam Strategy & Med School Admissions Hub** | Directory Hub | [mcat-exam-strategy-med-school-admissions-hub.netlify.app](https://mcat-exam-strategy-med-school-admissions-hub.netlify.app/) | 🟢 200 OK | 887ms | ✅ Installed |
-| **Micro-Cap Value & Deep Fundamental Investors Hub** | Directory Hub | [microcap-value-deep-fundamentals-hub.netlify.app](https://microcap-value-deep-fundamentals-hub.netlify.app/) | 🟢 200 OK | 843ms | ✅ Installed |
-| **Micro-Influencer & Creator Economy Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/creator-economy-influencers-hub/) | 🟢 200 OK | 464ms | ✅ Installed |
-| **Micro-SaaS Bootstrappers Hub** | Directory Hub | [microsaas-bootstrappers-hub.netlify.app](https://microsaas-bootstrappers-hub.netlify.app/) | 🟢 200 OK | 985ms | ✅ Installed |
-| **Minecraft SMP & Redstone Builders Hub** | Directory Hub | [minecraft-smp-builders-hub.netlify.app](https://minecraft-smp-builders-hub.netlify.app/) | 🟢 200 OK | 879ms | ✅ Installed |
-| **Miniature Painting & Warhammer 40k Hobby Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/miniature-painting-warhammer-40k-hub/) | 🟢 200 OK | 188ms | ✅ Installed |
-| **Minimalism & Zero-Waste Lifestyle Hub** | Directory Hub | [minimalist-slow-living-hub.netlify.app](https://minimalist-slow-living-hub.netlify.app/) | 🟢 200 OK | 829ms | ✅ Installed |
-| **Mobile Dev & Flutter Engineers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ios-android-mobile-dev-hub/) | 🟢 200 OK | 441ms | ✅ Installed |
-| **Modern Stoics & Philosophy Collective** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/stoicism-ancient-philosophy-hub/) | 🟢 200 OK | 444ms | ✅ Installed |
-| **NCLEX-RN & Global Nurses Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/nursing-nclex-international-hub/) | 🟢 200 OK | 132ms | ✅ Installed |
-| **Neurotechnology & Cognitive Enhancement Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/neurotech-brain-computer-interface-hub/) | 🟢 200 OK | 302ms | ✅ Installed |
-| **Next-Gen Frontend & WebGL 3D Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/nextgen-frontend-webgl-3d-hub/) | 🟢 200 OK | 323ms | ✅ Installed |
-| **Next.js & Full-Stack React Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/nextjs-fullstack-react-hub/) | 🟢 200 OK | 507ms | ✅ Installed |
-| **Next.js & Modern React Full-Stack Hub** | Directory Hub | [nextjs-react-fullstack-hub.vercel.app](https://nextjs-react-fullstack-hub.vercel.app/) | 🟢 200 OK | 436ms | ✅ Installed |
-| **No-Code & AI Automation Agency Hub** | Directory Hub | [no-code-automation-hub.vercel.app](https://no-code-automation-hub.vercel.app/) | 🟢 200 OK | 602ms | ✅ Installed |
-| **No-Code Web Apps & Bubble.io Builders Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/no-code-bubble-automation-hub/) | 🟢 200 OK | 279ms | ✅ Installed |
-| **Notion Systems & Productivity Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/notion-templates-productivity-hub/) | 🟢 200 OK | 284ms | ✅ Installed |
-| **Notion Systems & Second Brain Hub** | Directory Hub | [notion-systems-productivity-hub.netlify.app](https://notion-systems-productivity-hub.netlify.app/) | 🟢 200 OK | 977ms | ✅ Installed |
-| **Offshore Banking & Tax Strategy Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/tax-strategies-offshore-hub/) | 🟢 200 OK | 386ms | ✅ Installed |
-| **Old School RuneScape Ironmen & Raids Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/osrs-ironmen-raids-guild/) | 🟢 200 OK | 243ms | ✅ Installed |
-| **Options Trading & Wheel Strategy Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/options-trading-wealth-hub/) | 🟢 200 OK | 486ms | ✅ Installed |
-| **PMP & Agile Certified Project Managers Hub** | Directory Hub | [pmp-agile-certified-project-managers-hub.netlify.app](https://pmp-agile-certified-project-managers-hub.netlify.app/) | 🟢 200 OK | 867ms | ✅ Installed |
-| **Personal Knowledge Management Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/pkm-obsidian-second-brain-hub/) | 🟢 200 OK | 309ms | ✅ Installed |
-| **PhD Fellowships & Postdoc Research Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/phd-fellowships-research-hub/) | 🟢 200 OK | 262ms | ✅ Installed |
-| **Podcast Creators & Audio Syndication Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/podcast-creators-audio-network-hub/) | 🟢 200 OK | 229ms | ✅ Installed |
-| **Podcasting & Audio Monetization Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/podcasting-creator-economy-hub/) | 🟢 200 OK | 539ms | ✅ Installed |
-| **Polyglots & Language Exchange Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/language-exchange-polyglot-hub/) | 🟢 200 OK | 282ms | ✅ Installed |
-| **PostgreSQL & High-Scale Database Hub** | Directory Hub | [postgresql-high-scale-db-hub.netlify.app](https://postgresql-high-scale-db-hub.netlify.app/) | 🟢 200 OK | 900ms | ✅ Installed |
-| **Precious Metals & Macro Hedge Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/precious-metals-macro-hedge-guild/) | 🟢 200 OK | 200ms | ✅ Installed |
-| **Print on Demand & Etsy Scale Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/print-on-demand-etsy-scale-hub/) | 🟢 200 OK | 301ms | ✅ Installed |
-| **Private Banking & Family Office Wealth Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/private-banking-family-office-wealth-hub/) | 🟢 200 OK | 302ms | ✅ Installed |
-| **Private Equity & M&A Dealmakers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/private-equity-ma-dealmakers-hub/) | 🟢 200 OK | 300ms | ✅ Installed |
-| **Product Management & Growth Hacks Hub** | Directory Hub | [product-management-growth-hacks-hub.netlify.app](https://product-management-growth-hacks-hub.netlify.app/) | 🟢 200 OK | 914ms | ✅ Installed |
-| **Programmatic SEO & Scaled Publishing Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/programmatic-seo-scaled-publishing-hub/) | 🟢 200 OK | 228ms | ✅ Installed |
-| **Prompt Engineering & Context Design Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/prompt-engineering-mastery-hub/) | 🟢 200 OK | 248ms | ✅ Installed |
-| **Prompt Engineering & LLM Tuning Hub** | Directory Hub | [prompt-engineering-tuning-hub.netlify.app](https://prompt-engineering-tuning-hub.netlify.app/) | 🟢 200 OK | 834ms | ✅ Installed |
-| **Prop Firm Traders & Forex Alpha Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/prop-firm-forex-traders-hub/) | 🟢 200 OK | 220ms | ✅ Installed |
-| **Prop Trading Firms & Pass Challenge Hub** | Directory Hub | [prop-trading-challenge-hub.vercel.app](https://prop-trading-challenge-hub.vercel.app/) | 🟢 200 OK | 580ms | ✅ Installed |
-| **Quantitative Finance & Algo Trading Hub** | Directory Hub | [algo-trading-quant-hub.netlify.app](https://algo-trading-quant-hub.netlify.app/) | 🟢 200 OK | 899ms | ✅ Installed |
-| **Quantitative Finance & Algorithmic Execution Hub** | Directory Hub | [quant-finance-algorithmic-execution-hub.netlify.app](https://quant-finance-algorithmic-execution-hub.netlify.app/) | 🟢 200 OK | 945ms | ✅ Installed |
-| **Quantum Computing & Qiskit Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/quantum-computing-qiskit-hub/) | 🟢 200 OK | 200ms | ✅ Installed |
-| **RAG & Vector Database Architects Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/rag-vector-database-architects-hub/) | 🟢 200 OK | 187ms | ✅ Installed |
-| **Real Estate Notes & Tax Lien Investing Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/real-estate-notes-tax-lien-investing-hub/) | 🟢 200 OK | 403ms | ✅ Installed |
-| **Real Estate Syndication & Cash Flow Hub** | Directory Hub | [real-estate-investing-syndicates-hub.netlify.app](https://real-estate-investing-syndicates-hub.netlify.app/) | 🟢 200 OK | 920ms | ✅ Installed |
-| **Real Estate Syndication & Deal Flow Hub** | Directory Hub | [real-estate-deal-flow-hub.netlify.app](https://real-estate-deal-flow-hub.netlify.app/) | 🟢 200 OK | 947ms | ✅ Installed |
-| **Real Estate Syndications Hub** | Directory Hub | [real-estate-syndications-hub.netlify.app](https://real-estate-syndications-hub.netlify.app/) | 🟢 200 OK | 863ms | ✅ Installed |
-| **Real Estate Wholesaling & BRRRR Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/real-estate-wholesaling-hub/) | 🟢 200 OK | 390ms | ✅ Installed |
-| **Remote Tech Career & Salary Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/remote-tech-careers-salary-hub/) | 🟢 200 OK | 194ms | ✅ Installed |
-| **Remote Tech Careers & Global Compensation Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/remote-developer-jobs-alpha-hub/) | 🟢 200 OK | 692ms | ✅ Installed |
-| **Remote Work & Nomad Communities Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/remote-work-nomad-hub/) | 🟢 200 OK | 397ms | ✅ Installed |
-| **Retro Arcade Machine Restoration Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/retro-arcade-machine-restoration-hub/) | 🟢 200 OK | 314ms | ✅ Installed |
-| **Retro Emulation & Handheld Gaming Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/retro-emulation-handhelds-hub/) | 🟢 200 OK | 387ms | ✅ Installed |
-| **Reverse Engineering & Malware Analysis Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/reverse-engineering-malware-analysis-hub/) | 🟢 200 OK | 323ms | ✅ Installed |
-| **Robotics & ROS 2 Engineers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/robotics-ros2-engineers-hub/) | 🟢 200 OK | 533ms | ✅ Installed |
-| **Rocket League Competitive Mechanics & Scrims Hub** | Directory Hub | [rocket-league-competitive-mechanics-hub.netlify.app](https://rocket-league-competitive-mechanics-hub.netlify.app/) | 🟢 200 OK | 900ms | ✅ Installed |
-| **Rust & Systems Programming Hub** | Directory Hub | [rust-systems-engineering-hub.netlify.app](https://rust-systems-engineering-hub.netlify.app/) | 🟢 200 OK | 1053ms | ✅ Installed |
-| **Rust Embedded & Microcontrollers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/rust-embedded-microcontrollers-hub/) | 🟢 200 OK | 176ms | ✅ Installed |
-| **Rust Systems & High-Performance Computing Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/rust-systems-performance-hub/) | 🟢 200 OK | 291ms | ✅ Installed |
-| **SEO Masters & Programmatic Growth Hub** | Directory Hub | [seo-growth-hackers-hub.netlify.app](https://seo-growth-hackers-hub.netlify.app/) | 🟢 200 OK | 1114ms | ✅ Installed |
-| **SFF Small Form Factor PC Builders Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/sff-small-form-factor-pc-builders-hub/) | 🟢 200 OK | 251ms | ✅ Installed |
-| **SMMA & Cold Outreach Agency Hub** | Directory Hub | [smma-agency-founders-hub.vercel.app](https://smma-agency-founders-hub.vercel.app/) | 🟢 200 OK | 586ms | ✅ Installed |
-| **SaaS Customer Success & Churn Reduction Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/saas-customer-success-churn-reduction-hub/) | 🟢 200 OK | 192ms | ✅ Installed |
-| **SaaS Landing Page CRO & Design Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/saas-landing-page-cro-hub/) | 🟢 200 OK | 514ms | ✅ Installed |
-| **Scholarships & Study Abroad Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/scholarships-study-abroad-hub/) | 🟢 200 OK | 1052ms | ✅ Installed |
-| **Shopify App & Theme Developers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/shopify-developers-theme-hub/) | 🟢 200 OK | 287ms | ✅ Installed |
-| **Shopify App Developers & Ecosystem Hub** | Directory Hub | [shopify-app-developers-ecosystem-hub.netlify.app](https://shopify-app-developers-ecosystem-hub.netlify.app/) | 🟢 200 OK | 913ms | ✅ Installed |
-| **Shopify Dropshipping & TikTok Ads Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/shopify-dropshipping-viral-hub/) | 🟢 200 OK | 426ms | ✅ Installed |
-| **Shopify E-Commerce & Dropshipping Growth Hub** | Directory Hub | [shopify-dropshipping-growth-hub.netlify.app](https://shopify-dropshipping-growth-hub.netlify.app/) | 🟢 200 OK | 794ms | ✅ Installed |
-| **Short Selling & Activist Research Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/short-selling-activist-research-hub/) | 🟢 200 OK | 329ms | ✅ Installed |
-| **Sim Racing & F1 League Racers Hub** | Directory Hub | [sim-racing-rigs-f1-hub.netlify.app](https://sim-racing-rigs-f1-hub.netlify.app/) | 🟢 200 OK | 1063ms | ✅ Installed |
-| **Smart Contract & Solidity Security Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/smart-contract-solidity-hub/) | 🟢 200 OK | 1092ms | ✅ Installed |
-| **Solana DeFi & Rust Developers Hub** | Directory Hub | [solana-defi-developers-hub.vercel.app](https://solana-defi-developers-hub.vercel.app/) | 🟢 200 OK | 434ms | ✅ Installed |
-| **Solana Ecosystem & Alpha Callers Hub** | Directory Hub | [crypto-solana-memecoins-hub.netlify.app](https://crypto-solana-memecoins-hub.netlify.app/) | 🟢 200 OK | 1045ms | ✅ Installed |
-| **Solopreneur Email Marketing Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/solopreneur-email-marketing-hub/) | 🟢 200 OK | 184ms | ✅ Installed |
-| **Spain & Portugal Digital Nomad Visas Hub** | Directory Hub | [spain-portugal-digital-nomad-visas-hub.netlify.app](https://spain-portugal-digital-nomad-visas-hub.netlify.app/) | 🟢 200 OK | 242ms | ✅ Installed |
-| **Speedcubing & Rubiks Clock Algorithms Hub** | Directory Hub | [speedcubing-algorithms-hub.netlify.app](https://speedcubing-algorithms-hub.netlify.app/) | 🟢 200 OK | 950ms | ✅ Installed |
-| **Speedrunners & Game Glitch Hunters Hub** | Directory Hub | [speedrunning-glitches-hub.netlify.app](https://speedrunning-glitches-hub.netlify.app/) | 🟢 200 OK | 936ms | ✅ Installed |
-| **Startup Secondary Shares & Liquidity Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/startup-secondary-shares-liquidity-hub/) | 🟢 200 OK | 309ms | ✅ Installed |
-| **Steam Indie Game Developers & Marketing Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/indie-game-marketing-steam-hub/) | 🟢 200 OK | 246ms | ✅ Installed |
-| **Stop Motion Animation & Puppet Fabrication Guild** | Directory Hub | [stop-motion-animation-puppet-fabrication-guild.netlify.app](https://stop-motion-animation-puppet-fabrication-guild.netlify.app/) | 🟢 200 OK | 920ms | ✅ Installed |
-| **Study in Australia & Post-Study Work Visas Hub** | Directory Hub | [study-in-australia-post-study-work-visas-hub.netlify.app](https://study-in-australia-post-study-work-visas-hub.netlify.app/) | 🟢 200 OK | 983ms | ✅ Installed |
-| **Study in Canada & PGWP Student Hub** | Directory Hub | [study-in-canada-pgwp-hub.vercel.app](https://study-in-canada-pgwp-hub.vercel.app/) | 🟢 200 OK | 447ms | ✅ Installed |
-| **Study in Germany & DAAD Scholars Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/study-in-germany-daadvise-hub/) | 🟢 200 OK | 197ms | ✅ Installed |
-| **Study in Japan & MEXT Scholars Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/study-in-japan-mext-hub/) | 🟢 200 OK | 236ms | ✅ Installed |
-| **Study in UK & Chevening Scholars Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/study-in-uk-chevening-scholars-hub/) | 🟢 200 OK | 422ms | ✅ Installed |
-| **Substack Writers & Paid Newsletter Growth Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/substack-writers-paid-newsletter-growth-hub/) | 🟢 200 OK | 285ms | ✅ Installed |
-| **Substance 3D Material & Texture Artists Hub** | Directory Hub | [substance-3d-material-texture-artists-hub.netlify.app](https://substance-3d-material-texture-artists-hub.netlify.app/) | 🟢 200 OK | 909ms | ✅ Installed |
-| **Super Affiliates & CPA Networks Hub** | Directory Hub | [affiliate-marketing-masters-hub.vercel.app](https://affiliate-marketing-masters-hub.vercel.app/) | 🟢 200 OK | 619ms | ✅ Installed |
-| **Swift & SwiftUI iOS Architects Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/swift-swiftui-ios-architects-hub/) | 🟢 200 OK | 306ms | ✅ Installed |
-| **Synthetic Data & Model Evaluation Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/synthetic-data-model-evaluation-hub/) | 🟢 200 OK | 290ms | ✅ Installed |
-| **Technical Writing & API Docs Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/technical-writing-api-docs-hub/) | 🟢 200 OK | 185ms | ✅ Installed |
-| **TikTok Shop Creators & Affiliate Arbitrage Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/tiktok-shop-creators-affiliate-arbitrage-hub/) | 🟢 200 OK | 312ms | ✅ Installed |
-| **TrackIR & Flight Simulator Cockpit Builders Hub** | Directory Hub | [flight-simulator-cockpit-builders-hub.netlify.app](https://flight-simulator-cockpit-builders-hub.netlify.app/) | 🟢 200 OK | 821ms | ✅ Installed |
-| **Travel Hacking & Airline Points Hub** | Directory Hub | [travel-hacking-points-hub.netlify.app](https://travel-hacking-points-hub.netlify.app/) | 🟢 200 OK | 896ms | ✅ Installed |
-| **TypeScript & Node.js Architects Hub** | Directory Hub | [typescript-nodejs-architects-hub.netlify.app](https://typescript-nodejs-architects-hub.netlify.app/) | 🟢 200 OK | 790ms | ✅ Installed |
-| **US H1B & O1 Extraordinary Ability Visa Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/us-h1b-o1-extraordinary-ability-visa-guild/) | 🟢 200 OK | 168ms | ✅ Installed |
-| **USMLE & International Medical Grads Hub** | Directory Hub | [usmle-medical-residency-hub.vercel.app](https://usmle-medical-residency-hub.vercel.app/) | 🟢 200 OK | 204ms | ✅ Installed |
-| **Unity 6 Indie Studios Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/unity-6-indie-studios-hub/) | 🟢 200 OK | 182ms | ✅ Installed |
-| **Unreal Engine 5 Creators Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/unreal-engine-5-creators-hub/) | 🟢 200 OK | 289ms | ✅ Installed |
-| **Unreal Engine 5 Virtual Production & Cinematics Hub** | Directory Hub | [ue5-virtual-production-cinematics-hub.netlify.app](https://ue5-virtual-production-cinematics-hub.netlify.app/) | 🟢 200 OK | 959ms | ✅ Installed |
-| **VR Gaming & Meta Quest Modders Hub** | Directory Hub | [vr-gaming-meta-quest-hub.vercel.app](https://vr-gaming-meta-quest-hub.vercel.app/) | 🟢 200 OK | 491ms | ✅ Installed |
-| **Valorant Scrims & Premier Teams Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/valorant-scrims-competitive-hub/) | 🟢 200 OK | 273ms | ✅ Installed |
-| **Vanlife & Off-Grid Overlanders Hub** | Directory Hub | [remote-vanlife-overlanding-hub.vercel.app](https://remote-vanlife-overlanding-hub.vercel.app/) | 🟢 200 OK | 223ms | ✅ Installed |
-| **Venture Capital & Angel Syndicate Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/venture-capital-angel-syndicate-hub/) | 🟢 200 OK | 688ms | ✅ Installed |
-| **Vue 3 & Nuxt Fullstack Hub** | Directory Hub | [vue-nuxt-fullstack-hub.netlify.app](https://vue-nuxt-fullstack-hub.netlify.app/) | 🟢 200 OK | 794ms | ✅ Installed |
-| **Vulnerability Research & 0-Day Alpha Hub** | Directory Hub | [vulnerability-research-0day-hub.netlify.app](https://vulnerability-research-0day-hub.netlify.app/) | 🟢 200 OK | 965ms | ✅ Installed |
-| **WASM & WebAssembly Systems Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/wasm-webassembly-systems-hub/) | 🟢 200 OK | 204ms | ✅ Installed |
-| **Web Scraping & Headless Automation Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/web-scraping-automation-hub/) | 🟢 200 OK | 183ms | ✅ Installed |
-| **World of Warcraft Mythic+ & Mythic Raiding Hub** | Directory Hub | [wow-mythic-plus-mythic-raiding-hub.netlify.app](https://wow-mythic-plus-mythic-raiding-hub.netlify.app/) | 🟢 200 OK | 994ms | ✅ Installed |
-| **ZBrush Digital Sculpting & Character Art Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/zbrush-digital-sculpting-character-art-hub/) | 🟢 200 OK | 186ms | ✅ Installed |
-| **Zero-Day Cloud Security & IAM Hub** | Directory Hub | [cloud-security-iam-guard-hub.netlify.app](https://cloud-security-iam-guard-hub.netlify.app/) | 🟢 200 OK | 880ms | ✅ Installed |
-| **Zero-Knowledge Proofs & Cryptography Hub** | Directory Hub | [zk-proofs-cryptography-hub.netlify.app](https://zk-proofs-cryptography-hub.netlify.app/) | 🟢 200 OK | 912ms | ✅ Installed |
+| **AI Prompt Engineering & GenAI Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ai-prompts-generative-hub/) | 🟢 200 OK | 408ms | ✅ Installed |
+| **AI Voice Synthesis & Cloning Hub** | Directory Hub | [ai-voice-synthesis-cloning-hub.netlify.app](https://ai-voice-synthesis-cloning-hub.netlify.app/) | 🟢 200 OK | 822ms | ✅ Installed |
+| **AWS Certified Solutions Architects Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/aws-certified-solutions-architects-guild/) | 🟢 200 OK | 202ms | ✅ Installed |
+| **Ableton Live Electronic Music Producers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ableton-live-electronic-music-producers-hub/) | 🟢 200 OK | 251ms | ✅ Installed |
+| **Affiliate Marketing & Niche Sites Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/affiliate-marketing-niche-sites-hub/) | 🟢 200 OK | 223ms | ✅ Installed |
+| **Amazon FBA & Private Label Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ecommerce-amazon-fba-hub/) | 🟢 200 OK | 519ms | ✅ Installed |
+| **Amazon FBA Private Label & Brand Scaling Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/amazon-fba-private-label-hub/) | 🟢 200 OK | 130ms | ✅ Installed |
+| **Amazon Wholesale & FBA Distributors Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/amazon-wholesale-fba-distributors-guild/) | 🟢 200 OK | 128ms | ✅ Installed |
+| **Angel Investors & Micro-Venture Syndicate Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/angel-investors-micro-venture-syndicate-hub/) | 🟢 200 OK | 138ms | ✅ Installed |
+| **Apex Legends Ranked & Competitive Scrims Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/apex-legends-ranked-competitive-scrims-hub/) | 🟢 200 OK | 104ms | ✅ Installed |
+| **Architecture & Spatial Design Hub** | Directory Hub | [architecture-design-masters-hub.vercel.app](https://architecture-design-masters-hub.vercel.app/) | 🟢 200 OK | 187ms | ✅ Installed |
+| **Audio Engineering & Music Production Hub** | Directory Hub | [music-production-audio-engineering-hub.netlify.app](https://music-production-audio-engineering-hub.netlify.app/) | 🟢 200 OK | 905ms | ✅ Installed |
+| **Audiophiles & Hi-Fi Headphone Hub** | Directory Hub | [audiophile-high-fidelity-hub.netlify.app](https://audiophile-high-fidelity-hub.netlify.app/) | 🟢 200 OK | 987ms | ✅ Installed |
+| **Autonomous AI Agents & Multi-Agent Systems Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ai-agents-autonomous-systems-hub/) | 🟢 200 OK | 207ms | ✅ Installed |
+| **Autonomous AI Agents Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/autonomous-ai-agents-hub/) | 🟢 200 OK | 133ms | ✅ Installed |
+| **Autonomous Robotics & SLAM Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/autonomous-robotics-slam-hub/) | 🟢 200 OK | 256ms | ✅ Installed |
+| **Aviation Students & Pilot Cadets Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/aviation-pilot-cadet-hub/) | 🟢 200 OK | 242ms | ✅ Installed |
+| **B2B Cold Email & Lead Generation Alpha Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/b2b-cold-email-leadgen-alpha-hub/) | 🟢 200 OK | 171ms | ✅ Installed |
+| **B2B SaaS Founders & Bootstrappers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/b2b-saas-founders-circle-hub/) | 🟢 200 OK | 158ms | ✅ Installed |
+| **B2B SaaS Growth & PLG Marketing Hub** | Directory Hub | [saas-marketing-b2b-hub.netlify.app](https://saas-marketing-b2b-hub.netlify.app/) | 🟢 200 OK | 940ms | ✅ Installed |
+| **B2B SaaS Sales & Cold Outreach Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/b2b-saas-sales-outreach-hub/) | 🟢 200 OK | 132ms | ✅ Installed |
+| **Biohacking & Longevity Protocols Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/biohacking-longevity-hub/) | 🟢 200 OK | 265ms | ✅ Installed |
+| **Biohacking & Longevity Protocols Hub** | Directory Hub | [biohacking-longevity-protocols-hub.netlify.app](https://biohacking-longevity-protocols-hub.netlify.app/) | 🟢 200 OK | 761ms | ✅ Installed |
+| **Biohacking, Longevity & Human Optimization Hub** | Directory Hub | [biohacking-longevity-health-hub.netlify.app](https://biohacking-longevity-health-hub.netlify.app/) | 🟢 200 OK | 936ms | ✅ Installed |
+| **Blender 3D & Unreal Engine 5 Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/3d-blender-unreal-artists-hub/) | 🟢 200 OK | 113ms | ✅ Installed |
+| **Blender 3D Modeling & Animation Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/blender-3d-modeling-animation-hub/) | 🟢 200 OK | 107ms | ✅ Installed |
+| **Blender Geometry Nodes & Procedural Art Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/blender-geometry-nodes-procedural-art-hub/) | 🟢 200 OK | 251ms | ✅ Installed |
+| **Board Game Geeks & Strategy Masterminds Hub** | Directory Hub | [board-game-geeks-strategy-masterminds-hub.netlify.app](https://board-game-geeks-strategy-masterminds-hub.netlify.app/) | 🟢 200 OK | 876ms | ✅ Installed |
+| **Bogleheads Passive Indexing Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/bogleheads-passive-indexing-guild/) | 🟢 200 OK | 125ms | ✅ Installed |
+| **Book Clubs & Deep Reading Collective** | Directory Hub | [book-clubs-readers-lounge-hub.netlify.app](https://book-clubs-readers-lounge-hub.netlify.app/) | 🟢 200 OK | 990ms | ✅ Installed |
+| **Bug Bounty & Ethical Hacking Hunters Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ethical-hacking-bugbounty-hub/) | 🟢 200 OK | 144ms | ✅ Installed |
+| **Bug Bounty & Penetration Testing Hub** | Directory Hub | [bug-bounty-pentesting-hub.netlify.app](https://bug-bounty-pentesting-hub.netlify.app/) | 🟢 200 OK | 981ms | ✅ Installed |
+| **CFA Exam Level 1-3 Candidates Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cfa-exam-level-1-3-candidates-guild/) | 🟢 200 OK | 196ms | ✅ Installed |
+| **Calisthenics & Bodyweight Athlete Hub** | Directory Hub | [calisthenics-street-workout-hub.vercel.app](https://calisthenics-street-workout-hub.vercel.app/) | 🟢 200 OK | 427ms | ✅ Installed |
+| **Cinema 4D & Octane Render Motion Designers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cinema-4d-octane-motion-designers-hub/) | 🟢 200 OK | 286ms | ✅ Installed |
+| **Clean Architecture & Domain Driven Design Hub** | Directory Hub | [clean-architecture-ddd-hub.netlify.app](https://clean-architecture-ddd-hub.netlify.app/) | 🟢 200 OK | 849ms | ✅ Installed |
+| **Clean Energy, Solar & EV Enthusiasts Hub** | Directory Hub | [electric-vehicles-clean-energy-hub.netlify.app](https://electric-vehicles-clean-energy-hub.netlify.app/) | 🟢 200 OK | 833ms | ✅ Installed |
+| **Color Grading & DaVinci Resolve Studio Hub** | Directory Hub | [color-grading-davinci-resolve-studio-hub.netlify.app](https://color-grading-davinci-resolve-studio-hub.netlify.app/) | 🟢 200 OK | 1002ms | ✅ Installed |
+| **Commercial Real Estate Syndication Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/commercial-real-estate-syndication-hub/) | 🟢 200 OK | 142ms | ✅ Installed |
+| **Commodity & Futures Trading Alpha Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/futures-commodities-alpha-hub/) | 🟢 200 OK | 122ms | ✅ Installed |
+| **CompTIA Security+ & Cyber Career Starters Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/comptia-security-plus-cyber-careers-hub/) | 🟢 200 OK | 187ms | ✅ Installed |
+| **Competitive Chess & Opening Theory Hub** | Directory Hub | [chess-grandmasters-study-hub.vercel.app](https://chess-grandmasters-study-hub.vercel.app/) | 🟢 200 OK | 274ms | ✅ Installed |
+| **Computer Vision & YOLO Engineers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/computer-vision-yolo-engineers-hub/) | 🟢 200 OK | 100ms | ✅ Installed |
+| **Concept Artists & Worldbuilders Collective** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/concept-artists-worldbuilders-collective/) | 🟢 200 OK | 143ms | ✅ Installed |
+| **Conversion Rate Optimization & A/B Testing Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cro-ab-testing-experimentation-guild/) | 🟢 200 OK | 163ms | ✅ Installed |
+| **Counter-Strike 2 Premier & Smokes Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cs2-lineups-premier-hub/) | 🟢 200 OK | 224ms | ✅ Installed |
+| **Creator Brand Sponsorships & Agency Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/creator-brand-sponsorships-agency-hub/) | 🟢 200 OK | 103ms | ✅ Installed |
+| **Crypto DeFi & Yield Farming Hub** | Directory Hub | [crypto-defi-yield-hub.netlify.app](https://crypto-defi-yield-hub.netlify.app/) | 🟢 200 OK | 1095ms | ✅ Installed |
+| **Crypto Layer-2 & Rollups Alpha Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/crypto-layer2-rollups-alpha-hub/) | 🟢 200 OK | 163ms | ✅ Installed |
+| **Crypto Testnets & Airdrop Farmers Hub** | Directory Hub | [crypto-airdrop-testnets-hub.vercel.app](https://crypto-airdrop-testnets-hub.vercel.app/) | 🟢 200 OK | 586ms | ✅ Installed |
+| **Custom IEMs & Portable Audiophile Rigs Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/custom-iems-portable-audiophile-rigs-hub/) | 🟢 200 OK | 90ms | ✅ Installed |
+| **Custom Mechanical Keyboards & Thock Hub** | Directory Hub | [mechanical-keyboards-custom-hub.vercel.app](https://mechanical-keyboards-custom-hub.vercel.app/) | 🟢 200 OK | 208ms | ✅ Installed |
+| **Custom PC Watercooling & Overclocking Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/custom-pc-watercooling-overclocking-guild/) | 🟢 200 OK | 160ms | ✅ Installed |
+| **Cyber Threat Intelligence & OSINT Collective** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cyber-threat-intelligence-hub/) | 🟢 200 OK | 305ms | ✅ Installed |
+| **Cybersecurity & Ethical Hacking Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/cybersecurity-infosec-hub/) | 🟢 200 OK | 460ms | ✅ Installed |
+| **Cybersecurity GRC, SOC2 & ISO 27001 Hub** | Directory Hub | [cybersecurity-grc-compliance-hub.netlify.app](https://cybersecurity-grc-compliance-hub.netlify.app/) | 🟢 200 OK | 882ms | ✅ Installed |
+| **Cybersecurity Incident Forensics Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/digital-forensics-incident-hub/) | 🟢 200 OK | 83ms | ✅ Installed |
+| **D&D 5e & Tabletop RPG Campaigns Hub** | Directory Hub | [dnd-tabletop-campaigns-hub.vercel.app](https://dnd-tabletop-campaigns-hub.vercel.app/) | 🟢 200 OK | 330ms | ✅ Installed |
+| **Data Engineering & Apache Spark Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/data-engineering-apache-spark-hub/) | 🟢 200 OK | 110ms | ✅ Installed |
+| **Data Science & Deep Learning Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/data-science-machine-learning-hub/) | 🟢 200 OK | 537ms | ✅ Installed |
+| **DeFi Liquidity Providing & DEX Arbitrage Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/defi-liquidity-dex-arbitrage-hub/) | 🟢 200 OK | 147ms | ✅ Installed |
+| **DeFi Yield Farming & Staking Alpha Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/crypto-yield-farming-staking-hub/) | 🟢 200 OK | 184ms | ✅ Installed |
+| **Deals, Loot & Coupons Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/deals-loot-coupons-hub/) | 🟢 200 OK | 392ms | ✅ Installed |
+| **Deep Learning & LLM Research Collective** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/deep-learning-nlp-transformers-hub/) | 🟢 200 OK | 122ms | ✅ Installed |
+| **Deep Learning & PyTorch Researchers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/pytorch-deep-learning-research-hub/) | 🟢 200 OK | 119ms | ✅ Installed |
+| **Design Systems & Figma Component Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ui-ux-design-systems-hub/) | 🟢 200 OK | 121ms | ✅ Installed |
+| **DevOps & Cloud Architecture Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/devops-cloud-architect-hub/) | 🟢 200 OK | 654ms | ✅ Installed |
+| **DevOps SRE & Incident Response Hub** | Directory Hub | [sre-incident-response-devops-hub.netlify.app](https://sre-incident-response-devops-hub.netlify.app/) | 🟢 200 OK | 792ms | ✅ Installed |
+| **DevSecOps & CI/CD Security Hub** | Directory Hub | [devsecops-cicd-security-hub.netlify.app](https://devsecops-cicd-security-hub.netlify.app/) | 🟢 200 OK | 975ms | ✅ Installed |
+| **Developer & Coding Communities Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/developer-coding-hub/) | 🟢 200 OK | 407ms | ✅ Installed |
+| **Digital Nomad Visas & Global Tax Residency Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/digital-nomad-visas-tax-hub/) | 🟢 200 OK | 247ms | ✅ Installed |
+| **Digital Product Flipping & Empire Flippers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/digital-product-flipping-empire-flippers-hub/) | 🟢 200 OK | 166ms | ✅ Installed |
+| **Digital Products & Notion Template Hub** | Directory Hub | [digital-products-notion-hub.vercel.app](https://digital-products-notion-hub.vercel.app/) | 🟢 200 OK | 139ms | ✅ Installed |
+| **Dividend Growth & Passive Income Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/dividend-growth-investing-hub/) | 🟢 200 OK | 410ms | ✅ Installed |
+| **Docker & Container Orchestration Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/docker-containers-devops-hub/) | 🟢 200 OK | 121ms | ✅ Installed |
+| **Dropshipping & TikTok Shop Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/tiktok-shop-dropshipping-hub/) | 🟢 200 OK | 116ms | ✅ Installed |
+| **Dubai Freelancer Visa & UAE Tax Residency Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/dubai-freelancer-visa-uae-tax-residency-hub/) | 🟢 200 OK | 197ms | ✅ Installed |
+| **Electronic Music Production & Synthesizer Hub** | Directory Hub | [sound-design-music-production-hub.netlify.app](https://sound-design-music-production-hub.netlify.app/) | 🟢 200 OK | 1033ms | ✅ Installed |
+| **Embedded Systems & IoT Hardware Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/embedded-iot-hardware-hub/) | 🟢 200 OK | 200ms | ✅ Installed |
+| **Erasmus Mundus Joint Masters Scholars Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/erasmus-mundus-joint-masters-scholars-hub/) | 🟢 200 OK | 184ms | ✅ Installed |
+| **F1 Fantasy & Race Strategy Fanatics Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/f1-fantasy-race-strategy-fanatics-hub/) | 🟢 200 OK | 154ms | ✅ Installed |
+| **FIRE Movement & Financial Independence Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/personal-finance-fire-movement-hub/) | 🟢 200 OK | 125ms | ✅ Installed |
+| **FIRE Movement & Wealth Building Hub** | Directory Hub | [fire-personal-finance-hub.vercel.app](https://fire-personal-finance-hub.vercel.app/) | 🟢 200 OK | 596ms | ✅ Installed |
+| **FL Studio Beatmakers & Trap Producers Guild** | Directory Hub | [fl-studio-beatmakers-trap-producers-guild.netlify.app](https://fl-studio-beatmakers-trap-producers-guild.netlify.app/) | 🟢 200 OK | 1009ms | ✅ Installed |
+| **Faceless YouTube & Video AI Hub** | Directory Hub | [youtube-automation-creators-hub.netlify.app](https://youtube-automation-creators-hub.netlify.app/) | 🟢 200 OK | 1143ms | ✅ Installed |
+| **Faceless YouTube Automation & Media Empire Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/youtube-automation-cashcow-hub/) | 🟢 200 OK | 112ms | ✅ Installed |
+| **Fighting Game Community & Frame Data Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/fighting-game-community-frame-data-guild/) | 🟢 200 OK | 119ms | ✅ Installed |
+| **Figma Design System Leaders & UI Architects Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/figma-design-systems-ui-architects-hub/) | 🟢 200 OK | 174ms | ✅ Installed |
+| **Fintech & Embedded Banking Developers Hub** | Directory Hub | [fintech-embedded-banking-hub.netlify.app](https://fintech-embedded-banking-hub.netlify.app/) | 🟢 200 OK | 868ms | ✅ Installed |
+| **Fintech & Payment Gateway Engineers Hub** | Directory Hub | [fintech-payment-gateways-hub.netlify.app](https://fintech-payment-gateways-hub.netlify.app/) | 🟢 200 OK | 869ms | ✅ Installed |
+| **Flutter & Cross-Platform Mobile Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/flutter-crossplatform-mobile-hub/) | 🟢 200 OK | 207ms | ✅ Installed |
+| **Flutter & Multi-Platform Engineers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/flutter-multiplatform-engineers-hub/) | 🟢 200 OK | 180ms | ✅ Installed |
+| **Font Designers & Kinetic Typography Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/font-designers-kinetic-typography-guild/) | 🟢 200 OK | 187ms | ✅ Installed |
+| **Foreign Service Officer & Diplomacy Career Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/foreign-service-officer-diplomacy-career-hub/) | 🟢 200 OK | 225ms | ✅ Installed |
+| **Forex Scalpers & Prop Firm Hub** | Directory Hub | [forex-scalping-signals-hub.vercel.app](https://forex-scalping-signals-hub.vercel.app/) | 🟢 200 OK | 425ms | ✅ Installed |
+| **Fulbright Foreign Student Program Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/fulbright-foreign-student-program-hub/) | 🟢 200 OK | 135ms | ✅ Installed |
+| **Futures Daytrading & Volume Profile Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/futures-daytrading-volume-profile-hub/) | 🟢 200 OK | 184ms | ✅ Installed |
+| **GTA RP Whitelisted Servers & Gangs Hub** | Directory Hub | [gta-rp-whitelist-servers-hub.vercel.app](https://gta-rp-whitelist-servers-hub.vercel.app/) | 🟢 200 OK | 360ms | ✅ Installed |
+| **Game Audio & Interactive Sound Design Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/game-audio-sound-design-hub/) | 🟢 200 OK | 153ms | ✅ Installed |
+| **Game Audio Sound Design & Wwise / FMOD Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/game-audio-sound-design-wwise-fmod-hub/) | 🟢 200 OK | 184ms | ✅ Installed |
+| **Generative AI Art & Midjourney Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/generative-ai-art-midjourney-hub/) | 🟢 200 OK | 107ms | ✅ Installed |
+| **Generative AI Video & Virtual Production Hub** | Directory Hub | [generative-ai-video-creators-hub.netlify.app](https://generative-ai-video-creators-hub.netlify.app/) | 🟢 200 OK | 856ms | ✅ Installed |
+| **Generative Music & Modular Eurorack Synthesizers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/generative-music-modular-eurorack-hub/) | 🟢 200 OK | 188ms | ✅ Installed |
+| **German Language B2-C1 TestDaF Preparation Hub** | Directory Hub | [german-language-b2-c1-testdaf-prep-hub.netlify.app](https://german-language-b2-c1-testdaf-prep-hub.netlify.app/) | 🟢 200 OK | 953ms | ✅ Installed |
+| **Global Macro & Central Bank Watchers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/global-macro-central-bank-watchers-hub/) | 🟢 200 OK | 168ms | ✅ Installed |
+| **Global Virtual Assistants & Remote Operations Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/virtual-assistants-agency-hub/) | 🟢 200 OK | 134ms | ✅ Installed |
+| **Go Microservices & Distributed Architecture Hub** | Directory Hub | [golang-microservices-distributed-hub.netlify.app](https://golang-microservices-distributed-hub.netlify.app/) | 🟢 200 OK | 904ms | ✅ Installed |
+| **Golang Cloud Backend Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/golang-backend-cloud-hub/) | 🟢 200 OK | 122ms | ✅ Installed |
+| **Google Ads & PPC Search Arbitrage Hub** | Directory Hub | [google-ads-ppc-search-arbitrage-hub.netlify.app](https://google-ads-ppc-search-arbitrage-hub.netlify.app/) | 🟢 200 OK | 932ms | ✅ Installed |
+| **GraphQL & API Gateway Federation Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/graphql-federation-gateways-hub/) | 🟢 200 OK | 124ms | ✅ Installed |
+| **GraphQL Subgraphs & Apollo Federation Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/graphql-subgraphs-apollo-federation-hub/) | 🟢 200 OK | 89ms | ✅ Installed |
+| **Graphic Designers & Visual Brand Identity Hub** | Directory Hub | [graphic-designers-brand-identity-hub.netlify.app](https://graphic-designers-brand-identity-hub.netlify.app/) | 🟢 200 OK | 910ms | ✅ Installed |
+| **Growth Marketing & Programmatic SEO Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/growth-marketing-hackers-hub/) | 🟢 200 OK | 122ms | ✅ Installed |
+| **High-Conversion Copywriting & VSL Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/freelance-copywriters-guild-hub/) | 🟢 200 OK | 120ms | ✅ Installed |
+| **High-Performance C++ & Game Engines Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/high-performance-cpp-hub/) | 🟢 200 OK | 127ms | ✅ Installed |
+| **High-Ticket B2B Sales & Closing Collective** | Directory Hub | [high-ticket-closing-sales-hub.netlify.app](https://high-ticket-closing-sales-hub.netlify.app/) | 🟢 200 OK | 911ms | ✅ Installed |
+| **High-Ticket B2B Sales Closers Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/high-ticket-b2b-sales-closers-guild/) | 🟢 200 OK | 318ms | ✅ Installed |
+| **High-Ticket Copywriting & Sales Letters Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/copywriting-high-ticket-hub/) | 🟢 200 OK | 357ms | ✅ Installed |
+| **High-Yield Bond & Fixed Income Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/high-yield-bond-fixed-income-guild/) | 🟢 200 OK | 153ms | ✅ Installed |
+| **High-Yield Cash & Treasury Bills Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/high-yield-treasury-wealth-hub/) | 🟢 200 OK | 96ms | ✅ Installed |
+| **Home Assistant & Local Smart Home Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/smart-home-homeassistant-hub/) | 🟢 200 OK | 136ms | ✅ Installed |
+| **HomeLab & Self-Hosted Linux Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/homelab-selfhosted-linux-hub/) | 🟢 200 OK | 295ms | ✅ Installed |
+| **Homelab Proxmox & TrueNAS Storage Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/homelab-proxmox-truenas-storage-guild/) | 🟢 200 OK | 158ms | ✅ Installed |
+| **Houdini FX & Particle Dynamics Masterminds** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/houdini-fx-particle-dynamics-masterminds/) | 🟢 200 OK | 251ms | ✅ Installed |
+| **IELTS & GRE Band 8 Masterclass Hub** | Directory Hub | [ielts-toefl-band8-hub.netlify.app](https://ielts-toefl-band8-hub.netlify.app/) | 🟢 200 OK | 911ms | ✅ Installed |
+| **Indie Filmmakers & Cinema Gear Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/creative-indie-filmmakers-hub/) | 🟢 200 OK | 118ms | ✅ Installed |
+| **Indie Game Developers & Modders Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/game-dev-indie-studios-hub/) | 🟢 200 OK | 399ms | ✅ Installed |
+| **Indie Hackers & Micro-SaaS Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/indie-hackers-micro-saas-hub/) | 🟢 200 OK | 402ms | ✅ Installed |
+| **Japanese JLPT N1-N3 Grammar & Kanji Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/japanese-jlpt-n1-n3-grammar-kanji-hub/) | 🟢 200 OK | 301ms | ✅ Installed |
+| **Kafka & Event-Driven Streaming Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/kafka-event-driven-streaming-hub/) | 🟢 200 OK | 106ms | ✅ Installed |
+| **Klaviyo Email Automation & Retention Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/klaviyo-email-automation-retention-hub/) | 🟢 200 OK | 152ms | ✅ Installed |
+| **Kubernetes & Cloud Native Architect Hub** | Directory Hub | [kubernetes-cloud-native-hub.netlify.app](https://kubernetes-cloud-native-hub.netlify.app/) | 🟢 200 OK | 1070ms | ✅ Installed |
+| **Kubernetes Operators & Cloud Native Hub** | Directory Hub | [kubernetes-operators-cloud-native-hub.netlify.app](https://kubernetes-operators-cloud-native-hub.netlify.app/) | 🟢 200 OK | 841ms | ✅ Installed |
+| **LangChain & LlamaIndex AI Developers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/langchain-llamaindex-ai-hub/) | 🟢 200 OK | 137ms | ✅ Installed |
+| **Law Students & Bar Exam Mastery Hub** | Directory Hub | [law-school-bar-exam-hub.netlify.app](https://law-school-bar-exam-hub.netlify.app/) | 🟢 200 OK | 1005ms | ✅ Installed |
+| **League of Legends Tier 1 Clash & Meta Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/league-of-legends-clash-meta-hub/) | 🟢 200 OK | 121ms | ✅ Installed |
+| **Local LLMs & Self-Hosted AI Hub** | Directory Hub | [local-llms-selfhosted-ai-hub.netlify.app](https://local-llms-selfhosted-ai-hub.netlify.app/) | 🟢 200 OK | 1282ms | ✅ Installed |
+| **Local Lead Gen & Pay-Per-Call Agency Hub** | Directory Hub | [local-lead-gen-pay-per-call-hub.netlify.app](https://local-lead-gen-pay-per-call-hub.netlify.app/) | 🟢 200 OK | 1065ms | ✅ Installed |
+| **MCAT Exam Strategy & Med School Admissions Hub** | Directory Hub | [mcat-exam-strategy-med-school-admissions-hub.netlify.app](https://mcat-exam-strategy-med-school-admissions-hub.netlify.app/) | 🟢 200 OK | 915ms | ✅ Installed |
+| **Micro-Cap Value & Deep Fundamental Investors Hub** | Directory Hub | [microcap-value-deep-fundamentals-hub.netlify.app](https://microcap-value-deep-fundamentals-hub.netlify.app/) | 🟢 200 OK | 950ms | ✅ Installed |
+| **Micro-Influencer & Creator Economy Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/creator-economy-influencers-hub/) | 🟢 200 OK | 241ms | ✅ Installed |
+| **Micro-SaaS Bootstrappers Hub** | Directory Hub | [microsaas-bootstrappers-hub.netlify.app](https://microsaas-bootstrappers-hub.netlify.app/) | 🟢 200 OK | 794ms | ✅ Installed |
+| **Minecraft SMP & Redstone Builders Hub** | Directory Hub | [minecraft-smp-builders-hub.netlify.app](https://minecraft-smp-builders-hub.netlify.app/) | 🟢 200 OK | 1106ms | ✅ Installed |
+| **Miniature Painting & Warhammer 40k Hobby Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/miniature-painting-warhammer-40k-hub/) | 🟢 200 OK | 127ms | ✅ Installed |
+| **Minimalism & Zero-Waste Lifestyle Hub** | Directory Hub | [minimalist-slow-living-hub.netlify.app](https://minimalist-slow-living-hub.netlify.app/) | 🟢 200 OK | 862ms | ✅ Installed |
+| **Mobile Dev & Flutter Engineers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/ios-android-mobile-dev-hub/) | 🟢 200 OK | 429ms | ✅ Installed |
+| **Modern Stoics & Philosophy Collective** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/stoicism-ancient-philosophy-hub/) | 🟢 200 OK | 189ms | ✅ Installed |
+| **NCLEX-RN & Global Nurses Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/nursing-nclex-international-hub/) | 🟢 200 OK | 218ms | ✅ Installed |
+| **Neurotechnology & Cognitive Enhancement Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/neurotech-brain-computer-interface-hub/) | 🟢 200 OK | 120ms | ✅ Installed |
+| **Next-Gen Frontend & WebGL 3D Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/nextgen-frontend-webgl-3d-hub/) | 🟢 200 OK | 104ms | ✅ Installed |
+| **Next.js & Full-Stack React Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/nextjs-fullstack-react-hub/) | 🟢 200 OK | 135ms | ✅ Installed |
+| **Next.js & Modern React Full-Stack Hub** | Directory Hub | [nextjs-react-fullstack-hub.vercel.app](https://nextjs-react-fullstack-hub.vercel.app/) | 🟢 200 OK | 157ms | ✅ Installed |
+| **No-Code & AI Automation Agency Hub** | Directory Hub | [no-code-automation-hub.vercel.app](https://no-code-automation-hub.vercel.app/) | 🟢 200 OK | 405ms | ✅ Installed |
+| **No-Code Web Apps & Bubble.io Builders Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/no-code-bubble-automation-hub/) | 🟢 200 OK | 95ms | ✅ Installed |
+| **Notion Systems & Productivity Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/notion-templates-productivity-hub/) | 🟢 200 OK | 307ms | ✅ Installed |
+| **Notion Systems & Second Brain Hub** | Directory Hub | [notion-systems-productivity-hub.netlify.app](https://notion-systems-productivity-hub.netlify.app/) | 🟢 200 OK | 1004ms | ✅ Installed |
+| **Offshore Banking & Tax Strategy Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/tax-strategies-offshore-hub/) | 🟢 200 OK | 366ms | ✅ Installed |
+| **Old School RuneScape Ironmen & Raids Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/osrs-ironmen-raids-guild/) | 🟢 200 OK | 202ms | ✅ Installed |
+| **Options Trading & Wheel Strategy Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/options-trading-wealth-hub/) | 🟢 200 OK | 551ms | ✅ Installed |
+| **PMP & Agile Certified Project Managers Hub** | Directory Hub | [pmp-agile-certified-project-managers-hub.netlify.app](https://pmp-agile-certified-project-managers-hub.netlify.app/) | 🟢 200 OK | 920ms | ✅ Installed |
+| **Personal Knowledge Management Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/pkm-obsidian-second-brain-hub/) | 🟢 200 OK | 97ms | ✅ Installed |
+| **PhD Fellowships & Postdoc Research Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/phd-fellowships-research-hub/) | 🟢 200 OK | 300ms | ✅ Installed |
+| **Podcast Creators & Audio Syndication Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/podcast-creators-audio-network-hub/) | 🟢 200 OK | 139ms | ✅ Installed |
+| **Podcasting & Audio Monetization Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/podcasting-creator-economy-hub/) | 🟢 200 OK | 184ms | ✅ Installed |
+| **Polyglots & Language Exchange Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/language-exchange-polyglot-hub/) | 🟢 200 OK | 246ms | ✅ Installed |
+| **PostgreSQL & High-Scale Database Hub** | Directory Hub | [postgresql-high-scale-db-hub.netlify.app](https://postgresql-high-scale-db-hub.netlify.app/) | 🟢 200 OK | 838ms | ✅ Installed |
+| **Precious Metals & Macro Hedge Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/precious-metals-macro-hedge-guild/) | 🟢 200 OK | 206ms | ✅ Installed |
+| **Print on Demand & Etsy Scale Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/print-on-demand-etsy-scale-hub/) | 🟢 200 OK | 208ms | ✅ Installed |
+| **Private Banking & Family Office Wealth Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/private-banking-family-office-wealth-hub/) | 🟢 200 OK | 177ms | ✅ Installed |
+| **Private Equity & M&A Dealmakers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/private-equity-ma-dealmakers-hub/) | 🟢 200 OK | 242ms | ✅ Installed |
+| **Product Management & Growth Hacks Hub** | Directory Hub | [product-management-growth-hacks-hub.netlify.app](https://product-management-growth-hacks-hub.netlify.app/) | 🟢 200 OK | 945ms | ✅ Installed |
+| **Programmatic SEO & Scaled Publishing Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/programmatic-seo-scaled-publishing-hub/) | 🟢 200 OK | 311ms | ✅ Installed |
+| **Prompt Engineering & Context Design Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/prompt-engineering-mastery-hub/) | 🟢 200 OK | 330ms | ✅ Installed |
+| **Prompt Engineering & LLM Tuning Hub** | Directory Hub | [prompt-engineering-tuning-hub.netlify.app](https://prompt-engineering-tuning-hub.netlify.app/) | 🟢 200 OK | 782ms | ✅ Installed |
+| **Prop Firm Traders & Forex Alpha Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/prop-firm-forex-traders-hub/) | 🟢 200 OK | 342ms | ✅ Installed |
+| **Prop Trading Firms & Pass Challenge Hub** | Directory Hub | [prop-trading-challenge-hub.vercel.app](https://prop-trading-challenge-hub.vercel.app/) | 🟢 200 OK | 423ms | ✅ Installed |
+| **Quantitative Finance & Algo Trading Hub** | Directory Hub | [algo-trading-quant-hub.netlify.app](https://algo-trading-quant-hub.netlify.app/) | 🟢 200 OK | 1060ms | ✅ Installed |
+| **Quantitative Finance & Algorithmic Execution Hub** | Directory Hub | [quant-finance-algorithmic-execution-hub.netlify.app](https://quant-finance-algorithmic-execution-hub.netlify.app/) | 🟢 200 OK | 852ms | ✅ Installed |
+| **Quantum Computing & Qiskit Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/quantum-computing-qiskit-hub/) | 🟢 200 OK | 114ms | ✅ Installed |
+| **RAG & Vector Database Architects Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/rag-vector-database-architects-hub/) | 🟢 200 OK | 118ms | ✅ Installed |
+| **Real Estate Notes & Tax Lien Investing Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/real-estate-notes-tax-lien-investing-hub/) | 🟢 200 OK | 151ms | ✅ Installed |
+| **Real Estate Syndication & Cash Flow Hub** | Directory Hub | [real-estate-investing-syndicates-hub.netlify.app](https://real-estate-investing-syndicates-hub.netlify.app/) | 🟢 200 OK | 892ms | ✅ Installed |
+| **Real Estate Syndication & Deal Flow Hub** | Directory Hub | [real-estate-deal-flow-hub.netlify.app](https://real-estate-deal-flow-hub.netlify.app/) | 🟢 200 OK | 908ms | ✅ Installed |
+| **Real Estate Syndications Hub** | Directory Hub | [real-estate-syndications-hub.netlify.app](https://real-estate-syndications-hub.netlify.app/) | 🟢 200 OK | 1009ms | ✅ Installed |
+| **Real Estate Wholesaling & BRRRR Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/real-estate-wholesaling-hub/) | 🟢 200 OK | 431ms | ✅ Installed |
+| **Remote Tech Career & Salary Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/remote-tech-careers-salary-hub/) | 🟢 200 OK | 89ms | ✅ Installed |
+| **Remote Tech Careers & Global Compensation Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/remote-developer-jobs-alpha-hub/) | 🟢 200 OK | 139ms | ✅ Installed |
+| **Remote Work & Nomad Communities Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/remote-work-nomad-hub/) | 🟢 200 OK | 444ms | ✅ Installed |
+| **Retro Arcade Machine Restoration Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/retro-arcade-machine-restoration-hub/) | 🟢 200 OK | 128ms | ✅ Installed |
+| **Retro Emulation & Handheld Gaming Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/retro-emulation-handhelds-hub/) | 🟢 200 OK | 238ms | ✅ Installed |
+| **Reverse Engineering & Malware Analysis Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/reverse-engineering-malware-analysis-hub/) | 🟢 200 OK | 93ms | ✅ Installed |
+| **Robotics & ROS 2 Engineers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/robotics-ros2-engineers-hub/) | 🟢 200 OK | 130ms | ✅ Installed |
+| **Rocket League Competitive Mechanics & Scrims Hub** | Directory Hub | [rocket-league-competitive-mechanics-hub.netlify.app](https://rocket-league-competitive-mechanics-hub.netlify.app/) | 🟢 200 OK | 762ms | ✅ Installed |
+| **Rust & Systems Programming Hub** | Directory Hub | [rust-systems-engineering-hub.netlify.app](https://rust-systems-engineering-hub.netlify.app/) | 🟢 200 OK | 1009ms | ✅ Installed |
+| **Rust Embedded & Microcontrollers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/rust-embedded-microcontrollers-hub/) | 🟢 200 OK | 107ms | ✅ Installed |
+| **Rust Systems & High-Performance Computing Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/rust-systems-performance-hub/) | 🟢 200 OK | 118ms | ✅ Installed |
+| **SEO Masters & Programmatic Growth Hub** | Directory Hub | [seo-growth-hackers-hub.netlify.app](https://seo-growth-hackers-hub.netlify.app/) | 🟢 200 OK | 1028ms | ✅ Installed |
+| **SFF Small Form Factor PC Builders Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/sff-small-form-factor-pc-builders-hub/) | 🟢 200 OK | 191ms | ✅ Installed |
+| **SMMA & Cold Outreach Agency Hub** | Directory Hub | [smma-agency-founders-hub.vercel.app](https://smma-agency-founders-hub.vercel.app/) | 🟢 200 OK | 552ms | ✅ Installed |
+| **SaaS Customer Success & Churn Reduction Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/saas-customer-success-churn-reduction-hub/) | 🟢 200 OK | 168ms | ✅ Installed |
+| **SaaS Landing Page CRO & Design Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/saas-landing-page-cro-hub/) | 🟢 200 OK | 121ms | ✅ Installed |
+| **Scholarships & Study Abroad Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/scholarships-study-abroad-hub/) | 🟢 200 OK | 431ms | ✅ Installed |
+| **Shopify App & Theme Developers Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/shopify-developers-theme-hub/) | 🟢 200 OK | 130ms | ✅ Installed |
+| **Shopify App Developers & Ecosystem Hub** | Directory Hub | [shopify-app-developers-ecosystem-hub.netlify.app](https://shopify-app-developers-ecosystem-hub.netlify.app/) | 🟢 200 OK | 974ms | ✅ Installed |
+| **Shopify Dropshipping & TikTok Ads Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/shopify-dropshipping-viral-hub/) | 🟢 200 OK | 409ms | ✅ Installed |
+| **Shopify E-Commerce & Dropshipping Growth Hub** | Directory Hub | [shopify-dropshipping-growth-hub.netlify.app](https://shopify-dropshipping-growth-hub.netlify.app/) | 🟢 200 OK | 855ms | ✅ Installed |
+| **Short Selling & Activist Research Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/short-selling-activist-research-hub/) | 🟢 200 OK | 203ms | ✅ Installed |
+| **Sim Racing & F1 League Racers Hub** | Directory Hub | [sim-racing-rigs-f1-hub.netlify.app](https://sim-racing-rigs-f1-hub.netlify.app/) | 🟢 200 OK | 1050ms | ✅ Installed |
+| **Smart Contract & Solidity Security Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/smart-contract-solidity-hub/) | 🟢 200 OK | 178ms | ✅ Installed |
+| **Solana DeFi & Rust Developers Hub** | Directory Hub | [solana-defi-developers-hub.vercel.app](https://solana-defi-developers-hub.vercel.app/) | 🟢 200 OK | 237ms | ✅ Installed |
+| **Solana Ecosystem & Alpha Callers Hub** | Directory Hub | [crypto-solana-memecoins-hub.netlify.app](https://crypto-solana-memecoins-hub.netlify.app/) | 🟢 200 OK | 1165ms | ✅ Installed |
+| **Solopreneur Email Marketing Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/solopreneur-email-marketing-hub/) | 🟢 200 OK | 167ms | ✅ Installed |
+| **Spain & Portugal Digital Nomad Visas Hub** | Directory Hub | [spain-portugal-digital-nomad-visas-hub.netlify.app](https://spain-portugal-digital-nomad-visas-hub.netlify.app/) | 🟢 200 OK | 1162ms | ✅ Installed |
+| **Speedcubing & Rubiks Clock Algorithms Hub** | Directory Hub | [speedcubing-algorithms-hub.netlify.app](https://speedcubing-algorithms-hub.netlify.app/) | 🟢 200 OK | 884ms | ✅ Installed |
+| **Speedrunners & Game Glitch Hunters Hub** | Directory Hub | [speedrunning-glitches-hub.netlify.app](https://speedrunning-glitches-hub.netlify.app/) | 🟢 200 OK | 947ms | ✅ Installed |
+| **Startup Secondary Shares & Liquidity Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/startup-secondary-shares-liquidity-hub/) | 🟢 200 OK | 188ms | ✅ Installed |
+| **Steam Indie Game Developers & Marketing Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/indie-game-marketing-steam-hub/) | 🟢 200 OK | 136ms | ✅ Installed |
+| **Stop Motion Animation & Puppet Fabrication Guild** | Directory Hub | [stop-motion-animation-puppet-fabrication-guild.netlify.app](https://stop-motion-animation-puppet-fabrication-guild.netlify.app/) | 🟢 200 OK | 968ms | ✅ Installed |
+| **Study in Australia & Post-Study Work Visas Hub** | Directory Hub | [study-in-australia-post-study-work-visas-hub.netlify.app](https://study-in-australia-post-study-work-visas-hub.netlify.app/) | 🟢 200 OK | 908ms | ✅ Installed |
+| **Study in Canada & PGWP Student Hub** | Directory Hub | [study-in-canada-pgwp-hub.vercel.app](https://study-in-canada-pgwp-hub.vercel.app/) | 🟢 200 OK | 317ms | ✅ Installed |
+| **Study in Germany & DAAD Scholars Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/study-in-germany-daadvise-hub/) | 🟢 200 OK | 208ms | ✅ Installed |
+| **Study in Japan & MEXT Scholars Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/study-in-japan-mext-hub/) | 🟢 200 OK | 341ms | ✅ Installed |
+| **Study in UK & Chevening Scholars Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/study-in-uk-chevening-scholars-hub/) | 🟢 200 OK | 248ms | ✅ Installed |
+| **Substack Writers & Paid Newsletter Growth Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/substack-writers-paid-newsletter-growth-hub/) | 🟢 200 OK | 111ms | ✅ Installed |
+| **Substance 3D Material & Texture Artists Hub** | Directory Hub | [substance-3d-material-texture-artists-hub.netlify.app](https://substance-3d-material-texture-artists-hub.netlify.app/) | 🟢 200 OK | 951ms | ✅ Installed |
+| **Super Affiliates & CPA Networks Hub** | Directory Hub | [affiliate-marketing-masters-hub.vercel.app](https://affiliate-marketing-masters-hub.vercel.app/) | 🟢 200 OK | 560ms | ✅ Installed |
+| **Swift & SwiftUI iOS Architects Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/swift-swiftui-ios-architects-hub/) | 🟢 200 OK | 130ms | ✅ Installed |
+| **Synthetic Data & Model Evaluation Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/synthetic-data-model-evaluation-hub/) | 🟢 200 OK | 109ms | ✅ Installed |
+| **Technical Writing & API Docs Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/technical-writing-api-docs-hub/) | 🟢 200 OK | 107ms | ✅ Installed |
+| **TikTok Shop Creators & Affiliate Arbitrage Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/tiktok-shop-creators-affiliate-arbitrage-hub/) | 🟢 200 OK | 188ms | ✅ Installed |
+| **TrackIR & Flight Simulator Cockpit Builders Hub** | Directory Hub | [flight-simulator-cockpit-builders-hub.netlify.app](https://flight-simulator-cockpit-builders-hub.netlify.app/) | 🟢 200 OK | 897ms | ✅ Installed |
+| **Travel Hacking & Airline Points Hub** | Directory Hub | [travel-hacking-points-hub.netlify.app](https://travel-hacking-points-hub.netlify.app/) | 🟢 200 OK | 979ms | ✅ Installed |
+| **TypeScript & Node.js Architects Hub** | Directory Hub | [typescript-nodejs-architects-hub.netlify.app](https://typescript-nodejs-architects-hub.netlify.app/) | 🟢 200 OK | 776ms | ✅ Installed |
+| **US H1B & O1 Extraordinary Ability Visa Guild** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/us-h1b-o1-extraordinary-ability-visa-guild/) | 🟢 200 OK | 170ms | ✅ Installed |
+| **USMLE & International Medical Grads Hub** | Directory Hub | [usmle-medical-residency-hub.vercel.app](https://usmle-medical-residency-hub.vercel.app/) | 🟢 200 OK | 372ms | ✅ Installed |
+| **Unity 6 Indie Studios Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/unity-6-indie-studios-hub/) | 🟢 200 OK | 100ms | ✅ Installed |
+| **Unreal Engine 5 Creators Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/unreal-engine-5-creators-hub/) | 🟢 200 OK | 252ms | ✅ Installed |
+| **Unreal Engine 5 Virtual Production & Cinematics Hub** | Directory Hub | [ue5-virtual-production-cinematics-hub.netlify.app](https://ue5-virtual-production-cinematics-hub.netlify.app/) | 🟢 200 OK | 1356ms | ✅ Installed |
+| **VR Gaming & Meta Quest Modders Hub** | Directory Hub | [vr-gaming-meta-quest-hub.vercel.app](https://vr-gaming-meta-quest-hub.vercel.app/) | 🟢 200 OK | 301ms | ✅ Installed |
+| **Valorant Scrims & Premier Teams Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/valorant-scrims-competitive-hub/) | 🟢 200 OK | 311ms | ✅ Installed |
+| **Vanlife & Off-Grid Overlanders Hub** | Directory Hub | [remote-vanlife-overlanding-hub.vercel.app](https://remote-vanlife-overlanding-hub.vercel.app/) | 🟢 200 OK | 249ms | ✅ Installed |
+| **Venture Capital & Angel Syndicate Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/venture-capital-angel-syndicate-hub/) | 🟢 200 OK | 115ms | ✅ Installed |
+| **Vue 3 & Nuxt Fullstack Hub** | Directory Hub | [vue-nuxt-fullstack-hub.netlify.app](https://vue-nuxt-fullstack-hub.netlify.app/) | 🟢 200 OK | 783ms | ✅ Installed |
+| **Vulnerability Research & 0-Day Alpha Hub** | Directory Hub | [vulnerability-research-0day-hub.netlify.app](https://vulnerability-research-0day-hub.netlify.app/) | 🟢 200 OK | 724ms | ✅ Installed |
+| **WASM & WebAssembly Systems Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/wasm-webassembly-systems-hub/) | 🟢 200 OK | 106ms | ✅ Installed |
+| **Web Scraping & Headless Automation Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/web-scraping-automation-hub/) | 🟢 200 OK | 277ms | ✅ Installed |
+| **World of Warcraft Mythic+ & Mythic Raiding Hub** | Directory Hub | [wow-mythic-plus-mythic-raiding-hub.netlify.app](https://wow-mythic-plus-mythic-raiding-hub.netlify.app/) | 🟢 200 OK | 956ms | ✅ Installed |
+| **ZBrush Digital Sculpting & Character Art Hub** | Directory Hub | [jibranpcccc.github.io](https://jibranpcccc.github.io/zbrush-digital-sculpting-character-art-hub/) | 🟢 200 OK | 265ms | ✅ Installed |
+| **Zero-Day Cloud Security & IAM Hub** | Directory Hub | [cloud-security-iam-guard-hub.netlify.app](https://cloud-security-iam-guard-hub.netlify.app/) | 🟢 200 OK | 833ms | ✅ Installed |
+| **Zero-Knowledge Proofs & Cryptography Hub** | Directory Hub | [zk-proofs-cryptography-hub.netlify.app](https://zk-proofs-cryptography-hub.netlify.app/) | 🟢 200 OK | 903ms | ✅ Installed |
 
 ---
 
